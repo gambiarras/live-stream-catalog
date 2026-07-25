@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T20:00:17.869407+00:00",
+    "resolved_at": "2026-07-25T20:30:17.686894+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,18 +40,18 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "offline",
-    "error": "no_stream_found",
-    "resolved_at": "2026-07-25T20:00:16.090922+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://fa723fc1b171.sae11.playlist.live-video.net/v1/playlist/CrEFfMQ9hm8WtX7XHVebZZHX-Bs5Q6nvSGc6NVS9TC1jzc6yrPsymq_j8ljq9JXu0yUGrnsAmMlFBx_GBz3UzmhtXBEW0k7bp-o5TuJRsBwJIAwqm_BHU0kMByES1UYV52sVGNqGshv9x9tsfHhre7CgEDS17gf8XnEdjNF9lbHP_-AR-ZXpFGB4LdQ1W2-mNSA0ErLaF2MmpdlXOMaTgkgQcwpqnPcTc0l5YuQzfYVjyq3bD_wIjb72I6bbR8ocfpyZ4MOMAkWTLC2mJ8q3Vx5yccAk4MBzYiaEKrFdEp0dXt_V14oyPRrsWktxxYfEwEfB-KaSAJkw4p2Kf1r6T-gNcJ1EJZgPh0OjorwYgxewsp-JeFG5P9Y9RYILSZ6oUOnit-4LvP4FN6hkFxrJ9GggSLhzFtNiQwTry8iJ5CWAjn_JAs7Wup4TAeV3rg0Ieb-qgBoWTfDZt-x4dDLDFjSBzq9Zd-awaalvT6NGEk1RB6f4_uujxFmLRATeoQwwTR95Q_NxIRLd8MoxaJbj4iPdDjpsulteVua1KG8-6BiJfXXSAyeNbF656SA3mCmYzNA0Nc1TJ2SOeywFebRTGCTR1g6gSdiNbAkZ_04FDIxkXZojKPpwXLTJGeuLzUCKxdPWtCyrH5xNJrZc7KTwa-sqKJAbLOS36AQ3XY1cCEXWL18OXTOgtcK6cdwMTBl_HrC14-GU8cGreu-JeuS-etnETnlx-LaXkRwBNxUvDIpqw2FMIF2VhsoWHGtElyQpNVGVIOSZ23lD4pFQlOPkRJWj6-haQ3T9zVb70hgatlm6RFsyq-m64Yv6IgHZcHC5gFC07Fk2wxTchh6NzgTHsX7q4hckBbgHImayqlW49Mwb3nY2-DP1mylEiOIEd65t_vbHq3frKphAGqUhcbuWC3oK63kaDI8curRPc9Oc_zB94yABKgl1cy1lYXN0LTIw1g8.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-25T20:30:16.216589+00:00",
+    "expires_at": "2026-07-25T20:40:15+00:00",
+    "ttl_seconds": 598
   },
   {
     "id": "classic-mr-bean.tv.8nORcRZ7gqs",
     "name": "Classic Mr Bean - Mr Bean Animated Best Compilations! 🔴LIVE - Watch 7/24",
     "source_url": "https://www.youtube.com/watch?v=8nORcRZ7gqs",
-    "logo": "https://i.ytimg.com/vi/8nORcRZ7gqs/hqdefault.jpg?v=69b9482b&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLB0mgsGpX5cQq2fVBEUKccTPemeqA&usqp=CBc",
+    "logo": "https://i.ytimg.com/vi/8nORcRZ7gqs/hqdefault.jpg?v=69b9482b&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLWVJq2tpARGPGtEJ_wNCbNNFW5A",
     "group": "series",
     "source_type": "youtube",
     "tvg_id": null,
@@ -67,7 +67,7 @@
     "id": "classic-mr-bean.tv.U__tcQKkU9w",
     "name": "Classic Mr Bean - Mr Bean Best Compilations Live Action | Classic Mr Bean 🔴 LIVE!",
     "source_url": "https://www.youtube.com/watch?v=U__tcQKkU9w",
-    "logo": "https://i.ytimg.com/vi/U__tcQKkU9w/hqdefault.jpg?v=69b9476d&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLCo8d8AyO3QVKfrwCx1_5FKNKVMdg&usqp=CBc",
+    "logo": "https://i.ytimg.com/vi/U__tcQKkU9w/hqdefault.jpg?v=69b9476d&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVyszW21SsmVk_8cCsC5lOuTISYw",
     "group": "series",
     "source_type": "youtube",
     "tvg_id": null,
@@ -83,7 +83,7 @@
     "id": "classic-mr-bean.tv.XQLEvieRMj4",
     "name": "Classic Mr Bean - Classic Mr Bean 🔴 LIVE! - All Episodes",
     "source_url": "https://www.youtube.com/watch?v=XQLEvieRMj4",
-    "logo": "https://i.ytimg.com/vi/XQLEvieRMj4/hqdefault.jpg?v=69a544a5&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLB9JEIdbxWnBsvnzSbqoqLkTlal7w&usqp=CBc",
+    "logo": "https://i.ytimg.com/vi/XQLEvieRMj4/hqdefault.jpg?v=69a544a5&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBq7EW0uXrvIQor9jnyJt4mUBVANg",
     "group": "series",
     "source_type": "youtube",
     "tvg_id": null,
@@ -96,20 +96,20 @@
     "ttl_seconds": 21598
   },
   {
-    "id": "CNNbrasil.tv.lpPxl71FIeI",
-    "name": "CNN Brasil - AO VIVO: PL OFICIALIZA FLÁVIO COMO CANDIDATO AO PLANALTO E PT, HADDAD AO GOVERNO DE SP - AGORA CNN",
-    "source_url": "https://www.youtube.com/watch?v=lpPxl71FIeI",
-    "logo": "https://i.ytimg.com/vi/lpPxl71FIeI/hqdefault.jpg?v=6a63db10&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7mntK-8NuurFnsMYLSh02JwH_Zw",
+    "id": "CNNbrasil.tv.zPq2IiAxfNA",
+    "name": "CNN Brasil - AO VIVO: É Negócio, com Alexandre Santoro, CEO do Grupo Pão de Açúcar - 25/07/2026",
+    "source_url": "https://www.youtube.com/watch?v=zPq2IiAxfNA",
+    "logo": "https://i.ytimg.com/vi/zPq2IiAxfNA/hqdefault.jpg?v=6a63dab2&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBh3QoQW5zp8C3FrdsqakXy7F8YTQ",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785031229/ei/3RVlavDTEu7X1sQP9NayeQ/ip/138.117.221.157/id/lpPxl71FIeI.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AZFlqhMR-cAhc2XYqy7BlXchnDa37rkXyIafL2ZZrZs5I75wRzqyMj38_Ega2hoULaFvvAns0PD-RJUD/spc/SQ-umqnPcJHKgZ8GCMEPURj8_HgInwjNV-8GDKoOaE2_7iKhOmIFu6tEpFJjeQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1737500/met/1785009629,/mh/Ga/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,51992867/mt/1785009382/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgRWA3qkYkQak-hi4qiwOepeq_Tf-OjyrcpQYCZIeKFDACIA4wgG3dlHNpvxVQZQWZOxeQT_MAAG4OVRfPT6Wp2k1Q/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAPXD2yEYeWKknRLnkldqYqqkT_SiIl9-A6ksEzLW3R4SAiEAtAqrkEwhOqkjs5dhYKEa90hiwJ6m-by8X7pB5YZIf50%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-07-25T20:00:29.820436+00:00",
-    "expires_at": "2026-07-26T02:00:29+00:00",
-    "ttl_seconds": 21599
+    "stream_url": null,
+    "status": "error",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=zPq2IiAxfNA (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DzPq2IiAxfNA&q=EgSKdd2dGNu5lNMGIjB1FVQKgwMz9fsdP4vfuIPofukVJSogdp4mrht8Q8aZHsnOQ6cQw0yD_1PKjnt9Q4wyAnJSWgFD)",
+    "resolved_at": "2026-07-25T20:30:20.007934+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
   },
   {
     "id": "DiarioTVTeresopolis.br",
@@ -123,7 +123,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T20:00:24.496680+00:00",
+    "resolved_at": "2026-07-25T20:30:19.438218+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -139,7 +139,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T20:00:17.162524+00:00",
+    "resolved_at": "2026-07-25T20:30:16.954214+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -160,6 +160,22 @@
     "ttl_seconds": 21598
   },
   {
+    "id": "JovemPanNews.br.OzWQUx96tUI",
+    "name": "Jovem Pan Live - JP INTERNACIONAL - 25/07/2026",
+    "source_url": "https://www.youtube.com/watch?v=OzWQUx96tUI",
+    "logo": "https://i.ytimg.com/vi/OzWQUx96tUI/hqdefault.jpg?v=6a63e410&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLChEGZHhiODoKtnsLv3TDNK3GSJcA",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": null,
+    "status": "error",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=OzWQUx96tUI (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DOzWQUx96tUI&q=EgSKdd2dGNq5lNMGIjCJUH6i5eAsK_qFdrN3lK_g3hHtfOkScUjboOoQO9769Dk4-_aO8OHtfvDfYfSnwWMyAnJSWgFD)",
+    "resolved_at": "2026-07-25T20:30:19.073420+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
+  },
+  {
     "id": "mr-bean.tv",
     "name": "Mr Bean",
     "source_url": "https://www.youtube.com/@MrBean/live",
@@ -171,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T20:00:35.415388+00:00",
+    "resolved_at": "2026-07-25T20:30:20.413368+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T20:00:18.648252+00:00",
+    "resolved_at": "2026-07-25T20:30:18.468027+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -2267,7 +2283,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T20:00:35.712708+00:00",
+    "resolved_at": "2026-07-25T20:30:20.792443+00:00",
     "expires_at": null,
     "ttl_seconds": null
   }
