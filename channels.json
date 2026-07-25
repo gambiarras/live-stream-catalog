@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T18:05:17.471583+00:00",
+    "resolved_at": "2026-07-25T18:30:37.785142+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "offline",
-    "error": "no_stream_found",
-    "resolved_at": "2026-07-25T18:05:15.703625+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://fa723fc1b171.sae11.playlist.live-video.net/v1/playlist/CrEFweRJW5X7bp2HzBv2dqjZ1IMG6ZMjdLP9ykyZUszm7jhRjUOJW2FFZyE7-tVDfyhYBLCNsacmbrLFa8fgMlKRhRRX2trwT-O98aFzxPxykZtx5BYMUiMu3YB3sotwnACbbHVc5-lFjJhvXJwmMsMAczxQXcEitTCD_Qi-vtpW1SMWA44Mv9S6zGReczt_AKp-xjd7pUSwvh3rrwpGZaTo4yz_TK2RmMeib5eCgl6hQpAUKx_MEwxQzD0t0ORwResp6uv-jOrGyEYavajvovnWgjx72dLEd_BFMDtmMAX2xT_uk5_eM_mya3uwZkHGJ5bp3PxRu6z92vCCxdcNa8-AKQbpSRiHCf5AMfI7pU5jdLEKE4JlCfdmzWF5CpK94Kssj6_ERtU_iywmMdamhPSYigfl80KwSa91F0lEv3GmQEthIcDSFC1WwBB9x3OI6y0TV1FvaSSbOt7fMoDLnSCrR4KK-2hVt07IBmcoN8CpQIagpqQLMNtSx7V_jM3ofn3Ndw30Ck2NjZKtgzLXcq0LKgLbGS9z9UndBfURfxBXjXF_hD1iDONjh75-z8eWLrUAOaWZNiPQ1mQakZDDzqvWUxBNFqeU3Gf7U4eo272Scqx86eC03HZVQRPHn4mInNKPYqpvUOdyQp6IqBSbE8tF8S9Jhv2LFIklBfRP4nTsYZ4II3qXccrANsPlnm09rDBgtNCNy0jU7jOVJ5xjrZ1eUn7O8qeqv896VhJi3U5EcKbjYuyb8s4I0wnJQhDvfC6CUlfHypxT8-wE64L2e9soLPzNybGnoAnSnVkBKergIWUcv6fVq69vkTwxE-0P0gFrTknwS4SaL7eckzaRBHSReoxAfV7LX87VuxnZ0YcWpEq2X3O0pgeoTNjKHIVUuDbiqMl_9wQ77SxtWm9ULQJ6kswaDEMiRwdCuUEqvyLEaiABKgl1cy1lYXN0LTIw1g8.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-25T18:30:37.118011+00:00",
+    "expires_at": "2026-07-25T18:40:16+00:00",
+    "ttl_seconds": 578
   },
   {
     "id": "classic-mr-bean.tv.8nORcRZ7gqs",
@@ -112,6 +112,22 @@
     "ttl_seconds": 21599
   },
   {
+    "id": "CNNbrasil.tv.i9JQ_NE3asE",
+    "name": "CNN Brasil - AO VIVO: Portugal: As maravilhas do Alentejo, Comporta e Sintra | CNN Viagem & Gastronomia",
+    "source_url": "https://www.youtube.com/watch?v=i9JQ_NE3asE",
+    "logo": "https://i.ytimg.com/vi/i9JQ_NE3asE/hqdefault.jpg?v=6a63dc43&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAH4cRr4VWe9uJXOxhj_AcnzbbBZA",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785025841/ei/0QBlav3PD-yiobIPosuygQk/ip/138.117.221.157/id/i9JQ_NE3asE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AZFlqhOStNq3gyRpS8ZveEiOdb5pYv6xHSXbYcERuMNPJwR5LCO1DWOSqWL-KfjPkbk2cbYfzF7BRTB_/spc/SQ-umvmpe-aYILd8PhMqod9ggm-MsdsSfhmm52iLrHErLjIZr_nejIyQ2RGggA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1912500/met/1785004241,/mh/WT/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51992867/mt/1785003862/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgJtWwaaw1k8-vw1LEtc93so6elFG2a6SKJtZI9eY5x10CIQDeGqS-v5enlzGTGbybYLjpN28K3_fAgBKciiWrEW5m_Q%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAIfXVmCMpNJUXgAmdqn7q4MRDT4m5rULR4kaRnUlWNfsAiAWYSSmpQ7oJayJbU1xbisOYvL2O6BDf__Pl_SPj9OctA%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-25T18:30:41.809612+00:00",
+    "expires_at": "2026-07-26T00:30:41+00:00",
+    "ttl_seconds": 21599
+  },
+  {
     "id": "DiarioTVTeresopolis.br",
     "name": "Diário TV Teresópolis",
     "source_url": "https://www.youtube.com/@odiariodeteresopolis/live",
@@ -123,7 +139,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T18:05:18.526492+00:00",
+    "resolved_at": "2026-07-25T18:30:40.211306+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -139,7 +155,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T18:05:16.778978+00:00",
+    "resolved_at": "2026-07-25T18:30:17.398643+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -160,6 +176,22 @@
     "ttl_seconds": 21599
   },
   {
+    "id": "JovemPanNews.br.Uhz8Pro0MVY",
+    "name": "Jovem Pan Live - FAST NEWS - 2° EDIÇÃO - 25/07/2026",
+    "source_url": "https://www.youtube.com/watch?v=Uhz8Pro0MVY",
+    "logo": "https://i.ytimg.com/vi/Uhz8Pro0MVY/hqdefault.jpg?v=6a63e3a1&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtNHNKG5TBt-BMlQfz5fh2HCWYYw",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785025839/ei/zwBlas31GNKPobIPpLmb8QM/ip/138.117.221.157/id/Uhz8Pro0MVY.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhP0UEFEEhHfz9j7YyItAfV6Rko-SkGzIcPsuUGoGDZbXcTw8fCgFQ7CxAZth_ge9y8yYIAOoUtA/spc/SQ-umkeVQX-Lfm6sdDXADZl4Ci4CyyXiEzbhf66Cz9hfeuhkry2E28O4p0bbmw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1912500/met/1785004239,/mh/4x/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51992868/mt/1785003862/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAO_fXv96YXdxdjbKsL8j4Sa6e-nqIyfvNebvrM256ZYxAiEAgYctxljCD9klj9EbwcqsO0RUgaf-cqQ5fkl-E4B_Hc8%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgP7Xp0qctkySZ0SHOxk2X32BWuzDGoM3BzfHxy04BwzECIQD66EDNfudF8ef7ZKWt01tiTC94Sd6hy7CSwgVlmJaGyQ%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-25T18:30:39.918151+00:00",
+    "expires_at": "2026-07-26T00:30:39+00:00",
+    "ttl_seconds": 21599
+  },
+  {
     "id": "mr-bean.tv",
     "name": "Mr Bean",
     "source_url": "https://www.youtube.com/@MrBean/live",
@@ -171,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T18:05:18.858134+00:00",
+    "resolved_at": "2026-07-25T18:30:42.123632+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +219,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T18:05:18.195414+00:00",
+    "resolved_at": "2026-07-25T18:30:38.481747+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -195,7 +227,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hqdefault.jpg?v=69bd7a4f&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAeLFn2E-4mOJujmWUaJGsz2-VRIQ",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hqdefault.jpg?v=69bd7a4f&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8PddgDBPPviSepht4XRi1iutJYg",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -211,7 +243,7 @@
     "id": "pica-pau.br.xIs3odCrjZs",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau derretendo com o calor 🧊🍦 Pica-Pau em Português 📺 Maratona de Episódios",
     "source_url": "https://www.youtube.com/watch?v=xIs3odCrjZs",
-    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hqdefault.jpg?v=696e66d9&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBvvHktvrLuvBqCk1ysCRWfl9o7_A",
+    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hqdefault.jpg?v=696e66d9&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAgtdMxIzMsv_Z3Q3KHRTi6ZfD2iQ",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -1776,6 +1808,22 @@
     "ttl_seconds": null
   },
   {
+    "id": "script_catalog_1.95",
+    "name": "Rede OnTV",
+    "source_url": "https://cdn.jsdelivr.net/gh/joquinha2025/fora-do-ar/em-manutencao.m3u8",
+    "logo": "https://i.postimg.cc/65GZSvvv/rede-ontv-oficial.jpg",
+    "group": "Recomendados",
+    "source_type": "script_discovered",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://cdn.jsdelivr.net/gh/joquinha2025/fora-do-ar/em-manutencao.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": null,
+    "expires_at": null,
+    "ttl_seconds": null
+  },
+  {
     "id": "script_catalog_1.97",
     "name": "TV Notícias Agrícolas",
     "source_url": "https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playlist.m3u8",
@@ -2251,7 +2299,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-25T18:05:19.149777+00:00",
+    "resolved_at": "2026-07-25T18:30:42.456124+00:00",
     "expires_at": null,
     "ttl_seconds": null
   }
