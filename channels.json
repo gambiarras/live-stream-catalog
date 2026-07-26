@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "offline",
-    "error": "no_stream_found",
-    "resolved_at": "2026-07-26T18:30:16.234370+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://fa723fc1b171.sae11.playlist.live-video.net/v1/playlist/CrEFVbYDy5ThmFJ0wDVfubG3lSMQv3vbd-ghrPj0TG-LY7wBvEWVj8yrhyB7MB37tv-59RSpknuip_XXp7Mqf7sTaemHdw1_lfA_Ha2FDJZuVcu0HI4dcyhMM3_3O2PGt7ysYplw561rtmQcfHFT1DAAzIssl4lWYUV15JuxfWivPoW5hbWXxmKQSB-Rim-y4OhJAuk5KrySebp9XvRzpO3kAbHICRvLffVmUNs920GbIwFxXgUVEga5PL0QKGiNhNL1ugnXTK8COMfhOTHapyXApN1WzONhvb-wVaTCkr5HDd6Lb3pfpKZo2ewyLRALpqwHi4dvftmwOELpg4ZVzXs_dEOYXWwRd3t1PFUu-bcuNhWWLd_e5ksnFzd8LjXS4Tjj01DaqoqnHGzwa_qolNJMolUVBknvHHXryA6y334CZpLkdAGkJ87_rEirH4GTf0CBw9GOa5UGBiNukui_OOCLCiWp63YBwjG1AZisFd0TwyI5fM7Af_Ym8j_y5HuN8HtpXPlF4lO5_9t5JZ2vNpFpJjxpACkhpo1Tpt_UrZ_zDQzxLkJubh5bwwJkpgklZYk-0_cwPq79b2uFBzTLeKYiVQ0XMcsQpDQAu9z1uEdctDTunwWa6b90mcjCQr9zYOMGGLyNn44YjjWWpvM5PsyGzAq84ivqYuJyOGJkShS8q6j537QwLIG-DbSZhL0M76GUxySwM2yij6IIf6ntFMddXNET56sSpmVeU6ld3BKd4jhbtpa7VLTX_RA3lePOFsM33F-KVoxPXK00MB5sATYfeG-aCARoyAZ0cShblD8Qn-SRIYGNALa0QQ3BDI4T2PS02zTBmKAJg-SO8MRrjP9G5jERLb8i6CUY736FlvgpdIHPuaZ69gpe8KVdR4qNqPW3DoFs0zF9HGrGNqQg33c80d4aDMUknXzlEj_49YKK-CABKgl1cy1lYXN0LTIw1w8.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-26T19:00:17.620617+00:00",
+    "expires_at": "2026-07-26T19:10:16+00:00",
+    "ttl_seconds": 598
   },
   {
     "id": "classic-mr-bean.tv.8nORcRZ7gqs",
@@ -96,19 +96,19 @@
     "ttl_seconds": 21598
   },
   {
-    "id": "CNNbrasil.tv.dP3uFLL81zY",
-    "name": "CNN Brasil - AO VIVO: RESENHA DO DINHEIRO - 26/07/2026",
-    "source_url": "https://www.youtube.com/watch?v=dP3uFLL81zY",
-    "logo": "https://i.ytimg.com/vi/dP3uFLL81zY/hqdefault.jpg?v=6a63d89d&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBt7AY6slUrxBJgv8wBsOhR6xBTg",
+    "id": "CNNbrasil.tv.WIYFPY7SMN4",
+    "name": "CNN Brasil - AO VIVO: CNN SINAIS VITAIS - DR. KALIL ENTREVISTA: AUDIÇÃO | 26/07/2026",
+    "source_url": "https://www.youtube.com/watch?v=WIYFPY7SMN4",
+    "logo": "https://i.ytimg.com/vi/WIYFPY7SMN4/hqdefault.jpg?v=6a63d8eb&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCkruNEvhHPD7lGy6baXWmDrgRJsQ",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785112231/ei/R1JmaqftCOyQ4dUPxP2U8Q4/ip/138.117.222.54/id/dP3uFLL81zY.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AZFlqhPz-G6GLZyeBo4I4AxEfm8OfphCdMyzz1SFaZwIhn17lGRMXg2xoKTcTFfsY7e4tgSmcnN7SdYP/spc/SQ-umi5WxtmwLuXAQRS0r2JS6vlOFFRxe8ZaUW3eMqMK4yQD6lRdqF6azxbcXA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2262500/met/1785090631,/mh/eI/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51946838,51992868/mt/1785090267/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhANpm97gpuJbvFtFdHMrGXyEGSozPkbPz8h6KpyJ5i7sWAiEA4DGlcv2rQJRQ03l9PueTRNBSngkPR8286hnQtMrOg8E%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAOarwL28OWPWs79aYAnGrGCMGFGVDS8lmKkwP9E9zJMzAiEA1oyD4vuf45HSKV1VhnVJpzM4yqL10Q_AO-2jU8zJmNk%3D/playlist/index.m3u8",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785114021/ei/RVlmav73AZqYobIPsaaioA0/ip/138.117.222.54/id/WIYFPY7SMN4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AZFlqhMyEKgCJQ1rCi-jEtudNyiKW7c69P0X7RdvrP9pY6nezpt6xN3fIwKtJZlafqLZfRr4gcoh-C_D/spc/SQ-umuwq1QrNYVpQD9pHxbsnW6zAAV55B4cHKvDkkf23ecO-k24opqrlnITGDg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1923750/met/1785092421,/mh/pb/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,51992868/mt/1785091963/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAJ1iXO9Ci_roxAO7GFvZdbLKuEc8GtrGlgqe-HQnSIPFAiBbNCV5dlbuL0qn_PZIzchqa002zTKgMMIppTv7aSvYXA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgbkdqmMTk21vmYfRV76dk_o_qHiOTsilkkCR2k3Kwa5wCIQCWinfdCUkm0e-ZJJA9kO3F8wwfllC1DAYYb8PyuQKAbw%3D%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-07-26T18:30:31.668982+00:00",
-    "expires_at": "2026-07-27T00:30:31+00:00",
+    "resolved_at": "2026-07-26T19:00:21.567472+00:00",
+    "expires_at": "2026-07-27T01:00:21+00:00",
     "ttl_seconds": 21599
   },
   {
@@ -139,7 +139,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T18:30:17.316016+00:00",
+    "resolved_at": "2026-07-26T19:00:17.839430+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -157,6 +157,22 @@
     "error": null,
     "resolved_at": "2026-07-26T18:30:20.659787+00:00",
     "expires_at": "2026-07-27T00:30:20+00:00",
+    "ttl_seconds": 21599
+  },
+  {
+    "id": "JovemPanNews.br.9y_y3UjMPN4",
+    "name": "Jovem Pan Live - FAST NEWS - 2° EDIÇÃO - 26/07/2026",
+    "source_url": "https://www.youtube.com/watch?v=9y_y3UjMPN4",
+    "logo": "https://i.ytimg.com/vi/9y_y3UjMPN4/hqdefault.jpg?v=6a6534e7&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCcTFmUrSaeMPZi5eykjj4wXYEGCQ",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785114019/ei/Q1lmarecGOSO-LAP5caCwQ0/ip/138.117.222.54/id/9y_y3UjMPN4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhOpNQ7oSlnVVhXIa7eAFxJLyy1reVtAVY3QB9vF-79jpmFtMlfz4_2MxX0gzOnnrdp4CKf7KkBu/spc/SQ-umovk9HQaHxinCS12bn0mUcae63j6SSsgAdyNb835PuX3tn4RWCSzT04IsA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1923750/met/1785092419,/mh/PG/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51992868/mt/1785091963/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhANrPNfM_b_VJrwPYFYR2aUWvzKCRmtT_ildUaMPsc4PGAiBcPYm_Uh1-0326dD5RG0XY4hD0n8c469_0x7BWz5KnCw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgabaVaaP9YSeBpz5lVpVVYiJwSYIvqJ3ELNPnyYzxRDYCIHHQ9EqJwfZ8-K6sHllZUEZF2QGX0SK5hxZP6sjnUGH9/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-26T19:00:19.970113+00:00",
+    "expires_at": "2026-07-27T01:00:19+00:00",
     "ttl_seconds": 21599
   },
   {
@@ -187,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T18:30:37.402772+00:00",
+    "resolved_at": "2026-07-26T19:00:21.885669+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -203,7 +219,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T18:30:18.136669+00:00",
+    "resolved_at": "2026-07-26T19:00:18.570570+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -243,7 +259,7 @@
     "id": "PowerRangersTV.br.cQHlHWNg5zA",
     "name": "PowerRangers TV - 🔴 Power Rangers AO VIVO | Dino Fury | Séries para Crianças",
     "source_url": "https://www.youtube.com/watch?v=cQHlHWNg5zA",
-    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hqdefault.jpg?v=6a0d8090&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDi_ef45t6XTuI-kbQgEO2rtmEtKw",
+    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hqdefault.jpg?v=6a0d8090&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-6XpFw1Q-uhnQbbzpuFXxBvLWyw",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -2283,7 +2299,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T18:30:37.752757+00:00",
+    "resolved_at": "2026-07-26T19:00:22.181817+00:00",
     "expires_at": null,
     "ttl_seconds": null
   }
