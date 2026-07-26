@@ -3,7 +3,7 @@
     "id": "BRCartoonNetworkvideos.br.zW1pGSWhpw8",
     "name": "Cartoon Network Brasil - 📼🎮 APENAS UM SHOW EM MODO MARATONA DE MINISÓDIOS + BÔNUS DE AS FITAS PERDIDAS! 🔥✨ | CARTOON NETWORK",
     "source_url": "https://www.youtube.com/watch?v=zW1pGSWhpw8",
-    "logo": "https://i.ytimg.com/vi/zW1pGSWhpw8/hqdefault.jpg?v=6a6285cf&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCvnV0FGg1KnTnpLYwdJE-9LHRWgw",
+    "logo": "https://i.ytimg.com/vi/zW1pGSWhpw8/hqdefault.jpg?v=6a6285cf&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLD37ApCV4BhV9LRgb70Tl5ffZqVyw&usqp=CBc",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T05:00:17.737823+00:00",
+    "resolved_at": "2026-07-26T05:30:17.898785+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T05:00:15.730485+00:00",
+    "resolved_at": "2026-07-26T05:30:15.933538+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -122,8 +122,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=f_ZUq7GuilM (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Df_ZUq7GuilM&q=EgSKdd2dGOKoltMGIjCFkBaCL9tKTlodLKOMvoYMH7VNSGtbZHsgrCQPyPEB7GA2SJVSe6Z21Pb8Djo6X1YyAnJSWgFD)",
-    "resolved_at": "2026-07-26T05:00:18.983969+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=f_ZUq7GuilM (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Df_ZUq7GuilM&q=EgSKdd2dGOq2ltMGIjCBRdLo9b2wlEtD_BLn6rseKeu8zktXYqQQ12OZ95TIq9CTNbARD7wttQYAzH0MLHYyAnJSWgFD)",
+    "resolved_at": "2026-07-26T05:30:19.077527+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -139,7 +139,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T05:00:17.062552+00:00",
+    "resolved_at": "2026-07-26T05:30:17.281350+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T05:00:19.334172+00:00",
+    "resolved_at": "2026-07-26T05:30:19.373057+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T05:00:18.346527+00:00",
+    "resolved_at": "2026-07-26T05:30:18.536054+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -227,7 +227,7 @@
     "id": "PowerRangersTV.br.cQHlHWNg5zA",
     "name": "PowerRangers TV - 🔴 Power Rangers AO VIVO | Dino Fury | Séries para Crianças",
     "source_url": "https://www.youtube.com/watch?v=cQHlHWNg5zA",
-    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hqdefault.jpg?v=6a0d8090&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDi_ef45t6XTuI-kbQgEO2rtmEtKw",
+    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hqdefault.jpg?v=6a0d8090&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-6XpFw1Q-uhnQbbzpuFXxBvLWyw",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -243,7 +243,7 @@
     "id": "RecordNews.br.iGpr47R2zqU",
     "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
     "source_url": "https://www.youtube.com/watch?v=iGpr47R2zqU",
-    "logo": "https://i.ytimg.com/vi/iGpr47R2zqU/hqdefault.jpg?v=6a636054&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJGCNLy6ddo7PCh9tjQQU9GSkEYg",
+    "logo": "https://i.ytimg.com/vi/iGpr47R2zqU/hqdefault.jpg?v=6a636054&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCGKLzl_8DCgjUwI3TBhjgqAE=&rs=AOn4CLB4pW1hjHfnH7roDuWBXx1BLO7iZQ&usqp=CBg",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -2267,7 +2267,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T05:00:19.698839+00:00",
+    "resolved_at": "2026-07-26T05:30:19.662666+00:00",
     "expires_at": null,
     "ttl_seconds": null
   }
