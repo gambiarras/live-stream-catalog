@@ -32,22 +32,6 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "Caze.tv.uSjmapoQzdg",
-    "name": "CazéTV - AO VIVO: STALLIONS X DESIMPAIN | 1ª RODADA | COPA DO MUNDO DE CLUBES KINGS LEAGUE",
-    "source_url": "https://www.youtube.com/watch?v=uSjmapoQzdg",
-    "logo": "https://i.ytimg.com/vi/uSjmapoQzdg/hqdefault.jpg?v=6a666554&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgrt7aHNr6aH9DpNV3AjWOnbyU0Q",
-    "group": "sports",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785121238/ei/dnVmatedDObPobIPr7nI6A0/ip/138.117.222.54/id/uSjmapoQzdg.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/bui/AZFlqhPY747_MAZ0YTAD0zxHkKK7vYOGfkJSRI3CN_Yjv-r21cKsLQqdQiB0I7G2g8dF9PmC1aDy9wFI/spc/SQ-ummI0nsILC1Ca2ynzs5D57qwQk8-Y9aULFgeX5ef1K9x_0tqun3l90YNQ2g/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1755000/met/1785099638,/mh/6R/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,51992867/mt/1785099159/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgHZH-E-8v_OJ1-Hw2wwupTOTS8mPy9ATyqysQTzlXXdMCIQCrutpghgD7eqysmdCOusQq3gr4flZVBpVOy_LE1x6A7A%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgGtqv3esVSg5HSpVG5GK-KFVQsT15JNGKiP--doe7QxcCIQDEc77eUX-MLQM_dx5qaS6QJHS3yh5UsclH6nT4WV3m5g%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-07-26T21:00:38.728445+00:00",
-    "expires_at": "2026-07-27T03:00:38+00:00",
-    "ttl_seconds": 21599
-  },
-  {
     "id": "chavesvivo.tv",
     "name": "Chaves 24H",
     "source_url": "https://kick.com/chchannel02",
@@ -56,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrEFeI5ka2DsK2Y0OyB_1lxfhJHNix-MuJhhKGYQeVNITjqexfdHagaQH6CvN8JW8MTHGaGaPDM8NOW-qW1_1LEbp9w4qJVwbMGnv50lSavqOjb5ZqGd0JCn1oZqb4qsoeV0na5hwjXYWx53tyOmhbdyG0Gc5c_uNP4HQ3X-HGjQEGWGejHVO2lxrCP5DKrpv8LWZB4fH7J9BRDKwotBL_GW4IDNdrpV-7A5IIn6W1BePljbr_fs3OuR7QEUjhF-B0uVh0PAxUoD4OYVAik2nTe83IRHZAOOktnmhBk_sq5z2bwHOzWaL_OBlx_EcSTKgHQTIO29M9hVKkwmpcgzzTn9hYkRRfuv1_zgFamxP6dNd0Iv7yonu33jg4UVwmbMckqN2wy0XopzlVRzdLeAseywy_-a7HxtAM8L8VFmw7DMM7mGfA2q49VRPDhIQvyVQ3u0BBpw5kWBDQL9s5Az7dW-ZNaTBtYWPAsCDQU9_O2e1dGp708W9J0B9k7ly5XmYuIy3qJf6219Jl7198IBlYflWuNgCZVtZkkVbWOGGSOMtb_DvpdPM84iSu9rEViKpwP9ORM1-luHDlPMCHall87C90UYEv77_u8jXhUSdnjtDlUeV_85IYATWe_FnbC8Hml_JpGOnZMCh6nwsbhxlvYOu19oomhSDFJHXg10WliIGI8m-g8768kpRa0onCLvqdJbHeet1UUS5NBFOMcOBOXHkB3TSkfrZ8cqN7BFbR6MXOvFAVOAAscgr_ErgjMXbhsHT47EmrcLGSyNUwT8jZfBdZAhrul2s4H_VV2k7NLflhZ3ftslWMrgl1UAbTCsFtZFGvdZVhJ8dTL9MTh3oqSUdDet9XT49L-sybxRGScnZWrRiQZ5w2vpbqSqJTmiKrrrzGzrmk9oKWJX091IrJVGkGQaDLrJpNIrEPvqiSGjCyABKgl1cy1lYXN0LTIw2A8.m3u8",
+    "stream_url": "https://fa723fc1b171.sae12.playlist.live-video.net/v1/playlist/CrEFqBN9Tj9LIZcmTWHsuJjqkVjegyQKuxqWgmnI0MwimXa_dLxebHHXZFLVJqcl1k1NvqQiUo4ciWenK3uOaHKYWAWi_PmQFcsHawv80OQeZzByRia9bgvzyvHFKd9IOl4WrTFirt_FSruJYQYlU_6rSwMfSB2Xg3T7PbG8cbrXZAFLjKlMJAst4_3l_CyXIDfPC3Hqaz9iQ054EkRlir2pdWgBCQPA3IszVRi9NT4wR50Jsb58L2MwtQuR903w0jFZoUjkeEr4xANx3Wpn2b3VjpwH0zW9x4v9cICDcyBVPNaQO4tQrcf4oRkT_4h9NOcHtgIolXBos8UMLw6aPL4Hy3djjG3nf_sv7UNz6C0evHRLhJwOU1db_F0sx6Szn2i_HBBklpaC0WJjwW7S7yV0-5LDQOpKJsI_6PUbdfHPA3EAG1I6CI9YEP86S9TGAzc-7rbrs-qyukUKfZm086ykzQLDpacajhsB_aakQyDoO31tDNYSSWt3TWJUdtYiVAzhWAb1_avqiJsiFOS4enwCy5MDTVjco3Bb7nmB4hIz5R03Yq5zWVjQ3RWg6VQq4CXWp3auvV5WIZmRjaNxXjZ9-xUYoXSr9TtXtsOp2F9hJFZkI-Px0muuSSKYWnlW7Vz0mS0r2SvagCBnjgby3OiX0jDsgvF9k31z3OxUi7bmgOrMBe0PDcs-YJ6cLcn0q42NEQ2bBcBOnEAyHVbPZuk4mTqk4-0EW14Ot-c0qFMbqijtbI2BveRq3WU2PmArQ57A4lNyWtXPJIaED54qoUvXZ3EA_1ytd4AlvwkTQADSHo70BNwKkCmMKcNcnu9Pdc4gdaKUHBeVDW4s0ouh1axbi_5_dYTYDVdGZ0uXFUr1vyIWewb4Ms6y00V7pf1M5jq8Nx0JO-O9MchQxBX1V2mHcowaDJB7hXvEKmMQirVvxyABKgl1cy1lYXN0LTIw2A8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-07-26T21:30:20.612150+00:00",
-    "expires_at": "2026-07-26T21:40:20+00:00",
-    "ttl_seconds": 599
+    "resolved_at": "2026-07-26T22:00:36.634943+00:00",
+    "expires_at": "2026-07-26T22:10:16+00:00",
+    "ttl_seconds": 579
   },
   {
     "id": "classic-mr-bean.tv.8nORcRZ7gqs",
@@ -115,7 +99,7 @@
     "id": "CNNbrasil.tv.074DbjiwQ3E",
     "name": "CNN Brasil - AO VIVO:  BRASIL CHAMA EMBAIXADOR NA ARGENTINA APÓS FALA DE MILEI SOBRE MORAES - AGORA CNN",
     "source_url": "https://www.youtube.com/watch?v=074DbjiwQ3E",
-    "logo": "https://i.ytimg.com/vi/074DbjiwQ3E/hqdefault.jpg?v=6a628d78&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA4uDk8GzxN6H_-Iw1f8VnojS5zqg",
+    "logo": "https://i.ytimg.com/vi/074DbjiwQ3E/hqdefault.jpg?v=6a628d78&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCLskwxfEYriXKPsYKlcBVg4xMP6w",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -155,7 +139,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T21:30:21.264748+00:00",
+    "resolved_at": "2026-07-26T22:00:17.022048+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -163,7 +147,7 @@
     "id": "JovemPanNews.br.5fyOsMJCN20",
     "name": "Jovem Pan Live - CORINTHIANS SAI NA FRENTE E LEVA EMPATE CONTRA O BAHIA!; DAQUI A POUCO TEM PALMEIRAS X GALO! | JPFC",
     "source_url": "https://www.youtube.com/watch?v=5fyOsMJCN20",
-    "logo": "https://i.ytimg.com/vi/5fyOsMJCN20/hqdefault.jpg?v=6a666a32&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDg59Z6RJAaXjKkQCSmUAH9k6oigQ",
+    "logo": "https://i.ytimg.com/vi/5fyOsMJCN20/hqdefault.jpg?v=6a666a32&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLDxTMTFA53aBbkb6BnUtyGbtXkPLg&usqp=CBc",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -179,7 +163,7 @@
     "id": "JovemPanNews.br.eTz4XgOQaAE",
     "name": "Jovem Pan Live - Jovem Pan News Av. Paulista",
     "source_url": "https://www.youtube.com/watch?v=eTz4XgOQaAE",
-    "logo": "https://i.ytimg.com/vi/eTz4XgOQaAE/hqdefault.jpg?v=658ae6ef&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvQeaNyjO5SbndUBg35ixCJqeeUQ",
+    "logo": "https://i.ytimg.com/vi/eTz4XgOQaAE/hqdefault.jpg?v=658ae6ef&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLB9hsip6OJ2nj_o0MjJn6p2XswylA&usqp=CBc",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -195,7 +179,7 @@
     "id": "JovemPanNews.br.fWby5ghIH5Q",
     "name": "Jovem Pan Live - Flamengo x São Paulo - AO VIVO - 26/07/2026 - Brasileirão",
     "source_url": "https://www.youtube.com/watch?v=fWby5ghIH5Q",
-    "logo": "https://i.ytimg.com/vi/fWby5ghIH5Q/hqdefault.jpg?v=6a6652b9&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByIaXVGBeLwvBY4sHzi7xP7q-RZQ",
+    "logo": "https://i.ytimg.com/vi/fWby5ghIH5Q/hqdefault.jpg?v=6a6652b9&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLD-xx_Y1XX6N0GWIEEiim1EzFGrZQ&usqp=CBc",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -206,6 +190,22 @@
     "resolved_at": "2026-07-26T21:30:23.329613+00:00",
     "expires_at": "2026-07-27T03:30:22+00:00",
     "ttl_seconds": 21598
+  },
+  {
+    "id": "JovemPanNews.br.m_J0KEtmna0",
+    "name": "Jovem Pan Live - Palmeiras x Atlético-MG - AO VIVO - 26/07/2026 - Brasileirão",
+    "source_url": "https://www.youtube.com/watch?v=m_J0KEtmna0",
+    "logo": "https://i.ytimg.com/vi/m_J0KEtmna0/hqdefault.jpg?v=6a6654e1&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLARMVDaxgpGZn6kOrzE5SqpDD-S6g&usqp=CBc",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785124838/ei/hoNmav2eEs6Z-LAP5r6zgQE/ip/138.117.222.54/id/m_J0KEtmna0.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhM87pMX0XUUM8mQpshYdETgCp62NuA_vwCYknq8fu96MsmZxQPZ0YyFk4UMqHwMli80ZL4DY43q/spc/SQ-umge4DBUgJEqqvoFWkTfFRREKgzhlwjnf21q5jox4sRkTiVoWt-lvoww_Rw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1418750/met/1785103238,/mh/jp/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,51992867/mt/1785102983/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgBRcibpmptqHNIvxsH2XEaKxLCQW8QQ4PTmy6hgGWszUCIE-YRwgn9jD18J0P2fSny9uwF-EL8wdpTcrBBEsDiWjm/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhALD5N5zilfM34HCgDBIEFy6kGvhDS4sP2LFrOaLsulhrAiA1Jx366wbbmhQ7zWXXvaGndN_GGQHvMFsMZkcafnSfwA%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-26T22:00:38.616205+00:00",
+    "expires_at": "2026-07-27T04:00:38+00:00",
+    "ttl_seconds": 21599
   },
   {
     "id": "mr-bean.tv",
@@ -219,7 +219,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T21:30:25.141549+00:00",
+    "resolved_at": "2026-07-26T22:00:38.922027+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -235,7 +235,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T21:30:22.025805+00:00",
+    "resolved_at": "2026-07-26T22:00:37.468678+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -307,7 +307,7 @@
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
     "name": "Santuário Nacional de Aparecida - Santuário Nacional AO VIVO - Você em constante Oração na Casa da Mãe",
     "source_url": "https://www.youtube.com/watch?v=juUt-rN5CVo",
-    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hqdefault.jpg?v=6871817d&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACkz7ris78jvaS-R5FyeoIcJZ1ww",
+    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hqdefault.jpg?v=6871817d&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLCcEZU4wWGlZ8zwIOOTzpBAlZ0mvg&usqp=CBc",
     "group": "religious",
     "source_type": "youtube",
     "tvg_id": null,
@@ -2315,7 +2315,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T21:30:25.457777+00:00",
+    "resolved_at": "2026-07-26T22:00:39.240203+00:00",
     "expires_at": null,
     "ttl_seconds": null
   }
