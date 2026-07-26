@@ -56,12 +56,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae12.playlist.live-video.net/v1/playlist/CrEFzgNzuclGxn1TuMJV_lQdeFCB5aO69YbSTc-1uFIDRC6asv2LTGplvy5183u14DkVMhZC6s_oaXiWzeopNnV1KCIlKlKZz-8RkZiLeFIgw4aWNaGtmTSa-VU9pQ2kKupNh907_al_sjDEie-l2yPpXQ4BoPqILEfDKTjt5Sp0xcsliH-RpFCtl_hW3RsJ0W6C95zwbd4utjDkeT7bT1o8scRV1bIVY_9yTYUvHgTc65PE4XwLwDOs3Dw849hMrtuHz2odEX6DtqBdpjfw54Lh-qtWSwJMp_KbX40amZ-MyfAIORylPQB_LBRpH6AcvcfiQiNnupW8KZYZyP1P_y0p7AhPfg8XfLOmdDdL_pz73etXWj6x2rWLngaYoiiIUaISAEQyEpAwH0JuTFWWaM81-DCMcJnewjngFhZe9xjFL6EGQqvbVhdtdjJCJpUVGINubl5ktLwvFM4kem6Vpz9HxObsHUs0N-4Ae1EC6okmiDSFA2BqdHWCi1ZtTFEaQ1Uc-HWebTda-YI7aZS88ZOZjxSoozN-kkc4wlaTPYtYOky7YcKhy-gfVb4KVr7uVga_5Y2pB2s49bv19lhQ-Uy-WoXsoiRolBEN2IMkPg__x16auRz27c3Id4rkCrFRXIasduJKU7dxN0sOoQLL-o-xisqfzfR8SS4jR8_H95OTUnMzclE-QQbMrmbj5fetGyIJqT-cmwWAQDIhyDpzjkwZw3bn_VtqxPjEJ40rpojO6SbnpUaxdXCxjZYPqmb9W6saX71uv-OTEauv9D1gZOYKnbfUZcUJFV3RZcR9H7c9SkaNijcKJ4DOQy6TSiV4_6eKq55mDvtAzqQSiu5eE5y1UtdvD-YtdJUR5PojZVdoACHeQLMNSIX8xk6OAAowlYJpIBJxMNHu5TQ7zQbN1647I5oaDJ4NVSpDcfkZKeAMyyABKgl1cy1lYXN0LTIw2A8.m3u8",
+    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrEFeI5ka2DsK2Y0OyB_1lxfhJHNix-MuJhhKGYQeVNITjqexfdHagaQH6CvN8JW8MTHGaGaPDM8NOW-qW1_1LEbp9w4qJVwbMGnv50lSavqOjb5ZqGd0JCn1oZqb4qsoeV0na5hwjXYWx53tyOmhbdyG0Gc5c_uNP4HQ3X-HGjQEGWGejHVO2lxrCP5DKrpv8LWZB4fH7J9BRDKwotBL_GW4IDNdrpV-7A5IIn6W1BePljbr_fs3OuR7QEUjhF-B0uVh0PAxUoD4OYVAik2nTe83IRHZAOOktnmhBk_sq5z2bwHOzWaL_OBlx_EcSTKgHQTIO29M9hVKkwmpcgzzTn9hYkRRfuv1_zgFamxP6dNd0Iv7yonu33jg4UVwmbMckqN2wy0XopzlVRzdLeAseywy_-a7HxtAM8L8VFmw7DMM7mGfA2q49VRPDhIQvyVQ3u0BBpw5kWBDQL9s5Az7dW-ZNaTBtYWPAsCDQU9_O2e1dGp708W9J0B9k7ly5XmYuIy3qJf6219Jl7198IBlYflWuNgCZVtZkkVbWOGGSOMtb_DvpdPM84iSu9rEViKpwP9ORM1-luHDlPMCHall87C90UYEv77_u8jXhUSdnjtDlUeV_85IYATWe_FnbC8Hml_JpGOnZMCh6nwsbhxlvYOu19oomhSDFJHXg10WliIGI8m-g8768kpRa0onCLvqdJbHeet1UUS5NBFOMcOBOXHkB3TSkfrZ8cqN7BFbR6MXOvFAVOAAscgr_ErgjMXbhsHT47EmrcLGSyNUwT8jZfBdZAhrul2s4H_VV2k7NLflhZ3ftslWMrgl1UAbTCsFtZFGvdZVhJ8dTL9MTh3oqSUdDet9XT49L-sybxRGScnZWrRiQZ5w2vpbqSqJTmiKrrrzGzrmk9oKWJX091IrJVGkGQaDLrJpNIrEPvqiSGjCyABKgl1cy1lYXN0LTIw2A8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-07-26T21:00:37.501433+00:00",
-    "expires_at": "2026-07-26T21:10:17+00:00",
-    "ttl_seconds": 579
+    "resolved_at": "2026-07-26T21:30:20.612150+00:00",
+    "expires_at": "2026-07-26T21:40:20+00:00",
+    "ttl_seconds": 599
   },
   {
     "id": "classic-mr-bean.tv.8nORcRZ7gqs",
@@ -112,20 +112,20 @@
     "ttl_seconds": 21598
   },
   {
-    "id": "CNNbrasil.tv.b1itAPEjCIU",
-    "name": "CNN Brasil - AO VIVO: FORA DA ORDEM - 26/07/2026",
-    "source_url": "https://www.youtube.com/watch?v=b1itAPEjCIU",
-    "logo": "https://i.ytimg.com/vi/b1itAPEjCIU/hqdefault.jpg?v=6a651c98&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbmJGXXnSJesUA4L5smTySimRx_Q",
+    "id": "CNNbrasil.tv.074DbjiwQ3E",
+    "name": "CNN Brasil - AO VIVO:  BRASIL CHAMA EMBAIXADOR NA ARGENTINA APÓS FALA DE MILEI SOBRE MORAES - AGORA CNN",
+    "source_url": "https://www.youtube.com/watch?v=074DbjiwQ3E",
+    "logo": "https://i.ytimg.com/vi/074DbjiwQ3E/hqdefault.jpg?v=6a628d78&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA4uDk8GzxN6H_-Iw1f8VnojS5zqg",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "offline",
-    "error": "no_stream_found",
-    "resolved_at": "2026-07-26T21:00:43.925402+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785123024/ei/cHxmapOcEv_Q-LAP09bXiAU/ip/138.117.222.54/id/074DbjiwQ3E.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AZFlqhMlbpFjVX5Wfv4Cig-6XwpB_h-PA0kl9Zi4w8EDbuJ2ih-S2IqnEkrgniV-a0oVQX4TZL1L9Epb/spc/SQ-umu7wnqZULLtbv9-XMrrxh9cOBzh28Hv7GORkgovx51zdE0x8WD-rAXitSw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1551250/met/1785101424,/mh/8h/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51992867/mt/1785101065/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgJ8c3GaerVOkTr1RBlwUFgu9J4sAeHcBEUBVyfPS-lmQCIQCfMKQgt6oR-loyvOlkaS3cd8layPZQAlVeIAFgbE3Wqw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgKurd-Xt4oM3PoXo6Eiof8mRjWMr7svosqFZdPrLEA_YCIEu_dtTzcQpuQxaNDCCXHCR7Eub9UDOnhm2oGMdCDlNa/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-26T21:30:24.832369+00:00",
+    "expires_at": "2026-07-27T03:30:24+00:00",
+    "ttl_seconds": 21599
   },
   {
     "id": "DiarioTVTeresopolis.br.f_ZUq7GuilM",
@@ -155,29 +155,13 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T21:00:17.941906+00:00",
+    "resolved_at": "2026-07-26T21:30:21.264748+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
   {
-    "id": "JovemPanNews.br.-YkbKBPAeBs",
-    "name": "Jovem Pan Live - Bahia x Corinthians - AO VIVO - 26/07/2026 - Brasileirão",
-    "source_url": "https://www.youtube.com/watch?v=-YkbKBPAeBs",
-    "logo": "https://i.ytimg.com/vi/-YkbKBPAeBs/hqdefault.jpg?v=6a663d60&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZ6qr51_9M3YR6YmkhmJYOXhf1SA",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785112220/ei/PFJmapeHBeyR-LAPos_GuA4/ip/138.117.222.54/id/-YkbKBPAeBs.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhPctJgIrC2gg9jnQ-9J-7Q_1tvzN4BY0lKR5uCjAAkkSN4Mc8OFKxXY8YkXtqL46G4y1HmeTd2n/spc/SQ-umnw0hiCQ-E0kZVKPZuXXqRUS_OXbr24ydwOUiy71jzFX2nMe3M18hrGLQg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2262500/met/1785090620,/mh/aD/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51992868/mt/1785090267/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhALBGyNq4qc0OVVq4BEqqKFJ-u1ed8ZUKPoicPEZQs14mAiAb42xMO1redLQWw5w0tiE84fK1bAodG8wrzxCrM246bA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAKa8SXh8L7uwqj_MoH_0YaCx48rxYRlOX3ZYiCY5QvBrAiBUnnIDJfL44ZT2bqdjBUt44dmOHTnpG2piMc55RNY5qQ%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-07-26T18:30:20.659787+00:00",
-    "expires_at": "2026-07-27T00:30:20+00:00",
-    "ttl_seconds": 21599
-  },
-  {
     "id": "JovemPanNews.br.5fyOsMJCN20",
-    "name": "Jovem Pan Live - JP FUTEBOL CLUBE - 26/07/26",
+    "name": "Jovem Pan Live - CORINTHIANS SAI NA FRENTE E LEVA EMPATE CONTRA O BAHIA!; DAQUI A POUCO TEM PALMEIRAS X GALO! | JPFC",
     "source_url": "https://www.youtube.com/watch?v=5fyOsMJCN20",
     "logo": "https://i.ytimg.com/vi/5fyOsMJCN20/hqdefault.jpg?v=6a666a32&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDg59Z6RJAaXjKkQCSmUAH9k6oigQ",
     "group": "news",
@@ -208,6 +192,22 @@
     "ttl_seconds": 21599
   },
   {
+    "id": "JovemPanNews.br.fWby5ghIH5Q",
+    "name": "Jovem Pan Live - Flamengo x São Paulo - AO VIVO - 26/07/2026 - Brasileirão",
+    "source_url": "https://www.youtube.com/watch?v=fWby5ghIH5Q",
+    "logo": "https://i.ytimg.com/vi/fWby5ghIH5Q/hqdefault.jpg?v=6a6652b9&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByIaXVGBeLwvBY4sHzi7xP7q-RZQ",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785123022/ei/bnxmavOELrnZ1sQPwsreWQ/ip/138.117.222.54/id/fWby5ghIH5Q.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhMvyprTrjHXxwNYlXzOMpXCR1aa70ahXSNhSjkbu1Vat3Z4Z3dFjaUSYHSFg46pqWHpDzriacRT/spc/SQ-umm8_trPUmuCJ1-5qSZ2Y7a41OKrR8xTiDbPNv8w-BNeQIiyhvQhjpKYAGQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1551250/met/1785101423,/mh/bk/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51992867/mt/1785101065/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgG62o0h7SXpS9JWXXkNOgO4AnsQeQhQojlgLVnMS_69ACIQCLN36KAEbNF2uOgOq0_ozpHT3KvricC4WED6jcjrhF_w%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAPPVH3tB1EkbAUnHrOIyBda7yJ877eiZiy8NSYXS3_w5AiEAvNq2xjKP1w-KDhEfNa4oJiY4gI57d06Ne4JJVCqMCBw%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-26T21:30:23.329613+00:00",
+    "expires_at": "2026-07-27T03:30:22+00:00",
+    "ttl_seconds": 21598
+  },
+  {
     "id": "mr-bean.tv",
     "name": "Mr Bean",
     "source_url": "https://www.youtube.com/@MrBean/live",
@@ -219,7 +219,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T21:00:44.260719+00:00",
+    "resolved_at": "2026-07-26T21:30:25.141549+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -235,7 +235,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T21:00:40.617803+00:00",
+    "resolved_at": "2026-07-26T21:30:22.025805+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -2315,7 +2315,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-26T21:00:44.537826+00:00",
+    "resolved_at": "2026-07-26T21:30:25.457777+00:00",
     "expires_at": null,
     "ttl_seconds": null
   }
