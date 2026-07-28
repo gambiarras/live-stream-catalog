@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-28T16:00:39.296151+00:00",
+    "resolved_at": "2026-07-28T16:30:20.666833+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae12.playlist.live-video.net/v1/playlist/CrAFRSzkAx8dwBdmbE7flucTocwcPi1sWzNsKUck6WM5Ik_HV9rRX8F9ZOmMNl5BR38AJour6A8fJgwPgSGNNjmxMiwkUumHJzMpby-NaJxgihRnjO6cz-ppjJnlc0X0OF2dOnaF7hbcYML0UvYQmhUiWQAE6JD1xUnfEpopfXvJgZFnDfKYa2NP8CrBRWFta8MoNkakFurYM_9jxkqeyf6-3KpzpgiK3c8y_yu93PRz5wrhIK-rII_AiG7oNeU4YdZkIWYx0Qmnh0qcWxbrpbWo5GBrqF1xmb357HfvloRL_1UkibVkZ694PdVUA9sPPBUbpNNZf_hcI4lIA0XvhM5w2ZC9Ti8CnMZsIMJa_rJobPA4D9HfWbCo4MMLFFKdfvr9GRX5lQ-P7HV6MFOSYy2hksUiDdLwArlLkCJAatmAXGeDIEza0Avi3Z3T6AsgVY6N7XtxD1CHzOT5D8TPeDV3CIIs-17-MVAZkZkYigv8dcG4o1qvfkgPhY844qKE0SzIxWiRnLcAvAmVTgHoiq1ww584ezlaE7vxQQCw9PT9GPLAIRLCVO67DXo5W1zuCTdtSU88dUJCYOYngymPfj9ECrIXz9CX5r4KP4attRz1gl0veP4FQ-pCKIWupUfOwRdYSbfdrRlnlxrJdiXYcqSxVholM6XtNnF8j3GGgTcNin-cJidr85V-ORMaht-CMU1UchzkoCuK64F4Jh1WobT548Ie_3fKy6Mc5yfhsPpl3szZCYvlVt-iLX3a6z6RuDIbrSueUj18pD5qL6RixE6pUPY87JSooYFXbQ12hCMM1jDA2I3LxBw6cZbt9m56BltTf4wZrIWO00ZlKRwHD2wYZdFecyfy2j9Grh_NlcofiD1lHU0Dbfv0RJlNuMXYxpcZfqyFX4lWp5zS8DrRTPWePxoM95T6FMkB7QiMmt86IAEqCXVzLWVhc3QtMjDZDw.m3u8",
+    "stream_url": "https://fa723fc1b171.sae11.playlist.live-video.net/v1/playlist/CrAFWKBhKK_Dm1Hzoh4P4D95oOP1o8VebZY_2HDYRHklEhNkR5tQwUVm9IJTyCW0RUKpgoCmByHjpkunqkHTnht9dhpJkD4XHEVRGQ4dIi0QJFEc0V_vcw3Adp-9o7dG75uTzWE43yF_8IbAdS4On0gNvGlTeDjoVX8QKyeitLy4DsS_9JxIBaz414Hc05VCz7s-eBxYsESxfPr5IRxPTExP3nKT_gihF44i6ZYBL-vUq-ttD0REnFFJCCXfs4yDmSdLE2hV__kjP98OU15EMC7d50mTu17anMtUW77F23vvlzC63ZKVNibvsmfwPiKJncOyrm-DGS4zPqhUjY19mnYMey6qLrQi0BmKc4nvTAMm_xmcFRcHjwSPx8A89QARLavM2_QNl7ki9syY50G23sRo7vwBob9oOF13VMMKJTPpZd_XibcTeIzysdvcava9fN6cbnBHB4wFMZXov7FXFAJ0uyz59ITax-lAIF7yzUs3gfd55aLpct8Mko8MMDCwdKNkbSKOo9HAeVyhxUtvYqBexUv9h3RC1NwZ7aQ4e713qms__EihfJ8C8BfKECJT815hH60th5ll7GFW-0kkOz1ivcmNMb1exCaCKJeSeD0a1K7qXKGfyYfbthIb6tuYGycaMlyzV9fjDQS0aFCB-VUbaOPSt50fty3k3IKdO5olxoDHi9CqqSTwQIbqTH-1WZVUhejCQFHmeHH6EnMcH8bSFiM_PMIcT76g4gAMF6XD1YkJf_DA1ANIqZxErDlvA6FnUPq7XCQGDtoMCvdgl_nIUtIgPQoRxNn8Z5jENWRAJH3-9y4JB9WzeF6fiQEPOW9pw8Eq0xwIGPmKpxdF9iIRKr1_Vh7GL5K5o4em0r2eYrP86rX1hBL-8vAT9JWB0cMNvTmlNIixNtfj_a0jcIe5ehoMXH1aotYHlcJAMIvsIAEqCXVzLWVhc3QtMjDZDw.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-07-28T16:00:37.146921+00:00",
-    "expires_at": "2026-07-28T16:10:16+00:00",
-    "ttl_seconds": 578
+    "resolved_at": "2026-07-28T16:30:17.723728+00:00",
+    "expires_at": "2026-07-28T16:40:17+00:00",
+    "ttl_seconds": 599
   },
   {
     "id": "classic-mr-bean.tv.8nORcRZ7gqs",
@@ -115,7 +115,7 @@
     "id": "DiarioTVTeresopolis.br.f_ZUq7GuilM",
     "name": "Diário TV Teresópolis - DIÁRIO TV AO VIVO - Programação da Diário TV Teresópolis - Inscreva-se no nosso canal",
     "source_url": "https://www.youtube.com/watch?v=f_ZUq7GuilM",
-    "logo": "https://i.ytimg.com/vi/f_ZUq7GuilM/hqdefault.jpg?v=6a656c70&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZQPAW0R6JdHmk8p53V8GSRJIF1A",
+    "logo": "https://i.ytimg.com/vi/f_ZUq7GuilM/hqdefault.jpg?v=6a656c70&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLABAu4XwqCqOODbk1ZDNh6HBwnuRQ",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
@@ -139,7 +139,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-28T16:00:17.735593+00:00",
+    "resolved_at": "2026-07-28T16:30:18.079654+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-28T16:00:39.648941+00:00",
+    "resolved_at": "2026-07-28T16:30:20.931774+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -203,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-28T16:00:38.976219+00:00",
+    "resolved_at": "2026-07-28T16:30:18.963677+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -211,7 +211,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hqdefault.jpg?v=69bd7a4f&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLBfkb0Li5vPLdlolUUKNk8w3y_lEw&usqp=CBc",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hqdefault.jpg?v=69bd7a4f&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCGKLzl_8DCgjP9PXNBhjgqAE=&rs=AOn4CLBnBWkpC7ttp-EE2FNVeg9U-mPQpg&usqp=CBg",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -227,7 +227,7 @@
     "id": "pica-pau.br.xIs3odCrjZs",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau derretendo com o calor 🧊🍦 Pica-Pau em Português 📺 Maratona de Episódios",
     "source_url": "https://www.youtube.com/watch?v=xIs3odCrjZs",
-    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hqdefault.jpg?v=696e66d9&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLAQpy3EIcJaJQLmXg02567mKgeYdQ&usqp=CBc",
+    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hqdefault.jpg?v=696e66d9&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCGKLzl_8DCgjZzbnLBhjgqAE=&rs=AOn4CLAkZMq8-PSQE9Ak6dRZHVvr_zNySA&usqp=CBg",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -270,6 +270,22 @@
     "resolved_at": "2026-07-28T12:00:41.320159+00:00",
     "expires_at": "2026-07-28T18:00:40+00:00",
     "ttl_seconds": 21598
+  },
+  {
+    "id": "RecordNews.br.le9TwHjK1-o",
+    "name": "Record News Live - Conexão Record News - 28/07/2026",
+    "source_url": "https://www.youtube.com/watch?v=le9TwHjK1-o",
+    "logo": "https://i.ytimg.com/vi/le9TwHjK1-o/hqdefault.jpg?v=6a689fbf&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoX331tBaSffNLrFe_a_7e3UmZLw",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785277820/ei/HNloasy9AZqgobIP1O7S2Qg/ip/138.117.222.54/id/le9TwHjK1-o.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhPdFv68jfEfkjA9NcUDcwoxnIP01FJjA2JCH2Th9uOS4uEPXaj1c0Ku4iqQ1x5hT2rXtK_SZxfQ/spc/SQ-ummcXIXcCmHQxze3UzrG4YYP80eXUYl36Kh1uJfnWn1Ib8hZIOFX1fytAqA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1843750/met/1785256220,/mh/5-/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51992868/mt/1785255870/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAOBHy-sR9lTeANnFEO51aIddevlzQCbsifKwVaX8KHkmAiAk90pBr1a9VWY8HJ38Tqxu6l3PJaPw7oYDOWP6_SYHow%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAM_8G1JIJBcJ9FulITHZMxn_GxdiTuFBXCex9YNwodSQAiBlvlRkJUkWG4KanIHH_H1_KDBcmi8RJR5YE-YINpx0Yw%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-28T16:30:20.312576+00:00",
+    "expires_at": "2026-07-28T22:30:20+00:00",
+    "ttl_seconds": 21599
   },
   {
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
