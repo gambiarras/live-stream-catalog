@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-29T00:30:40.286536+00:00",
+    "resolved_at": "2026-07-29T01:00:19.546369+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -19,7 +19,7 @@
     "id": "Caze.tv.O7EbG7MSZC0",
     "name": "CazéTV - SANTOS X UNIVERSIDAD CENTRAL: SUL-AMERICANA | LANCES EM TEMPO REAL | NOCHE DE COPA",
     "source_url": "https://www.youtube.com/watch?v=O7EbG7MSZC0",
-    "logo": "https://i.ytimg.com/vi/O7EbG7MSZC0/hqdefault.jpg?v=6a68cb29&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCGKLzl_8DCgiplqPTBhjgqAE=&rs=AOn4CLD1NRmQKVIKe8Mq-DUz56TWUWPI9g&usqp=CBg",
+    "logo": "https://i.ytimg.com/vi/O7EbG7MSZC0/hqdefault.jpg?v=6a68cb29&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQd0g61LVqFGxCF9lFIfKWIoo84w",
     "group": "sports",
     "source_type": "youtube",
     "tvg_id": null,
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae11.playlist.live-video.net/v1/playlist/CrEFNhAwxqTIm78wkf7X6xjNjyefbAXLbs_FK5aOnwnv4iBHtgf1o8oq9liARdZR8peobxZ3SL_ZlLf1REf_JIR-pKYdc-eFxUuw5f90SnWR8lAK4fGusIl55X-qDFbYh2kzdkNG03bVeF736k1ZxznAmC7y2zatzuhO1o_46b1dWvYZ4MYFg53J2X-j3Na8Gv_HoHVNaSuO5lzCZqk78INmGmWuR3BikQLr_NdF2yrFSpKLYBKEJ39S6lV11sgKXArHUKDF9U5ad9GA5MNg9N8jO6ci1UI7iICnV-tzqFgtbFd73pFBNp8oH_TwNfISg-GnWxFwR6vM-G1MccgGtX33wrpgbQtolLNaxVvD3c_3TLXTFI_RfIpQFNnp8iq_f4ohneEFmhsgVjs71vvMQ77H3SUlFES4nzM9umn9LnEQfFz_Nf4tLzmMg8-Wr1TxXvx9HLJw8xOCT2ixQmFZJzZeh78sk_Aliga5w_t4BXxLFqzvHzyIdgU0g73lwB-HtcP4fv-Uv4CFmAhzjbURyJEJ3h5_0a5t3Hh43wBmmMVzFXsvQ0rWoAPcWsFmL4KGcZhmeLOzEUC3vWGBYY24wSyHicPxyaCa4qX4kkZlRnfJzeujrwpAMGwcnzX7wCkYMTDI_qp2JBYe1nhMgrvHGqvrWglJww2gUgJGHi43nYHvaGtqaamAenesWOI91DYUWT4IA-Mh5kk3y9BO24FApSFwmHe9AWeLZ2DGGbhPlKGPSrJiUyYoH_WxgbKEcpl_Iv5nJahus7GKreQgbO545V1HcGsx5a_hYlaG3dRuNGUm2jFMZ2Xj3y2D6p1v05WhFN9ZUUCxaE64nrtWJcI7yp0nlkV8x7jUZ51MH5UvNMr5k4Yg1LkMfVGm7svhfpx7bk4WOzY1-enRUgtUNUfKOOdYIg8aDCiVT1pyKjHzYZHcJiABKgl1cy1lYXN0LTIw2g8.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-07-29T00:30:38.999550+00:00",
-    "expires_at": "2026-07-29T00:40:18+00:00",
-    "ttl_seconds": 579
+    "stream_url": null,
+    "status": "offline",
+    "error": "no_stream_found",
+    "resolved_at": "2026-07-29T01:00:17.112890+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
   },
   {
     "id": "classic-mr-bean.tv.8nORcRZ7gqs",
@@ -112,6 +112,22 @@
     "ttl_seconds": 21599
   },
   {
+    "id": "CNNbrasil.tv.7x3Kj7sLooE",
+    "name": "CNN Brasil - AO VIVO:  PARTIDOS TROCAM PROJETOS DE PAÍS PELOS SEUS PRÓPRIOS | WW - 28/07/2026",
+    "source_url": "https://www.youtube.com/watch?v=7x3Kj7sLooE",
+    "logo": "https://i.ytimg.com/vi/7x3Kj7sLooE/hqdefault.jpg?v=6a681291&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA8KEKTHJeKD5aRfto9nNzokbl3mw",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785308420/ei/pFBpaunqHMCy1sQP59DAoQs/ip/138.117.222.54/id/7x3Kj7sLooE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AZFlqhNPEVn4McrDHrq8uL8cat_JnjV13Y_2V5WMaxDNtrH6v2tTHWROHSPxwfdW3mPXJD0ek2K5Rzhy/spc/SQ-umsjotbfkC8WxlCbpCVkkxJ49HtEidNNqbPJ-usjT_f3Kd1YU8vuzpM5k0w/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1446250/met/1785286820,/mh/TN/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51992868/mt/1785286360/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAOY6LWwcLcBlTT4lfUD-nrkVwWoI9lgCGDTwBuI1H7dkAiAMDoYjI4w02q2Vg0RTLlMVwkvnhdPxvj-DAusApYHN9g%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgHTbdq1cvn3sD_GTSdbeiDo30XcHfkJNytLoyu6PH9bwCIQCvPxknIZSzIADxpHFnBKBLB2pbKUyZqH1hIwRGa8BS-Q%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-29T01:00:21.001561+00:00",
+    "expires_at": "2026-07-29T07:00:20+00:00",
+    "ttl_seconds": 21598
+  },
+  {
     "id": "DiarioTVTeresopolis.br.f_ZUq7GuilM",
     "name": "Diário TV Teresópolis - DIÁRIO TV AO VIVO - Programação da Diário TV Teresópolis - Inscreva-se no nosso canal",
     "source_url": "https://www.youtube.com/watch?v=f_ZUq7GuilM",
@@ -160,22 +176,6 @@
     "ttl_seconds": 21598
   },
   {
-    "id": "JovemPanNews.br.lWA3NlcW3io",
-    "name": "Jovem Pan Live - JORNAL JOVEM PAN - 28/07/26",
-    "source_url": "https://www.youtube.com/watch?v=lWA3NlcW3io",
-    "logo": "https://i.ytimg.com/vi/lWA3NlcW3io/hqdefault.jpg?v=6a67c3a3&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFbKzQ9eB7cC_f18hM5eVgNoipoA",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785301220/ei/hDRpapTVE_Pd1sQPzcKmuQ4/ip/138.117.222.54/id/lWA3NlcW3io.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhPpR-W8QbBTpsg8SVmVjYuGGyuEelpriiCtU6rr0nL-4Kme1soSjL2DswJ_dhRmA11iKyS0C3Ot/spc/SQ-umoRBDutqYvXfvQVFCKWN3ab9bcJHBEkf6sBsTD9j7bXH_q9nP9DTlUA6Qw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1906250/met/1785279620,/mh/3D/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51992868/mt/1785279153/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAOorHQTYA2wgmoC3OiNS6Zt8l-HcZvfL3VthacjMwLaFAiEA7pRuClbpf5Q4qmDuU3xfEzi3fFxDPfnPNw8Be_3yzVk%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAPOh3ATndCdL91hAmkOWxGHmTHmbR6vp0-rYhqtip1d3AiEA7OX_vrHrHT4tb0KEZyzgddfFrfniM4WRR4tte8i_bYo%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-07-28T23:00:20.850794+00:00",
-    "expires_at": "2026-07-29T05:00:20+00:00",
-    "ttl_seconds": 21599
-  },
-  {
     "id": "JovemPanNews.br.TzsFYSRKctc",
     "name": "Jovem Pan Live - Santos x Universidad Central - AO VIVO - 28/07/2026 - Copa Sul-Americana",
     "source_url": "https://www.youtube.com/watch?v=TzsFYSRKctc",
@@ -203,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-29T00:30:40.617158+00:00",
+    "resolved_at": "2026-07-29T01:00:21.358354+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -219,7 +219,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-29T00:30:39.948089+00:00",
+    "resolved_at": "2026-07-29T01:00:17.881139+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -259,7 +259,7 @@
     "id": "PowerRangersTV.br.cQHlHWNg5zA",
     "name": "PowerRangers TV - 🔴 Power Rangers AO VIVO | Dino Fury | Séries para Crianças",
     "source_url": "https://www.youtube.com/watch?v=cQHlHWNg5zA",
-    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hqdefault.jpg?v=6a0d8090&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-6XpFw1Q-uhnQbbzpuFXxBvLWyw",
+    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hqdefault.jpg?v=6a0d8090&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBEDAMJ7vWuQS5pUEw7ptWS2xKLxw",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -269,6 +269,22 @@
     "error": null,
     "resolved_at": "2026-07-28T19:30:24.431479+00:00",
     "expires_at": "2026-07-29T01:30:23+00:00",
+    "ttl_seconds": 21598
+  },
+  {
+    "id": "RecordNews.br.9tfq-26uo1k",
+    "name": "Record News Live - News das 10 - 28/07/2026",
+    "source_url": "https://www.youtube.com/watch?v=9tfq-26uo1k",
+    "logo": "https://i.ytimg.com/vi/9tfq-26uo1k/hqdefault.jpg?v=6a68a158&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAgkwM0qkqniI3ahbpOWkPtJE_1-A",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785308418/ei/olBpavvQNZOPobIPmpy5wAg/ip/138.117.222.54/id/9tfq-26uo1k.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhNFVuNYwuQOq1tcqNnlZPteeOdqukpI0hXbp59v-plJIgb2-fsu40TL39_jiKcxqu-LhwKPNxKH/spc/SQ-umgbZOWokL71QaezywzenkhBbRvBCx7gFB4OjVg1g3Cn2ObpN2ayF1pFmKQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1446250/met/1785286819,/mh/7i/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,51992868/mt/1785286360/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgTh_NKZ3kzSy5O84LNgA6nYEu3Xr1OTPkPFQSO9i4VkMCIGh3vr9bOmFnM_tyhL6ku93BFYDEL19-9vGu-Fshb1Fp/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgS3MO8aEclN1Bew0THhmROb3WOwmTB5SeC3SI7b4YY9kCIDF2hTzU5EhLxQmDCRzKgqs-F4e_1QeS26mOOzUrBrOA/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-29T01:00:19.223076+00:00",
+    "expires_at": "2026-07-29T07:00:18+00:00",
     "ttl_seconds": 21598
   },
   {
@@ -291,7 +307,7 @@
     "id": "RecordNews.br.nFfmYJBTEfo",
     "name": "Record News Live - Jornal da Record News - 28/07/2026",
     "source_url": "https://www.youtube.com/watch?v=nFfmYJBTEfo",
-    "logo": "https://i.ytimg.com/vi/nFfmYJBTEfo/hqdefault.jpg?v=6a68a11f&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCgSx-ciOm4A-GrplhUx5Tjn_V4bw",
+    "logo": "https://i.ytimg.com/vi/nFfmYJBTEfo/hqdefault.jpg?v=6a695085&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCgSx-ciOm4A-GrplhUx5Tjn_V4bw",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
