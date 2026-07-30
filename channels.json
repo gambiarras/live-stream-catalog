@@ -17,9 +17,9 @@
   },
   {
     "id": "Caze.tv.q1kUIRzZVNc",
-    "name": "CazéTV - AO VIVO: ATLÉTICO PARCEROS X NO RULES | COPA DO MUNDO DE CLUBES KINGS LEAGUE | LAST CHANCE",
+    "name": "CazéTV - AO VIVO: DR7 X DESIMPAIN | COPA DO MUNDO DE CLUBES KINGS LEAGUE | LAST CHANCE",
     "source_url": "https://www.youtube.com/watch?v=q1kUIRzZVNc",
-    "logo": "https://i.ytimg.com/vi/q1kUIRzZVNc/hqdefault.jpg?v=6a6b915e&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvUo_TF1m4ILZi4n6k62J7Zez6bQ",
+    "logo": "https://i.ytimg.com/vi/q1kUIRzZVNc/hqdefault.jpg?v=6a6ba1e5&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvUo_TF1m4ILZi4n6k62J7Zez6bQ",
     "group": "sports",
     "source_type": "youtube",
     "tvg_id": null,
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "offline",
-    "error": "no_stream_found",
-    "resolved_at": "2026-07-30T19:00:16.676940+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://fa723fc1b171.sae12.playlist.live-video.net/v1/playlist/CrEFcRZHJzX0TMRi05gHUSc4SgCsZ-XDzTNW__t-xhkUSRR7fwU9UGh4RU5iobe_pFDQCCI9mDan6z1lqLCU8l5SqPR1pLpFLBKRtcXhaF0euspchig02jzPHg_CdfZOsnPLdnrTd-64ep5rHBTLqzWftdZh4goV_X283Y4QzgbpD5F_F_hsjRd6k260wzrO1Ie0poqZWH5nXrx_R8sCEHwlOs9hMVkZEbkto8Ojk-xKiUDhbMrQy-xFvdx4bfOv48rIbXyRKm-7cZ7QxUH9Pi_c2AaL5wniOndFEXo4NCBhj0KSXUv99YQG9AzzDN3OpqF96wWEVj1kkol3gvvPSqEQGPgcprDly7XxPCU9jqjLWRtDpR2B-PQA1qZI-Dusve-knu4UGyP5SS75x0waj_Y3F2A6HL9DoxS6AIc6Gioib-ffwTipThVGZV_lmhgfHa3HyA5vOj_AkRjCldOorayxHXgIp1wTlyvt3w5wfVQdS558Qmq5_a5NwVco5KoUBwVIVNGMnKoIv0beOlmUfLu806XI86dPfiADaJ6PqCckdrnFfmWmOflDnLyYYlNJ53x0ompU0ZtmouBj7Dat6tbeMmgs1SWw0qZnKZOSum7B5HnclTnXz_dEyJRMxGMY65HcZKyBBcrn-k6RGjf6UDjnmvKl-ReOHJ_DqqeU__ODhuhXS9pImL2K_jRmQV8x-3GoKC7ZuVLo75JX1F5wRtJYr63XCzmsoMurT16UVHKHXkkqXFwH2y5wWTbQHehe6SHzzHNMpuTIenQqc1mHujyTkW5li0yHmRo06pUxVOFSjzhgEaSzrLWzY9eG43_P2cz_Tn-A6BbYOuoj7ZXNqL7hqdbTzlVUhVN1QIftwdXJZE0bpzOKdEo3LSqsu1HwNgVdSe6AU3DYCylJKbR-Lw83YScaDFGGQgiN5xkk4JzQMCABKgl1cy1lYXN0LTIw2w8.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-30T19:30:37.726894+00:00",
+    "expires_at": "2026-07-30T19:40:17+00:00",
+    "ttl_seconds": 579
   },
   {
     "id": "classic-mr-bean.tv.8nORcRZ7gqs",
@@ -99,7 +99,7 @@
     "id": "CNNbrasil.tv.jceUFlDM4Xs",
     "name": "CNN Brasil - AO VIVO: PARAGUAI CRITICA LULA POR FALA SOBRE GUERRA DE 1870 | CNN 360°",
     "source_url": "https://www.youtube.com/watch?v=jceUFlDM4Xs",
-    "logo": "https://i.ytimg.com/vi/jceUFlDM4Xs/hqdefault.jpg?v=6a6a799f&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACMdPZNuzoM8jo06Njj_HUpAJLAQ",
+    "logo": "https://i.ytimg.com/vi/jceUFlDM4Xs/hqdefault.jpg?v=6a6a799f&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCkUl3vV3p_ANrvDPaSRP4me_yYqA",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -176,22 +176,6 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "JovemPanNews.br.z_gQ1shy_VM",
-    "name": "Jovem Pan Live - TEMPO REAL - 30/07/26",
-    "source_url": "https://www.youtube.com/watch?v=z_gQ1shy_VM",
-    "logo": "https://i.ytimg.com/vi/z_gQ1shy_VM/hqdefault.jpg?v=6a6a5d48&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtNdSHM4ojRmtfcy53s4EMhTPJ9A",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785454218/ei/KoprapfDEZKQobIP2vfk4AI/ip/138.117.222.145/id/z_gQ1shy_VM.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhO2q28LtsxIurgeHmV9pDtQJltVRIcs9WfmxXa4ZlBS6dnHdfW6WGfTfml9vJo-9zjKZaA3qbBj/spc/KBGBcl-8zBnlNLwOcYcPAmlkPoKhIbqJP2tWtTxVxdC5RuvE3bPLNXV9S9WC7g/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1876250/met/1785432618,/mh/1R/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1785432529/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgPd4gpf6-beQO3462i4ce8uUM9DmnwFZRsx_ZGsV9F_4CIQCWnw37YbJ1oZ3SAy2T18nbUkK2knY-uCk_uW-sD3w_gQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAM6ftv_sIhZqaFij0KB9hEO6bJO7KXaQK4OL4hI3i7_FAiA9k7SxPrsJBi_Ngs_KJ1Vex3-5x4hu5ei-ouJ-yAjuzQ%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-07-30T17:30:18.832515+00:00",
-    "expires_at": "2026-07-30T23:30:18+00:00",
-    "ttl_seconds": 21599
-  },
-  {
     "id": "mr-bean.tv",
     "name": "Mr Bean",
     "source_url": "https://www.youtube.com/@MrBean/live",
@@ -203,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-30T19:00:21.089873+00:00",
+    "resolved_at": "2026-07-30T19:30:40.609448+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -219,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-30T19:00:18.448123+00:00",
+    "resolved_at": "2026-07-30T19:30:39.286109+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -286,6 +270,22 @@
     "resolved_at": "2026-07-30T18:00:22.432868+00:00",
     "expires_at": "2026-07-31T00:00:21+00:00",
     "ttl_seconds": 21598
+  },
+  {
+    "id": "RecordNews.br.ZNXo_ZuP6u4",
+    "name": "Record News Live - Link News - 30/07/2026",
+    "source_url": "https://www.youtube.com/watch?v=ZNXo_ZuP6u4",
+    "logo": "https://i.ytimg.com/vi/ZNXo_ZuP6u4/hqdefault.jpg?v=6a6ba379&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_mzY0TvG5tH-V8nkiCs5VI0oUAQ",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": null,
+    "status": "error",
+    "error": "Unable to validate result: ValidationError(dict):\n  Key 'videoDetails' not found in <{'responseContext': {'serviceTrackingParams': [{'servic...>",
+    "resolved_at": "2026-07-30T19:30:40.180921+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
   },
   {
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
@@ -2307,7 +2307,7 @@
     "id": "tvc-youtube.tv.WCfk1fpQtss",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=WCfk1fpQtss",
-    "logo": "https://i.ytimg.com/vi/WCfk1fpQtss/hqdefault.jpg?v=6a6b3eca&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDW4PnEvgw2MWfvAc92dzouF83Kvw",
+    "logo": "https://i.ytimg.com/vi/WCfk1fpQtss/hqdefault.jpg?v=6a6b3eca&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBDvP8OoEcw-REJkgbSXOPfHzEnEA",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
