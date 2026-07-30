@@ -40,11 +40,11 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae11.playlist.live-video.net/v1/playlist/CrEF-DWlU1ahdjv0LAhtMVXMoSsETEVQw1aUXtRIx0g5EakxtItR5_1UzzXiFC6Egv5D8eAlQJRJ7FkDKPUcVBt3AEiH7s4AjoiHcymqfmVKehqX5eklFvUDEwl72AOlUNaf2oWa8JKBijyVIG0sju9VJV0jg79Q2TddvwIGFS1Ao7izrOeMYQEQcHSU_XpCRas2tzIAW7dyXPmlo47QL666Vn5P7PGmpdZtKh2X1xHgy3I0X1dgF9vG5zJCaAgVzv2l5q8Qy_2XILWEe74zFglYeHUOJA2oWTVRRBBBzZF3Nkug5vT9W0ds7IxYKwL7nIT7Q4Ani58DeDxdEO42jDLgmgzkh-qYWq2ydGDUtJ8yx8_8L29xFKrQByF0rjQUxeatK3URCxQHGCWBkhG8iYoHRZjX87nJnD4jEYHh9q8GIyCeiGy4lwQGR-sId-w3PpLKjX3kxGvXMnXTP5-0jDwybrhZd3coJGDHSjsdeqy5sDii1h3EDit3XNfUlqAco6jiR6i9MiZRCv_AAIfpUgP37TroZtZ2TAhauVdRxP34c7CTxXP7-KqRE2xKkfCvfUCQvkbB6xlw54nF3CYzSQ8rq-S37SepIEMZgJQ4JDWDDUR9tKXAX_pLxovrHtcDtcqBKvBvmkmr-Cn7XTuqrzgwSiTR-aLYP4n0h9PRKT7phMGhs9yEvm-Gi69EU-yIIH7eDGzTZCH0PnedvSWa7dJaKSARyMMTebbITNmMjlwvABbR_gmecYjD8D73w5z7gECDsrk2J3Eo5_REggwU0iA003Zt5QWAsKQnD_DyO6RQTbCwI57Qg4E7Sj2-uBi2c8Tnne8DFB3EjQfNrrP0L6JfwHU4fdeIowXLeoLi1CqogBChH4PWSVV-2-KAouP9fKOUA8i_xmG51mo-DmtKJMc6FHgaDKf8jZHEp3xcNAQw0CABKgl1cy1lYXN0LTIw2w8.m3u8",
+    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrEF8zzhgyTIbka2oAdrg1N_DxKPKs8F1OOSmdrWE_hS2WT3rcWSRIPfLtsyV8NhvkZFMKX-ESCzmJj1cbVsOFThBugn9kSDlH3z386s0imZkm4JnaDDw-XJDjLCMuJvcMv9wkfiza9-nMpnnNal0RBk2BosS58tPJDsxsemujOV81ckR5AgLKZkKTjPDNhNAoXLKrKqQgAWSV1sdt0b2kDcbtoxAsVZ7a_qbFUfopSIHP0PJpSE_oXBbOmX0LF0PlyiK0AvulXVUAmFfCuIQb1kgtkhOW82BBSWeiPXU9p0EK9x7ZzWi6PAdcT-HgE4OL3BRPRkWB-dYyYBWaGLs5VXCsQZmrAaRfmPTXDgZ9-4mpdULBIT9BycDOQi_uy5GlAb1X2xp0q7H22kyGhtkn90Mr1Dg7HMTSWMvKuM9TTrwfUanro6BzCCeOySmLg7gA7ZXYf_g6ML-2oFTjeyQXvPW-1XF3SNSV89frFbEdUDNLlow4C7VaqJZay8mYc0nW09TWsOQ2NaDtFHEaaIWw_aQPsagGZcma5jdb9ffccpzhfKte7ug4_MINe8S1OqXtLX16lHIK4weKC40zSmnAij0T3xBI-vUEbGbf8fap6dkuiW4p0HTL-pbzyglq-CojRKEPfs0bVFM0O7OUGBfjcInhMv9gdY97-qLMLzilKC8F1BTPBBE3w6z8INYB05m9BM-7-70gVjiLiqTZ8WjFLK4ApizEYOp-h02Ulz0JXvA-x1KRa7MgHrczBZT-lgonBEGrNoDwQh2QqkxHoILXpoQ0ARHDNroN7obx3LhxV2HGIlnmunJp_FrG5fKJ_m4YvI6QPyPIr1biPmpkeN6Tj4bHdf8aXyPJiEPU39icPwP7xV5xluubZP3-HHSoOgx35rEnwzoaLs7hwVvwgXpJ807FkaDEGBjoL5R6rCdpdSsCABKgl1cy1lYXN0LTIw3A8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-07-30T20:30:16.972208+00:00",
-    "expires_at": "2026-07-30T20:40:16+00:00",
+    "resolved_at": "2026-07-30T21:00:17.450951+00:00",
+    "expires_at": "2026-07-30T21:10:17+00:00",
     "ttl_seconds": 599
   },
   {
@@ -96,20 +96,20 @@
     "ttl_seconds": 21598
   },
   {
-    "id": "CNNbrasil.tv.jceUFlDM4Xs",
-    "name": "CNN Brasil - AO VIVO: PARAGUAI CRITICA LULA POR FALA SOBRE GUERRA DE 1870 | CNN 360°",
-    "source_url": "https://www.youtube.com/watch?v=jceUFlDM4Xs",
-    "logo": "https://i.ytimg.com/vi/jceUFlDM4Xs/hqdefault.jpg?v=6a6a799f&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLB0gyl0swQBktEQDTUBmby_uc-kYQ&usqp=CBc",
+    "id": "CNNbrasil.tv.Z5E2Wdnxvw0",
+    "name": "CNN Brasil - AO VIVO: ATRITOS COM ARGENTINA E PARAGUAI TESTAM DIPLOMACIA DE LULA | HORA H",
+    "source_url": "https://www.youtube.com/watch?v=Z5E2Wdnxvw0",
+    "logo": "https://i.ytimg.com/vi/Z5E2Wdnxvw0/hqdefault.jpg?v=6a6a91a3&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLB5CM7fVucw103AmluW3Fv9PZAUcQ",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785456029/ei/PZFrav_pE-OT-LAP27mJ4QQ/ip/138.117.222.145/id/jceUFlDM4Xs.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AZFlqhMkfsUL_fb1Shif6aCbdCLCfoYaq-WbZ0xj3IaCWx4S-rxu8Pa9X8vlwqXEexsw9QL_h9dFwyGj/spc/KBGBcqiFTvUJWoGU3g3Q_JH7qSC7DRZRU76lu8C97sFapwBG4QWBgSI8rmv0bQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1981250/met/1785434429,/mh/u6/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1785433973/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgQje2Q00pA9aOOzTLirhowo3xJ1BFZKs0bZLGfqMiqHACIQCsy-CRJFIej8GLlVwtVXxPhjBmXzJ9Wyke1riUzxzcFw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgCgZBI3_VV9Cmm2ta12KuyZ9jUU1oTBTUvGELOKeIAIgCIQDS_cs2ip7VmsoFT7UYbDLNAUUIchho-_fyuSN-zCPANQ%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-07-30T18:00:29.888430+00:00",
-    "expires_at": "2026-07-31T00:00:29+00:00",
-    "ttl_seconds": 21599
+    "stream_url": null,
+    "status": "error",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=Z5E2Wdnxvw0 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DZ5E2Wdnxvw0&q=EgSKdd6RGOP2rtMGIjBDZvEb0_58ZxiKcjtd0cwINCEnPZtgKTn0mBAZXb6Ay3WSLvhYPx3uVg6LZ4POWfAyAnJSWgFD)",
+    "resolved_at": "2026-07-30T21:00:19.949422+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
   },
   {
     "id": "DiarioTVTeresopolis.br.7z3XrfW0f-w",
@@ -136,10 +136,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtQEpWa1rOKqh7wnCylUDEZHHkt0Td7Vzov6Yxa7P4QFiKqC-CTC7NeqSVH4MeRbATrsZlVCVS4J0nrTgbqgVitjK7wTgatM5KD9RFiLHa8P08BMmMRUGL2D3TlGBsIM8f0l4S2UN7UwVJWNuMIvfjrX4jObkT1knPts80trtZyL59kIJoj8j3MXKhtY9mmd0CAGdjOvZgBr50HavKWTazMUi7CFElNjHjj7mhV-aY16gndCbOaXPBCEt41CQcYiPxr2P_U4_HeoGCOH2ANm2r7nyPAS4vf0GEavrR0U0Y6sJ4gNmityGAxSB_AcEV7kqzIQXe2H6QDNBEbJzlJOdlW8yjGaAOtLl9g45aSC2xLI5i0GWp8Uprmh-wcriirk-XX1uQfs1bHK3wByqdU7uxDxbosY2se9Aw5X8nLbFTSfgPFVwfT2MPXPVR50DJPkki4TRIAowQ5ktBoB1JfjDDmTpMK40Xc5z4pe4HtJjrh8d2xDJrvjsxohzuKx8qHUCbx6IDNzDa6iP2iMVrgQ8GyE6iXE1e_YnUkZbSU53JIHGKmaC4LFUi7cFL1myZwfBcuDnlNXgvoQ8E3E6PiceabABmYH66dgwqPLmMxe7iAFyH3x1rDBMf4-aBjUkzcRtGjmVXSZSM1w5d-UuMmRc7Xc3O74RbYbKu9Jsq8gMwOROlvnidLTGszLrIQ9oUKs0do8I8K2M29mqPkEOA_EP4zwgZourBaH-KPmYPHumFgovcPVoimJsu9Fm-J3GDYEzpNe7f143F8AwglLNrPtJOwXIQCLnaAaDAAJfv55g85AENFhfSABKgl1cy1lYXN0LTIw2w8.m3u8",
+    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtMEKFThcgWB1NYHu1Jk2WLeGmqE6NlFujw67ofN7HXw0s3pPZYdRVz9rdassYvOcIRM0mKUdZ8oSsvs_AIrDslp4IUuQEGuRUNLvHT-jSKarsQ0x5-m0-JlW_kRiSgBzCrwrt2ODMHaY4eUxCqMb0apsLRGz9Yc3FJtxGNmPd_JFyIIXpBnF2KqE7ixmIX4GA1SrQ_nDTkIGhvKNi0tS9w8k6nnhlbpzLO8tdJT310wlTwfcvb__rK9Qse-hRZtyPCmmvdcPutGjGuwwwrpC1tU6qp-JZL4uqhSRPqbRlpA316sXysS-t8DajEZwPuPCoFVl4unTAzqSg_6ACkxXKeTjo_QzPSXbH3kmaKWjrMP7rwx9Yrnt2uA706qGHYKNwAIDk8VY9P4dspQ9qqTeygB_g4Ywe9kqRPbqzAFhbFqEcvKZ2jYgeR320_dhNm2jh_LdI18z5LcY9ezaNj45jqflowqHKLkWCEs-LDe67XCnaA6swzoEpRZ5yxCfwEAsorImH9KCk0S4_ZvzjyM5bLBpPwV_sxH7D0ZCw9OU6wkXI_OZRTi7Qh19qd7yVukfxauW4RZZJ8QNhO06-JI6QZ_sD7ykLPVUcnWrkHHjh0jKEthc0h3J9kFiv5Ug6m2C-63_UyPhcZTaIFlt4sblJivE7KC_Ij4NZ48H5MI33uwOm5l1ILXawkYEsiMb7WiANmM84G5NAcjThcIpAgaVAWcvS_tX_7XL_i3w4LoeL5Mnp0oKIASuLYJaT86ufIJZUAA6U5GCCogwNzG4457z_1afLu3MBoMuV7Q4ichkCeU-vBqIAEqCXVzLWVhc3QtMjDcDw.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-07-30T20:00:17.178363+00:00",
+    "resolved_at": "2026-07-30T21:00:17.702201+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -158,6 +158,22 @@
     "resolved_at": "2026-07-30T18:00:21.270631+00:00",
     "expires_at": "2026-07-31T00:00:20+00:00",
     "ttl_seconds": 21598
+  },
+  {
+    "id": "JovemPanNews.br.Jp2RvSjNIzw",
+    "name": "Jovem Pan Live - OS PINGOS NOS IS - 30/07/2026",
+    "source_url": "https://www.youtube.com/watch?v=Jp2RvSjNIzw",
+    "logo": "https://i.ytimg.com/vi/Jp2RvSjNIzw/hqdefault.jpg?v=6a6a5d97&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3agdmanzVs7yvlRcFABwxvk581Q",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": null,
+    "status": "error",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=Jp2RvSjNIzw (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DJp2RvSjNIzw&q=EgSKdd6RGOL2rtMGIjDtpGdBpSO13OgPaXn7eUCP8acK0c3xkFNNU4cD36hOXhk0YMuDmgp9eCJmhqauICcyAnJSWgFD)",
+    "resolved_at": "2026-07-30T21:00:19.234309+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
   },
   {
     "id": "JovemPanNews.br.Kka5WIZMOew",
@@ -203,7 +219,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-30T20:30:18.145580+00:00",
+    "resolved_at": "2026-07-30T21:00:20.279598+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -219,7 +235,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-30T20:30:17.857051+00:00",
+    "resolved_at": "2026-07-30T21:00:18.535029+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
