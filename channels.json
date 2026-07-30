@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-30T12:00:17.037506+00:00",
+    "resolved_at": "2026-07-30T12:05:17.558955+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae11.playlist.live-video.net/v1/playlist/CrIFRXLvHwcyRR7Agg61e8rh450YFPSMa-KNld1p_WrKFtFhj4zBYsZR3Sbnc2l2IS3NJ7A3h0b52EXMKIgBDK2kfwAzTgYOoyiOtXod3bVSjKs3uw94pPRAvxKlq_A32O8OEdrXh_Z96khpHaZovM2vJLwBTXRoCn_zI4H5HNkioC8HZdK1zSTJElSFvQH5yOiHFWcerJQqgEKOXmNOhzpqHsm1Zh5mdN1q8XizAD0BiwkFsLj-Nrk1rrWAxtl0FmdCQPtm7zDc9WJiAKd42Vrye3_urQ9U6WSnWokahGoytlK14s5yOjdPMzTJE6yK_J_mVOkPEnpnpJnfAlb59VnCdpvOhvv_xFlLedkIsdiojAnhF5BWK_APhWSzdsBaXJWBdww-rIZH8rlLvSh3aAb0iAncG1G6_i_TbXFa827aKT53O1zMNbnXgwZHfi5EnoOP1cFGN_MI73rTuntEymW6NqF-r0fSI2lNZyatZ-isrjBHAgmNdKecGB4qJ8X_XLlBQGRNb1HRfj69Gw0y0mg-WRapJFVsOYAN7RDwp_Zog5ih5gfiIs-xO4HP_HjqR3He1ZdQwRNJgf46e2-AMsrOhFk5Zhcwb4Gf0vBit7V0y7B6WqYp7W4qXOPPC7HxJqh7_VtBT5M3BfyyX9Y0Yq1czGjyZaPRBOpY4OWKQha5INzZEyiPTCzpCoaidFF5RVji8RZk7IAKsTmaSQO5dkCqJossWHovFQYAbMjxMJXP4GwPTz3EAy74UGmGYQOFyposF1pZKcSs8jU8MB4ecMwAE6_sNL2bFWTAeF5cXWbiv6KuMu6iyoTSWuJRJttLuutXTA4Vg6fFUWLz2MZXsO7yHH48HceqbHDUaq-5ho9kvfSrVawuRnDDvXqiEq6fzDbvycZxSSG6uM4zUtkH1UkAnkNhGgxpUesqBIkFN_KKoQwgASoJdXMtZWFzdC0yMNsP.m3u8",
+    "stream_url": "https://fa723fc1b171.sae11.playlist.live-video.net/v1/playlist/CrIFXcVeQ8vMwIL3oP-h3W3NmTk0vuikdmua6Bs96snMGRqJQ433BSf5Jwc4ugoT0XF4lHkFPXE0SQPkNa5v89kVfAU8zG6CW-I-HqlcUdlv09W62sV4GIGeu-h-teG2MoTzI7gWj3m0aKXueUdo2-wnjy2yWE9Hk6vTNLke442Do5QDO2bCzeguxdB11bPh7mAafjctaP4qPJQH9PrFQUdSNNfr2BLdn9bFvjDonT8ERJZwR-I8gkFleklEMQeJ-badazltAgbl-HjYYAOVGtVvYGRnZUzV6iluJFLvyBYqPk0pxV5cJrxQ0rM3ZzwSs0xGiLHqSzAdyWQPoFtUzbnHl63GiLeKrHwyYf1NfkjXE49aRSYnhiIZHJzGjzpyAqNeHVwXG32C6yen1TOeKcpbc3EO0VyqRqxMZ6UFphX7Yyy1aGBelF4mAUQpXwr6nML575mB2CcTfu9Ktq2pKVB57GWv1RMvyOo6dycsD1dq8opGVTPsEPjFAPiyGOUAFqkfHUzC_9hiBGUlmvzI7hnVRBk0cr18X4FtIFHWaZGJKwtiEMQbLnao3FdUIfmvOBg_GECanj_PYclCQijqaknF93RemhI9ncUyz7LuDrqZk5xMaNsTczpJ4nyzLU46qM4dmBjDnDgbtj3OGRGoDvAceLHoOl6qv9Zdx3uRYxyyTtvvF9enpdeDB2L4ZZ_aUBPWRR666LYv9kYho-5AZ40vp8tsAvkW1uve11ADzAdpUHE1ukt01qW-yMP-Ue41V_W8RWGIW87bRIdLyx3MwOT3Xry0pMfI1C2_xPeN1HXAl0oicVWToXoCloHCHuZhMN8yjU6fIIZ0zJpWdZ91Lj9k2UP6FayCgJhRBiIYQo1vihD9rqed-VaatqeQact11NE3DlVqBj2VVLNK7L0yhd-l5fQXGgyqKl7aTZrxYnhrunYgASoJdXMtZWFzdC0yMNsP.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-07-30T12:00:16.360072+00:00",
-    "expires_at": "2026-07-30T12:10:15+00:00",
-    "ttl_seconds": 598
+    "resolved_at": "2026-07-30T12:05:15.973796+00:00",
+    "expires_at": "2026-07-30T12:15:15+00:00",
+    "ttl_seconds": 599
   },
   {
     "id": "classic-mr-bean.tv.8nORcRZ7gqs",
@@ -139,7 +139,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-30T12:00:24.359160+00:00",
+    "resolved_at": "2026-07-30T12:05:18.606410+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -152,10 +152,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtQEJGMtklMSxNAc9ZT4KUYUlV0owpxO3gyn6zXDvz1aXrFSNIDDJAFUC9NVOqCijJD7eGZoWR7j7DLiEHweXrH2DYOPu-aqbyMN2fhjF4zv_JbPjATCh6bFcWnLTs5tR9WciJtn9100uGvdtSeNXVcV2Xsj0HX9oOOP6cNxegHS4jfv3wj-y3zZ0htxmre3vGqVXbh_SE5Uu6-msw9Sj6QM7At2U9NcmeYAfugNd0Quwi13V1QmzM_ZaVIu_M5kjXsAfOhj07rYoki8Ji5EC042piMhAKr2l5ornAJJFtGW2VZmJzML3MkNijbYbgPoiHTkyKPQOrVphvcNlnGw-qetNvFn49np2EM7S3CzsGUUKj50x6K0JLG_zxfUBvzuwRmDgtdwI62nv8cvvkB6FID1ejfKHpeou8-Q4VcBx_kQQY0jjNbsO27aTwHYoT387Pg9Hv1HVr-Lb1eZ-MzuBH9Ox8S_rklTQGjEdifHe_iucLcr7O-ADeQXJCuIcVIm2b95n-11_WKOKjWayxkMNkSxEakAa6RUqIuNb9bF6g5poxmStxNCa2BfCSJtAFxauv3GWpPzrOeZOFvOfCCcFzrqHNE_8ZOD8qVUBLpm8WDPts617BN7K52HPLeut4Nxg52nPUL7SbB3ft5vqIigtpnjWIV4KTgzq3HVarA3sGY4C_xeL21q27ks7wqkkzDn_ZMZ1YvG8nDJLC6dbXA_x7dQVkkCRpzPHRLgGVh-F9-Q5cu4KWoKx-ttIJsdl3ujvPPhM8Kho82lX7OwTUGZqkQTh1BhDpsaDKR76KqzZdARrVFvqiABKgl1cy1lYXN0LTIw2w8.m3u8",
+    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtIEJlGdWRiFwlYX7hsuOg1pyYefItRudRIZLl-Skq-MzuVXIbjfuqY4l1rp8BO62XyNjnepomERZwaC9qeP0fgOPiztJHMPTV5coDYhzVmGNHjvkMHK_UXy8i39aIrt8G583PZx9dDrPK7Sof7Om1am8zxdDqWxhDekejYnSXLO3nNxdULhJ5i42lCG_6HYA0WTnnAM-h4wTtW-koAYXEuxcs8ATWWLi4TGbGWfLiLJkGzNEl7mvAkX9IJI4pnL_a-3GJKdp_uy_8I0dd12maBUPQ7eroeVxHuvfmtFi59WxaOKa9DGQiv5oQTTWlkviZLtJuvuEkvMAfCwvqYVAw9MMqAB3n1Mj13V6j_aqTlIWkPdDHKf1yAgJS1UPUWSXIbhc4rp9cfnWuSiQ0TE1GKlQmzObyv1RbBCqPVdVW_6K-Gmkr0msFS7G1DUp00sDKKuDpvSLRHCms8XRIb7I8dgnz2ZjnRmtskM3c_0zNestc_jrx_ru5IgB4l3h467qMHj5opz1d0qSyaX7qtaQY9nsBgDx8Avg9bE-IwDvQ6NXJDr6qmw6bl_Lqg_9FrE3eSwjrIk1mzCWogJxszVp62_6lDzNL3CSQOgBF8PMV7-SfyKEKIryRNE6JhCHY1JW1H9b0IaKwGxJRvCYpQ7SVCsVFy55Zu5NExbL7-XoLMtJn-Q4ONDKe9iJa4pytc0gG6cZkCpGxB37KkO6M44s9-q--9Kqo0FSyFnnt-eYZT15MLOD8X-Ri9cNAMcnMOOwq0AzVNZUg8ouC9vGpkdVWJ5BM54Ggzrt251Ys2363uzfukgASoJdXMtZWFzdC0yMNsP.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-07-30T11:30:17.047660+00:00",
+    "resolved_at": "2026-07-30T12:05:16.782826+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -203,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-30T12:00:36.168028+00:00",
+    "resolved_at": "2026-07-30T12:05:18.910639+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -219,7 +219,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-30T12:00:17.759220+00:00",
+    "resolved_at": "2026-07-30T12:05:18.243309+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -227,7 +227,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hqdefault.jpg?v=69bd7a4f&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8PddgDBPPviSepht4XRi1iutJYg",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hqdefault.jpg?v=69bd7a4f&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAeLFn2E-4mOJujmWUaJGsz2-VRIQ",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -243,7 +243,7 @@
     "id": "pica-pau.br.xIs3odCrjZs",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau derretendo com o calor 🧊🍦 Pica-Pau em Português 📺 Maratona de Episódios",
     "source_url": "https://www.youtube.com/watch?v=xIs3odCrjZs",
-    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hqdefault.jpg?v=696e66d9&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAgtdMxIzMsv_Z3Q3KHRTi6ZfD2iQ",
+    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hqdefault.jpg?v=696e66d9&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBvvHktvrLuvBqCk1ysCRWfl9o7_A",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
