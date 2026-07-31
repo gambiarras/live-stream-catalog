@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrEFxJU4-_PdZ17CrRo8SAvmYJwLwPEws2w_Jl4hqePUUXn34V-mBxebKHn1qjV85VcEZMj7dL3jBDBqSg3lDgQqXZLEVf8Wbtx5jt40MBNvhlyXHADnBqMlVKUF9iRzCv7vUJ566-iJP8MasGLO2qYb-SfOH3JBlmllc16IQawh2kSVefC6vuPDPQnY4RKkmInhBxfsUiK4bkX_rhEwYg799jKjTxP4M9DDZPdB7TLTUYMvYDmc9YbTRRR4DjrGdWNnWLgGyqU4ES5I86XRBIgalbHfO4Lp3hw4UHZQRmuE7kXGDjCnSfZA-ULYeocGuwPJ0az_LolK4rMOkllHCq0hDYrMv69SerXh1ktpLepWY1um4VuAauMcTyF1Ez4Czng27DtiK7fJfX59CP0sxTw6IIttL5RE-orbu3O0yfPx-JLyFkwZCpHtu2cQMyKiAM1yEyNDoedOHZ7ZFyb0mkqffuSTpNs9ZUAWaXS9q_3vz6MkOMZOQDdqC_7P4yaDWIuThrfQzhetldfsmshVOu9d6bBMllwbFPFF_pH-3Oq_ky7nF6htjRgUw5QllzzYAQG3f_2WLCFLAV_8OshiJTFKgJsqxWjtOqgwlwlNQjsJ70HJLz19GR-XDl5hZ4UTlxWnF1g9kl_JEJiNK3Rzlmk1hbaLWM6CLZ-CxAI5pY8oJk_Mt_tVDA2r_SOPrEmVJgSBUrABinH2CaCw8cb7tHT1x0HEH8_wI-Wrv-CXUMULFltQsrjSBcNHu4d6ycMBI_ZIsU8fuGQ8CYatm3W2-J91hmst3u5w5X1KteaA3eNjKl5kLoM6v6HnlXe8ZD2M2nqjSZhRxxJBmJkprCV9o6wNkW9hNteKdUHIY9XUcDXa9xi0fl29lCBUweS-JJBG01HhPtg90ReExR1paTUJQZnRUHgaDPO-whH0M4n1Hhz0FiABKgl1cy1lYXN0LTIw3A8.m3u8",
+    "stream_url": "https://fa723fc1b171.sae12.playlist.live-video.net/v1/playlist/CrAFlepkLiBKw_JyFu--KMKv3HzjgrRS0kJwwcztlngXrV-untjp4oAGxbJOlEiwJcAnQFPwspb1WJgUQGl611JVCcYwy20GK56qryuSGQauuBTgn_8K3PWRuXlTBerFS9ihhoDw7lr0KJVyAx_ORTaDzZExn3egR5YE2tcffLjQ5MBNLTVD501f-g7Bwn7YVkD1OhMxhk8v-CKANAP_LxvO6UWA-akvGtaQFe63abFyq-FWl4RtNPssY5usEtW7ux48lXW1kvDgQNIHfzSxqzygLmsVJwD-hH4ngImSCPUriiC6EAX4IYU-NhYw0TsrMbTtkpTHfaU6QvAKIp3286H-KCUt9vkczxtxxxLRfRf-AdCfR7UyMnowGd0Xz1JfTnKn1vyyApBbWou7AIkx3MFkk6QZA6Z2IFWxIHTjleiLzZzfGVkmhQDWl5m2j97q791jjR8dzwP7MbB1xFXf9bOUze9-r3nUF0LTublsa7ZJjr_70jWa4f2wCegrk2VGdaF55AWydXCmnKJYfhiLQLUGe6sxPGdizeYOesO4Nzb8ahadOTyvV4ek2th4fhnwbR84yXyqkYx7h7eaUlmiKCeOrrktWh17QU6lora3Y29aWTUfr7bBdiq0U1Wg5u-h29KXdqmIexngD0CvJp4plIUxPi68Luz3TO331iICngVZQu_c0h4lnCdnKYyAXxjJo9lsC6H4m6RpkkMIqjc5Uhjq4Oh3wimswhpRxJgKrpo3jXtyQqsyzxTTGprB4EgbPtxepcf-MnbKd0gj6L9PJNUQRPi5FpcAw6cznp_VGbexltR2-EhHF0Bn1Aj_3EAv8LFhMzQ7FDmHBobJJoBcp4r8hwgxskMXh1ykcmPHZhy5DiEt8e5otQPHUndX-rKdKPG9okeaL0KEUki5OTSGJ3vVMxoMagp1yDkage4DeXO5IAEqCXVzLWVhc3QtMjDcDw.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-07-31T16:00:36.655054+00:00",
-    "expires_at": "2026-07-31T16:10:16+00:00",
-    "ttl_seconds": 579
+    "resolved_at": "2026-07-31T16:30:18.194943+00:00",
+    "expires_at": "2026-07-31T16:40:17+00:00",
+    "ttl_seconds": 598
   },
   {
     "id": "classic-mr-bean.tv.XQLEvieRMj4",
@@ -62,6 +62,22 @@
     "resolved_at": "2026-07-31T12:30:34.798376+00:00",
     "expires_at": "2026-07-31T18:30:34+00:00",
     "ttl_seconds": 21599
+  },
+  {
+    "id": "CNNbrasil.tv.617EtT5T7W8",
+    "name": "CNN Brasil - AO VIVO: CRISE DO BRASIL COM ARGENTINA E PARAGUAI, PLANO CONTRA O HAMAS E ESCALADA DA GUERRA",
+    "source_url": "https://www.youtube.com/watch?v=617EtT5T7W8",
+    "logo": "https://i.ytimg.com/vi/617EtT5T7W8/hqdefault.jpg?v=6a690998&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBm-TtZ21RNHPiSOZNQQSSpYtvB0Q",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785537020/ei/nM1sauGiOuGJ1sQP37-S8Ak/ip/138.117.222.145/id/617EtT5T7W8.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhPhmHWumaN29LrYl9oFRnXmmX0SdG6uZwt1aSPyohD-lVPOdMUcwKUcOE0BD4rrq9D6cyYtFHIF/spc/KBGBco_4QnvauDP9c-t7IM-dEPZbNNyoGQtU4SzQ8AAyt4IqNbDDyj5h8osw6g/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2180000/met/1785515421,/mh/5Y/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,51946837/mt/1785514857/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgFORbGhyTENeeO-zVri3K4MwxGJ4NBR3e0l6rYXpJ2GgCIQDeKSD7zMDDtzvH0e9WXkPU1h4lD9fZYIvhkB7Buw0sVQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhANNhwuB4BPMHVw6FbM1G5duv-8cPESAHJCJlNfonXYW1AiABrOAQwEFMHcBX4cW1YMTonIUaK44PYdeSyFd_jVN6kA%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-31T16:30:21.461111+00:00",
+    "expires_at": "2026-07-31T22:30:20+00:00",
+    "ttl_seconds": 21598
   },
   {
     "id": "CNNbrasil.tv.nWW4HuH1x30",
@@ -104,10 +120,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae12.playlist.ttvnw.net/v1/playlist/CtMEwPZzrQYnagC0c3fYnB2ukQFx3aEkyDFdZUBAdBSo3S8kNRVy2XnRz9LkcVFWruh3oq1L1Tm9B2Y-1lpF30LBcwDXW7by9hQ3KtPepm-xs2Icg9b08ChdpCXNxU67MaSeGKJDD3XWNjoSuzImJ1ZtX9LP5m2f08Wkn9qTFwJIwBc4oZ-2NnHiLucYdK6Rird7-tFLzw6dyrJDz6PN2mzRi-RQrMovOZ87xXwgtoG38Kzhq5CpWSWmQ9hE53E7PCtI9QFXTWqjRQd8-GfsiX6YxqnvpmKKrECQRtBf5Sxf1qT4RSKCETkprh-I05-5mOwE5IhSvYPvL0Wa27j499oZTh7dCtqOitVwU9-CIAbqQ_vrvLEMFPMWdypk63ve8vFPikEkBvfhpKezF5qwb87fQIOz99-h_JYfdoMWWI_fMntf7jj09aY1Xm1D-aVwecmFiuy3rULdiVbkYTtIhvSJah46_4jhEUvknlRe3EArtsV49jXZf8nObEF1bh-hJzJINOLWmjFdmlX0UjELukjZukD5XWknBfu9lijad_b823n7ye0X-Wzrqh0y_dKYtX4p4a9pVeX7GF2reZ3TjXiKTyMFvm1rEVXFIZLxgWb2LAugzXXcHhP6W4iu5PaOukIewdnG4-7k7KemRzGzKpxARxikqx5T4ySwbmyU4hNIrPMpRKA6jVLOU_PDSyBNDif5hBMLBFiUG-JnUxrMrkErEG5XgNtANHVj-Gu4VUxHZv5aVBg4ZYjt_7jxwOjRq7AfXN5nljU6XlAfhZQuSY6UebQodhoMuHnYibmqX366g_HfIAEqCXVzLWVhc3QtMjDcDw.m3u8",
+    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtQEddtU9TkmDNVNzKnmbktkfzOZ5g_DzoiHINYVErW6Hd7PeIX5USvafNSzZbE_n0INURP1IKUBk91KaKODbnSUAX7u9jYBkNk4GBCKX7OHqsXdXD5zvE6qFLKU0tU0ox8Ti3gzUx0ySIQPgKlSFXHxLFdRwyK2-q-o1-Mp4os77j-vWRAJMyO_fMKMH8dXdz2ZnAxSYH-bJWWG2h6TFEusty9FdKmCqZ76IJVCP8MY0o92MmelcweW05q91Yls7IXE16s7LvBeEr5w9wwZUL1ldM7fT0TB7cjXQ0s6V17JbXrSRwb-b8tVaWq6VVt58SKHeAsQLQ710NVfysdLblgD4VM_bN9UsQdw5DCKHHFBNp_CxXQPY0Ae4zVUn3UEY9sAuejUGcwDOrSgHqwigTbnFh9feG7k6VWZGrXR-KpqWIinBWc54PU6XD0O7PJ5jSR31t3nikzW9-xg9G6X72QFji9R5kT36bRF0GT-aTUfa5o1qMFeqoTCzIr__zQSnFAMDboSLiaXtV-Q4myJK3oQlsox8ew78mBvfReJMRwe4AO-eU3AKz8By_9CCCKpN57zn7Z6uWNDFq46j-1nZ0fce_SOpG9J8DrG1XsiZQSoPmkP9BKsrl29Va74t43MSjk0s1WVLXB8fGKY9L72_y9n1TmeHoEuDeByKQE2wV_9SGQhDs3dueeHYlr_cmrf0HiDIrIE_w8gfnSqPnlft_ocpemVtAxGO-yMSWIvFvW2VvbVD3OFRAQL5kjR-W8Fp85hdxODRC-zdK2mBGasfugxTYsvE8kaDMTHcKFuUeRUULqgvCABKgl1cy1lYXN0LTIw3A8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-07-31T15:30:16.714281+00:00",
+    "resolved_at": "2026-07-31T16:30:18.207713+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -155,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-31T16:00:38.829628+00:00",
+    "resolved_at": "2026-07-31T16:30:21.755518+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -171,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-07-31T16:00:38.545407+00:00",
+    "resolved_at": "2026-07-31T16:30:18.928791+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -224,6 +240,22 @@
     "ttl_seconds": 21598
   },
   {
+    "id": "RecordNews.br.1rgyA4rY2Rs",
+    "name": "Record News Live - Conexão Record News - 31/07/2026",
+    "source_url": "https://www.youtube.com/watch?v=1rgyA4rY2Rs",
+    "logo": "https://i.ytimg.com/vi/1rgyA4rY2Rs/hqdefault.jpg?v=6a6ccc9e&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAT38kBc1c0jiMGFEp151YgQnDO3Q",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785537019/ei/m81saoeXJ8vz1sQPk4yUqAU/ip/138.117.222.145/id/1rgyA4rY2Rs.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhMGf2e0TdojDCC9IRjB1HoxN61xiHSLyKwEFlEA1xL41EUwJOqXtOhWsxKkblMI2YO-ecAW1yQh/spc/KBGBcgsdbpejAjcndoLzSjg-DtYmJcgQ4JDjJXB2rS0lfv4ruSu6u40tUXXDCw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2180000/met/1785515420,/mh/vJ/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1785514857/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgKE1QatAeX7cKbaV1PaverJnqNJ8DcBc3HFWSBHujT_YCIC1mdDpbVtrZS34TWh7gpklHzm0mS-VXRHHYGohs8zLH/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhALepJpfMEJaaoRhSa4fJeVoSXN4OMjAUg3f7VzngkCjeAiBLebNZ6N-BDf3YJjvHRBpAA-gw7HAZixAYN5hiNhWM4A%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-07-31T16:30:20.219381+00:00",
+    "expires_at": "2026-07-31T22:30:19+00:00",
+    "ttl_seconds": 21598
+  },
+  {
     "id": "RecordNews.br.x5_05NbCzDA",
     "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
     "source_url": "https://www.youtube.com/watch?v=x5_05NbCzDA",
@@ -259,7 +291,7 @@
     "id": "SBTNacional.br.LLpNUqHVam8",
     "name": "SBT - YouTube - SBT Ao Vivo",
     "source_url": "https://www.youtube.com/watch?v=LLpNUqHVam8",
-    "logo": "https://i.ytimg.com/vi/LLpNUqHVam8/hqdefault.jpg?v=6931e6d1&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCGaLzl_8DDgjRzcfJBhjg6gQg4KgB&rs=AOn4CLDU7KKJpH6G291526__8AtUH4-haw&usqp=CBk",
+    "logo": "https://i.ytimg.com/vi/LLpNUqHVam8/hqdefault.jpg?v=6931e6d1&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWjEQmE0753BwzWbin5stbK2N4gQ",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
