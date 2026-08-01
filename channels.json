@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-01T18:00:17.208078+00:00",
+    "resolved_at": "2026-08-01T18:05:15.531403+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -67,7 +67,7 @@
     "id": "CNNbrasil.tv.8aQhya36Ohs",
     "name": "CNN Brasil - AO VIVO: Portugal: Os vinhos do Dão e a riqueza histórica de Évora | CNN Viagem & Gastronomia",
     "source_url": "https://www.youtube.com/watch?v=8aQhya36Ohs",
-    "logo": "https://i.ytimg.com/vi/8aQhya36Ohs/hqdefault.jpg?v=6a6d1416&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCGaLzl_8DDgiWqLTTBhjg6gQg4KgB&rs=AOn4CLCZPEBEKD8DNI5yS66AjF6IHTnOsA&usqp=CBk",
+    "logo": "https://i.ytimg.com/vi/8aQhya36Ohs/hqdefault.jpg?v=6a6d1416&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBufkzTjfitRnxF-ZE_0Tx_Nkk3bg",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -107,7 +107,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-01T18:00:18.522747+00:00",
+    "resolved_at": "2026-08-01T18:05:16.619834+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -139,7 +139,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-01T18:00:19.581863+00:00",
+    "resolved_at": "2026-08-01T18:05:17.772025+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -155,7 +155,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-01T18:00:19.280513+00:00",
+    "resolved_at": "2026-08-01T18:05:17.416035+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
