@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-02T13:00:17.370726+00:00",
+    "resolved_at": "2026-08-02T13:30:37.182407+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrEFCya7QWLIStZKvBZdy1n0_scVJ3Pzo0QpgsljXcMuEQ81COeD1mn9uyW59Cni80M7na-2P7QvnFKhVmEBxsTp2eD-CEXFg86axitMkbcUj3OzN-Q4K_ew6otYJavkMjZH-JxOl5oqZCrtJEMeAIb7E19OTnRhxc5eoFrkPPSmpuavNb9FKaBHoyRTFHAk69-zu9n096EUGGDEJM_kOOf_F__G5UD5pHfNe8IAJIntcv6SRw2NSo9fVpgf8tS0gY_Z-TSedYkiIOxQVFlzD_3bp2ooIXQHfpvhsqXcmITf5uMBw_tcEB2ffvRM8PVIl7P9zAHlSVbN-EVFjYYjAzyHmhWqRXwscGVORIgOYToUpLqiOR11tDZMs8lUoXeUj-dl7aRw09kRRk7H0NNKFssDj7RxtcmkF5WiCu-ZlKPganlXqx8U5aPakKh_LgLFT1XsZRzuyyP6uq1erHsXlwVQPAWgEsavUYlzoKX8EMks939OTFa9sw3ZLPJMefFy-_PF7STX2G5lTtWNsKdTfsaE_r4awjXrd0M_n_yzjR9ixGw32nzJhsVoj1qpcgcg8JBtB1xWDuEdXT12vzB9GiRLYo9xzmv63y6qE6U9jmHQpZAuethe7Amwu4VSVTdHsVyVwFXDmCWUWRj3xd0oM6fnM9JqAjMIwrbpbzrBZL1YmTNSQLcK5nm-8XhFxedHNeHtEhmhw6CJiDriWtn_UrSL6uIpKcj_HmC_9mWiqGHXpTlYvwubwivb65vdA8r_pk_GWEJFbIXtQ0093biL6U9phLEeWo3PKVA2CZqJo_3VcQGbbYbe_1TgmYrvM3_cT1olsz4vvdfWgJpxLQZi4PkY2dy-QY2Rwvx7A_NPCUit5EuPnCR1HoM6x2V1Aufe_vTbgOgs8HVXdcW9PS6kXPQ_PFQaDBbEL45HJHlcwHOp3SABKgl1cy1lYXN0LTIw3g8.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-02T13:00:16.288974+00:00",
-    "expires_at": "2026-08-02T13:10:15+00:00",
-    "ttl_seconds": 598
+    "stream_url": null,
+    "status": "offline",
+    "error": "no_stream_found",
+    "resolved_at": "2026-08-02T13:30:15.163078+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
   },
   {
     "id": "classic-mr-bean.tv.XQLEvieRMj4",
@@ -107,7 +107,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-02T13:00:16.662693+00:00",
+    "resolved_at": "2026-08-02T13:30:36.478560+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -115,7 +115,7 @@
     "id": "JovemPanNews.br.eTz4XgOQaAE",
     "name": "Jovem Pan Live - Jovem Pan News Av. Paulista",
     "source_url": "https://www.youtube.com/watch?v=eTz4XgOQaAE",
-    "logo": "https://i.ytimg.com/vi/eTz4XgOQaAE/hqdefault.jpg?v=658ae6ef&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvQeaNyjO5SbndUBg35ixCJqeeUQ",
+    "logo": "https://i.ytimg.com/vi/eTz4XgOQaAE/hqdefault.jpg?v=658ae6ef&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLC9qmkV94bLtzFiwnXu5eaYC2sj0w",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -139,7 +139,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-02T13:00:30.394576+00:00",
+    "resolved_at": "2026-08-02T13:30:38.253662+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -155,7 +155,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-02T13:00:18.079240+00:00",
+    "resolved_at": "2026-08-02T13:30:37.967089+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -195,7 +195,7 @@
     "id": "PowerRangersTV.br.cQHlHWNg5zA",
     "name": "PowerRangers TV - 🔴 Power Rangers AO VIVO | Dino Fury | Séries para Crianças",
     "source_url": "https://www.youtube.com/watch?v=cQHlHWNg5zA",
-    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hqdefault.jpg?v=6a0d8090&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBEDAMJ7vWuQS5pUEw7ptWS2xKLxw",
+    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hqdefault.jpg?v=6a0d8090&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-6XpFw1Q-uhnQbbzpuFXxBvLWyw",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
