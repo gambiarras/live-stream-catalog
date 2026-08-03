@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-03T08:00:17.861847+00:00",
+    "resolved_at": "2026-08-03T08:30:16.983518+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae12.playlist.live-video.net/v1/playlist/CrIFtWWmD78FPtijlVTKAmlX0ikd4l1SyFr5E8TxJfNKeW3rVuchDENqLGXa5JB_lDpR8IXyjHS_dCuPKbaW3bA2t3O-RyGvmt1e3JIsSqLenN1ab-mlUETLBhCGUUMqjkmQXzsDu1viNWEbZ4gbV8_ICx8U6H0S1ncIhlvI6BOx-CciPAHfSYh-EiwRfxSw6L5ofew5xaaDw27BjXs5kpUx4Q-Fm5iAiS3fKR6MCacg2Mpxh5Y262nixrP88Fy1yjk1uK3z9rqiwFvSlyy2Fe2cMoEEwpDWrRS9-c2603BS9jp7Q3CFrDa0OpUGeeacR60xoCvVQ_FloaMgmMqIdsW8fJc2e4HQyOrlrZsUrk_QVrfp02vzQB1zEFgt5PWZI0M5ZV4ueHatXW7Ti7rP6oHdtcevvPmZFFEB2-GgJ65IIwGFsGOGicSItP1Js6caBtjBz0d3YbNf7rcNChAvWA1-DHvLucqvI_PdkeP0TRow_CT3HKDbEWiyAZ9_4yWxuE4LYTEMkh-XSt-5tgOM1zLYDLuU7VfH6HGcbSiMqe1tpHcdIQRgD72LVL4nlUzTY1cGJkpFOgH2UZ5LUVZVEbhyQccKK0gULHHUpCZMtcc3viucSJAuEZAQF52HD_Yt7DLBMZrbV_6cNafGPm94cpR-PiIMnbbbFc3c6ccmKFtPipoCutTQdil9RqWp1CXKGU1yhUx4l2TprDn_GabPFMSs5y9_25ZkpCdCnPX0Ay4hjR25c-nK7a5fK2AE9VEZXT-euygdk9HGx1Tn7MV61yNsxAEYRu9XRsyvvL6VyuIMB4PRCKFBTovxn-8cCCYSMFnFm1plfRbZdMMjkPTI9Ahy3-X_CDh6ldfFESw3GiG26Ehx6oS39mcET0Cfh0d0qtBAl6ZmAMCvQZhwJUNgLEXCn0HvGgxY_pO9zOT6fQLSI9sgASoJdXMtZWFzdC0yMN8P.m3u8",
+    "stream_url": "https://fa723fc1b171.sae11.playlist.live-video.net/v1/playlist/CrEFhm7lsqTLG0qzTDLRBeQ1DwKKamY5oXNaXfkTJ3NsUPJ5HpV5mWUBI3Iq_DjA_2gp_509WcciZ0n8dlIhUsd9O5JpWPmy4VCU0jR6L-rCtbOrcV4IXRzOHyjDBvxmlVytB2wymYUgwWRye3MLLvZZSISIGDD5fimuLfAsTHTcyfrl5zmyHH49WgAQ5Z1Zp-JYUm6uolNLWPYYildEQ3EaQAawvNHVEk6YQZOzumyazcMMFPv182cGuADQYvpZFnt8x5itROiHRHZiQvfa-rKI9cnXxpZP5csHQFNmnECOfPwoaTJmBOjfT57tB0l4KqOyNU6yv_zg-MqVHufMiC3LZQ5wjA1jjDIvwW4XgngruUDo0c-IJT9ucTpEwxhTz0RlnS0vmciwUN90_j_IEVFqj2RXc8s6Eemx06bOczUelL2VEa6psiiFy7icJsN7Phl5ezNjixfOfJGVDAEPWJB_XxUtEcFLGA5y3SUrTI-ZyuReO0Dt3OSAxSLTFUh6-HqrZ5QLMeVhJMkmL49llcyZ9SKAGBddgq1UAyoVj2tT2wMB4LwPtLzxWcvvo34GToXeNP5fnUxT6FV_AOxaoKv37NXwPMUFUSOzjXC_nXsxloV758eN3pDlwXYZe5q50ky22lROkRTH0x_YDbfT-kAFHw5YwpazKXUMHZnp6cZxLTKSU5eKV9MXAN84v4esS09eA4--dJiMzNVhbHgRirEggs98Kbib1HLI0GHkvNV3mcCEBbfeDZ4UWdTTiQ2_KpTdorGcVg84FQYoC2phb0GkdIGMvPk8L1W548ya8ZRJvRlnFZ8ONJZomnjzQIYVUtsVjRA2_SSoRNB32I8h6JCM0ClG8Q7DsQzXBEgNuFeXdR-Flcaw9KzCGXtuOEJ73k87EdA0lg74gv1_HAK-g_xY1kIaDPAi7ZEJ1xLKFpOWESABKgl1cy1lYXN0LTIw3w8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-03T08:00:16.835803+00:00",
-    "expires_at": "2026-08-03T08:10:16+00:00",
-    "ttl_seconds": 599
+    "resolved_at": "2026-08-03T08:30:16.335374+00:00",
+    "expires_at": "2026-08-03T08:40:15+00:00",
+    "ttl_seconds": 598
   },
   {
     "id": "classic-mr-bean.tv.XQLEvieRMj4",
@@ -138,8 +138,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=ZVyt_zgZhtk (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DZVyt_zgZhtk&q=EgSKdd6RGJKVwdMGIjAmtompF75PxPm9tR7cNs6YZpcUgmdVCRR8CkG0aLkPTIFWlnyCOyI4XS6SkAWWThsyAnJSWgFD)",
-    "resolved_at": "2026-08-03T08:00:19.210659+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=ZVyt_zgZhtk (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DZVyt_zgZhtk&q=EgSKdd6RGJmjwdMGIjAJ2_C3r8lx4Kuyhf29i5kN9NQ8FcWjPaMfUwsQtfqrQN8EYnpc5MkJ62YBqV0Gs28yAnJSWgFD)",
+    "resolved_at": "2026-08-03T08:30:18.314221+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -155,7 +155,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-03T08:00:19.534781+00:00",
+    "resolved_at": "2026-08-03T08:30:18.622206+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-03T08:00:18.510589+00:00",
+    "resolved_at": "2026-08-03T08:30:17.615306+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -227,7 +227,7 @@
     "id": "RecordNews.br.3DxYsajf6IY",
     "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
     "source_url": "https://www.youtube.com/watch?v=3DxYsajf6IY",
-    "logo": "https://i.ytimg.com/vi/3DxYsajf6IY/hqdefault.jpg?v=6a6ca50f&sqp=-oaymwEfCNACELwBSFXyq4qpAxEIARUAAIhCGAFwAcABBrgCFw==&rs=AOn4CLDfj5cyUSBaJULpHznkl0saKok6cw&usqp=CBc",
+    "logo": "https://i.ytimg.com/vi/3DxYsajf6IY/hqdefault.jpg?v=6a6ca50f&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvUsNmGAvtRBB9WtdMfBd9A8x_4Q",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -2291,7 +2291,7 @@
     "id": "tvc-youtube.tv.WCfk1fpQtss",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=WCfk1fpQtss",
-    "logo": "https://i.ytimg.com/vi/WCfk1fpQtss/hqdefault.jpg?v=6a6b3eca&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDW4PnEvgw2MWfvAc92dzouF83Kvw",
+    "logo": "https://i.ytimg.com/vi/WCfk1fpQtss/hqdefault.jpg?v=6a6b3eca&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBx6ZJdUkNgZ1DEofvIXYXCtTzGXg",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
