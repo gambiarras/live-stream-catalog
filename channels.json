@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-06T23:00:24.976594+00:00",
+    "resolved_at": "2026-08-06T23:30:19.198319+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-06T23:00:20.327869+00:00",
+    "resolved_at": "2026-08-06T23:30:17.811493+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrEF4pK0KeE4WUkau8I55tTi-Hijw2qBYLQyEHUsqxcE9TY0vICzIerS2XWCTlHoiV8QNqxILFF3U8qEAL5eMaAU6G_v5oErc0WPsvsI_q8sFChwVpjccFEWCii-xfFkdWsU1JbNHpHk0dmAGS-2S8I8U-aSnIxFn-zt3vDSoRAVWi-BUexzgXD6hlQTGo0gb0RUIHDZvHD9au_2gVJGRxpwMPWRTi85tIrTU1N9bKJ7mrLKHZRsqh_0dXuHqQiLIr4ly5unKsAsXzApZoW2aNuElQ4LnYM8voqGVa79ypCTJ2XavJa5XFUBGN3a45DKBaUXyZKVsUhrVDEvyb-Bg-iFnkuYHB_gOVVWmnXdMxvDJfkZBga6CDfSnLvo33rp33TW_lejlunv7UN7z4GODq6uuGgKt17v7GPyMmqejj1LTgMtFQO-ws1Gp-WYEb00UL6D7qX3RIMIpg5YWfOj_XP7Zz4x5b4NpPJkUrW1-N6TKeXKDEYj69v1lfM_ngRTOuvJaRXg4U-tDDiw5Udp_s37_n-ASfFYBjQC4L3EdlKpGKxxNXCCjloiLt-L5DDWSmWFYdOAVykhMpQX_FWyBAEo6P_uiE9eMFvmWPkn6Pp_QDC6JaGbT3ZQX9xnKTNN6svkDXHoLxhJBjqu5_SrLUqMdLJPCu5GoSwRzygjlrsIkadWabCj11XRh3tPaj2xUnrcufD8gvRwgtj3i-SIEI_bljSlonl2i_jpNFp_tS2BGKUqizDhVmRgK3cOg4NoDOSv_om0iUltPfYwQlETIntoKpexx23AXZJirqg1Ahk3pf7dDysMN9u1IbvRq3hRZBPtbtU-gJnH6bcLjlD5EFL8llkSygMSV2hkeM5YR170iDHGQRKgLFEa0IK7ALpM0KwnPU7ByeehTPCYbNfcQfg2DtAaDBbAwO7pwHHvgC5SHCABKgl1cy1lYXN0LTIw4w8.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-06T23:00:19.082214+00:00",
-    "expires_at": "2026-08-06T23:10:18+00:00",
-    "ttl_seconds": 598
+    "stream_url": null,
+    "status": "offline",
+    "error": "no_stream_found",
+    "resolved_at": "2026-08-06T23:30:16.946395+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
   },
   {
     "id": "classic-mr-bean.tv.XQLEvieRMj4",
@@ -62,22 +62,6 @@
     "resolved_at": "2026-08-06T18:00:32.989159+00:00",
     "expires_at": "2026-08-07T00:00:32+00:00",
     "ttl_seconds": 21599
-  },
-  {
-    "id": "CNNbrasil.tv.2hMh_gcarws",
-    "name": "CNN Brasil - AO VIVO: STJ CONDENA BUZZI A PERDA DE CARGO POR DENÚNCIA DE ASSÉDIO SEXUAL | HORA H",
-    "source_url": "https://www.youtube.com/watch?v=2hMh_gcarws",
-    "logo": "https://i.ytimg.com/vi/2hMh_gcarws/hqdefault.jpg?v=6a73daef&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB8MBaJr5RdZdOGMOzAcEeMyK6yZQ",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786075227/ei/-wN1asyRJv_PobIPrOT_gAs/ip/138.117.222.145/id/2hMh_gcarws.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AZFlqhNv_HW5gwJn3zmt8Mw1qlQ0TjfarRIUP3rBJz9ZIA4IX7MOc95joL3CQfQGZ9Kh03n7cuf3MDKR/spc/KBGBcpjUc2o0QFGWPEmRKA2xOoi3nH96G9Q24uc9uZCoou7VSNpc9BLpljvmTA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2040000/met/1786053628,/mh/cb/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115/mt/1786053406/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgOf39r96IX5rnX-KwUGcpOR-OoPyIRy-N78X1GFVOXXYCIH_G4C5IG8uMxVfd4bgW44bA8Fi8bNy92fCS4qiHLTt3/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhANejcoypu3dCCTOO7rJuUh7lFxYqrADuvDEB18vOwOorAiEAh3m-WJTgAN-lWx5842KtDUIu-1-rznjFghyWV63szx0%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-06T22:00:28.198037+00:00",
-    "expires_at": "2026-08-07T04:00:27+00:00",
-    "ttl_seconds": 21598
   },
   {
     "id": "CNNbrasil.tv.OMHZA9xmUmc",
@@ -126,22 +110,6 @@
     "resolved_at": "2026-08-06T23:00:19.251470+00:00",
     "expires_at": null,
     "ttl_seconds": null
-  },
-  {
-    "id": "JovemPanNews.br.2q8sjYK0NrQ",
-    "name": "Jovem Pan Live - OS PINGOS NOS IS - 06/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=2q8sjYK0NrQ",
-    "logo": "https://i.ytimg.com/vi/2q8sjYK0NrQ/hqdefault.jpg?v=6a73d219&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-EOqsoIEWVzsiSlAH8YFZXZrGGw",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786075221/ei/9QN1aqm8AcKiobIPrueuiAc/ip/138.117.222.145/id/2q8sjYK0NrQ.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhOnn_de8ioMu7gG3PfiFIxtZIXDkToDt3lJRoBQvqfJAzgbGfw96IcEv3AEDQu4zEGqBx8FaAS7/spc/KBGBctlcOYDjJhi2kbGEIL7nrM4QFZjy5D3jh1b8s9G3oskONbcyO-5sOuOu0Q/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2183750/met/1786053621,/mh/_h/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,51946837/mt/1786053172/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgJbAo9gOJp8c4WskFAukM1nEhVEXWVVhKsc2sE3QOY8ECIQCRUJJPUmezasGnLnWx-3QbM03QL862IEF94VOXQT4iZQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgLEr31BNc7O4u8fcl5LT34eh_4vSVup1DRgyihQgv2SECIQCqsF0WlK_XQW1YvS5b1t-9eECLCGFcN_HgFOzZmLMRow%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-06T22:00:21.349819+00:00",
-    "expires_at": "2026-08-07T04:00:21+00:00",
-    "ttl_seconds": 21599
   },
   {
     "id": "JovemPanNews.br.3PTGo_quBXY",
@@ -235,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-06T23:00:21.189362+00:00",
+    "resolved_at": "2026-08-06T23:30:18.854872+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
