@@ -11,13 +11,13 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-07T13:00:19.247494+00:00",
+    "resolved_at": "2026-08-07T13:30:39.227609+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
   {
     "id": "Caze.tv.AJOz0Qbpay0",
-    "name": "CazéTV - CORINTHIANS VENCE, MAS É ELIMINADO PELO INTER; VITÓRIA CONSEGUE VIRADA HISTÓRICA | GERAL CAZÉTV",
+    "name": "CazéTV - CORINTHIANS ELIMINADO PELO INTER; VITÓRIA CONSEGUE VIRADA HISTÓRICA CONTRA O FURACÃO | GERAL CAZÉTV",
     "source_url": "https://www.youtube.com/watch?v=AJOz0Qbpay0",
     "logo": "https://i.ytimg.com/vi/AJOz0Qbpay0/hqdefault.jpg?v=6a75d40d&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDfoZdjJ___7kezqFVZdNVTBSYQhA",
     "group": "sports",
@@ -26,8 +26,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=AJOz0Qbpay0 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DAJOz0Qbpay0&q=EgSKdd6RGOGt19MGIjCMZ5F4obeMkWIdsq2BJlEVS60isH7VemYxsyQWyDaXHOVx9I941At8IDawAO28IQYyAnJSWgFD)",
-    "resolved_at": "2026-08-07T13:00:17.566950+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=AJOz0Qbpay0 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DAJOz0Qbpay0&q=EgSKdd6RGPy719MGIjDUYZKyeJHts34dM33Uns4d5QtVfVlMgztIp-0FmoMLQGsypV3hVYa_cA9W2rm4cZ4yAnJSWgFD)",
+    "resolved_at": "2026-08-07T13:30:37.322114+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrEFTUvC8CUyeYsBFmNQ9AlJdBwA0WTWageVMzLq8YUQjET7pMPDr-kKPvmf6xxUEBbAPByiCCP0QKJ-e23BAvngeUIcW8adYffAePDcyzsFygzXXtS2bTHGKnYUsnI0LSB8hAc1wl4WLQUtkd0YPQzmkDjTvNNX_VwiTW5Ect2HjKh9f0yHQ8rAmWTx_Y8xl4LOYRtm5OZYJKdg9Z09NhX2C4GxwDS_HFuXszLr4PXmyrDk3DMQnx5KpJnkOJAdZYgdjqAjvoRAiIMSKipyO9IlAz4x2doUjdkNKzD7QRkbKMPfa3zPOS1LE_prS10IvAr5RE4ajsg9-CNgNs8MjILpFxGGXJOiWIgHPG353J70VjaA-pyngOh68LkjkYhdzDM5-hEhWfiE2EhkRJBWbA-dPSgHKeqDGHWj9JOhq_R9v6CIL4rBMxFRDHVWxkZm36z1RdTW3ZXK9pBoFSNNM6CQ2If0yahvlxBeQpFuPRgDnoE6Q--yD-couCgtwpLtVF-dufsBSP7QP525MW4nODwinwNoZCDWzpQtnH0tsWCJ8j8W5HvX_tB1FXUBS02qvMi_WVZsrCG3IXMqcrN6T_dLp9dnlWZKQ-LJ5QigEuKUTIOORsCsxVfuJPGxOg4GfIoC1Pzmoaml5Tfdk4wRIK4Oq8wb6k3kZjSPycSoWlSiNWNKAgTc0ZAj-kWhwYUwrZhGjL5WYy8n-nu3we35YwoBQ-4tt32ZnJUHTxNGLKWvwHiACc32DF4ffaXzRTRPVDc84R4mCfFPrbNuV_HL1xS47l8EBkUrkP7MXzr6iPixDKdxLBFD39FqDSMET2lFn2hYEnIZlHp_VZDGqXuY4I6xXfExu7E-dhFnCIIv74RUXNFXeWoyfc_NtPQsrndVEaBJP0eM4Y6fvwMdp7qDgGyGc8kaDFb2fB-Ez0gp0Tle0SABKgl1cy1lYXN0LTIw4w8.m3u8",
+    "stream_url": "https://fa723fc1b171.sae12.playlist.live-video.net/v1/playlist/CrAFK4UtTUi8adKKYRpVbgBSc6sIR9QXCZV7OfyfBjP7fDy3xdCpLsfT50zRyDyw9sv1EIYZzi2Or0XOX0Mbacb-AbzmmSPC1LLgn1b7Z-kBy3oU0bZgVDin9iAtRDDxJDzEjOsdvc0bzBb4SL28H9E-TDLTcJDinGNBRfq8XYzf_7qGnx0GohVMWJuEaoG4JYiNeP-Yx1osakocv7Jo0jKHgF8z1qRMcnmwsXVDbYgpYFzRMagIABK-bYTRlhhzGarT-KcNVzJDQ-biQeqDPCJZjRRZkrsCgtk5W0TKdEAOiFP0WoEqgopZv9le9TLpXf4u2M9w04l__TOz3_eTHuCHzF4EMaIpOM_QsI2f8ysQPe6Vwo_9tijz2lllL8_t4xh1CWqJhqXDDgyDPI81JE-KXKVMhvCHWTochydHG4mxH2O7l4zbc6uu9LZ-fYtaEt2cj95iiZ4Y8H3mhFHiO_Wr3rvydiQlbtVIWZiMhcTzhB5HVXOk4A5KDYoF0fxR1GeHsSZtE9ItxHVqwrmKJAYDxzuJiZXWKO5h4dsJp-uNyb6bvBxfnHJv7jK08HnsVV3aFprbM-lc3PmDbOaJyM-b2dVjd_azAIauC6P59lKbB6C-22AuY5zj4SLi_1ilYEaU4ejKC1Iv8sM3uK-kXHd2CIXB8fup-Wyk1r77KsvKce1PXupS6pOoILNaNTlPk0EyDlwDtrlI7ZUixKcmju58kccdOxL-ucPq_3BZ5RDrOS1gG2SZfMpwtBJJX8ywhiGw_UxxNaHrA7AfX3RDBnx4B9k_f2GSCZDqbA9EE9mDAC2q_O_xGZa3SlBG2tNgXqOz-NZ9W_4NpAxZl9AhcxSoac9C66VxyWf-_oqbm0nV5C7rz_R1bM6gu5zX8T9IKUe-8tu9vORrU3smHgeFnj9zLRoM_A8DwrJCUpDi7nSbIAEqCXVzLWVhc3QtMjDjDw.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-07T13:00:16.850764+00:00",
-    "expires_at": "2026-08-07T13:10:16+00:00",
-    "ttl_seconds": 599
+    "resolved_at": "2026-08-07T13:30:36.672549+00:00",
+    "expires_at": "2026-08-07T13:40:16+00:00",
+    "ttl_seconds": 579
   },
   {
     "id": "classic-mr-bean.tv.XQLEvieRMj4",
@@ -74,8 +74,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=Ri3eGVP8mEQ (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DRi3eGVP8mEQ&q=EgSKdd6RGOOt19MGIjC4os15lG_UTSdoMFcUqCsf9RuK24QSEf2H9pP-YAj05f6ONbH0xOGnuFqfVxmIukYyAnJSWgFD)",
-    "resolved_at": "2026-08-07T13:00:19.810853+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=Ri3eGVP8mEQ (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DRi3eGVP8mEQ&q=EgSKdd6RGP-719MGIjDMeXznIGvwg1LdQMs8J0bpgtEvWjFxqp3dqNiy8Xm9zxANWYBDd5uMNX0s5Hk_qFgyAnJSWgFD)",
+    "resolved_at": "2026-08-07T13:30:39.741817+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -112,22 +112,6 @@
     "ttl_seconds": null
   },
   {
-    "id": "JovemPanNews.br.4dFcj4OUzxM",
-    "name": "Jovem Pan Live - JORNAL DA MANHÃ - 2° EDIÇÃO - 07/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=4dFcj4OUzxM",
-    "logo": "https://i.ytimg.com/vi/4dFcj4OUzxM/hqdefault.jpg?v=6a750a7f&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC5k0vr_JDO1m7LSv5O-43aCPAA-A",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786118418/ei/sqx1arrEKb6aobIPn5G36AQ/ip/138.117.222.145/id/4dFcj4OUzxM.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhO03as47DPYQlvRNcZZA4c04TOQSuOommGdTpnz2KA24vJYoNmTq-qHnzz9pKsc31yVrvdkweNX/spc/KBGBcrz6r_p-H3RLrXFoD7VARgoKVRcAr1XwGl63CNqyRpSFRVoerYsobsyvmQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2303750/met/1786096819,/mh/Fc/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1786096590/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgMrdwtdHSbqdOsG1Bdv23-0AOGg8pNt8kDHdd-Tf_tMUCIGE94yC6_t7TFcnjA46HCwAnXbK0aaB7-VJqaRL9eQur/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAPUmBsmei-ZYkiBWHE6pNJiVR2021feqmAJkH7_qbXIZAiAgHDdc2OZrPEgHqIkM62hqfkgov7-k-9nHSe-ohwt1_w%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-07T10:00:19.183277+00:00",
-    "expires_at": "2026-08-07T16:00:18+00:00",
-    "ttl_seconds": 21598
-  },
-  {
     "id": "JovemPanNews.br.cblxNzZt4Sc",
     "name": "Jovem Pan Live - MORNING SHOW - 07/08/2026",
     "source_url": "https://www.youtube.com/watch?v=cblxNzZt4Sc",
@@ -138,8 +122,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=cblxNzZt4Sc (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DcblxNzZt4Sc&q=EgSKdd6RGOKt19MGIjAmNAk8WeqOcKVnkh2XwEIxgh3yNx3WKogGSFiiOuYaknjStwNBn9IQIBS22v-BzBUyAnJSWgFD)",
-    "resolved_at": "2026-08-07T13:00:18.922436+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=cblxNzZt4Sc (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DcblxNzZt4Sc&q=EgSKdd6RGP6719MGIjBoYxSM5QO8hUWxkHeeqVakixlVoy0xodM2WajLWuy1GjS6rpetdBBgdlY7Q2iurwEyAnJSWgFD)",
+    "resolved_at": "2026-08-07T13:30:38.916331+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -163,7 +147,7 @@
     "id": "mr-bean.tv.oPonPGALYaU",
     "name": "Mr Bean - Mr. Bean Cartoon S1 LIVE: Hilarious Trouble Starts Here!",
     "source_url": "https://www.youtube.com/watch?v=oPonPGALYaU",
-    "logo": "https://i.ytimg.com/vi/oPonPGALYaU/hqdefault.jpg?v=6a70b205&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLA1yGzyYUZTofSx2hampuwdCy2KaA",
+    "logo": "https://i.ytimg.com/vi/oPonPGALYaU/hqdefault.jpg?v=6a70b205&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBoTZwOCYhePv-_6ZeMA1RW9kCh9A",
     "group": "series",
     "source_type": "youtube",
     "tvg_id": null,
@@ -179,7 +163,7 @@
     "id": "mr-bean.tv.S_71wzZMf0M",
     "name": "Mr Bean - 🔴 Mr Bean LIVE! Classic Comedy | Full Episodes",
     "source_url": "https://www.youtube.com/watch?v=S_71wzZMf0M",
-    "logo": "https://i.ytimg.com/vi/S_71wzZMf0M/hqdefault.jpg?v=6a70ac13&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBM26M6_tn1RMsYNnlOdb89A8Xt2g",
+    "logo": "https://i.ytimg.com/vi/S_71wzZMf0M/hqdefault.jpg?v=6a70ac13&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLA3zaTi1KYXODWTPSgsFIvPW6yHdA",
     "group": "series",
     "source_type": "youtube",
     "tvg_id": null,
@@ -203,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-07T13:00:18.299196+00:00",
+    "resolved_at": "2026-08-07T13:30:38.210755+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -2394,8 +2378,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=bFwjWv-IOqE (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DbFwjWv-IOqE&q=EgSKdd6RGOOt19MGIjBlyCdwx_HgTUcnNflBzvJGVRWWtLb6upfQIwniVWaVd_dmcPQoKBVDsBFdv8ku380yAnJSWgFD)",
-    "resolved_at": "2026-08-07T13:00:20.561246+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=bFwjWv-IOqE (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DbFwjWv-IOqE&q=EgSKdd6RGP-719MGIjAUA6CUNxuzd-VEqCzmjZL9Gvb1bRYygd3Z8qKtIHO5KSH6wvG34kfsrZ9OKyVoX3syAnJSWgFD)",
+    "resolved_at": "2026-08-07T13:30:40.448201+00:00",
     "expires_at": null,
     "ttl_seconds": null
   }
