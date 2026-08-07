@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-07T18:30:17.657344+00:00",
+    "resolved_at": "2026-08-07T19:00:39.706421+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-07T18:30:16.477368+00:00",
+    "resolved_at": "2026-08-07T19:00:37.071758+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-07T18:30:15.538937+00:00",
+    "resolved_at": "2026-08-07T19:00:15.451807+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -65,7 +65,7 @@
   },
   {
     "id": "CNNbrasil.tv.Pa-Oe66uius",
-    "name": "CNN Brasil - AO VIVO: SENADO DOS EUA VOTA EMBAIXADOR PARA O BRASIL | CNN 360°",
+    "name": "CNN Brasil - AO VIVO: SENADO DOS EUA APROVA EMBAIXADOR PARA O BRASIL | CNN 360°",
     "source_url": "https://www.youtube.com/watch?v=Pa-Oe66uius",
     "logo": "https://i.ytimg.com/vi/Pa-Oe66uius/hqdefault.jpg?v=6a74fc56&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC5Qr5w5DyaokSfRLAEaEStGbkdnA",
     "group": "news",
@@ -104,12 +104,28 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtQEry9ATARVylywgnQWCO8SNWTYjbCEMp65jyDXTBM2OK2eoUUWIT6Iwa_nTGImLMt3IhGO_5sJCqterhSK1Ej91KnZsbIaKAZN9O9eDnrKJ0iQY9m6MQYfQmMw6mSEJK2QWK-RRrcF4dJR8XB91Zd0zDRRtlOH_Fnn2FWjd-BGnzYqtGWWeLHR5Lcmw_qIWRUOBrjS7HqjbgTuJSEbXAKDJW96ZTuQq11vPWgfpMlSi8qnXHnkMHa0BW461Gc8MqtCw8Y5WagY-fc4gVGjnef8T2m_AbTctxByloX_PtydnecWaeCM5bFZAMg2RWb5LhZ9FzizV_F8gwyYmX5IGH6FbUzs-VSM_5oEv12syqAMZJ-A0s3Mv2uB6JMwEFnvlkonsRtQ55MEiUfXm-8Emya7i-zrbd9fo-JIMSIavjbylNYkUkt4l0d43pzCKffNGBaEqkvhPUh4T4unsNMfJtKbGu5pN1ITni91ZZvpdemHz6issyhb7AQuqMc243Oot5hQxLueTLYy9hUEQKX418f_myP9w6IWKowYr7Ph7R8FCD_cCbXubKMYurQmz7WSTGd47B0Eny9CY4lZfxtPFU8fIcmkkhwySgN7lvT3_mPHYuuiMKmoarvQYQA_atRTtDSbausINl7hYkFQYRzbvNd7HDjR5Y1PPkp-IKbp7z8IvFI3ZpwIDS1zb0VUeY_0zhpBclv_pGIl5TQd3KH5_xHzLKdpC--ap8VMyiZfl0KA051Gx8sYIrLIrwhcFKB9C3Ub4qTxjYjwfC3tGwfXDmVLDTl0rBEaDH3qB8OI0Tsvz8dqgyABKgl1cy1lYXN0LTIw4w8.m3u8",
+    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtQECK6YYvHMMHSIZEMe1wRPKMUy3H3WHdrkH83UVv_MPIrsn4p6Y_5Bf-2Bf0oY65HQVwjlBCfgeI-25LX4MYQzZwX4O9jRrVVAabh1Ei_OeM2G6cQFkTMG19iveci151qZBTZjcuo2oe5DRigwc-Y4K_a5j7s2xzwZXuU21v7LWIZUsRAP-ceKd8Vr0K4RXmOVdci-GGvKVsgv8VNvOjbAR0XPr6I3N0R4CBu9zBxMqBejdB4sT_WWyb6R_9bFTzz4GuRNMghEK2kYmd2g40dYdu3HfBJqaO5iIo2n8W7yEobFlr7JqBW7_KihY8eR9YES8SDpnt0nLK5ZwMdCYv0QOdd3caQNsZSTm0Fogn5X4u4hevfK1Z2GLRLN73UyW2PmQidt3iBlE5WwCuyPURpUxvdt6crsqrJENzxbQWzZCqSdHwfJbIzJMCVTZ0bHbjOY17QxB0FGwLMy4X5GAXiZRzR0hDBgpm3M8fqfKtjJSUBnUPdfYd2XUll-u431dzkSf4NVmRZ4GNF1hCp5I4jAM_Qz_YIlWHyk8A5LbR0y66VV2MHtc9ODTWOKkrblMGwlvPK2qw3t9Tu_hlEU7H3p3oiwV8Pojyj6QCuEPE6OeKvFqon3dRcjFdXmHaWf3LDdUuVRkCJSbU_lqnLx6uIpp8fvExMEyidOOd9BfTYUari-rOl8J7jk7MbI5fApsPBzK2bNG2aviovol5OUoXRDqGyC0J3PQzU3YwWFNhr7oqe0HWx0J8znSFUM9luojNFgqtznalMo0BUyBa3nrVlmgmbIPkIaDLRVVmCQQExgeU7QYSABKgl1cy1lYXN0LTIw4w8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-07T18:05:16.519587+00:00",
+    "resolved_at": "2026-08-07T19:00:36.312278+00:00",
     "expires_at": null,
     "ttl_seconds": null
+  },
+  {
+    "id": "JovemPanNews.br.6bbW1aTv-v8",
+    "name": "Jovem Pan Live - 3 EM 1 - 07/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=6bbW1aTv-v8",
+    "logo": "https://i.ytimg.com/vi/6bbW1aTv-v8/hqdefault.jpg?v=6a750d54&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBboUDj33t4sBlL3BU3gGg7eM1c9A",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786150838/ei/Vit2arXLMKn31sQPsP-u4As/ip/138.117.222.145/id/6bbW1aTv-v8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhOZm05X-EMDiuuCbiXr9mBM1rmeNt-S_9K6VcS0NarBjh2l-Q_z9VGKnPcHOW1Kg4p5_dGrZVYj/spc/KBGBcv-eyQ02lkdf1sFGobe7Cmx3qxaJRH8CREokHO4QVtGAAVIACpla7Q25HQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2206250/met/1786129239,/mh/VZ/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115/mt/1786128777/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgR89TVVHW7jB8O5Bqe3VVWqL06UyCJyKXsJ1i7PqhfUACIQDJ-deWM1CsPoWIBYjG62BTyGdfQemVa25UdKU5Pcx48w%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgcTgjzTSiWuD3Y-T6cBpJ1UdbJaTtE_ZaGEkK7TcAptYCIG4gzy_MENK7uIHEP_OWJ6pyUbjNSe6iFXiQHtkBhX-C/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-07T19:00:39.353319+00:00",
+    "expires_at": "2026-08-08T01:00:38+00:00",
+    "ttl_seconds": 21598
   },
   {
     "id": "JovemPanNews.br.eTz4XgOQaAE",
@@ -187,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-07T18:30:17.338622+00:00",
+    "resolved_at": "2026-08-07T19:00:37.916194+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -253,22 +269,6 @@
     "error": null,
     "resolved_at": "2026-08-07T15:00:24.631534+00:00",
     "expires_at": "2026-08-07T21:00:24+00:00",
-    "ttl_seconds": 21599
-  },
-  {
-    "id": "RecordNews.br.KQWqWEnWwy0",
-    "name": "Record News Live - Conexão Record News - 07/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=KQWqWEnWwy0",
-    "logo": "https://i.ytimg.com/vi/KQWqWEnWwy0/hqdefault.jpg?v=6a7608e6&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4riD2rwYSxUqk-DFI88UZ_wp1Ag",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786141820/ei/HAh2aoGhBIeS-LAPjsOs6Q8/ip/138.117.222.145/id/KQWqWEnWwy0.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhOlTqdg-c91ETAJDiNzAV90_bd_Mo9e1DMkLpIa8M0H3IacC3tK2lDp4BtOcP0qexTzOIAr4h1f/spc/KBGBcqRbT4ThbvZZw-oHvnM7TcbwNoJ46uTdbvWW-bIuvQCufnjHqSXPd2SqVA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2322500/met/1786120220,/mh/I0/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52089683/mt/1786119877/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAJVHztLvlD4sosBmW10DEnasobOYGQP8dwKQQ10eV78QAiAlPDNADPMH65QxKNLgupHvT5U9rxURmIM-K6PoKmdNzg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhANMNrvLlG5x1vlEYcf0LlSx24KaGSupybKBbzE9jhvODAiB9bDw1hxekgW5KVIaChjF3wunu_msqdeVueLYv4FzaoQ%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-07T16:30:20.390519+00:00",
-    "expires_at": "2026-08-07T22:30:20+00:00",
     "ttl_seconds": 21599
   },
   {
