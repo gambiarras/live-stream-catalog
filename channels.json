@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-08T15:00:19.137377+00:00",
+    "resolved_at": "2026-08-08T15:30:18.782373+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrEFCbYQ8X3CFPg6aoEli0kc314Jcy0MkIRIp0XcZswHwozeBbBjKl-vA5t_iP7Je8SylKdCQleaiRYWyqDj-fNbXjb7sKznIZNgZHrPXYfTJbNU4sQRNjRsZm4Y62wpbyE8FCCRlukatG2eu2rYzsNPxGVtDJVz-N8mRQidEQuWhsoyuoFc4izqZ9n4IyhlUf1Ve5fumAQz2SeQjl86yT30rKjyjEpypqvX6leVwCFWaKWIgnwQYgRuAUqVXOB5Zs-oKR-tIFsnXi5MhmjOUN-FD65jkPOgkrfamnYiNAv2oPUMO6mI6m0dhis_RAvhtHuoyij-bvooxrEoRWBEG4BwJFdR3Vh5ZB8xUArene-lvpMLDM_KzRR_gmjknQOKJWupD-jRQsNYzCZdbW8Iv1c5WCxusK03iYrD6ELpHp3-mEFvvUhS5N1MEpF7E8W11ao1L9V2FMITZao0RXNuW4UNh7kMito2mMZXL9tRTJmcy4tb3W1-UY0O_6ch1LR-klbRhfC0WgO5Qodp63yfczbNa3TknhW8vbAri2rwYxW9F-jbuA3Jhp_d0r-AUpb2oe_k04ck7zv8mgD2QiyBnfRBfL6wigV0UGdzItHN8TvAfQLmGq2BQOauNLi5u5VuP4gbBYVP-aGdC1QrwOOd8-WBc3Sm56f_TcJ6UTTl53oYelPENo3wuvfG5IGRV86HVzx9zHngYBLvCKMB7jPXgQQKO5UinLSpSPcx1FuL1TxVVx7VwVbovgiweR6iBktji_rTRnMyTO1vV99KxNj6JF-kJM_OkV3HnV-0_yEHcvp3Ax5sfnwBEfJuOnoQbnzaHk6MkHwO_KOngbaGExR5JiLtNJDerahn_7Ur1hhnAQNVQw-uiRBOv8-RFIf_5i7-67EHnKSyTDwvGvbynJ_3i70PpmAaDFIGXGGvSMQD0yr18CABKgl1cy1lYXN0LTIw5A8.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-08T15:00:17.050677+00:00",
-    "expires_at": "2026-08-08T15:10:16+00:00",
-    "ttl_seconds": 598
+    "stream_url": null,
+    "status": "offline",
+    "error": "no_stream_found",
+    "resolved_at": "2026-08-08T15:30:16.169714+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
   },
   {
     "id": "CNNbrasil.tv.f3BQqoT_cMI",
@@ -120,12 +120,12 @@
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=_q7FnY1d4zM (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D_q7FnY1d4zM&q=EgSKdd6RGIKJ3dMGIjBbLn-fhTLmIvjqmVuVKB8WyGCNVASn7KwskwhOLF-88d5YkdAmbKY16wIuNlvYfRAyAnJSWgFD)",
-    "resolved_at": "2026-08-08T15:00:18.756205+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786224617/ei/iUt3aobAM9itobIP3beZsQc/ip/138.117.222.145/id/_q7FnY1d4zM.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhOaQ_ycMa2s8crJeikZAl3jeKUz-TV5yOHpscNrBCba6-g06AWqpfyAoqoUt83ThyJ3kSr3Z3GJ/spc/KBGBcsElsozhKVC_PZMdlFQIJe8DfrFTsV6-yUm_CpOe-vbiOnv2tQ85HASiIg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2195000/met/1786203018,/mh/uu/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1786202671/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAJrMGAR97ua58ZCB-kChYlaN6SMjEuPSJcUK-oRkDkXCAiEAkG82zQgmUpYRs4gi_WWt25JYvl3BnTdNoJ11mv_oXR4%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgfXdO80xdKp4jqWP8znBTOb4EmWUPiNGVCGk5cUjEP_MCIQC3wfxUx7r80DYeGXV6qaNm88AlF31AgpOauUajgSjjdQ%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-08T15:30:18.444912+00:00",
+    "expires_at": "2026-08-08T21:30:17+00:00",
+    "ttl_seconds": 21598
   },
   {
     "id": "JovemPanNews.br.eTz4XgOQaAE",
@@ -187,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-08T15:00:18.203329+00:00",
+    "resolved_at": "2026-08-08T15:30:16.883291+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
