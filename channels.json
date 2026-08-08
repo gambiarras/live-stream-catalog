@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-08T14:00:20.745425+00:00",
+    "resolved_at": "2026-08-08T14:30:18.469604+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -32,22 +32,6 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "Caze.tv.RGjg9gFoQuQ",
-    "name": "CazéTV - AO VIVO: TIME BRASIL NO EUROPA SMASH | TÊNIS DE MESA",
-    "source_url": "https://www.youtube.com/watch?v=RGjg9gFoQuQ",
-    "logo": "https://i.ytimg.com/vi/RGjg9gFoQuQ/hqdefault.jpg?v=6a761317&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQ5cMpP-otjVUvXCLrQ1HCjCRxjw",
-    "group": "sports",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786215616/ei/YCh3armzMNag-LAP4qawwQM/ip/138.117.222.145/id/RGjg9gFoQuQ.2/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/bui/AZFlqhM4TrRLb19BQiEDlaZG8OXjuKNUy0suQJ307ai7b4Q96kivxbrOAu63o8NVX2IS_gVpCsCsKr4N/spc/KBGBcnzBBcLiNdnbjTZxfA48KCAWiY6Zh2rMyfqhihgiAgz3ngp5W7ch445uxA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2183750/met/1786194017,/mh/e6/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115/mt/1786193548/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAIMsZNSswmcvcG4tq1D-td_KdIH8Gpn7IImw_K5vz8UFAiEA3e5LVz7iPMD8BEY6LIMNWk0nb6JjSlrT5Z3iuZ4A1go%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAIOIkYG-dGQzXiCkNbmCMT1OUdrIkcicV3WE_X8BZYDHAiEAmiGAbuYBbi-voCCqh8yclkA0H4nRGMku-E7Xi9hlZvU%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-08T13:00:17.381301+00:00",
-    "expires_at": "2026-08-08T19:00:16+00:00",
-    "ttl_seconds": 21598
-  },
-  {
     "id": "chavesvivo.tv",
     "name": "Chaves 24H",
     "source_url": "https://kick.com/chchannel02",
@@ -56,11 +40,11 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrAFxlRj8t9oAqoMtXwM5drFUZksyrwPnD45UDnk_au46_BsQWAYlvLF6KXL3d-kBb4BMJW7GbKLtQwbghOTL1oq5wJ8BZybJc_vE7eoTNoifMxRbD_iLHTISS6XSuKiruJc1qYbqQFw992625x-BT9nhLStGsm7k74335QKn-Cp6s7EQJNyb6qj32BY4Bje2wvyAy2v7c0neGexMUD4H89bZylm-4nMrOovtOzT5ex4q6BvVm1Ux4h8E4sAlNEJLjF_3NgZfGswUYPxYtL3ISEoFbnpkBfuFzPovGFpTAWWNQwRVj4NNKOMK9hA8JHfO7GMIoKAHZgxWh01P5sGvADVlyg0OuOKGo72nP4nvXkZrSCkU4K78TTswx_EIjzEScg13hI7EzugrMOpif_QPnJalBpFbQoEzHVT6zIWiyD9Ym-T1p5DE1S1kSAFoLR-Basm6659OQVO-ES7Wr1pcAj-l2UbwuKwYN7otZo9AHSQnjxXxvgkwC8nMe2p_tGL5FcSVN0v52oaZCIfbOBpy-1UGSg90IQ4WNj16a0tDJfFB4qS3y3xBcg16NO6WrYmnW2Qa47p7YgpJQOP36ZY2m47dXCjVfvrLHL1b4k8N1JL4IwyoQirPxw2gQ6wjM9_gLBJ2aozPjF3OnH3-cPsSGruhsD1oXhSAox0BO7zFoG3zLANVOTipaRu_l-D9li1jsI-YuAh8rehi1yhvSbq7sZ4GAv4HvylQLcTTxDZ8tJ1e-zlmrcwLfUPcWCXmvJKE3bsXt_e7YrlTDUBtnmRm46rz_PcbsAcIPnAdq9509-pKIlN-BMdBsiWK-W-y18XTMH0v6CO96rZFs6QV-G8fqSYlT_K2cy5v7m0NRNox3zeNBUYBLx1sSbNOOkAbCgp6-Pdw7IJ4Lox3CpzkKejII02YBoMAfoeWrVCWaWnzrfwIAEqCXVzLWVhc3QtMjDkDw.m3u8",
+    "stream_url": "https://fa723fc1b171.sae12.playlist.live-video.net/v1/playlist/CrAFC-uXX8gfyEJm6RqEeaXeY8NEyQgTxvEblzuRb5AXMC0YZS5G8O2owiYkmGeYP9Ca9y-139PXWCnOZQ134bqOprFdSUs02L32foemqwpBTlqCXo3MHRWZtrx7k5z4XMt7EQ57Lu0i8R4DdMWnS4Xu0FkJD8M9xJiz8gfdfwy9u9miQ5zWae8F1zXS_tRlxMF2BtqrRV6r49Fn1p1dPvd-JPMFyAsVxUmWdUKNasn9JgKvxz71YrJ575JSl_h_nAs55cpVI879oWCcxfz1H381tObslL3jB6CETWXva7zYo2-l_iJEQRRt27W1bfJ2DlTAxGZda4ktZmwLhh6S56MP0xI8ai4rIyINthHgoKwzfZcEVd1-HTomSekOZcsFlhIK5QyCyyzXGNFTWuASwjHquF4ANVrSb3M-4plmlBE1PwANbRQ6qSvrgukeg8jTD_2DTgXSKqla6HQpAO2_ZqWm826tNDJ6mx6C5zGhf8uoQA0sm1Yr-_Mx7IcWjswC0P1QAsgAblsSb1WfrUZhxlntGW4hzjgIpiX-nc3ue06Wc1I66dYvsKRxGKsVdJ5v7SPsLaPKYqn4nLeQk16IEHyY6-PJXM9L-7yN49mk6txe9k6xTLE0c5rrwWoi5N2uZw7k1MJVKdhi05Q26R51iAPPErp1AxLROGM4cTBY6hKYGo24tfa2j69ED9jKPc3fr6Sv4IKGEgBrKmQGGIL5gyEEPh8eBygXROyTwxSjINgI0d_3UXGVwCQ6ZvHJfHC7T6I8sCxoy537XmnPtTllLv66mfuAhz64Lk4fUrwl2zALGJBqOh3eNyctn0z-0qX5nKnwK3RJGOo3sTmDfjtHeYjSmhDXkmTIKOrYxKZBwYf1DggqkCJKm0Fenv39B1_7Q5BwgqTg6BefMWsGTGFsLTN1exoMs70aQOwEMr9gNuTUIAEqCXVzLWVhc3QtMjDkDw.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-08T14:00:17.205954+00:00",
-    "expires_at": "2026-08-08T14:10:16+00:00",
+    "resolved_at": "2026-08-08T14:30:17.322553+00:00",
+    "expires_at": "2026-08-08T14:40:16+00:00",
     "ttl_seconds": 598
   },
   {
@@ -128,22 +112,6 @@
     "ttl_seconds": null
   },
   {
-    "id": "JovemPanNews.br._qGuvjsMWQs",
-    "name": "Jovem Pan Live - SÃO PAULO JOGA HOJE E TENTA SE AFASTAR DO RISCO DE Z4; AMANHÃ TEM PALMEIRAS E FLAMENGO! | CAMISA 10",
-    "source_url": "https://www.youtube.com/watch?v=_qGuvjsMWQs",
-    "logo": "https://i.ytimg.com/vi/_qGuvjsMWQs/hqdefault.jpg?v=6a7728ef&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbnelyNZ2JWEe2DfPDuXkaBoMnnQ",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786219220/ei/dDZ3auHJCrSrobIPz9et0QU/ip/138.117.222.145/id/_qGuvjsMWQs.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhM5eAPmOSY0OKVk3LuNFJS_XTd8V7ZtdOGf-FR9DiaKEITOu3_jt63kWtOVfkOPt0RkJoHp1igd/spc/KBGBcqcIkfc4PcyvFrYFzYRbbVkY4EyYAWv5gMLm3nRB8L8FEIjpcyvGzORDow/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1673750/met/1786197620,/mh/Cu/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115/mt/1786197391/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgJ22ogC9J6RK03b1zsU321zlBf6tPOT1CLKeaWl7QjBoCIGHlmcMhKIykXFqHaZ2JpT0heKdouw3QU1MYreuwt7KD/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgVRj7Akh6yb1nuJzrDLsFfWz0ymEGO1X8VtVts9QpMlYCIQDfPLW6lSt62SmJsDk8MyTA3DA4_Mi0AbkghOe9ZwLrMA%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-08T14:00:20.429348+00:00",
-    "expires_at": "2026-08-08T20:00:20+00:00",
-    "ttl_seconds": 21599
-  },
-  {
     "id": "JovemPanNews.br.eTz4XgOQaAE",
     "name": "Jovem Pan Live - Jovem Pan News Av. Paulista",
     "source_url": "https://www.youtube.com/watch?v=eTz4XgOQaAE",
@@ -203,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-08T14:00:19.479919+00:00",
+    "resolved_at": "2026-08-08T14:30:18.111248+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -2387,7 +2355,7 @@
     "id": "tvc-youtube.tv.bFwjWv-IOqE",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=bFwjWv-IOqE",
-    "logo": "https://i.ytimg.com/vi/bFwjWv-IOqE/hqdefault.jpg?v=6a75be9a&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAAF-KK_EhoZ8fkdx-xM8WxtfiRlw",
+    "logo": "https://i.ytimg.com/vi/bFwjWv-IOqE/hqdefault.jpg?v=6a75be9a&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAXPaSSBYuOnjiJR9T0yi6G1oXMDw",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
