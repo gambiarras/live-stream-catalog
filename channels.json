@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-08T23:00:21.139235+00:00",
+    "resolved_at": "2026-08-08T23:30:20.775961+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -26,8 +26,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=z63vnMGM644 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dz63vnMGM644&q=EgSKdd6RGIHq3tMGIjDHwkIeGAc3ZN3CZ2sxk4JY9LC2wxLs1L-vWfmIB1aR4vnorFkWIbq5NcE2C3j6-nIyAnJSWgFD)",
-    "resolved_at": "2026-08-08T23:00:18.469400+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=z63vnMGM644 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dz63vnMGM644&q=EgSKdd6RGIn43tMGIjAx5noHFoIAThZrBvKMWbMjvkEJmU1IcqpAk5hQat17BMAlM6tA6w29AowxvonEKesyAnJSWgFD)",
+    "resolved_at": "2026-08-08T23:30:17.920382+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrAF5HRZqG9q-IiTAPzy066B6ulu_SZoARbZJYuRe4tA9eC4kkp61dKUo2WXTN3uJ5Ci2nwFViMNwRuHluoGz2jm1MLHIw_MNIHt934f2At6GotPO_J8PqK7o3YrwPM2JdL_h5h2T3ozof76sIkfYBs0cDJ3TdVwAxzKpu-vPknhKzgVwH_-K6tzKpLXjTpDYmXNPr4UDR36CDan2_Jwd8iCGZl8Cj3eltJXfmOT6j9bgexi4i5PSD_KOLV8vT1-DvBwzObhp2SKkTW8p1nOmp1V2eAZDrbPa0WncO1CaWD3gMdhoZPiDdhfLZ_PzKLNHtec5kYrYsLH4-9MY8ia280mlXrj4vPPjDN1pU1ycLwbjmpAG8xjPB6y1YYWMYTchfGJld3pwV5QMS-Oaqo1-wUftXVj4m-ljB-5piXOCofeGXn148s-5gmrH0MfQy0pY6xV_ry9bXvEJfZzJSQec6bgm7Yuh8ixGDSw7ElQd0-yh5TmDPpEL9TFD3Hvv7F-daUelEkc5qMpx3cbS-iO-oMVgiO3EFdi9n3ZnZpgOZzs39HdIfxHwfLOfnobynORc_8XgVbgNfveWxYOn2yhhjkYo4XOl79Fx38r9wvTRBddbtUk9JfHH05YQDW-Qeibz7M13wBOWp7Ag5YunTrqThG1yFKKNruwexvCcXERyqIZbq-p3oVbe8tV7yIkWcj70sayEoD8LVDiI2w-WpjcQFou7gr4Dof9KJc_k2GTi3qpa0Y08zTNZ5R5YwLm_KWASdq_4ZDumhvcJU5iCzuHlSTex3OMZNS9SXkF2ThQcNv5SuMPSi_clQ-mbWv0RkZ2qGYHhqR2lKL2ocMB_OOoyXtr_JK8NoFBQWYYrXkpPzgYNwmAQIwDjUo7uRMjHHL26RBP6wzQE6AeFSmnUPo7wHFSUxoMJFdW16D2c1mrf7ztIAEqCXVzLWVhc3QtMjDlDw.m3u8",
+    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrEFSMyHEeT3vnSgxDp6frALN8TwnzRyyRZ0DMRkcj8w1S_w7OWj-NAeOm1UEMGiD5tfOyq0_c74UrPu3DjNX4Lq30sAr-VmIngHvaC5hwZnz6qXn1L5yLudSKr7GaK_ONalkOTzOTQz87MyMO7U3kDqfqc1IYeLNUMuxMuy-w9WZKDJV9H32Lfkmj07R9z5_m69QBtkhMbr0yBLbpSw-pTExcFBdtsNJm_mS9jShQoRuPKUCfCNjZIGHAh8t-9GNnUeGG22m6F7zjz99FQWtRi4OVEYwjBWYIPq356ATIhordrGJuObhki6uEZ5woZXIUQ3XK7MRrnjWcQ44OXjq8iGI-0xLQIowlpI4TVRttrshC8Q-wpQzByCbNJ-XW8W_qebeg4FX2DoH3VVSCGUWPiPkxPuVSi4ixhwX2pkK-RCPQQKKL4ZstPOSi9GqxudnLsVufRwJeCxl0n_v099Drcado0kCD8KR7giwSqDQbicl36hQtl_4-3t2vg4cgXnuwmdSaKXT3-upj_xp9IxsrbzpAUr1Pp2Z94SgiQRvLLbag_Li5wviQwbGLCQ53mXM1s2IQOhhVF1ZoE1cPV61tVu1wxBYw9waUwMxJlfpRsUfh-QftNqT8QXPE5O1-JlgTlotGCngdr9uvRObmohsMNdUhznTMJwdRqUv5-fKR42VN9hnI3WfHgHyb3BtzCpR84BHeof6Y9hxA0IgCM7_-mga9Uaduul7IEEIvexXUydcZJpoqNTN97FqXnFq61ejIxchYXFvF6LnJX8mHusDFidb1g6NkSXheBOTUgPGgQysnpucWXEeC3Pxmobd_3qD2g54JuZZOHsclT3nPApTmsUddCtMynDlJtycs1WiDWnx5xQuuPO6quuBE5Iqdl2sTyAuxahyXuTS4cTd7ECmiv1hCEaDONodUkbQcMY492M3iABKgl1cy1lYXN0LTIw5Q8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-08T23:00:17.286336+00:00",
-    "expires_at": "2026-08-08T23:10:16+00:00",
-    "ttl_seconds": 598
+    "resolved_at": "2026-08-08T23:30:16.666015+00:00",
+    "expires_at": "2026-08-08T23:40:16+00:00",
+    "ttl_seconds": 599
   },
   {
     "id": "CNNbrasil.tv.BziR18C2ly0",
@@ -58,8 +58,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=BziR18C2ly0 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DBziR18C2ly0&q=EgSKdd6RGIXq3tMGIjBKk2B5Le9ZmvwK_t8fTiyKiu6YtrF93YPdRY3p4FlcGSDiBT2qo31siEGAJqI8I7MyAnJSWgFD)",
-    "resolved_at": "2026-08-08T23:00:21.875216+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=BziR18C2ly0 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DBziR18C2ly0&q=EgSKdd6RGIz43tMGIjC_TYrEWfQtKgEob4HMnXb3GmRcpwRBk6pVyKoSZFZ-nYyG1SmHHq9rkmBPxmdWQAIyAnJSWgFD)",
+    "resolved_at": "2026-08-08T23:30:21.392005+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -78,22 +78,6 @@
     "resolved_at": "2026-08-08T19:00:39.229770+00:00",
     "expires_at": "2026-08-09T01:00:38+00:00",
     "ttl_seconds": 21598
-  },
-  {
-    "id": "CNNbrasil.tv.J0QUOUEa3NM",
-    "name": "CNN Brasil - AO VIVO: CNN SINAIS VITAIS - DR. KALIL ENTREVISTA: INTELIGÊNCIA ARTIFICIAL NA SAÚDE | 08/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=J0QUOUEa3NM",
-    "logo": "https://i.ytimg.com/vi/J0QUOUEa3NM/hqdefault.jpg?v=6a764b8b&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVyre4fvMx2Af_1W9SIqzTI9cOQQ",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": null,
-    "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=J0QUOUEa3NM (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DJ0QUOUEa3NM&q=EgSKdd6RGIXq3tMGIjAMLfwGiMOJepcbMIeLVJeRiBa8Bcukv5EPb9ebFQV3xsU050pTjqnDZ45nxdH62F8yAnJSWgFD)",
-    "resolved_at": "2026-08-08T23:00:22.478807+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
   },
   {
     "id": "DiarioTVTeresopolis.br.eTNH3m0WyVY",
@@ -123,7 +107,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-08T23:00:17.732209+00:00",
+    "resolved_at": "2026-08-08T23:30:17.131763+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -154,8 +138,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=G4ISVUEPSLY (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DG4ISVUEPSLY&q=EgSKdd6RGIPq3tMGIjCGlm29IrZYgPGfnju0lCXnsYKQsWSjjG8BqWI0n0oyKG_RLbJxOIap-A7sLSbN4RMyAnJSWgFD)",
-    "resolved_at": "2026-08-08T23:00:20.021423+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=G4ISVUEPSLY (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DG4ISVUEPSLY&q=EgSKdd6RGIr43tMGIjAWLlpxO4_RJ_imn6we0EIde_WLGvA8z-CQOF3d-ZLdR5FIPfFaBreyMI0DNIbSn7YyAnJSWgFD)",
+    "resolved_at": "2026-08-08T23:30:19.597257+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -203,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-08T23:00:19.455384+00:00",
+    "resolved_at": "2026-08-08T23:30:18.875244+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -211,7 +195,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hqdefault.jpg?v=69bd7a4f&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAeLFn2E-4mOJujmWUaJGsz2-VRIQ",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hqdefault.jpg?v=69bd7a4f&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8PddgDBPPviSepht4XRi1iutJYg",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -227,7 +211,7 @@
     "id": "pica-pau.br.xIs3odCrjZs",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau derretendo com o calor 🧊🍦 Pica-Pau em Português 📺 Maratona de Episódios",
     "source_url": "https://www.youtube.com/watch?v=xIs3odCrjZs",
-    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hqdefault.jpg?v=696e66d9&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBvvHktvrLuvBqCk1ysCRWfl9o7_A",
+    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hqdefault.jpg?v=696e66d9&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAgtdMxIzMsv_Z3Q3KHRTi6ZfD2iQ",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -266,8 +250,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=tVl48WFBQe8 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DtVl48WFBQe8&q=EgSKdd6RGITq3tMGIjB1VAIAnjoO3lvjBppdoBkVkeXhnsMFd9-0BUEoDiZf0x6HGwvSU44LUkfG4O8LBYkyAnJSWgFD)",
-    "resolved_at": "2026-08-08T23:00:20.799613+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=tVl48WFBQe8 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DtVl48WFBQe8&q=EgSKdd6RGIv43tMGIjCzvYIwKCrv9Lb2n8ZK3y-xkMasY_tw8GBQ-o-5aZyTgAl6Laj4SIGV-McNTwF0RFQyAnJSWgFD)",
+    "resolved_at": "2026-08-08T23:30:20.323928+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
