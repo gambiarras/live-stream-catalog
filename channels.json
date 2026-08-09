@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-09T21:30:19.196893+00:00",
+    "resolved_at": "2026-08-09T22:00:21.153522+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-09T21:30:17.810511+00:00",
+    "resolved_at": "2026-08-09T22:00:17.891674+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "offline",
-    "error": "no_stream_found",
-    "resolved_at": "2026-08-09T21:30:16.491271+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://fa723fc1b171.sae11.playlist.live-video.net/v1/playlist/CrEFEWHB2eLWrRnUTUWBy6nDCDwCmLLy741sXkNxm04wj1HXIX0f-al6JpUBbefnQ8cCQvdFEjX9H-zdfdjdVLYgw0WI0IQwrRnCvh9AGg_vzhmOeIcKVZPsoC_hEMlgpPafC7U-U7znCgkrdsXf4sVbArGvoNzvQ_9bf0kPgIN-RSPSEa7UL5W1bk5M8OJ88eMF7XSKSVSncf2Gu2fESgewbgs8rk79VyeC7rHtOUXIOZyaLSAKKN98f9a5_rbQOmjCuiMsNHs0V-Af3Kh-YzQKSwaNGhBTl_Sd9FlTf19DmRlM8JB-3pcJjw7NcD7rk8CiRJPVKvMQM8RwOrd1xuUgUk1z9lKuj1yzCWkBjywejM2rOmd7BAFMAAx2CEs4Z0lppLSicLTX1uEUxdYqdd7RSuDkfgKj-KKS9HX7nkq2BINslKyV_U5FpQuvJh274YleeW8r2EISja5Z8u6DfJ-FvTeWyK1y4vGBdIykxc4e5tQR9HNDUxEsTxeaT6PZczXhuKnnq6Bkoumx_uGkuOsoWGgpsdDPa1xDkBAoSV8x2lFctG4L0aiwbLKzmUtsK3dXWfmh70wHTZLqoC-5ERoGZeOJgtLAr1EZhjnY4AqaVwiyKq0d-u7FdRJUQmi00d9ly-Gz-4q9jT4cuxvx-AB2Z1bu2nQ0NJO7d26Aa18HIbLFxsvcvl3Zfi0OuN09pnB7oVHm4XKkQthneheXayH85ChhDJOrvDiX1LfvP7IBe0lFx5BnjNnzW3pvuyS9qCkpsL5YTjOVv9SteeUhBlRI2veOFXVKK88QZ7FcwCTX4ymI80YmhMDN6GCHZvID4QLz3952UpLcjq75kc_0IUD0KHCHUF9iybbGgGpjpayP6u343ClVRw0tSADjx_bzZ2ifTkJOM2rDk1om5DGzEWnC2uIaDJpZ3g1fTHAtxllzoCABKgl1cy1lYXN0LTIw5g8.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-09T22:00:17.348747+00:00",
+    "expires_at": "2026-08-09T22:10:16+00:00",
+    "ttl_seconds": 598
   },
   {
     "id": "CNNbrasil.tv.A_9_hdQHNTE",
@@ -160,6 +160,22 @@
     "ttl_seconds": 21598
   },
   {
+    "id": "JovemPanNews.br.wLwWVqbdibY",
+    "name": "Jovem Pan Live - Flamengo x Vitória - AO VIVO - 09/08/2026 - Brasileirão",
+    "source_url": "https://www.youtube.com/watch?v=wLwWVqbdibY",
+    "logo": "https://i.ytimg.com/vi/wLwWVqbdibY/hqdefault.jpg?v=6a788605&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdTahjcWE8q7u1uLTK5E-v9D3r7g",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786334420/ei/dPh4aqCuEunn1sQP8ozOqAE/ip/138.117.222.145/id/wLwWVqbdibY.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhO88ilvfnxmnKTrb_5rnaD4rDDPmBYqU5TAk8eLSUmPGZV5WUHQdeM-ESkuI1L9oyILz9etvCVl/spc/KBGBcg-Q8s1zoWDN0PCz_7DIXn-1b2QNgvitHX_b4dhypbdLkU1KudEzTU2cXw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1803750/met/1786312820,/mh/J_/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115/mt/1786312350/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgHjx-7C00HixrEhjKuNkuR6ZyWRdcOY33ZjXzxqJma1oCIQDo3i17q-lCLP7UEHg93uM1kvn9m2GGq4_A764B2UEUpA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAN_edckziO7NbOSeLUxdITWl3MgzX2dWQu-uIU4jFx7kAiB4wIVQcPTAblC30SDFzP5skCgOntLAwlTJzJf1MTTCQg%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-09T22:00:20.842722+00:00",
+    "expires_at": "2026-08-10T04:00:20+00:00",
+    "ttl_seconds": 21599
+  },
+  {
     "id": "mr-bean.tv.oPonPGALYaU",
     "name": "Mr Bean - Mr. Bean Cartoon S1 LIVE: Hilarious Trouble Starts Here!",
     "source_url": "https://www.youtube.com/watch?v=oPonPGALYaU",
@@ -203,7 +219,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-09T21:30:18.879480+00:00",
+    "resolved_at": "2026-08-09T22:00:19.314070+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -211,7 +227,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hqdefault.jpg?v=69bd7a4f&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLAeLFn2E-4mOJujmWUaJGsz2-VRIQ",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hqdefault.jpg?v=69bd7a4f&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8PddgDBPPviSepht4XRi1iutJYg",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -227,7 +243,7 @@
     "id": "pica-pau.br.xIs3odCrjZs",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau derretendo com o calor 🧊🍦 Pica-Pau em Português 📺 Maratona de Episódios",
     "source_url": "https://www.youtube.com/watch?v=xIs3odCrjZs",
-    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hqdefault.jpg?v=696e66d9&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBvvHktvrLuvBqCk1ysCRWfl9o7_A",
+    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hqdefault.jpg?v=696e66d9&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAgtdMxIzMsv_Z3Q3KHRTi6ZfD2iQ",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
