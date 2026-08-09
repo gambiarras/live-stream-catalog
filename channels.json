@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-08T23:30:20.775961+00:00",
+    "resolved_at": "2026-08-09T00:00:23.627799+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -24,12 +24,12 @@
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=z63vnMGM644 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dz63vnMGM644&q=EgSKdd6RGIn43tMGIjAx5noHFoIAThZrBvKMWbMjvkEJmU1IcqpAk5hQat17BMAlM6tA6w29AowxvonEKesyAnJSWgFD)",
-    "resolved_at": "2026-08-08T23:30:17.920382+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786255219/ei/E8N3at_9B_C0obIPkKfJwAM/ip/138.117.222.145/id/z63vnMGM644.7/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/bui/AZFlqhPZwbsBACRztBQqJ5IovQVRFkZefENHvuuLJyv5qwL3_AHxxf1t_JQN9n_jJVlzh1qSM9ALnNfR/spc/KBGBcn0AVBUWTsWQBLbqPHKJOufmUuOQtn6ox8n-KTxW5PB8Mo4uXtUouNPXKw/vprv/1/reg/0/playlist_type/DVR/hcs/sd/initcwndbps/1798750/met/1786233619,/mh/VZ/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rmhost/rr2---sn-n0hpjput-bpbk.googlevideo.com/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1786233387/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAJsWdb2Er0Mk5a9G1WrL6d9TeiCZi8i3QnXHfOrUY4rRAiEAqcTWmhxk99pePZJt1w2Caqc-PACGpxACoLlxNY8HVkw%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rmhost,rms/lsig/APaTxxMwRQIhAN_CXxgmiBAHwcQCNBNhyLkHLwwlKuASYsW7iDb68_rGAiBh6YB-f2P04iSK4pcDZKw5EZU7ha9i5sBBB8I4KooKbA%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-09T00:00:19.806082+00:00",
+    "expires_at": "2026-08-09T06:00:19+00:00",
+    "ttl_seconds": 21599
   },
   {
     "id": "chavesvivo.tv",
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrEFSMyHEeT3vnSgxDp6frALN8TwnzRyyRZ0DMRkcj8w1S_w7OWj-NAeOm1UEMGiD5tfOyq0_c74UrPu3DjNX4Lq30sAr-VmIngHvaC5hwZnz6qXn1L5yLudSKr7GaK_ONalkOTzOTQz87MyMO7U3kDqfqc1IYeLNUMuxMuy-w9WZKDJV9H32Lfkmj07R9z5_m69QBtkhMbr0yBLbpSw-pTExcFBdtsNJm_mS9jShQoRuPKUCfCNjZIGHAh8t-9GNnUeGG22m6F7zjz99FQWtRi4OVEYwjBWYIPq356ATIhordrGJuObhki6uEZ5woZXIUQ3XK7MRrnjWcQ44OXjq8iGI-0xLQIowlpI4TVRttrshC8Q-wpQzByCbNJ-XW8W_qebeg4FX2DoH3VVSCGUWPiPkxPuVSi4ixhwX2pkK-RCPQQKKL4ZstPOSi9GqxudnLsVufRwJeCxl0n_v099Drcado0kCD8KR7giwSqDQbicl36hQtl_4-3t2vg4cgXnuwmdSaKXT3-upj_xp9IxsrbzpAUr1Pp2Z94SgiQRvLLbag_Li5wviQwbGLCQ53mXM1s2IQOhhVF1ZoE1cPV61tVu1wxBYw9waUwMxJlfpRsUfh-QftNqT8QXPE5O1-JlgTlotGCngdr9uvRObmohsMNdUhznTMJwdRqUv5-fKR42VN9hnI3WfHgHyb3BtzCpR84BHeof6Y9hxA0IgCM7_-mga9Uaduul7IEEIvexXUydcZJpoqNTN97FqXnFq61ejIxchYXFvF6LnJX8mHusDFidb1g6NkSXheBOTUgPGgQysnpucWXEeC3Pxmobd_3qD2g54JuZZOHsclT3nPApTmsUddCtMynDlJtycs1WiDWnx5xQuuPO6quuBE5Iqdl2sTyAuxahyXuTS4cTd7ECmiv1hCEaDONodUkbQcMY492M3iABKgl1cy1lYXN0LTIw5Q8.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-08T23:30:16.666015+00:00",
-    "expires_at": "2026-08-08T23:40:16+00:00",
-    "ttl_seconds": 599
+    "stream_url": null,
+    "status": "offline",
+    "error": "no_stream_found",
+    "resolved_at": "2026-08-09T00:00:17.119930+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
   },
   {
     "id": "CNNbrasil.tv.BziR18C2ly0",
@@ -56,12 +56,12 @@
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=BziR18C2ly0 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DBziR18C2ly0&q=EgSKdd6RGIz43tMGIjC_TYrEWfQtKgEob4HMnXb3GmRcpwRBk6pVyKoSZFZ-nYyG1SmHHq9rkmBPxmdWQAIyAnJSWgFD)",
-    "resolved_at": "2026-08-08T23:30:21.392005+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786255226/ei/GsN3apKSG4vN-LAP-5zCEA/ip/138.117.222.145/id/BziR18C2ly0.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AZFlqhOmxXv4JG9-urgq9MaqZjSfUVB2WiRcWLjCVTInikunNN79OlkOL30UaY2cTfwwD3EXoBNtobRV/spc/KBGBchvJ4P5XU8ihuGTWrguO8J20fSbUqR0De5I-52Rp8195_1k82sYBVUqOqg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1798750/met/1786233626,/mh/Re/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1786233387/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgZu2hvMumdnUpB-Z0BXqve_8RZibpBsXCVwuf8cec4GoCIQDKi7AC-h5fRcoN8IF3EtWVB-lf99eBV6xPoXQbRv3GNw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgZgOzVhgsu_y3H0IvYuiw6EyYyVjEMp0xD88wJPQUbmQCIEbEFrRDeB043Rz3zhiiAW84IGShGwPDmzWzNvMw2_YA/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-09T00:00:26.973109+00:00",
+    "expires_at": "2026-08-09T06:00:26+00:00",
+    "ttl_seconds": 21599
   },
   {
     "id": "CNNbrasil.tv.f3BQqoT_cMI",
@@ -77,6 +77,22 @@
     "error": null,
     "resolved_at": "2026-08-08T19:00:39.229770+00:00",
     "expires_at": "2026-08-09T01:00:38+00:00",
+    "ttl_seconds": 21598
+  },
+  {
+    "id": "CNNbrasil.tv.hm-i1ejPsbI",
+    "name": "CNN Brasil - AO VIVO: O GRANDE DEBATE - Edição Fim de Semana - 08/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=hm-i1ejPsbI",
+    "logo": "https://i.ytimg.com/vi/hm-i1ejPsbI/hqdefault.jpg?v=6a764a88&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXD9bTm1tzIxhjD_f1QU64SPkoKg",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786255224/ei/GMN3avqYMsCP-LAPod6IkQg/ip/138.117.222.145/id/hm-i1ejPsbI.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AZFlqhPW-3SGQxBSNgRw52--uqAM-yQwgwyPb8GIKOkm0eV2KYdn8q_9RUfSVuH4P1LeiaEuosUyZR8j/spc/KBGBckGu86PM7BPJHk3r3KCQPVFgcR45ch_GumW2A0WwmDm_SiciRmQTiPsGWg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1757500/met/1786233625,/mh/8I/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52089683/mt/1786233145/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgbcN25rYLSJ7dFUsicM8YvePJbGicM5HWogcuxtqVaUMCIQD5uOjFQ7nIf8v4RHqmDZ633oAxave-Dz94R6UT_PX7Ug%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgUM1PYMTsW6EM6fSDB53hi-R9dIBWqXxe9BO8ufjbTt0CIBG6Q6Ey0oTCXI7dDaXY2PLlMGnHnC9JoR9SDFPHakB3/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-09T00:00:25.393882+00:00",
+    "expires_at": "2026-08-09T06:00:24+00:00",
     "ttl_seconds": 21598
   },
   {
@@ -107,7 +123,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-08T23:30:17.131763+00:00",
+    "resolved_at": "2026-08-09T00:00:18.387604+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -137,9 +153,9 @@
     "tvg_id": null,
     "resolution": "best",
     "stream_url": null,
-    "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=G4ISVUEPSLY (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DG4ISVUEPSLY&q=EgSKdd6RGIr43tMGIjAWLlpxO4_RJ_imn6we0EIde_WLGvA8z-CQOF3d-ZLdR5FIPfFaBreyMI0DNIbSn7YyAnJSWgFD)",
-    "resolved_at": "2026-08-08T23:30:19.597257+00:00",
+    "status": "offline",
+    "error": "no_stream_found",
+    "resolved_at": "2026-08-09T00:00:21.715210+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-08T23:30:18.875244+00:00",
+    "resolved_at": "2026-08-09T00:00:20.738339+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -227,7 +243,7 @@
     "id": "PowerRangersTV.br.cQHlHWNg5zA",
     "name": "PowerRangers TV - 🔴 Power Rangers AO VIVO | Dino Fury | Séries para Crianças",
     "source_url": "https://www.youtube.com/watch?v=cQHlHWNg5zA",
-    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hqdefault.jpg?v=6a0d8090&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-6XpFw1Q-uhnQbbzpuFXxBvLWyw",
+    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hqdefault.jpg?v=6a0d8090&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDi_ef45t6XTuI-kbQgEO2rtmEtKw",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -248,12 +264,12 @@
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=tVl48WFBQe8 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DtVl48WFBQe8&q=EgSKdd6RGIv43tMGIjCzvYIwKCrv9Lb2n8ZK3y-xkMasY_tw8GBQ-o-5aZyTgAl6Laj4SIGV-McNTwF0RFQyAnJSWgFD)",
-    "resolved_at": "2026-08-08T23:30:20.323928+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1786255222/ei/FsN3ap-bK5KQobIPhJ3OgAY/ip/138.117.222.145/id/tVl48WFBQe8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFlqhMH4aMpApaxDNnUzBWnhVCHD5q3YdZ2x7k1f6hfcI-ERQXM2MZ2OBuH8xI64XzVeQHre8AC_NqA/spc/KBGBctElc8gNt_wUJ_bZHfjhR3N5Su8FAS4pYaPtW64REcJS-YKa2C12ZKF1TQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1757500/met/1786233623,/mh/LW/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115/mt/1786233145/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAMuW1Nwbhml77pRYmMe8ArQpt9wH6_G7sCAK-eu94KT4AiEAloHID8EX_8XD3hJLxmz9iVq1sl7_8X833xGUWdhrHWo%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhALsF-xp_YEixQB84AjJ7u4VwbswQvFojzdVQBSvs62O4AiAKXLxOUg0YPa2Qn7SiqJlvKw-nnwHJ7dDFm05kCRreXg%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-09T00:00:23.270816+00:00",
+    "expires_at": "2026-08-09T06:00:22+00:00",
+    "ttl_seconds": 21598
   },
   {
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
@@ -2371,7 +2387,7 @@
     "id": "tvc-youtube.tv.bFwjWv-IOqE",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=bFwjWv-IOqE",
-    "logo": "https://i.ytimg.com/vi/bFwjWv-IOqE/hqdefault.jpg?v=6a75be9a&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAXPaSSBYuOnjiJR9T0yi6G1oXMDw",
+    "logo": "https://i.ytimg.com/vi/bFwjWv-IOqE/hqdefault.jpg?v=6a75be9a&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAAF-KK_EhoZ8fkdx-xM8WxtfiRlw",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
