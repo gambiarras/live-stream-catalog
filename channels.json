@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-12T05:30:22.668553+00:00",
+    "resolved_at": "2026-08-12T06:00:22.667349+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-12T05:30:18.639727+00:00",
+    "resolved_at": "2026-08-12T06:00:18.266201+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,12 +40,12 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "offline",
-    "error": "no_stream_found",
-    "resolved_at": "2026-08-12T05:30:16.702176+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://fa723fc1b171.sae12.playlist.live-video.net/v1/playlist/Cq8F98jtHiVX5LWFXukbB3Vq3zM8usLvl9L4zW52aDXufs8IoiwKl4zaS6PbCwlCHHV5E4OPTYC26ijvcWaV0cGhtw9bK4s9nDikUHQ-DdiTOI8ee2Ex1dXba-2sSoqjzPYns5UDgk7MjA57oO-YmzsKTbITVJeWy7sJ0KLlipNcDkdXWE9P-DG9Tc_rnu43SVBVMWkO3Qqj7cSCHGkBYajhKE7P7yKVPA9IRI7yupT2uLTd2OETQZQGYlhRSAGK_knTSaLievNhzECSU4KvsgfXf-I5FQwinkWInkObL5CGCk0MPOmzZ-J7dy0UWeDYQ7-xUqBuElnu4oqERu5dF8-Nz8TuS5ckUoLr9qB7SpxX7qBP8ketTJMXgbv2bwaM77-UFNZntfra0MhdULEdTq2nLKZtR5bBJG1gMQj2DmXWcOKHUIouMHN9xfNCtx32dYPdMIm9d3oMF0gAy_re3w9aHUpSCOK0rbNOz_KRV8HSDaG9DmzxkUbwCEwXXx4vPmYuz-FHEKymoQ5z34ehMJIhDEeoW6T1xSSraRX3gVvEdX9xPIho-eG94pGxT_tdzTdvmWYWefWJdeMktLkhz8dRG3-WvaH5KuOtsUVJ34zPe9x_cJfNZPqSoX5V9w5xlNNRLmkpHVCW6PPqHlupXQi2XPCohDOnjw9vmO7uIPfliFmvYZ9U4UugbZBgU2IT2hZzkK0Q4qvHk9AKrOHOm3okShRiZlLRmxJ3SSiGhVTpLBOffpmN5zhIbr8sxWJsMSXakYK4FM0hU-t_r19byUGdQmqTxJbkOJSvupDlhcJUDvUuT6n2g4mX8SP3WnjLE6CnG3dU2ixHhN-43BAghyhgzrTwZj08CS8droSYJ1AjIY8j8CBMDlnNKfg3tIOi-LizNS3p5kQMwVqJwqMFM6MGGgzdPEEZcZPrwyqBO30gASoJdXMtZWFzdC0yMOgP.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-12T06:00:16.939412+00:00",
+    "expires_at": "2026-08-12T06:10:16+00:00",
+    "ttl_seconds": 599
   },
   {
     "id": "CNNbrasil.tv.anNvE3f7AgI",
@@ -58,8 +58,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=anNvE3f7AgI (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DanNvE3f7AgI&q=EgSKdd6RGPCJ8NMGIjACAVJgU7rSGVMVXzFUIAAWsagJEu1FI2yCYgyISBUSAereQDXahZ9PpznwSLYUwFAyAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:25.244256+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=anNvE3f7AgI (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DanNvE3f7AgI&q=EgSKdd6RGPmX8NMGIjCHAR_4ABdZMUALN3dVUvkZrfaOVN3BNrUF5T2D0B7QbVSTs8N73-G5C3aAw6dKgcoyAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:25.504012+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -74,8 +74,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=yfjYcG3brX8 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DyfjYcG3brX8&q=EgSKdd6RGO2J8NMGIjDKb-X989DSxr5WC_-Sdhlurf4Dxu69buMB9B0JU267R8OgzC3K1aenr2IdotFUy2syAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:22.280771+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=yfjYcG3brX8 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DyfjYcG3brX8&q=EgSKdd6RGPWX8NMGIjAEScx-L_jJlbObilwB3kLHBNV7ELttJnboIO6YmgU3vd-5iv_ClKpbBx5JoJ0nwAUyAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:22.338208+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -91,7 +91,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-12T05:30:18.027856+00:00",
+    "resolved_at": "2026-08-12T06:00:17.591496+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -106,8 +106,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=eTz4XgOQaAE (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DeTz4XgOQaAE&q=EgSKdd6RGOuJ8NMGIjCucU1jUknwKTq-sayuZ17FW5IjK7baiuNrKXGgYPBGUm59d1NgfuYENXYVC21avlAyAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:20.417043+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=eTz4XgOQaAE (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DeTz4XgOQaAE&q=EgSKdd6RGPOX8NMGIjCYtw1UZisNoifUDlX2yZ-YdGOxbAXYAr5V_4IQJPSE9OzxrMEi3oMqvjOsGJiwapsyAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:20.018135+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -122,8 +122,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=oPonPGALYaU (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DoPonPGALYaU&q=EgSKdd6RGPGJ8NMGIjCf7lUJ575zgeaPMlwx5kzWBsU4RnL-Eg6hASoSB2DfHtrVNfVEg84Bp933HVdeV0UyAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:26.327417+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=oPonPGALYaU (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DoPonPGALYaU&q=EgSKdd6RGPqX8NMGIjBlEl9n3iktWlpdMeUkzQUqRkzJNa0uh_xV4U9sEeldHfgLr5ZyLOrO6pdYkUSsc8wyAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:26.773391+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -138,8 +138,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=S_71wzZMf0M (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DS_71wzZMf0M&q=EgSKdd6RGPKJ8NMGIjDOvP4Ca30zIFFhSPPMuCQ8enYvZ7oVsRqCMiGLMO79RT7CbBXjd6yP0KwijTceqBwyAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:26.841057+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=S_71wzZMf0M (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DS_71wzZMf0M&q=EgSKdd6RGPqX8NMGIjD2IE60wnEm8wBgJpYORV9fVHo_piR9PqCFx5XUzMcdvmzo-eRQmV9fRs3rSQ5K-14yAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:27.374779+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -155,7 +155,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-12T05:30:19.195009+00:00",
+    "resolved_at": "2026-08-12T06:00:18.817244+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -170,8 +170,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=bK03WDeq5SI (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DbK03WDeq5SI&q=EgSKdd6RGO6J8NMGIjCyZRMsrsd8lz_0Si6IT9UMHVo0H3H2Ls4X3J8hvZyR9wtW1HLsr7hpkSD1Z0xM1_4yAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:23.425153+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=bK03WDeq5SI (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DbK03WDeq5SI&q=EgSKdd6RGPaX8NMGIjBrvHlvkKOxVneYr4dMsSR4vnOQirBOWjzCU3oIBESKcl-fttDqi4xPo1A2z8T3oTwyAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:23.392595+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -186,8 +186,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=xIs3odCrjZs (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DxIs3odCrjZs&q=EgSKdd6RGO-J8NMGIjBqt3BCXjVrhEiNxt6MAekNIMCbTIyzncagPMn0CFWrS0jj1ScTta9OZBizOqNWdhIyAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:24.079120+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=xIs3odCrjZs (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DxIs3odCrjZs&q=EgSKdd6RGPeX8NMGIjByB2-29QNBo_P7WnuSPJX0T8Q1yCPJrr6IiG5b8n7FPLvmmAC5wvAa9baZCJeStMQyAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:24.192370+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -202,8 +202,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=cQHlHWNg5zA (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DcQHlHWNg5zA&q=EgSKdd6RGO2J8NMGIjBnvRygNJhzxelEd7uFMtgzcMbul41Z9k-_ZBWRgxCmotbt6A8E_Hs8FYuYBZFUqGwyAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:21.664000+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=cQHlHWNg5zA (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DcQHlHWNg5zA&q=EgSKdd6RGPSX8NMGIjDVsSPAjmUkWWqVb47vjYutVj7nYYWIX52VhF6Rb7objWTtDfsl7RMlvpb-jDBpbuoyAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:21.524235+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -218,8 +218,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=tqCmSCH36ko (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DtqCmSCH36ko&q=EgSKdd6RGOyJ8NMGIjCoqrsRoWe8tGDOAebFAbBveSYLM6kLs0JJw2TIcgXGINSQPlrqJwnardKhwKRqFnYyAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:20.973324+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=tqCmSCH36ko (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DtqCmSCH36ko&q=EgSKdd6RGPSX8NMGIjDG0Mfhijj-R_CbQRshasb9KQnIEUDUnYIrwi1XG2sPtnHfnwCG-pdVoAex0-lWYU4yAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:20.743163+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -234,8 +234,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=juUt-rN5CVo (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DjuUt-rN5CVo&q=EgSKdd6RGPGJ8NMGIjBmXtTYrwEapp8kXMps-252xu3WrNS5dRmKbfXI7u3ma7MFutkUFxmaGUD9py9KlRkyAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:25.813503+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=juUt-rN5CVo (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DjuUt-rN5CVo&q=EgSKdd6RGPmX8NMGIjCYowpEUtJAgHYtrBt8HBz7ccrHH-re1RQ5tbQCH3gqAiyf6H5UOpcM-tv_Ls7oftoyAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:26.019847+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -250,8 +250,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=LLpNUqHVam8 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DLLpNUqHVam8&q=EgSKdd6RGOuJ8NMGIjAnM1oLJiolLtcmgUVHyl7_VLmGbU2s2zLKJCvq0l6VZU7jVRRiZQLn_RopkHB5F1gyAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:19.880229+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=LLpNUqHVam8 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DLLpNUqHVam8&q=EgSKdd6RGPKX8NMGIjCFZVEkgApya2JWE9HfScvJdMcM_HF_NawFOEzACHYUu4CK9lKD_faIQXGPPronxZUyAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:19.517919+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -2394,8 +2394,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=mkk0h9200HI (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dmkk0h9200HI&q=EgSKdd6RGPCJ8NMGIjA0ZjYjFvIgH_IatKTP0Rwuny36t5b2nzyfPS_fmwqORhMsDZzs2bzrDhA55tr-ySEyAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:24.722104+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=mkk0h9200HI (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dmkk0h9200HI&q=EgSKdd6RGPiX8NMGIjB7L1TRP8C71WbBp8dtS-RuYWUWkfiBEFq0R-NKQ8TdiKxsgspWOCMMvakbA6n9ubEyAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:24.926841+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -2410,8 +2410,8 @@
     "resolution": "best",
     "stream_url": null,
     "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=bFwjWv-IOqE (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DbFwjWv-IOqE&q=EgSKdd6RGPKJ8NMGIjA3AW2gixbZJhp5KHFj870x2Y0ryqmY6CHJtW1qP4MnWEJ_UtEecxfScZG4tPdE2_AyAnJSWgFD)",
-    "resolved_at": "2026-08-12T05:30:27.554573+00:00",
+    "error": "Unable to open URL: https://www.youtube.com/watch?v=bFwjWv-IOqE (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DbFwjWv-IOqE&q=EgSKdd6RGPuX8NMGIjBBpgJyKEctKZ3EmabYtt0XZPQlJnpTDsI2tr5YNfXeeeyRriDnQXWyx2oVw6rvNxQyAnJSWgFD)",
+    "resolved_at": "2026-08-12T06:00:28.019189+00:00",
     "expires_at": null,
     "ttl_seconds": null
   }
