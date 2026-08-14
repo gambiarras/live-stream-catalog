@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-14T01:00:50.005671+00:00",
+    "resolved_at": "2026-08-14T01:30:25.978674+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -40,11 +40,11 @@
     "source_type": "kick",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://fa723fc1b171.sae11.playlist.live-video.net/v1/playlist/CrIF1Mf8rwkVvBWrWXsj_hFXKLDgm_tN4xrkQh3CI1dHTKpTdbQK-oVABobSQ2o6_Rf52iAMb9jbFYc8srbBRWJCHjEfTHXNgS4Sw3mSS5NFxN3Dq94sYnm-X_DkfHUcbj2PsEjs8CBxj-Wlwm7amDLnmWMU06J6xH_r81zOQ5XYDPmZrkowMWPF3_YIh6tsMXd2jKCVXAzjnXpa3raYN3GdLvYU8_TXx2z6j3nVzIicipckv2uW8U77MmoRQ50EFs1wfxKzLNKvqMEVzMAKOLBg8WEW4JHDp_geHMJd_u2qc21lirUujyIa3vx93d33hgS3glqr0Iz8tYqok-Tw0ZuHjCZ3p0pnKczN9qdR-ywah9srr9pA_hdIfnFJPZjj-3A_tJRhDL9n678mnRJavM6CAQzaQ7SuVjNGj2uGnoRJ0E_r6jXGD0Mm641eJrAYViR4P2GpmAgVzTawOagTID-WexRqAHhtZtPDE1p2PbkpCGQde_VX8Y-ILYL5g5HxZNAVzqvmY4I13O9vaIdYjvTpVDMY2qcZJGIUDvQpoo2HUwEVBTpYIHY48P-HRp1Y2KCuWRDtsb3P-tx1mr0K1F6zrLS657ITYoWGbcYMAcJsET5hqQBdox4_PDWHLLcrlMDtyArkmcyaoHf6WO_brUbwqPP2p3t9QHLcPUiJkmDFC-VqFtZdJxpUhGwhI6Hpfpe-7PvbkaGQ1xGc9FDcCWqoT6KuIcdnCydXJf5OVknOT2fS6iAR1_O3hQD-0lwd5GV6eUyjw_SkERxEE77s5PgoerzxCXVAPILrFsdOtuHqYHEQ7ALkxWKaSbzLGvgUHs_LL6OHMzgdX9NJdGEvsANvFQ4c5ANy6qHvR-Btxc1cmumpXk2tldYrYqWmJZiuGCn2qk62HM9QBpToL8ohl7Rf05DUGgzX1uJL5PJjG1vUHE0gASoJdXMtZWFzdC0yMOoP.m3u8",
+    "stream_url": "https://fa723fc1b171.sae13.playlist.live-video.net/v1/playlist/CrIF-TEeviBpCLncvw1ljoIzxI_6Wmxfikt1uoa-efhWWOmvPOrWLs464IuZBQfDnS7goTEENLssu66mWQgNniLyrAFLp-F3rfczgArHZPNVSZ4S25pjhl5_OfQrgrrG6Hohe4tXCWL3EdbwvGcGr7rLPt5OMnm25CEadPEzabpsHP4nrvytta1a8cnoOTeZiJsSxm1ZiL6rZ4Uj7G-NL0-7x_okwvZ_iZ8DPxYxywbzD_tYRxs2VIjzBIlL7CW5nKmokuEeOVufUQpvFwUhuBIJvY_KMVJNnNiFWg3gGjFv2UX9QrUGGvGrypnhKK7uKUHaW3dYkAihL4M6aXtEEI59XeAmeuvTpUK3rmHOtRjm5vn24CCWPfc_zEGFIK22KtMUDXUxfJg8LcYc_6ba3nwOgmbhnyW3NgpcrOpBwUgk5KFfRs5BrtYzhlJJea4qy59hDjiA_vMi9elK3PH1QKkkSEGDysknlW6sWRUpX0HWfG8PDZcmzDJixzDFD30HVAIFVPsSjLGlNg2iSzfYbEwNg4m-0gcykuqBtHX1Cv-lntp4pYZHD6m2vTr710dNwookwCIbtFsgh-5LgdUTgBr9SinLy2DwoSlJ7kHrYLnbc5y6XFUyN4L4pA7_Ry_DeTGftj-eEN23IF50Jsur0VCGZP7hWe2VdK_OOHfKH6YIRWIa4f6VhdaBP2dXQ9M1jnjxRgXUClYF1IlW0-JLECG7Ak198GVttDt12zbY45URj2E9iJqI2aYg7SYF3FKeqBttMmQkE6Oi-1CZaisTCNcuGTIVGpWuknEL9iG0pt7ggbAcD7Ipw0br92JPRDlc0VWKiijYw0yA8OFPye2kgUl20D_MAVbGbuXoaZRdrFhpn7EC7HIQaDujFO8dIKwH9DppPuL2gg3wpOCzfcMs5vw6EQDEGgwP70w65tzLveQHVCUgASoJdXMtZWFzdC0yMOoP.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-14T01:00:17.687052+00:00",
-    "expires_at": "2026-08-14T01:10:17+00:00",
+    "resolved_at": "2026-08-14T01:30:24.525512+00:00",
+    "expires_at": "2026-08-14T01:40:24+00:00",
     "ttl_seconds": 599
   },
   {
@@ -64,22 +64,6 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "CNNbrasil.tv.oHOqeUD-RXk",
-    "name": "CNN Brasil - AO VIVO: BRASIL ABRE PROCESSO DE RECIPROCIDADE CONTRA TARIFAÇO DOS EUA | CNN PRIME TIME",
-    "source_url": "https://www.youtube.com/watch?v=oHOqeUD-RXk",
-    "logo": "https://i.ytimg.com/vi/oHOqeUD-RXk/hqdefault.jpg?v=6a7e4c24&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAUYRlkHM9a0xviUsKEDHkQP3ypw",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": null,
-    "status": "offline",
-    "error": "no_stream_found",
-    "resolved_at": "2026-08-14T01:00:56.687777+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
-  },
-  {
     "id": "DiarioTVTeresopolis.br",
     "name": "Diário TV Teresópolis",
     "source_url": "https://www.youtube.com/@odiariodeteresopolis/live",
@@ -91,7 +75,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-14T01:00:49.693469+00:00",
+    "resolved_at": "2026-08-14T01:30:25.692884+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -203,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-14T01:00:40.774167+00:00",
+    "resolved_at": "2026-08-14T01:30:25.294103+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -259,7 +243,7 @@
     "id": "RecordNews.br.Cb-ZA-0aJHk",
     "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
     "source_url": "https://www.youtube.com/watch?v=Cb-ZA-0aJHk",
-    "logo": "https://i.ytimg.com/vi/Cb-ZA-0aJHk/hqdefault.jpg?v=6a7c6ccf&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB9Fz7PxMBNMXBDEHbzmsArHkq6Gg",
+    "logo": "https://i.ytimg.com/vi/Cb-ZA-0aJHk/hqdefault.jpg?v=6a7c6ccf&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDt1HFOlc-xuSDVQRyYCjPrGx6j2g",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -2435,7 +2419,7 @@
     "id": "tres-espias-demais.br.mkk0h9200HI",
     "name": "Três Espiãs Demais - 🔴 Três Espiãs Demais 🚨 Temporada 1 | EPISÓDO COMPLETO",
     "source_url": "https://www.youtube.com/watch?v=mkk0h9200HI",
-    "logo": "https://i.ytimg.com/vi/mkk0h9200HI/hqdefault.jpg?v=6a73c095&sqp=-oaymwEgCNACELwBSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLC6ebi1HwMszOAWkWzwt-ea3CSuBw",
+    "logo": "https://i.ytimg.com/vi/mkk0h9200HI/hqdefault.jpg?v=6a73c095&sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0U5pIWhVIZ02oWgqMxWKDYpOi0w",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
