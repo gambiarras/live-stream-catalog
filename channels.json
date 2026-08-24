@@ -16,6 +16,22 @@
     "ttl_seconds": 21598
   },
   {
+    "id": "Caze.tv.Mz3FX1kTIWs",
+    "name": "CazéTV - AO VIVO: TÊNIS | GUTO MIGUEL X TYLER ZINK | ATP CHALLENGER DE KINGSTON 2 | 32 AVOS DE FINAL",
+    "source_url": "https://www.youtube.com/watch?v=Mz3FX1kTIWs",
+    "logo": "https://i.ytimg.com/vi/Mz3FX1kTIWs/hq720.jpg?v=6a8c5d7d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwhDeOTS9OXtTN001WCpelt69uhw",
+    "group": "sports",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787619618/ei/wpSMar6uFu311sQPn9jo4QQ/ip/138.117.221.249/id/Mz3FX1kTIWs.2/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AR3QkAl39znDy9uhwW9RKkWNTChUkloVcajDGKPgZzmzEDmqVz7W4asbZYQQL5eqnOLd7GwoaKlli6Fz/spc/KBGBcocLVfqdjgYzV1cP63arpImGvCfWVBMIC1bjXYOzuOAqg-mhwBUi4O24-g/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1887500/met/1787598018,/mh/yt/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115/mt/1787597555/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAIKXEj2D6mPvq2sjz06wPBjnlWo_SUV3VStjMn6klR3mAiEA6bi5e2z1kni1ppAy60AHWdssyBVH-4FJC6XNYzti9fs%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAOoMIMnBpus-q0gNedm1-ROl3Ak-V-ODGhe4GhzacOlhAiEAtg_pZ98GeuJVYUaWyvEXOXcZ5eySzOPcm7Z3-VVQDkQ%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-24T19:00:18.914852+00:00",
+    "expires_at": "2026-08-25T01:00:18+00:00",
+    "ttl_seconds": 21599
+  },
+  {
     "id": "Caze.tv.P2zX1MvKxpY",
     "name": "CazéTV - AO VIVO: ROMA X FIORENTINA | SÉRIE A 26/27 | 1ª RODADA",
     "source_url": "https://www.youtube.com/watch?v=P2zX1MvKxpY",
@@ -59,7 +75,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-24T18:30:19.089552+00:00",
+    "resolved_at": "2026-08-24T19:00:17.502140+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -120,10 +136,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtQEhQKMuahJ_TLkP_MIoaORROqBgqxeluyVhN_pAOje6RZRsDeEfKE_GWwSjmJ5jKE-7465T1kfgYsBe0F6TdWl56fWCkHI5zltQB3ueSDfSR_6WKFX-b_rHHt-2gJCIlPg5vSZ0iDTGxxFnI5GXoSdVvLCeeuu-MNFqPQaPSTnDHKbaZ7uM2xwmd21BTou0YuGqkCm0A54fZIuhaD_seGBC1t2M0Fd0HY9yutQBOmIkOvT2-T0qjRGiJ4x08DtbyZ9fuEbKiw7Z4z_JTeTqflxDba6HGLcqkSdTOpZywGZKo9BfFkyCJ3c9HEneVowwvky7Nic-CQHdCe6g5czxtIIM7L6btmbH4s848GgSWFehvPXtx5CL4-XDyMceHEtU3tbklKC1RcKOh79I8X8zVx8N3EV560xwxRIFIP2P6qmBmENlA3hYXLKnHA4blJxTW_U2lOgORJDH0CnndxngBOcbAo0Jh1vIxEk7xDF2wukPljuGM5DfDaQZsgcK4tMd_DpV7SLwLuA9sIQz_AEoAS42SFpJy3mXgAtJN6HcoWto0CkCNvdXtN8bC8rkCc62rdT5PyNS04Ef4UAXY74YRiA8x1NFWUplPg_8wTz5Uy3HyRn510ZuPl4spjuK_MhwPBsfcW9J-RRhtCsMr50ubSnzBx1l5GhaLQISEW784r8uEYajv8m1LXzAO3RQANMVcnB0oe9OX_n-pnXOJGDzYDQzNPWbaj0K3k31lHDLGKJ-AhxLORbF2-FD6luSv0-7StP0vLpYtmofRioDUOVy2c8IsE5mooaDNdMtX1o2GvmIys4VCABKgl1cy1lYXN0LTIw9A8.m3u8",
+    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtIEfGyxorgkD0XIIuo-j024yt8YwZMpsb1Vo1PR2p4AY7J5-0qD7VnYiEBslIZ3VZWScMRcLvAT0Jrk9P8EgDNLzropwXS5SOjNHgDQzMYcsbTmzdtVA9K9ZL56IE1LSeCjQZ9q5LXwWyEw6nzGz5mf7PeUQL3Avszo0ebB126sq7OW41DODhuWll5p4ARECX9gwJIvtup9gx2WLhcV6Edr1UAiKm4c8Kqmbbj40NDJMDJh4G2xd919xkAzT8cV7BsCBegFDGVMZGAk2ilIMjFyaW9YKuLwH0Vu4hQa1WIOhzaqcNgmysLCWX_NMMa47pa9mkU6gMiRCZU9mWBom0TOPPZSYm6dUV1dIEfdwfzca-6JZG8F0irQ343SKd5_SzqyNOSeYSkl8jTahBiG7uuZWtlDbs0VWHLcOQiCmYVN88NZb0bRAWRsfop1zpyQzB5SKfaLDXPvE7SX1UBnXyOe_DXp0s7LqbN_zANng5cCnqH-weywV0tPdBU2G81nRY8xrbdTsdv6AVJKsfB8lqThqejwegxIdYjjMmYRs9L5AeWzamzfx2CgK8MC0AhpvOxe74ry1aXsDkICfhQh4w99Xx7Y9Mxjbq6YTLhwk1NN5Zeu2fDePJu7rTMe7l6VXoxRnwH35zfezwZ4NQmLGmf6acU8hhlp6kQMso2vB-4nbKVlC9aPl4BPMVZ1-TX-QoAZ5-HhgpfE908qV4Sjb02KCmd2YSc8k7-y7ckQOQgoo_CiWAxSiU2Jvt8u29PK0TvPz5Gv-XaK6Zf2Jruygpy9BKqZGgzntrNavDhxNRiOncAgASoJdXMtZWFzdC0yMPQP.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-24T18:05:17.894735+00:00",
+    "resolved_at": "2026-08-24T19:00:17.669071+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -142,6 +158,22 @@
     "resolved_at": "2026-08-24T17:00:21.904196+00:00",
     "expires_at": "2026-08-24T23:00:21+00:00",
     "ttl_seconds": 21599
+  },
+  {
+    "id": "JovemPanNews.br.9v03EdLx2co",
+    "name": "Jovem Pan Live - 3 EM 1 - 24/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=9v03EdLx2co",
+    "logo": "https://i.ytimg.com/vi/9v03EdLx2co/hq720.jpg?v=6a8b89ef&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmDFyF9rHU38l2xH_iHKyNT1eC_w",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787619620/ei/xJSMas6oMOyPobIP7OiVmQQ/ip/138.117.221.249/id/9v03EdLx2co.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAnF0gJwKTiSvsBexfxDsj-cWOTvxIYM-Sc-_ZtUd67oqshxDZV_uydg2BWep9hUHeRLo-guCzAX/spc/KBGBcuC0sRkTAXN4449N5eEmBRzM9oM3sAAUiAnU5JyV5leMwAB5hyWe0Z1UFQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1887500/met/1787598021,/mh/7Q/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1787597555/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgE7teTn_6CtFGTJVY1wibiF4B2LWd5EeiFCFIyDZgna4CIQDVzbuxpRFsOAP6Hp1iGLOKBQcscU4XWlewXowoZ3Iw3A%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAPk2g7gn-iLFQ5K-UsXSSyV9sivvIluWq1pGc5mQbFPgAiBlBkJ9q-crfzzkmcR1-TC-SNX6S0p5z3DNQSrySkbjFg%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-24T19:00:21.064219+00:00",
+    "expires_at": "2026-08-25T01:00:20+00:00",
+    "ttl_seconds": 21598
   },
   {
     "id": "JovemPanNews.br.eTz4XgOQaAE",
@@ -203,7 +235,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-24T18:30:19.925855+00:00",
+    "resolved_at": "2026-08-24T19:00:19.783151+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -243,7 +275,7 @@
     "id": "PowerRangersTV.br.cQHlHWNg5zA",
     "name": "PowerRangers TV - 🔴 Power Rangers AO VIVO | Dino Fury | Séries para Crianças",
     "source_url": "https://www.youtube.com/watch?v=cQHlHWNg5zA",
-    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hq720.jpg?v=6a0d8090&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCFdJwcZtcH9uRRcpuEBfs7rkR2NA",
+    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hq720.jpg?v=6a0d8090&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmMWf6nxX5oy1Jp82eFkbTLMss3w",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -256,22 +288,6 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "RecordNews.br.3M3Wb4XChm8",
-    "name": "Record News Live - Conexão Record News - 24/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=3M3Wb4XChm8",
-    "logo": "https://i.ytimg.com/vi/3M3Wb4XChm8/hq720.jpg?v=6a8c709c&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDs3Bp4rEUHSoCFj8HPAnQBA3qp8A",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787610620/ei/nHGMatGAIqCb-LAPpse86A0/ip/138.117.222.145/id/3M3Wb4XChm8.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAliYHeCQ3Lfw4QEiSa76B0dDOc37FszcRbMHFm0EQnKaLbrZDh46mieR2NPBhajnd7-ACR6cd0a/spc/KBGBcqZ2XQ51GR7R2-8q08jbjTCZFJ_t_HvzSYMUVyw16hALxXWwI7o6TT0svQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1537500/met/1787589021,/mh/9n/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115/mt/1787588443/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAOi3hsaHUY3w30L1N3xYYWdSHsA4j5rUeHms-Q1iOGpZAiEA1uLwmjBogqxaIXWgAJSJHfXnSmDDunHRnGjJG-M7_4A%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhALm7NGxsHHho_V71QdvZG_NadgqTykTzmDtBNRvQ7dIqAiEA2zx0b0Y7DejKmMVxvGPVkw6f1TYrwgonPmLINp3C1yo%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-24T16:30:21.152070+00:00",
-    "expires_at": "2026-08-24T22:30:20+00:00",
-    "ttl_seconds": 21598
-  },
-  {
     "id": "RecordNews.br.vLzno5z62bI",
     "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
     "source_url": "https://www.youtube.com/watch?v=vLzno5z62bI",
@@ -280,11 +296,11 @@
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787598021/ei/ZUCMar-bIMuO-LAPtPuTuQs/ip/138.117.222.145/id/vLzno5z62bI.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAmDLVZBADtNASD7c8Lr-el55On7Y091ydFzXyX5UQtUo36KfreIbqAqnwK7Yn1fFDNm1QMfHnIk/spc/KBGBctkEthiNvJdAAIEO925cVQJclyZG3O8HgsLqQS04fbr6gg23SBEchFZksg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1071250/met/1787576422,/mh/i2/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116/mt/1787575944/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgVc5122Od1uTzsyMfLhtNAsufn11JU58WJL2Z2Q1_CFwCIQCbzeL0Zd8quSm7UDcCZuBcAb61JshDNSexS1vL821iJg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAL4C0H_DF-RGTav6Q9gAjLtdO9sJ9snYgqvl8SQr-r0WAiBFn_4ujlyE5_sGjsS73OfuPyWUPcwUT36M-C8PfBrKLw%3D%3D/playlist/index.m3u8",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787619621/ei/xZSMapC8OcSG1sQP2YWFmQM/ip/138.117.221.249/id/vLzno5z62bI.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAnSlPd16b8Dm8mN2EAYbqE557ejQKRiPLbdJQXvx6U918Sf5exNhNpE6_CgV9L0R_VnG6KnPjle/spc/KBGBcixJ28Pcx3dYBpF-S4nsrLokNh4f3LR83GZAwJMUTKGRiELH801ZKniRFA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1590000/met/1787598022,/mh/i2/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135440/mt/1787597792/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgRqvM24SV7ZGYKaX4_Og7B-OyKKUtL81d4h5jsOHQ5kcCIFf6UZBKx2XEAm4AwLjAEHAK7XKnRWMcRJ1cVKKnfEM4/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAMnPJz1GI4X4bYFjKPtZjNJTiRTHpRdAlSi9I9_786nzAiEA8NI69Gfrlnzo64CWZIK0yn6vCf5CGec4zoL444G_c50%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-24T13:00:22.051878+00:00",
-    "expires_at": "2026-08-24T19:00:21+00:00",
+    "resolved_at": "2026-08-24T19:00:22.524340+00:00",
+    "expires_at": "2026-08-25T01:00:21+00:00",
     "ttl_seconds": 21598
   },
   {
