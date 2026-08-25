@@ -24,12 +24,12 @@
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=PGa-aoyy7gA (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DPGa-aoyy7gA&q=EgSKdd35GMLMt9QGIjBUpc3CBGXz_pCwQERZ8l24maw4pQRlXJi7Uvz3JW_FwQw4d7r862kUCeM-tq4hx18yAnJSWgFD)",
-    "resolved_at": "2026-08-25T19:00:19.031086+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787707817/ei/Se2NapfdMeOK-LAP1Mu0yQo/ip/138.117.221.249/id/PGa-aoyy7gA.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/bui/AR3QkAkReplmqZIHtluK6BjavQYc1zLdy7we9QYIK3ldrI9tRok7LOgKUyO_qWBN7dUU1IdwKQ1Z7pm4/spc/KBGBcrZjFJol7iIhQJRWn2fBDzJyw-0L6obSzqxGcWK9QZUzuqsC1Wq4_Isugg/vprv/1/reg/0/playlist_type/DVR/hcs/sd/initcwndbps/1188750/met/1787686218,/mh/oL/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rmhost/rr1---sn-n0hpjput-bpbk.googlevideo.com/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787685664/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgFcEmCEpq7ZhHqn_-6-CKRqd17JEVJmoSPisK3PcpNRsCIBBV37viluaZ2qlMMhoZKeIXyHvLPyYTTCXguJdUO073/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rmhost,rms/lsig/APaTxxMwRAIgfO0L8G6l2D4VCGotD8OborFhgNwbVs9GfGaAYkH7t9cCIDms9aasHr3CLd8c_NMS_YOnNa0nP_VZlbS50feo1xLx/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-25T19:30:18.164026+00:00",
+    "expires_at": "2026-08-26T01:30:17+00:00",
+    "ttl_seconds": 21598
   },
   {
     "id": "chavesvivo.tv",
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-25T19:00:17.953287+00:00",
+    "resolved_at": "2026-08-25T19:30:17.429841+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -128,22 +128,6 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "JovemPanNews.br.IbzGGDGEJNo",
-    "name": "Jovem Pan Live - TEMPO REAL - 25/08/26",
-    "source_url": "https://www.youtube.com/watch?v=IbzGGDGEJNo",
-    "logo": "https://i.ytimg.com/vi/IbzGGDGEJNo/hq720.jpg?v=6a8ca98d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAxJ62JXTtD7RfgxPPhS2kj6alUkg",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787698820/ei/JMqNatv3GPKQ-LAP5Jq6oQs/ip/138.117.221.249/id/IbzGGDGEJNo.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAlC4IbHfKn9-Vk-bpxp-lgLv2tVuQLccQZJTvmfT62E6e7WfRdCdDk9MIzRZ9TVUwUio9uD4sDO/spc/KBGBcp9UtbKUQhFbQqDbQyXv8iuehXs3_ov3qBnfjmzWFz6VHds_Vc9nh4On7g/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2446250/met/1787677220,/mh/NH/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787676997/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAOXzte4YN1kcV-96YKsfxTex5vP6Qeg6KMv6T8UDJWz-AiAcr7ECh4zhftiI9Uor24Cu9lU_lgN2hfvB5LfvCzidJg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgcvRL7uw4UiSu3ZESZNgiLIK7sWduYaPLKArvK1f7iAwCIDATdiKWvHL6meWiyZKd7najeDskNEh_8R0wskN1-wee/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-25T17:00:21.067171+00:00",
-    "expires_at": "2026-08-25T23:00:20+00:00",
-    "ttl_seconds": 21598
-  },
-  {
     "id": "JovemPanNews.br.PT1hBOlibQI",
     "name": "Jovem Pan Live - 3 EM 1 - 25/08/2026",
     "source_url": "https://www.youtube.com/watch?v=PT1hBOlibQI",
@@ -152,12 +136,12 @@
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=PT1hBOlibQI (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DPT1hBOlibQI&q=EgSKdd35GMTMt9QGIjAcU1zTxvYfKEJpEoLpHL2xVgK8Ra-GUExh5yjXvMdXKnGOzrsWfghY_AKVSGU8O8MyAnJSWgFD)",
-    "resolved_at": "2026-08-25T19:00:20.775695+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787707820/ei/TO2NatKlDOyP-LAP-57xgAg/ip/138.117.221.249/id/PT1hBOlibQI.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAmgrC9hqsIFs3YQnJ5ghT05OitxXNTS_e7YIHua9JxD7lp0T1kIXJFDaAEee6tJGb4RdLjMSzkW/spc/KBGBcqUE6atkdTXs5IqLSXoCEjwloahyQ0GaPR7jCMJkRUfVy0PH-qVidxWGCA/vprv/1/reg/0/playlist_type/DVR/hcs/ir/initcwndbps/1188750/met/1787686220,/mh/BE/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rmhost/rr2---sn-n0hpjput-bpbk.googlevideo.com/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787685664/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgKHl3hguWfrfHRqmiekzz8UjXENBrfd_fpYHkWoq3lW8CIQCraFXVbs0Rf22PkCutUhLgZ3U5GUNeYEl6k9bRMUnPrQ%3D%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rmhost,rms/lsig/APaTxxMwRAIgYHpXo9zDnxYhl0nO-Q6W1qxYCiOc_m9I0uMk4enhD7ACIFGSagnWLXZkw5K0u1lrrDKQvHtuvTIxGfCesdIMwio5/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-25T19:30:20.772962+00:00",
+    "expires_at": "2026-08-26T01:30:20+00:00",
+    "ttl_seconds": 21599
   },
   {
     "id": "mr-bean.tv.oPonPGALYaU",
@@ -203,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-25T19:00:19.736050+00:00",
+    "resolved_at": "2026-08-25T19:30:18.849019+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -211,7 +195,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3GDBFWnHmwvlSY0_0WlNgTWnHkg",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCvSb7TBHzyRNCGt7PZOsKfuAX3PQ",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -227,7 +211,7 @@
     "id": "pica-pau.br.xIs3odCrjZs",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau derretendo com o calor 🧊🍦 Pica-Pau em Português 📺 Maratona de Episódios",
     "source_url": "https://www.youtube.com/watch?v=xIs3odCrjZs",
-    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hq720.jpg?v=696e66d9&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAP7Z-OWV0LZLNRcI8M9feCy5njhg",
+    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hq720.jpg?v=696e66d9&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCcftGqLk9tX38BJPW5bc7dyowMSQ",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -256,10 +240,26 @@
     "ttl_seconds": 21598
   },
   {
+    "id": "RecordNews.br.51RGxu2hEzA",
+    "name": "Record News Live - Link News - 25/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=51RGxu2hEzA",
+    "logo": "https://i.ytimg.com/vi/51RGxu2hEzA/hq720.jpg?v=6a8d8bc7&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAX3JqY0p1fFD1UAcyW2fre0N_8Dg",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787707823/ei/T-2NapTOAv_Q1sQPz__J0QU/ip/138.117.221.249/id/51RGxu2hEzA.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAmdE4BKnJqiZgDESdaq_LTzGLvQrB4PM7m2WpBIkpV-_qKzR0cXA7vzXxmbMilOXsvKZvBUewYG/spc/KBGBckSokkCvLhJDxtR4P-wEnaxBWSvgIfdJVkagvH7NL8E6VisxFAWcbsOyyQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1188750/met/1787686223,/mh/Mb/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787685664/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgbSGgNZoGVy2cCooQGmbQHyNfuwUVg7RFpGRnTilSejICIQCHg_xRRjvj5wWH2tfQ29WCIf2SAa1th_61a_Bba0DJeg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgXdcMEb-ENoRCi0mfgu1H1XqlYa9jEIm1u1-wn6a-lE4CIGdnp9xgr5P2YgiOhxg3DCeCb_zb_pK9jMjQmSs99Tul/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-25T19:30:23.628430+00:00",
+    "expires_at": "2026-08-26T01:30:23+00:00",
+    "ttl_seconds": 21599
+  },
+  {
     "id": "RecordNews.br.LsUWplWRKPk",
     "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
     "source_url": "https://www.youtube.com/watch?v=LsUWplWRKPk",
-    "logo": "https://i.ytimg.com/vi/LsUWplWRKPk/hq720.jpg?v=6a8dc961&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAmyK3F1obZdp-xZtzoEdcIIxjktQ",
+    "logo": "https://i.ytimg.com/vi/LsUWplWRKPk/hq720.jpg?v=6a8dc961&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZMuYP5Ebg6CmPmMRXBQpV0vs5xA",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -269,6 +269,22 @@
     "error": null,
     "resolved_at": "2026-08-25T17:30:20.282597+00:00",
     "expires_at": "2026-08-25T23:30:19+00:00",
+    "ttl_seconds": 21598
+  },
+  {
+    "id": "RecordNews.br.xJRAmdrTVcY",
+    "name": "Record News Live - Eleições 2026: Record News exibe entrevista com Angelo Coronel (Republicanos/BA)",
+    "source_url": "https://www.youtube.com/watch?v=xJRAmdrTVcY",
+    "logo": "https://i.ytimg.com/vi/xJRAmdrTVcY/hq720.jpg?v=6a8dc5c5&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAud1gsZEluzuzHx2GiSu2Uncn6SQ",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787707821/ei/Te2NaoT1KaeDobIP-eGI0AU/ip/138.117.221.249/id/xJRAmdrTVcY.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAlKT5Pt0_9nq7KYeVOOu6tiLeElumTBfnjZhuDRly06Yq5fuflCz470vm-olX_6Lp-Y-jK1Om-c/spc/KBGBcqoVxWxkT53cXpIcDe-ECLjaA532Lq_a1WW_pKjJJiYvkoWMOgP6gcIkeQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1188750/met/1787686222,/mh/QQ/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787685664/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgSCAUD99K0RYGsVfvn9e6buHFTIXguCcvNP7r4WwtAagCIFAV-okw9rCM_rZAONv_ctPPM5w9vmYPY8xe6xDHOz59/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAOCHIyW10AUre7l7lYalL885Hgkt1afE4D1l-uy-4yVXAiEAn7ivG2jbWnR3ZSDKAInMxoWg9N0ikP06LUloTJdusXs%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-25T19:30:22.237491+00:00",
+    "expires_at": "2026-08-26T01:30:21+00:00",
     "ttl_seconds": 21598
   },
   {
@@ -299,7 +315,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-25T19:00:20.169733+00:00",
+    "resolved_at": "2026-08-25T19:30:19.233211+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
