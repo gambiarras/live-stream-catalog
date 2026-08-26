@@ -16,20 +16,20 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "Caze.tv.8bvkDtLYYnQ",
-    "name": "CazéTV - INDEPENDIENTE DEL VALLE X TOLIMA | QUEM VENCER PEGA O FLAMENGO! LIBERTADORES | NARRAÇÃO AO VIVO",
-    "source_url": "https://www.youtube.com/watch?v=8bvkDtLYYnQ",
-    "logo": "https://i.ytimg.com/vi/8bvkDtLYYnQ/hq720.jpg?v=6a8e02fd&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5mHiD6PFtpvSPG9Av4PIkU-gKAQ",
+    "id": "Caze.tv",
+    "name": "CazéTV",
+    "source_url": "https://www.youtube.com/c/cazetv/live",
+    "logo": "https://yt3.googleusercontent.com/4oHE9WPNm2O_OCXfv-z1ikfOHAWLe46KViKgZNwBGiRQKfLDPlHmnBQ9rbuXvWasG4YixvFA=s176-c-k-c0x00ffffff-no-rj",
     "group": "sports",
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787724319/ei/vy2OatfPBvyT-LAP7cng0Qo/ip/138.117.221.249/id/8bvkDtLYYnQ.2/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/bui/AR3QkAno1BnGbl-BvkpBWbampDN_oEpmA2msqpSBOcmv8h9ECGNOisNn5KFy2jmzdSlSCqVeUu0RzadD/spc/KBGBcs0zU1fIsSjyMsRyTqo7eePnOGbHMjq5r6AqyBedLaGmxHicrSXWT0ThLA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2168750/met/1787702719,/mh/gM/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135440/mt/1787702430/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAM4zaTI3rKYJegcsvda2WRZgwCmh87kH-zIVdgv6vvKwAiEAmH7hQHh7SntI_CoZFpPS2JepuTlXEr2o9tCJvprxpiM%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAI95bIEBlUQC8uRrK1OTwl4JgNajAA7DLVhj_n82oEgeAiEAqyrOzzb6LJtVfpmAh6N_TSEQGs2hhz8IbBK-dG9zaa0%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-26T00:05:19.761891+00:00",
-    "expires_at": "2026-08-26T06:05:19+00:00",
-    "ttl_seconds": 21599
+    "stream_url": null,
+    "status": "offline",
+    "error": "no_stream_found",
+    "resolved_at": "2026-08-26T03:00:18.972244+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
   },
   {
     "id": "chavesvivo.tv",
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-26T02:30:17.247177+00:00",
+    "resolved_at": "2026-08-26T03:00:18.083473+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -64,20 +64,20 @@
     "ttl_seconds": 21598
   },
   {
-    "id": "CNNbrasil.tv.WbyXt82lOV0",
-    "name": "CNN Brasil - AO VIVO: O GRANDE DEBATE - ELEIÇÕES - 25/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=WbyXt82lOV0",
-    "logo": "https://i.ytimg.com/vi/WbyXt82lOV0/hq720.jpg?v=6a8d05ad&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNQSkcNDWozbJg4_m5LMY-TIZVPA",
+    "id": "CNNbrasil.tv.Iz8KSLXYNXg",
+    "name": "CNN Brasil - AO VIVO: CNN MADRUGADA - 26/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=Iz8KSLXYNXg",
+    "logo": "https://i.ytimg.com/vi/Iz8KSLXYNXg/hq720.jpg?v=6a8dc0a5&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCdFZSWDYkMKZPFnYIESk_RjGTqBg",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787731220/ei/tEiOapjoDaqI1sQP4_fUYQ/ip/138.117.221.249/id/WbyXt82lOV0.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAk1qwFj5Hsxgx031VIXxjk27Vn3vVXzP8GKuE1Ky_6RZ2GnxNqD6iJ0e32zxHyQ6DKf0b7irbO_/spc/KBGBct5Pr3ID71UKsRdmhwYrmZ0FF0iwoGy2UZQhqKYFM_2yftECBL8XwSxPMQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2420000/met/1787709620,/mh/Qn/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116,52135441/mt/1787709145/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAMTajKcyekVbubgR35b9vTmVbd-16rvovgODVrjGeX9RAiEAihRmCDky7SZ3R95UCcj8aZSdjUsLeD45kFkt8SeuxfU%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAJUmntuQv-tbHBoyuIFL49cSi-0A7UngpOd72KefKHXzAiEA-zQ5ODcZidMSCTeqZ-LF1mtDyI3IWqwZg9O6ITT2rlI%3D/playlist/index.m3u8",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787734821/ei/xVaOapzAN_L31sQPsKTYkAE/ip/138.117.221.249/id/Iz8KSLXYNXg.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAlYtQeyEEXUtRAZ-abbOI_1vFAG4Zyxkrpb4uFh6ZYdvjKHN7l_GYI2a4i3fd6tbUmq4f0ukZLc/spc/KBGBcjGxgfwghyevdmzSzjhLe7T14Gyk05SESPgraTMwhMfCMreC69KuHFe7bg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1851250/met/1787713222,/mh/tA/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787712750/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhALHi1FaTXRI0QqtjkuAwhljBPlRq4WNDTfCOcll32sgKAiEAoiyImgWWjjCZ5c6WI0pWUfeJh-Tx4Bt3dzwi7ILGIKk%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgUTRxqQlP1zjWyo1Yuf1X5B3aPOWsgF09P0t2dlfhtAMCIQCDHPL0ido002BBxBjEX5NEknCnxA_gb7BpsaygR660ag%3D%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-26T02:00:20.765126+00:00",
-    "expires_at": "2026-08-26T08:00:20+00:00",
-    "ttl_seconds": 21599
+    "resolved_at": "2026-08-26T03:00:22.430585+00:00",
+    "expires_at": "2026-08-26T09:00:21+00:00",
+    "ttl_seconds": 21598
   },
   {
     "id": "DiarioTVTeresopolis.br.cg7GkdA9k8M",
@@ -104,10 +104,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtQECVHXrI6zfe4x3wdNJzElal30PfRUkf7QNdIoeZs0lH5umsGfIeryCPOca4MmNNLpnnPTnYlu2JbctF_J83i5U4UiLD-cb05BaNYP0JCFqpLpOvsHtIlnZJUWozkTIXusvfZeFkeQjx4h1n7NFywEcHxID8y9aO95QQEqtLgR0eqCWPVcgC8wMzkzrQuhA3VSDY0YdAGtZH8px92mEDY6UO6uRh-BCEqDrinEF6UBUAhd6ixOS8o5JKGNeT6_t28yFywxGU_oP_bDAnw4S0oQCSzWDuY6YP4ZvQ1RQ-tQjVzreFftVDUg9ZO--Kkw8RHF8lsi55ufetzSfIDpoAQxZnYGcUW4q85IhGkOLgezLXeuZdz6VCPoRb0FcxT5YXnuSy6iuNEjxCyNeXHlPVVkH_sW1KdA7M_e5pakayRaCsnfTFChjd529rW8E3Fss7NJt89HLozz7D8vIzU8ropqeA5tECFnvAGm87OQgFje5o7WLS8thYomvG-YYH6p0gb4tuuL9j-0CvJrrRyyc1R0q2WFCoroLoWinAqBYE2PtVi1845pxkONWO_ItzE-usX0BVg6cpbhg-IbcRE_8VNwkKp-4-waMGJPQDVMaic2JZwQMzAEB-1D2kLMp11dHco8MtceHuquDsACgo4J7Xa5THImcAgvxq4vV2geFjATPlntbLwZddek1xzF6JaWzO9RpowNisJu3SeG6ny33mpQSuwY16rIev4Rtl7O7SRg6254oB8PQaZ79q0EA339ci7PZr1d4HFN2POnOSDKkhqtEltG_BYaDKuQBHEUwDEkvjEORyABKgl1cy1lYXN0LTIw9g8.m3u8",
+    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtQEC2MmeeSkdfBNQQhiSjtibjsv9r1gCV4wbNAZH9QOlPWcz1FQjAKRoZaqy7mKZz9qGITxsbUJzGmDMqQ6wet756VqNj1EPpOhmijEqKKhfsVGu3IWXpvqSICL5inrQD0EAEHUjRURAacWINk_mpDxE-Mj3oeEZGU_cvnQbxVSTwiEkKkyoB8Nbd8UfJyI0i6hyEhCMAHt39ZTmmMQj00jjCYXvqDBApF1Y7-HYOrrgPYb8CEBDAZIlE8PwXIZETWABbQrJzXjq6OFlqAtrn1u8i3eQCC2hhmGRBxN3DvAHOhzEGkj2lXZO2QKsSJdqWCPrNGfBa7Xi6NVNLzDThPix1pzSlh-PrTP5vZnJbokd5sAvRZ3fWhhhvfDVC8AciNJUFGVcAKVtnCXTRs7N6jTISxzKw8Twg_3fuX4aKxiW9vFvcGsuSpdL2PI9eQXfqOR977ELnNkfk9DHUlwW-71aJuu5eVPrWqXjdPeIIPb4VBUBgmNCGfe5y86wP8NuVEIN6rMwmPQQSVZxTjCIG0WItzHKOXH6Jt0dhv9UCAb15wxe-dq-fnSFn8-u1kAUnoE3NmMopK1bCqamv8bzLVIayDRuPQ7FL1kNV7XV1ppNqr5ZFfAWHi6QbcPgEGSXUH3L_gg1ag8pO9FrSUsooFKrnM8tzs8DszCyR5VcZm0GPUGX-yv8tN8LTfBxWtP6GN28gssQKBBaQHnHns0z3h22-ab1dxL5W3UhXCn8_sp5pklvkiBiuoyUCl4qNpx4FZ6Bw0re0mXrPBs33zXGDKVWf1M_ssaDL9x5JmC7dn303ttVSABKgl1cy1lYXN0LTIw9g8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-26T02:00:17.317104+00:00",
+    "resolved_at": "2026-08-26T03:00:18.215631+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-26T02:30:18.063081+00:00",
+    "resolved_at": "2026-08-26T03:00:19.837346+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -264,12 +264,12 @@
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787713221/ei/ZQKOarCDFouL-LAP5JGQ0QQ/ip/138.117.221.249/id/LLpNUqHVam8.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AR3QkAngXyaCv-m5-STtVlDIVEy5d9cGV0wx7R2IhMTvmSP7KY2HwQkHfk5FN2SVIxeUIxGfNQwBWBkb/spc/KBGBclsQFuQmMwIa3j9UDm9fyYHUyI3Q7ZxH1KccqjY1YZOQ2uw-wCkLFQRh2w/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1627500/met/1787691621,/mh/pR/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787691183/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAIs5UYcKj2vEbHD6t7yxHdekIExkc_7H0KlF9HT7Yb18AiEA0ofZso7nKJOFhX_DW3T9-xjsZImnACJKFh11nXhCt_k%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAO6yFr0xB_L4_ejzrGw9OaH5ZOz7YO6a_uG5JZBWMld9AiEAwPv980ovELqKk6RtGTX9M5Yfp0PaUtJQmbsq46m1Lkw%3D/playlist/index.m3u8",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787734820/ei/xFaOatzxHK_u1sQPzOSrmQQ/ip/138.117.221.249/id/LLpNUqHVam8.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AR3QkAl3poFSwOwdj5gdsq2zrX_E0unXxE5Y8DRMPCNpz2TJk1g5WyhlDrSFLohMDNTEl3vi11fN_Txr/spc/KBGBcqmSBJWbKttmiFNEz8KDypGqRM4YDcPhV38PG9rCWZN7Um18OzCXM32B5A/vprv/1/reg/0/playlist_type/DVR/hcs/sd/initcwndbps/1851250/met/1787713221,/mh/pR/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135440/mt/1787712750/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAOwfoq2KRHTqbzPkqqbnh0vhU5ic6gd10245AmG2NblfAiEA9wGUd0AJU674cO5b0v5O6Ep8fBcMXmWTLUXVzcn0tx0%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgHnM3u-QFmK6H3Uau3Iv7tXz5HqwDV5HbGcG3g7GM46cCIQC_bZv2sP80hWf52Ni-PjetPcLsz0AP_2NGqro5ypYXKA%3D%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-25T21:00:21.942446+00:00",
-    "expires_at": "2026-08-26T03:00:21+00:00",
-    "ttl_seconds": 21599
+    "resolved_at": "2026-08-26T03:00:21.085443+00:00",
+    "expires_at": "2026-08-26T09:00:20+00:00",
+    "ttl_seconds": 21598
   },
   {
     "id": "script_catalog_1.101",
@@ -2547,7 +2547,7 @@
     "id": "tvc-youtube.tv.p6ORNg85AAU",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=p6ORNg85AAU",
-    "logo": "https://i.ytimg.com/vi/p6ORNg85AAU/hq720.jpg?v=6a8c15c7&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDShx8Uf6132EssHwNH6MjmguJVJQ",
+    "logo": "https://i.ytimg.com/vi/p6ORNg85AAU/hq720.jpg?v=6a8c15c7&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4JgvtWoHhfI5giO9TGLS6u3aNXw",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
