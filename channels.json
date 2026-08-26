@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-26T02:00:17.134569+00:00",
+    "resolved_at": "2026-08-26T02:30:17.247177+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -61,22 +61,6 @@
     "error": null,
     "resolved_at": "2026-08-26T00:00:32.562220+00:00",
     "expires_at": "2026-08-26T06:00:31+00:00",
-    "ttl_seconds": 21598
-  },
-  {
-    "id": "CNNbrasil.tv.uvgnqvs9Z5A",
-    "name": "CNN Brasil - AO VIVO: \"MAR DE LAMA\" IGUALA CANDIDATOS NA VISÃO DO ELEITOR | WW",
-    "source_url": "https://www.youtube.com/watch?v=uvgnqvs9Z5A",
-    "logo": "https://i.ytimg.com/vi/uvgnqvs9Z5A/hq720.jpg?v=6a8e3b0d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQ2_mV84AwXXiaqbCPZVJ38Z_BPw",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787727619/ei/ozqOaqa-KJ2ZobIPj9T2qQY/ip/138.117.221.249/id/uvgnqvs9Z5A.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAkauogVelk4rFjYDj4eOSYS_X29qt1YMuEHgVTJ8DFEO2yck09lienGKA48bdD5XEkUhz0keB2q/spc/KBGBck-r5xrHDRA5oe4LTJLATgsIwHHqgykigvm5pmik1H4aPtz4wu7RaCfGww/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1291250/met/1787706020,/mh/zw/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787705551/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgcLtqPuK_ILj5WFT2FwFM-K2BgF5mi2hoOeB1RIwIZNUCIQD4akS731nwyvjwZLI14cML5ot4lGZ59oEh-SMgKIxYTw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgExRbWJ3HRlYagWoqR95S6tpTQwunLIxALVWLPHABgSQCIQDf9hDygZw6dJG06gHFZdCzUcDSKrAMptm__VWVK_qsqQ%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-26T01:00:20.239995+00:00",
-    "expires_at": "2026-08-26T07:00:19+00:00",
     "ttl_seconds": 21598
   },
   {
@@ -187,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-26T02:00:18.078417+00:00",
+    "resolved_at": "2026-08-26T02:30:18.063081+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -238,22 +222,6 @@
     "resolved_at": "2026-08-25T23:30:31.351396+00:00",
     "expires_at": "2026-08-26T05:30:31+00:00",
     "ttl_seconds": 21599
-  },
-  {
-    "id": "RecordNews.br.9UoY5Pm4l_I",
-    "name": "Record News Live - Elevator Pitch Brasil - Episódio 6 - 25/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=9UoY5Pm4l_I",
-    "logo": "https://i.ytimg.com/vi/9UoY5Pm4l_I/hq720.jpg?v=6a8e3e9f&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLALTQSNi5AFzqRe1tFUNC9_5FhJSQ",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787729419/ei/q0GOaoigG9Se-LAP95bV4QQ/ip/138.117.221.249/id/9UoY5Pm4l_I.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAnBtTvplRDNMQ0956o7jLLx0ecgYBdlHNgVi9-3jpAGx2wOvsjhnStAZD0dkSY6K6n-XZ2o36kX/spc/KBGBchdt7VF1lHu_rta7ZfMW-LzR-6ugNKQRoJ_CblW5wb8Jpsk2Mhoe9CMVzA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1888750/met/1787707819,/mh/y2/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135440/mt/1787707468/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAP6zoT2b-KAAdZQMPE66CQv5_k_x4UjUx3aR-4IVab8MAiBYstZJN4xBMXxhGXTJVRgIMGWknWwwL1f0gO-wsf6LCg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAK4R6xUJ9dU3c5kvkSXlowqjkXFSNVUhvc5d1d6FGX05AiBRRbQXyRw321vwWIPRl8Fey6XL_NJ6LHVp9au9aoKUfw%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-26T01:30:20.011709+00:00",
-    "expires_at": "2026-08-26T07:30:19+00:00",
-    "ttl_seconds": 21598
   },
   {
     "id": "RecordNews.br.eoeAOZrTzlw",
@@ -2579,7 +2547,7 @@
     "id": "tvc-youtube.tv.p6ORNg85AAU",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=p6ORNg85AAU",
-    "logo": "https://i.ytimg.com/vi/p6ORNg85AAU/hq720.jpg?v=6a8c15c7&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4JgvtWoHhfI5giO9TGLS6u3aNXw",
+    "logo": "https://i.ytimg.com/vi/p6ORNg85AAU/hq720.jpg?v=6a8c15c7&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDShx8Uf6132EssHwNH6MjmguJVJQ",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
