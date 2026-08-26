@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-26T18:00:23.360646+00:00",
-  "total_channels": 163,
-  "resolved_channels": 161,
+  "generated_at": "2026-08-26T18:05:18.939651+00:00",
+  "total_channels": 161,
+  "resolved_channels": 158,
   "offline_channels": 2,
-  "error_channels": 0,
+  "error_channels": 1,
   "min_ttl_seconds": 21598,
   "max_ttl_seconds": 21599
 }
