@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T07:00:19.472500+00:00",
+    "resolved_at": "2026-08-27T07:30:19.154793+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T07:00:18.466320+00:00",
+    "resolved_at": "2026-08-27T07:30:18.124177+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T07:00:17.629501+00:00",
+    "resolved_at": "2026-08-27T07:30:17.390131+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -83,7 +83,7 @@
     "id": "DiarioTVTeresopolis.br.cg7GkdA9k8M",
     "name": "Diário TV Teresópolis - DIÁRIO TV AO VIVO - Programação da Diário TV Teresópolis - Inscreva-se no nosso canal",
     "source_url": "https://www.youtube.com/watch?v=cg7GkdA9k8M",
-    "logo": "https://i.ytimg.com/vi/cg7GkdA9k8M/hq720.jpg?v=6a7f82d8&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVADjMFWQsNz-LfFqN3FVSdp5CRg",
+    "logo": "https://i.ytimg.com/vi/cg7GkdA9k8M/hq720.jpg?v=6a7f82d8&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAFKxbsCpGPvO22J7N3ub6I7Dq9sA",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T07:00:19.170376+00:00",
+    "resolved_at": "2026-08-27T07:30:18.669328+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -211,7 +211,7 @@
     "id": "PowerRangersTV.br.cQHlHWNg5zA",
     "name": "PowerRangers TV - 🔴 Power Rangers AO VIVO | Dino Fury | Séries para Crianças",
     "source_url": "https://www.youtube.com/watch?v=cQHlHWNg5zA",
-    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hq720.jpg?v=6a0d8090&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmMWf6nxX5oy1Jp82eFkbTLMss3w",
+    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hq720.jpg?v=6a0d8090&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAlCMUX_qFOIvfLUIu6SSRnQuPK_A",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
