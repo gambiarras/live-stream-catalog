@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T01:00:20.872038+00:00",
+    "resolved_at": "2026-08-27T01:30:21.178839+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T01:00:19.399609+00:00",
+    "resolved_at": "2026-08-27T01:30:18.260792+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T01:00:18.176916+00:00",
+    "resolved_at": "2026-08-27T01:30:17.471244+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -62,22 +62,6 @@
     "resolved_at": "2026-08-26T22:00:32.234015+00:00",
     "expires_at": "2026-08-27T04:00:31+00:00",
     "ttl_seconds": 21598
-  },
-  {
-    "id": "CNNbrasil.tv.9av0vWm30CU",
-    "name": "CNN Brasil - AO VIVO: ENTREVISTA COM PATRUS ANANIAS (PT) AO GOVERNO DE MG | CNN ELEIÇÕES",
-    "source_url": "https://www.youtube.com/watch?v=9av0vWm30CU",
-    "logo": "https://i.ytimg.com/vi/9av0vWm30CU/hq720.jpg?v=6a85ffc0&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCh5i3is6u9JaN5tX_MWVlKafFJuw",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787810422/ei/Fn6PasGeC72QobIPv8q5gAY/ip/138.117.221.249/id/9av0vWm30CU.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAnHdnLR_2npNgyQU1RLFs1QjQNPLhMpSUrjcIVKIVh0aCv48z5QiO7SNNKh_RkKGS0Gcygm4Dhh/spc/KBGBcsUWitwt6ro_GY3Xu8KBzI6pygZJGPNM7SBMfM4QjX24rM08DxoKG2MJ4g/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1608750/met/1787788822,/mh/jk/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787788352/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgF3bG3OlOqsNcTR8EejrZ0W6A_ijwOQzufaay11f5_OACIQCu-yCdQvXBXhu4I0makJIdW3sqzBvYqOjSScbmlDyoaA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAOuq_1qBrvv4cg7GKRfIUd2Zpm0NVzPhQUniMD1Z5OrcAiB4oUW0De4ckkmdy71ao9sut0mr5sxkfaVcG_3lNjfJIg%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-27T00:00:22.546556+00:00",
-    "expires_at": "2026-08-27T06:00:22+00:00",
-    "ttl_seconds": 21599
   },
   {
     "id": "CNNbrasil.tv.zGKYwnr07lc",
@@ -203,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T01:00:20.512908+00:00",
+    "resolved_at": "2026-08-27T01:30:19.249490+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -256,22 +240,6 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "RecordNews.br.9BuzddLTpnI",
-    "name": "Record News Live - Jornal da Record News - 26/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=9BuzddLTpnI",
-    "logo": "https://i.ytimg.com/vi/9BuzddLTpnI/hq720.jpg?v=6a8ee206&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmjz-psRI2khZyMw_NbCBWBCZvgg",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787810420/ei/FH6PatnAA8GLg-UP3N2eEA/ip/138.117.221.249/id/9BuzddLTpnI.1~45786093/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAm7VOeK9FRwfCMJ6shXD-QO3_iRAyq7cBgoj9LhcOC1ay3lniZ5f-PijmVaXaGakYWsXWGf9T3E/spc/KBGBckb6HPTtc1vqYNv3is5oiVj6HI5weH8eDZ3NdApWRl6GmPVXtVMMKEDUVA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1608750/met/1787788820,/mh/6Y/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787788352/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAKR3OM20hzUODC7ET6zZaJ-iYAP71HnM6UOC0IY5mv9DAiBlayE1VPiM-9GQOMTjUks3kHSRuPHOsh4V7Kk1mTk87g%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAMePQOfXctHWaiWmg74QLz_smoRBx7BCIxr7P0-TgnJ5AiADkqdqL5TLvyKVlw_BbmG2HgaHy4CiQFDidhpZ-DNSDg%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-27T00:00:20.616542+00:00",
-    "expires_at": "2026-08-27T06:00:20+00:00",
-    "ttl_seconds": 21599
-  },
-  {
     "id": "RecordNews.br.eoeAOZrTzlw",
     "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
     "source_url": "https://www.youtube.com/watch?v=eoeAOZrTzlw",
@@ -286,6 +254,22 @@
     "resolved_at": "2026-08-26T22:00:22.254081+00:00",
     "expires_at": "2026-08-27T04:00:21+00:00",
     "ttl_seconds": 21598
+  },
+  {
+    "id": "RecordNews.br.rC56_jDQ1d4",
+    "name": "Record News Live - News das 10 - 26/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=rC56_jDQ1d4",
+    "logo": "https://i.ytimg.com/vi/rC56_jDQ1d4/hq720.jpg?v=6a8ee247&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDq0PNJH1zlofP3MN2p0KHYmlD1LA",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787815820/ei/LJOPav6zE7T6-LAPyeyYKA/ip/138.117.221.249/id/rC56_jDQ1d4.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAnjVcSz2SkzS3wdVR7j3cTAmodId1JNuLzlmawhNjm1f6YMo7-sEvSZntSpKvLDHV_N3XF-p7Ze/spc/KBGBcpPEMqvGMb2pWjZmU3zy5E2aXEr1IRSWZSzXepJBQI2AUH80P_uADjQ5iQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2487500/met/1787794220,/mh/gT/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787793864/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgdplcI2PpgBCQNoyEHy0e5gqJSmpndA65cLT1KO38oqACIQCECl129QqGq3hpetjgKeM9ov95knbRblWiO2xW25c_6A%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAJ27UJhaPw5dG7zhbB2Hnatqpg6xfwEKZy7Z5xa27B1XAiB3pRLz0b9MhrxQapx8jKIQbqJtI-afKWx6oiUzJ188dw%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-27T01:30:20.884114+00:00",
+    "expires_at": "2026-08-27T07:30:20+00:00",
+    "ttl_seconds": 21599
   },
   {
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
