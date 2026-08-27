@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T09:30:20.333080+00:00",
+    "resolved_at": "2026-08-27T10:00:20.311589+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T09:30:17.189986+00:00",
+    "resolved_at": "2026-08-27T10:00:18.057175+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T09:30:16.382571+00:00",
+    "resolved_at": "2026-08-27T10:00:17.088592+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -65,7 +65,7 @@
   },
   {
     "id": "CNNbrasil.tv.ZetiO-AsZ1E",
-    "name": "CNN Brasil - AO VIVO: VORCARO DEPÕE À PF SOBRE RELAÇÃO DO MASTER COM BC | CNN NOVO DIA",
+    "name": "CNN Brasil - AO VIVO:  SOBE PARA 270 NÚMERO DE MORTOS EM ENCHENTE NO NEPAL | CNN NOVO DIA",
     "source_url": "https://www.youtube.com/watch?v=ZetiO-AsZ1E",
     "logo": "https://i.ytimg.com/vi/ZetiO-AsZ1E/hq720.jpg?v=6a8fff9c&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBLG_vV72q3YRY20YgY3_vtn62yTw",
     "group": "news",
@@ -104,10 +104,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae12.playlist.ttvnw.net/v1/playlist/CtQEx8g2I0XZByTO-dEAQ60L2_x7KIKSWUJe_l1PSjFxOE-QIBXgJeVVN6C9jnn4yZCrNotLum1AuJfdOpCA7ukDcQ7lynobMSo04NfGtt_aVf2KeLrsQntDmmh33t5skSZOhAWW-dRl-laDyxev-eILj1_GEsvl3Y0lBNWzrZBrn9ZwISJTwg-ukOvLqfOukeSNQ6YkZVvvVfjMl92cuCru3SOYGr7k05ppaDmK5WQmcZ_S83qyNM_4ElrRhS0eCx5D7Om0-UhtmTajA3OOgyL_KJG3RYn_5EPvW6XceB_Fvbxubpmp-AuI0DKAtXXlmqKK-acfxfHLjPk04P0cGJ3rzPb2TRMUUlrrFdBf2kpWkIi1YHbEwMxZqz31E2JXBOGCY5lIHrJM9JH0pv7-Dv1S5R-AtJYdn2pZd5VMNCzfNG-cBEXaaOi6T0Ez7Gon528e5GBq6G-jSvF-UK8eUyu8UFj1TfIzldwDqCtGJU4n1lHUCKUlsFOM6vG9Q6eS-GeTOrk6gg78rpSgXOUL987WUqzyiDr9vwf1OIYq4MvIJ3oyb-L_gzvM9R37RddpO8eIqFghptKWk59xGg52ifrLjQy2Qswed9qfcEUsEDjvYobtk43i_MRnaZhVnWY_a_R8ex2GxIrlBYaUR8yWAr31-TOcihD6bzVjestl57l2Mmy44-jp7tIDGtFi_VT5dvw7PtdNF94e6mC2DGA7mSXs9C_6YjZuDm6avGLmSI2Ng7aVinHZs8xTcIn5VEh9TlOnmTtoGYx7lRGHbOhXwsO2tdW6SM8aDBvBcQamgLSIHyvC0CABKgl1cy1lYXN0LTIw9w8.m3u8",
+    "stream_url": "https://sae12.playlist.ttvnw.net/v1/playlist/CtQE_07X9BD16jlHi5DYmlseeZVVo63q_Re8JmzJxOU6sP2VcjYGoNms6iUyGEZDA0HQjrsqk5YFrRFTLzoZqAJ0_IJ_l2yKwvfsDjGtuEHEi-3XkmUDEwZGyphqnGbKN38SiVuLdsPCjkFJGVm1PKamb5Sf3MWh-uqILrsK6Noq03IV3lo8sJYMplCOEZCmkBByH2L6-Vf_sn6kFYVO1sA2w4req0TMn9AQkwbpudpnXS9--lbUPfZoryX5kHRdRMoQ3ItTcbtNpoZ2LNTJQ8cFdgcQ0ssfYEWA8iFo4VBGfEOmQyMwuiVi0fO6Qh8ZJIFVBEcVmCgqdSYcTppCZUa0ek_dUrJMRuM683UmLWtEgDtvMPZqgylmkKM1a6AVxklhR5KuW6rLx4iTI6QfBtfgOIGxht7M3A8n8cuLFl4dYr-xSfaHtTuJUdugd7JhSkM2TgB8cNcP1Ml8eA_Vm-06528LwZ-lOKQ8rxV6UMXoYoaZF5xxjEpN9aD3176TCtS4dwjz1DC_9mi_fZ7sxzy2igMW1CrD397ljSIyOlcEdShxjrbK-2Y8Bz1PFWxdBLiECFAHXxuacAgIavO7_lgLjMzDfWZ-5RyuMJapMVDTL03t0Kg7rHSFxVYzEbQWT_hoLCdeGfGGZ2KIf4tJxRM8fQv-aofOQqLMWAJ7BA68TRclQ237k2OsANdLPby_qdmeSCaWKZqn-qPS9j0ysArWRJwEny_GtB0rbtorQeXe6aoTO3-QogG-4I1bpJ0rRk4Mtqv8IY6jonpfBit4nmnM2kx2B4UaDDFdYd2W0Q7tbHMY5iABKgl1cy1lYXN0LTIw9w8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-27T09:00:17.288822+00:00",
+    "resolved_at": "2026-08-27T10:00:17.398508+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -141,6 +141,22 @@
     "error": null,
     "resolved_at": "2026-08-27T09:00:19.787593+00:00",
     "expires_at": "2026-08-27T15:00:19+00:00",
+    "ttl_seconds": 21599
+  },
+  {
+    "id": "JovemPanNews.br.U6v-lNlF_Kc",
+    "name": "Jovem Pan Live - JORNAL DA MANHÃ - 2° EDIÇÃO -  27/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=U6v-lNlF_Kc",
+    "logo": "https://i.ytimg.com/vi/U6v-lNlF_Kc/hq720.jpg?v=6a8f49d3&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPWAb78ZjgC5v1aqbddbVYvfiXWA",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787846419/ei/swqQasf7G7KKobIP28KR2A8/ip/138.117.221.249/id/U6v-lNlF_Kc.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAlInd1HXYp29kzaf_N8ILvymuphu2SFxfq5HQm3avpEwEZYkLkRTZ_IOs_UemhWz3TQW0tWuFyS/spc/KBGBcoI2CxjHnb-VJRsP3Sb3D6MycuSz1N29X2LIvCi58tJs61vAI6Z1e0axIg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2147500/met/1787824819,/mh/fG/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787824345/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgXs_p5nEivIepZ7ZWmVqsKEleaDVf9Py9WX8i31vIErkCICdY1iT6CrMfjdhwanBwwBJJs4bx4NslZkU07XllRnsF/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhALzTFUe69r3468dUPaWaFEdHKebATG6gUTMXQZmfh77gAiEAhioaM7QrsnqW6S8h_XkTl9Z-WBLVbJ86agxv3Uj5Suc%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-27T10:00:19.988443+00:00",
+    "expires_at": "2026-08-27T16:00:19+00:00",
     "ttl_seconds": 21599
   },
   {
@@ -187,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T09:30:17.886199+00:00",
+    "resolved_at": "2026-08-27T10:00:18.801974+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -259,7 +275,7 @@
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
     "name": "Santuário Nacional de Aparecida - Santuário Nacional AO VIVO - Você em constante Oração na Casa da Mãe",
     "source_url": "https://www.youtube.com/watch?v=juUt-rN5CVo",
-    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCxtsGB1e1YDC-A3Eyi7Qe2bUFJyQ",
+    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD3cP5NpvEP_ZaUWWqC408qTopkg",
     "group": "religious",
     "source_type": "youtube",
     "tvg_id": null,
