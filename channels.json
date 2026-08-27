@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T05:00:42.894618+00:00",
+    "resolved_at": "2026-08-27T05:30:18.569222+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T05:00:38.138912+00:00",
+    "resolved_at": "2026-08-27T05:30:17.639151+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T05:00:17.213025+00:00",
+    "resolved_at": "2026-08-27T05:30:17.003285+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -115,7 +115,7 @@
     "id": "JovemPanNews.br.eTz4XgOQaAE",
     "name": "Jovem Pan Live - Jovem Pan News Av. Paulista",
     "source_url": "https://www.youtube.com/watch?v=eTz4XgOQaAE",
-    "logo": "https://i.ytimg.com/vi/eTz4XgOQaAE/hq720.jpg?v=658ae6ef&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDaZEBEw6K9bwjZEwu6kUUFRHXc7g",
+    "logo": "https://i.ytimg.com/vi/eTz4XgOQaAE/hq720.jpg?v=658ae6ef&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAw0kQoDfubC8DajR_ydi9tidcB-g",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T05:00:38.766243+00:00",
+    "resolved_at": "2026-08-27T05:30:18.269139+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
