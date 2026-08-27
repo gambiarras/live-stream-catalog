@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T01:30:21.178839+00:00",
+    "resolved_at": "2026-08-27T02:00:21.910655+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T01:30:18.260792+00:00",
+    "resolved_at": "2026-08-27T02:00:20.630291+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T01:30:17.471244+00:00",
+    "resolved_at": "2026-08-27T02:00:19.468892+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -61,6 +61,22 @@
     "error": null,
     "resolved_at": "2026-08-26T22:00:32.234015+00:00",
     "expires_at": "2026-08-27T04:00:31+00:00",
+    "ttl_seconds": 21598
+  },
+  {
+    "id": "CNNbrasil.tv.owqsFuT-4cE",
+    "name": "CNN Brasil - AO VIVO: O GRANDE DEBATE - ELEIÇÕES - 26/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=owqsFuT-4cE",
+    "logo": "https://i.ytimg.com/vi/owqsFuT-4cE/hq720.jpg?v=6a8e5759&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWL8ct-Xr-t_cBeO6S4Cm15w4FYg",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787817622/ei/NpqPaoX6L6jq-LAPld3GaQ/ip/138.117.221.249/id/owqsFuT-4cE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAl-Cg6nKSwwmGs4q3G9MpYgDpVcIYvRd0mPaROjejSEbUDhFqh22IVQWNAicnjzRwgqjB46sQyZ/spc/KBGBcqc388oBAFatD8RGEZ0iRIoZWnY2kmpcq8-oxkyVDJBHMgpJ8cfssE4lbw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1656250/met/1787796023,/mh/sF/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787795785/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAM9LotyhMePgckeuu3DH-pmEEumUoyOCDXp7W5FCG1fKAiA84TAVxvS2YlHoq1WqwQxJVxEIm9ZYd_Z8mcRjAlxOgg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAJcPt9hjCYNhc1UyALRX8vMMV31h9xmPe_ZR9bVBheNVAiEAjbm790PfmQk5yNy9VF7UiVOBxlyMhtZaRJ5WhSIagNE%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-27T02:00:23.318190+00:00",
+    "expires_at": "2026-08-27T08:00:22+00:00",
     "ttl_seconds": 21598
   },
   {
@@ -104,10 +120,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtQEj51oyDhmniU4kXqysOjqjvguNTZAvGshzCL729y9XS95PQ5gcJtSWAZSO-kW8fglZrteLsXAqqw-R5NzjonbPIe6d0lm3lTnIaLLG1lo3XbPRIVu1sIVJQXFDFPXoKk42TfDucqfsJKMqctN7HvMdIvkFDR0Dzq7_QBX3QZwwjQvUn0kPFGbgl4-XXO34bgZ5RPV89Rg72BbqvP3nzqx7-Q6IFZqcpxBnddzv8wdJMlxrq_aJNXoubkEA23Vl7BuGcMo-NogxgRf-mDrPJEaYNIbJxcDwZVJW5VJ-1MEpYRIHKv6xaE09d4cnO9zIceAR3V1d6meITjd4szyyL2RnWKj0gGJyt6_DqBN2neWmuIIsuYH1SmzmsQ2fI5u20vCA5hBPpHdFtNDBIuEXflYrMrPymZQqPUlE22uSRyq6Xn8S369BS3EnFFb_MQXre7EU4YnkfFy-saq4_MOyF6kC0sgln7HxDUOr5MNzYifTludXC81cWNtfYQKrLMwMldhxfxZNoufOnt8THc9tZKi6ZFo66jnFidThakcqxzOTEniOmoyAxReG8qEfZgIH_Y0Q30dFC38lFEHo7Hg97B5SPJ2rGJluijdTBHft4fGyC-y6Yei4e3eAG6cJjVOk-uBskCYPhWzf18rCKek2EeVC1UY_uEz2b5w1QbUh6WvHe-QZlkTbjFIgECZ1grKoQMKjHmujYfXJ18rBFHER8OedFMHFFefOvx547U5lDPoBLATM-AOIS3Cb0-LKkmMIMRKiBa4cDU81mCT-rzo3VIIxsibvE4aDMwlLtQxXLavxKBcECABKgl1cy1lYXN0LTIw9w8.m3u8",
+    "stream_url": "https://sae12.playlist.ttvnw.net/v1/playlist/CtIETTkoIu7M-SiQaCfpALZL-OJo_DxPAlFrgP6LXGQWQfC4xYqmylrB0NY-hyTPd5JBYZL2G9pn9beg4sv_r3bxh7gXfdOab531VObvN8lZzDdatM2B-ky-Ybn3biMhugql6NKxdi-61G5CJurmYX7Rv4mqI_HaiuWSd1mk04eDIK_9f0L3WP2nCtjAwgrhQMM0hNyZEQsrN_BbVno8fevPVTX9Qb5Mo5ysCPICo40BU0Hg_7_LR7dZF2TSZ-jPF1uQaaQWp6xmy2O25Rcblfp_oSM94DFNsSZQ4EE19sEeiOMVT8I5llOM0qCyNIOzPlcgUcdis_71WUuNlaGWOwkrw0JiJfHtfCnj-BeeCdBqg-6pBMhe4WY-cOHwIhi4PXa-QM1rVQ7jSdRAfyIwr2Lf2fC6aeOZvLzfQdkewE-8lsycA6L_6LemfCusXABMMIwGaQeI_0MymTp_NFhMp6DYgR3Xe0kCZ2DCDMpLw1RHgUGedp718Z_qKidav_tAyYW7MU6OonmJCYeAaMSP00cmceigir3mimFo29G-3AUXdt8wC6X_0zGu9FoCcQ-VkaypCb9DSoQrh-px-rvUUzfRFYaybqMYvLkOUFwoZgiJ5Gf5ZfJeSJ-dZsI0R-0b_X8yo8SGnU1TrMUY2ZtC26YIm8dldcS0uLMkduCY0UbksIFcGcHGSdP_gx_qQVJl8x2Affj79f1YzGMaSVSvgkjnGEeBsJqJyeD6dBNjA2xRIMUjY0BJ6O8SktK4nzyi91x6oG0_CM48XM5LaHeDLtLqmuFwGgzqAc3i7Llx7Q2IMAUgASoJdXMtZWFzdC0yMPcP.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-27T01:00:18.473350+00:00",
+    "resolved_at": "2026-08-27T02:00:19.837525+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-27T01:30:19.249490+00:00",
+    "resolved_at": "2026-08-27T02:00:21.430737+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -195,7 +211,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3GDBFWnHmwvlSY0_0WlNgTWnHkg",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCvSb7TBHzyRNCGt7PZOsKfuAX3PQ",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -211,7 +227,7 @@
     "id": "pica-pau.br.xIs3odCrjZs",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau derretendo com o calor 🧊🍦 Pica-Pau em Português 📺 Maratona de Episódios",
     "source_url": "https://www.youtube.com/watch?v=xIs3odCrjZs",
-    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hq720.jpg?v=696e66d9&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAP7Z-OWV0LZLNRcI8M9feCy5njhg",
+    "logo": "https://i.ytimg.com/vi/xIs3odCrjZs/hq720.jpg?v=696e66d9&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCcftGqLk9tX38BJPW5bc7dyowMSQ",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -254,22 +270,6 @@
     "resolved_at": "2026-08-26T22:00:22.254081+00:00",
     "expires_at": "2026-08-27T04:00:21+00:00",
     "ttl_seconds": 21598
-  },
-  {
-    "id": "RecordNews.br.rC56_jDQ1d4",
-    "name": "Record News Live - News das 10 - 26/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=rC56_jDQ1d4",
-    "logo": "https://i.ytimg.com/vi/rC56_jDQ1d4/hq720.jpg?v=6a8ee247&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDq0PNJH1zlofP3MN2p0KHYmlD1LA",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787815820/ei/LJOPav6zE7T6-LAPyeyYKA/ip/138.117.221.249/id/rC56_jDQ1d4.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAnjVcSz2SkzS3wdVR7j3cTAmodId1JNuLzlmawhNjm1f6YMo7-sEvSZntSpKvLDHV_N3XF-p7Ze/spc/KBGBcpPEMqvGMb2pWjZmU3zy5E2aXEr1IRSWZSzXepJBQI2AUH80P_uADjQ5iQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2487500/met/1787794220,/mh/gT/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787793864/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgdplcI2PpgBCQNoyEHy0e5gqJSmpndA65cLT1KO38oqACIQCECl129QqGq3hpetjgKeM9ov95knbRblWiO2xW25c_6A%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAJ27UJhaPw5dG7zhbB2Hnatqpg6xfwEKZy7Z5xa27B1XAiB3pRLz0b9MhrxQapx8jKIQbqJtI-afKWx6oiUzJ188dw%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-27T01:30:20.884114+00:00",
-    "expires_at": "2026-08-27T07:30:20+00:00",
-    "ttl_seconds": 21599
   },
   {
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
