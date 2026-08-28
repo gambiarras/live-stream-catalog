@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T16:00:20.861293+00:00",
+    "resolved_at": "2026-08-28T16:30:19.734606+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T16:00:19.344794+00:00",
+    "resolved_at": "2026-08-28T16:30:17.410212+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -62,6 +62,22 @@
     "resolved_at": "2026-08-28T11:00:27.988177+00:00",
     "expires_at": "2026-08-28T17:00:27+00:00",
     "ttl_seconds": 21599
+  },
+  {
+    "id": "CNNbrasil.tv.F7cY7C_oBFA",
+    "name": "CNN Brasil - AO VIVO: ANÁLISE: GUERRA ENTRE EUA E IRÃ COMPLETA 6 MESES | FORA DA ORDEM",
+    "source_url": "https://www.youtube.com/watch?v=F7cY7C_oBFA",
+    "logo": "https://i.ytimg.com/vi/F7cY7C_oBFA/hq720.jpg?v=6a91a72d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXo6Bmc98TCuiFdVqTsL_CCVlflQ",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787956220/ei/nLeRap_iLaaqobIPorqQ-Q0/ip/138.117.221.249/id/F7cY7C_oBFA.2/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAk3fmw_f_Xw9bPRUZN7vdGHdgEMRgGKolKncxk9mQamcOgHea7f_GtppFh-6gaR0fhC1LDPWcTx/spc/KBGBcmbqevZErWwTPkLk9pbWm5wpfBTF4DtLYteySOmC3U87oxoZi9Olz_4qBw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1755000/met/1787934621,/mh/fE/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787934279/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAMuKR-A9mFKBrAsKZySObrjAUOFJD6cIGGV6lr-rWb3iAiEAzpZXn9HdMd-jK7ElGMjIOXeUZkW6hyb4E7nF7_sXdGQ%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAPIj-es8-jtckDX_wuxZfdG-YnrEYMQ36Feda4M76HNeAiEAl28RVqumRPA7INo--XCXn9ro8GVAhqlr9B45kPNMSKo%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-28T16:30:21.304811+00:00",
+    "expires_at": "2026-08-28T22:30:20+00:00",
+    "ttl_seconds": 21598
   },
   {
     "id": "CNNbrasil.tv.UUw0rBOqyEw",
@@ -187,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T16:00:20.491943+00:00",
+    "resolved_at": "2026-08-28T16:30:18.282049+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -240,10 +256,26 @@
     "ttl_seconds": 21599
   },
   {
+    "id": "RecordNews.br.snJbSzEMaj8",
+    "name": "Record News Live - Conexão Record News - 28/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=snJbSzEMaj8",
+    "logo": "https://i.ytimg.com/vi/snJbSzEMaj8/hq720.jpg?v=6a91b6a8&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6dU0zw9ynm7nGt4kx92_nx3dxSw",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787956219/ei/m7eRaq1KpMOc4A-D6vLwAQ/ip/138.117.221.249/id/snJbSzEMaj8.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAn1CeeK9eQ7Q0MfgPmyaVVvZq2521TYqdU3Ln1WGNotjUUAKyM7lcke-WzECgdQV6-pVQwwmPgG/spc/KBGBcvPcVLEbvVz28Z7QKYuiT9kto7cYeaAZlUkJ1r9BuCf9sX-_WDQX4K0gmw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1755000/met/1787934619,/mh/zH/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787934279/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAK-VXuZZjEbMqyi1Xvoh9a77v2-16tYYPjoL7RW4bZv9AiBN_W90trfPUZQkVwiLzmXK77O0Lnsv1EtapZ66F7dhWQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgPaUqkQnvezF3wxzAffVtQnnXFqlrtBXp3V69D_vb-IECICYFWltILDVt-c86Da6WDS_p9nCp5w-BS85wZ_qO7dhv/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-28T16:30:19.334743+00:00",
+    "expires_at": "2026-08-28T22:30:19+00:00",
+    "ttl_seconds": 21599
+  },
+  {
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
     "name": "Santuário Nacional de Aparecida - Santuário Nacional AO VIVO - Você em constante Oração na Casa da Mãe",
     "source_url": "https://www.youtube.com/watch?v=juUt-rN5CVo",
-    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD3cP5NpvEP_ZaUWWqC408qTopkg",
+    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDn5j6nje4Wuy6BC_CBMdyOgz9FIg",
     "group": "religious",
     "source_type": "youtube",
     "tvg_id": null,
