@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T01:00:23.690927+00:00",
+    "resolved_at": "2026-08-28T01:30:19.726735+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T01:00:20.914861+00:00",
+    "resolved_at": "2026-08-28T01:30:18.487253+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -62,22 +62,6 @@
     "resolved_at": "2026-08-27T23:00:44.223270+00:00",
     "expires_at": "2026-08-28T05:00:43+00:00",
     "ttl_seconds": 21598
-  },
-  {
-    "id": "CNNbrasil.tv.2d-_6kYhOxM",
-    "name": "CNN Brasil - AO VIVO: ENTREVISTA COM CLEITINHO AZEVEDO (REPUBLICANOS) AO GOVERNO DE MG | CNN ELEIÇÕES",
-    "source_url": "https://www.youtube.com/watch?v=2d-_6kYhOxM",
-    "logo": "https://i.ytimg.com/vi/2d-_6kYhOxM/hq720.jpg?v=6a85fb35&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0ynSumO1hoB2jGKN3AJ-QQIaXcg",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787896824/ei/mM-Qaq-BFPjR-LAPyL30oAc/ip/138.117.221.249/id/2d-_6kYhOxM.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAkdksnIXJD0Rg0FCqZ0hJdanIH8AlRcL8zo19eKSqx55Z2zBE6qE4h7S-OGjUb6JioYEEhSlROG/spc/KBGBclzXHYcnUgRVR0sYDwTGNPKmnRxqlpfZJET08ISaiYc7TRocTewonFeOnw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1826250/met/1787875224,/mh/Gj/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787874746/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhANbMH88qskd0j_ntO0p3wcwTRCoTZb1Z6WApdx82nTumAiBPzzSK8HH8pLs3dzXHvN4Mqx_iphjc_XBGvWK1AbyqrA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgbChFOT0UoQHpOTtDZuv5kjuuV-QAbEh6whfMH0I9sa8CIBt1EVgSFs7J7Ye8NjZhUEWcgVIl4WKcsbJ0rkB5Cobf/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-28T00:00:24.902034+00:00",
-    "expires_at": "2026-08-28T06:00:24+00:00",
-    "ttl_seconds": 21599
   },
   {
     "id": "CNNbrasil.tv.gIt7qP26xds",
@@ -131,7 +115,7 @@
     "id": "JovemPanNews.br.ehAn0qFg-M4",
     "name": "Jovem Pan Live - JP ELEIÇÕES - 27/08/2026",
     "source_url": "https://www.youtube.com/watch?v=ehAn0qFg-M4",
-    "logo": "https://i.ytimg.com/vi/ehAn0qFg-M4/hq720.jpg?v=6a90a814&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBuZ1OQuEJBeCxzaZYOLx4bVoaydA",
+    "logo": "https://i.ytimg.com/vi/ehAn0qFg-M4/hq720.jpg?v=6a90a814&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBoUT7In7N4batSS-gfRQ8t8mb0pA",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -147,7 +131,7 @@
     "id": "JovemPanNews.br.eTz4XgOQaAE",
     "name": "Jovem Pan Live - Jovem Pan News Av. Paulista",
     "source_url": "https://www.youtube.com/watch?v=eTz4XgOQaAE",
-    "logo": "https://i.ytimg.com/vi/eTz4XgOQaAE/hq720.jpg?v=658ae6ef&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDaZEBEw6K9bwjZEwu6kUUFRHXc7g",
+    "logo": "https://i.ytimg.com/vi/eTz4XgOQaAE/hq720.jpg?v=658ae6ef&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAw0kQoDfubC8DajR_ydi9tidcB-g",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -158,22 +142,6 @@
     "resolved_at": "2026-08-27T21:30:23.697643+00:00",
     "expires_at": "2026-08-28T03:30:23+00:00",
     "ttl_seconds": 21599
-  },
-  {
-    "id": "JovemPanNews.br.O1GtISzZdJc",
-    "name": "Jovem Pan Live - Internacional x Grêmio - AO VIVO - 27/08/2026 - Copa do Brasil",
-    "source_url": "https://www.youtube.com/watch?v=O1GtISzZdJc",
-    "logo": "https://i.ytimg.com/vi/O1GtISzZdJc/hq720.jpg?v=6a90bb76&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDwg09_NSOW2E4c0b-vNWcKhOdgAg",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787893228/ei/jMGQarLLLOuZ-LAP4vCGsQc/ip/138.117.221.249/id/O1GtISzZdJc.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAmDnkAZzKGMwktDKy2QY3qcKXKmVHiQIwqzEIfIzWXXDZJYOxWZRgw4CdT-Kltc6H5f8BJ03kV-/spc/KBGBcl9m3ceF3k4M94mUyFsaoIxm8_7zz5e_iOuAs-WZzkr0v_O1dKwqFSP-3g/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2050000/met/1787871628,/mh/Vp/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787871150/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgVpysvf0Rh0jzbk1tJlsLl9NAJZ2wGhA3FSq-LfBPMa8CIQDo1S2moi5MUgpWycx_JZw80hXvycyUIbeU3TA38OqTJw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgI9YUzR-KG-n9GWu5B4KXHBRoov_DkAViyzGqGFMyDbkCIQDB6AuufKea65OUxRN8mQao0kpxp_4fuLuO7E1YkJOCGQ%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-27T23:00:29.033651+00:00",
-    "expires_at": "2026-08-28T05:00:28+00:00",
-    "ttl_seconds": 21598
   },
   {
     "id": "mr-bean.tv.oPonPGALYaU",
@@ -219,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T01:00:22.177292+00:00",
+    "resolved_at": "2026-08-28T01:30:19.360041+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
