@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T05:00:22.498581+00:00",
+    "resolved_at": "2026-08-28T05:30:18.335107+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T05:00:18.977556+00:00",
+    "resolved_at": "2026-08-28T05:30:17.378915+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T05:00:17.825467+00:00",
+    "resolved_at": "2026-08-28T05:30:16.762236+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -51,7 +51,7 @@
     "id": "classic-mr-bean.tv.mF3s5-6mIH4",
     "name": "Classic Mr Bean - Classic Mr Bean 🔴 LIVE! - All Episodes",
     "source_url": "https://www.youtube.com/watch?v=mF3s5-6mIH4",
-    "logo": "https://i.ytimg.com/vi/mF3s5-6mIH4/hq720.jpg?v=6a86ec87&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBHq-eFVoLIKzrFEBIajrq30mr-vg",
+    "logo": "https://i.ytimg.com/vi/mF3s5-6mIH4/hq720.jpg?v=6a86ec87&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOMiWNBbJweq_yH7IpI2b7slDssQ",
     "group": "series",
     "source_type": "youtube",
     "tvg_id": null,
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T05:00:19.741447+00:00",
+    "resolved_at": "2026-08-28T05:30:17.990993+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -227,7 +227,7 @@
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
     "name": "Santuário Nacional de Aparecida - Santuário Nacional AO VIVO - Você em constante Oração na Casa da Mãe",
     "source_url": "https://www.youtube.com/watch?v=juUt-rN5CVo",
-    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCxtsGB1e1YDC-A3Eyi7Qe2bUFJyQ",
+    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD3cP5NpvEP_ZaUWWqC408qTopkg",
     "group": "religious",
     "source_type": "youtube",
     "tvg_id": null,
