@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T11:30:17.589827+00:00",
+    "resolved_at": "2026-08-28T12:00:18.605067+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T11:30:16.529387+00:00",
+    "resolved_at": "2026-08-28T12:00:17.288386+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -64,19 +64,19 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "CNNbrasil.tv.lNs5DiVtXmw",
-    "name": "CNN Brasil - AO VIVO: BUSCAS NO NEPAL ENTRAM NO 3º DIA | CNN NOVO DIA",
-    "source_url": "https://www.youtube.com/watch?v=lNs5DiVtXmw",
-    "logo": "https://i.ytimg.com/vi/lNs5DiVtXmw/hq720.jpg?v=6a914fa5&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmiTAK4DBQuqMzXCM8qZpXbf8muA",
+    "id": "CNNbrasil.tv.2FDg1zhkE68",
+    "name": "CNN Brasil - AO VIVO: LIVE CNN - 28/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=2FDg1zhkE68",
+    "logo": "https://i.ytimg.com/vi/2FDg1zhkE68/hq720.jpg?v=6a906d63&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkfoGpAmolFF9UWlU7QoXYl4UkbQ",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787931019/ei/K1WRapD0ApypobIPs4GNiQE/ip/138.117.221.249/id/lNs5DiVtXmw.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAmq856JxX7LIUwZumhc4Szqv_uwj5daEBlFoWrvGRzdQpF5CuPEkIU1UqEUYCKDTaXan6hYvZlH/spc/KBGBcuors-1OIdh6VqrylO8D1czY5UcBrDAwGu40FPC84Ruda4ZG69vaDAziqw/vprv/1/reg/0/playlist_type/DVR/hcs/ir/initcwndbps/2102500/met/1787909419,/mh/gP/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787909070/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAN4D9OBcKN-yWEasNZxFYkldKgE-E4RUCqhTitj7LxqKAiEAyGDv7Ork1_J7SqhxCCQjrFqwPGmEXr3BEJWVpuzc0z0%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAN2Fi75AeA2wSypoG31cx7NJhTxbV98h4zGVUDlN0KYlAiBoPrjnjf4iIvhtV_gr8m_CITPlaG5LQJbJh0P7H4M31Q%3D%3D/playlist/index.m3u8",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787940019/ei/U3iRauaxGZqP-LAPiceFwQM/ip/138.117.221.249/id/2FDg1zhkE68.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAmxnbZmqv2bnjAvtI6vuXwL-Sxepx08XnUkwmApJ56wc_NT3EZ04QJA_Zss6OpiBsp6fwxBnjgK/spc/KBGBcvBXbw0_a8cx-S45qqytTgnw-46c6zCSsp6XDUxmuirFSBiuSVfWt7-Z-A/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1936250/met/1787918419,/mh/Va/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787917975/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgArNW056wLhuPfhI6Z2FmZv3w3WfI_lUxzn5u5eG83voCIQC1C_YpGBTUD1NrURL3K8LOpd9fK1mKEmFRmFqlmz5-3A%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAKJt0OBZ18wShoh8TgBwXxsZzR-QH4tAsz0kFtArgVXTAiEAkawObSry7EsoPvpZF1kYFSN2cySSbjniXavyTbn6UIM%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-28T09:30:19.657671+00:00",
-    "expires_at": "2026-08-28T15:30:19+00:00",
+    "resolved_at": "2026-08-28T12:00:19.990010+00:00",
+    "expires_at": "2026-08-28T18:00:19+00:00",
     "ttl_seconds": 21599
   },
   {
@@ -104,10 +104,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae12.playlist.ttvnw.net/v1/playlist/CtQE1ZCTqEU-qM-6JdGx_ydA5JwjZ6cHPZ5lXQMn-1-zdbtgcHT-qUVirwVEP5mdqk69lbBifqaU6I3GST44qx-9y_fwfEhrXGb_-2LbohJ5qxrRvC1Kuv7QD5iHvAv4NlWIhP7Tk6nRQuH1aRCkruX1sHAKjz2yn0-GzN5WN1XT7-CEDvLSEcRAZ7n89D-YhBTIExVdsf8MCfCa2WDyBovD1PDO40ycDVm1TgRz_XIULxV75QThxptReTtUCebISEUq38sW0PmPU0sk-KbEmAZFHApfnxsksJwPNLKjlXJMCvC0P6PmHzQ0F844zOpTuXSRtJaVAv8kNbvcw5640MWm4nvoBde6YIQiU3A8Aktdk3x_BCxR9Fk8uCKUmGse5g8mEBh-gWS6brl9nRD9CT4I_FNYUy6MsZy_rQfDyCk6LLWJNCJTFFNlfP1kWFFx7u8xF9r-0H4Elxu5uBUys4cFSGxA7wyWVeeKdwMJeIHgppbWW2kQHsqgrwV-ZEi3SzO3yVGBAff31eARThgGa_4WmZWmzk7IE8eQoiOREvlOFTNry3xFz5Br3wdZAT2KhksglTXxuq3dfJDMppoxDBYnEqcobzF7c35Biyjz4zLT6FaWRdMZ0QrXv1UPA5nrneoqD9cK2DZfqz_ShX1PQrIYBi-DxsJjGUjp2Ae_gFWalaTFE5Tj04RjJ934YZrW-6ZJIgvLoGE_Ns-tVFOF-qhgZuZsjp3uDWjjSIJId6_rWCAHrRfMuAj_r2zsWLFNmnTyfRoh6Et2NJgCWbIEphzbB8TjXNoaDHeSLf-1gOgG3soJZiABKgl1cy1lYXN0LTIw-A8.m3u8",
+    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtQEJgKz-mmK1zBNzBeV7TN5swMMNY59JtUbV9rNqpQmbryNeM1ugfclpEwlShFAod-wGxtQnih8nvJzw9lrwq8uBFieDdbWKWDlsa_C3Y-ysdMqWC4iHDFHhCw_aVp8VL-WTyhDZZcl6wGrJH9oB36shtl5_-S4PfnASrmMyFYCYUMDfm2Rahu0NTyYuNyMsgsEfekQe4nlgnbbl1WpwPeMPLF1kAGlnJ92E7NgES2Nr26UwryhIhk_Tn8wRWBL0NnB0UamRSq58t94f3zZ8pZLXRc5KEL-6JrCS942oxFEP0Qfd2ayyfXz1d3Zte2GHx_8MQFQuem1IUw2V-N_wseZcvERHtxlbPgXeksEzO2Xdm1qOwwVFJGMSf5frqPRRGrR5i0MyONNAJyYttXmzc4Ua6WSMGxC-Ad3Tjk_R00kPKqcfNwjipom5uXhT70WYy5sOn02pNgZFgYWKsM0-W_DuwMX2FvPSlU5HsZF4ktoaY0r5RzzviMz83qinjOGoxRss7Hh5ERPlvsEwNsscikY-RI-LEgKJCmIzD_aZO1GeogiA3_wnUeX5IV0dbJIHKiMXYXHhK4wcHREjkhoyC7fVEt8z_XP3aL7yqOxsFixhdSPCQYt6PyCqo4zcAlUq7-qaDbec00d9rqdKlZahVUIHS2pGUirRpfv8vVRKsf-TipEcDTu9wFRmZEt0wmtPG_VwedmDYrCQ10nshFbSn-VF7dMDToNMl3g5PeGscikHxNsMsKDpDb6Rv0_UyUMIrFoaqQ4t2IeMc03T03k2x0tw4TEwgMaDFkM0-PCdC6OUG7X2yABKgl1cy1lYXN0LTIw-A8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-28T11:00:17.619448+00:00",
+    "resolved_at": "2026-08-28T12:00:17.534043+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T11:30:17.266040+00:00",
+    "resolved_at": "2026-08-28T12:00:18.296623+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
