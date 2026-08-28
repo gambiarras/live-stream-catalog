@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T07:30:19.403695+00:00",
+    "resolved_at": "2026-08-28T08:00:22.313125+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T07:30:17.831792+00:00",
+    "resolved_at": "2026-08-28T08:00:18.335490+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T07:30:17.160150+00:00",
+    "resolved_at": "2026-08-28T08:00:17.459227+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -104,10 +104,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae12.playlist.ttvnw.net/v1/playlist/CtQEa9Uhln0h3jrcLnXEZD-op_mJpv7AXIQ7tThz7jQcpYIxSTNx5t0VooIlalNXcwerJh-yKhpVH3fIlhYKB6p4b8rrN6hJcsUME2GVRDvxl-siPc3qXkH4B0M6GNob81LvI-I1LfU08Rf8HCiUfVTWkHQE3YQU6LU74Orxf7FZ3lD9JSRT_uzMWSFZJy0dhr9htA2yx3OqwAllb7xO1X0xLKja1IegRFatGMSjGwRP4eu_ZzwHJbbPtnkYIyec_Or6XZa-AGYPcVpA0hIiDiyeOAuKcoOWowCcidPeWep4BqGWt11vf3MWEkgo-TtPJnq-Ntv57T96S7y7TsGPHWnYSw-qTtUHu50-kQFheTeFevTxcOb438oaRBcs9itjXkOJ6pWA3Vp5HOkiStvetgkGz9GzOSfKcHRY1tbZPqxZ39lhvbAQVMJVSaDRUN39Hoxd3tTfef1bAXmgLFrA5jq7BTa1HHv0IHPfQK2uYzCV-HFYvgumBXCyVU_dvbuHVcJ6GJ7Nl5KAO-LLpzDbWhH6dwV3YLLRJADmNy-7RaEtQHRqk8b7Vc6d2F6bgUopeWnDHtzLMO4BI-gYKT35OgGYtof8j0jLVjbEESbRlw1qUxME_qRM2jOS5Pwc5tve0akt672L0tUxwsu9GStNwOjeb8IGMg1Z2dh1ZiMLoStYi8n_S5L_eY2tFJh0uN0GoOIbxINkPNCaRSXuyWj6VMP_D39xzSqc0DvUlBJ59esT0EZPGENnTGgSUWQQZuvrtpvZEXjraK7isZEmpCsysnGVNE0MbLgaDO_zxnBli640Ok88JCABKgl1cy1lYXN0LTIw-A8.m3u8",
+    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtME3bCoUnYlsUffpf-kEG-71SAfFMXx5QMEo8ATzWdeGJ7wwHA2whc_Ueq2-qhkDW1FvQvWDZnCX8KsfbRzLMNf_r6DWhF9nuQZ27IReEBH5yhCB8oQXmtcon2rQmEax8Pk_7j_MVJVhKHh0zcqv4h_PIEVCDte3S4soecSdXEMYn0FJc62CAPWd-RTJASx4nM6mCdxTmMzlg3BxENO93aTf5jN8GEoU-mMjr-Fx3e2TL9gjhZONClgYW-s4chS-ELhEApDXll5FpoKRPJzJ2gonsRSFCEpvq2aMWWiJP27_7JmH7CPm8_wcYJodbwxo9LD7Ew_EO4T1JLXYbI0ogpw_AsrBtFy4KDuaWCs-fn4XPZOuL69Hhhk8xM4j7tISZxAp-29V9Qm9Z-dg7K48bENgnuQ7DLyTwRtvf9wmZq1_MNEe2yFzY7u56TjsPd0O2EmKbtWqfXW4rLtdgxLLR3NRFXYjTwR2lkCmLX3eSC8lst0-MIHpiVw2-O-14lN5gPJAH1aB1nizWj8So-kZV_4H6gu7vzp6wp8dJEFOup6CMx4kpRtuDow-t6qj9Hmgpc9YALALgnGGsYYinE7GUS-Gos2NEvbA-kE3esQA7SmsOTyezYBVjpU6kjRP5Q9ADKux_ulN4c0phlcktldmFpI5gNcHl6WDMzSd_gz4qD6ZTHGienccC2y5iPQinU60wgMJCINSrMeMU3CSHCo5Dr39po-K5i9rS7XEoTUZevHHZLw8_Aekh0e2L-KzWkuy6KfRO899UnPIAfjDeO1GOSakhqdXhoMbt6uFykF7ET00PnJIAEqCXVzLWVhc3QtMjD4Dw.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-28T07:00:16.917144+00:00",
+    "resolved_at": "2026-08-28T08:00:17.667638+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -125,6 +125,22 @@
     "error": null,
     "resolved_at": "2026-08-28T04:30:21.202173+00:00",
     "expires_at": "2026-08-28T10:30:20+00:00",
+    "ttl_seconds": 21598
+  },
+  {
+    "id": "JovemPanNews.br.nJOjFCKD0HA",
+    "name": "Jovem Pan Live - JORNAL DA MANHÃ - 1° EDIÇÃO -  28/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=nJOjFCKD0HA",
+    "logo": "https://i.ytimg.com/vi/nJOjFCKD0HA/hq720.jpg?v=6a90a08c&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDeo1dz3_-Ms1_TL3TYHy14jf6s-w",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787925619/ei/E0CRasmNNrqHobIPl4D9oA8/ip/138.117.221.249/id/nJOjFCKD0HA.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAkVIsb3aKiRnKnTpkTdO09v6NUvG1Nd6Iux_5Pel1hOMpMtOPxnk2mh2MbDk-FhtaNQs4WP1tmo/spc/KBGBcgniBZXGk1kR6V6BfIXRCpbLZB-msveVcIx0zg7eNObKM_tVjf67gLYZSA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1728750/met/1787904020,/mh/m-/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787903559/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAMJHni-PHGt7G2CGQ49eE5RrL1UrmFTWOnmf0o6ot6APAiEA8m2cfmi2dmggPWW7uzQ4TfVO51yGz8syudoNvMZxEew%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgNGsAxqIRPjZ-mes2AsH0AiiHroQIH6bl7H14admR_00CIQCy3AYawm4EOZWx0DZ5tFmEaStb9xyM49sJMqhhGb_mYw%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-28T08:00:20.853904+00:00",
+    "expires_at": "2026-08-28T14:00:19+00:00",
     "ttl_seconds": 21598
   },
   {
@@ -171,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T07:30:18.451911+00:00",
+    "resolved_at": "2026-08-28T08:00:19.024893+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -216,12 +232,12 @@
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "error",
-    "error": "Unable to open URL: https://www.youtube.com/watch?v=NkXKmX2UkC8 (429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DNkXKmX2UkC8&q=EgSKdd35GIryxNQGIjAW7TMryeQt5SjELAA_r5iQgHLlpuE9BPbObctfDvqD9dOz3dFavU8b6Rmzl0kjBbUyAnJSWgFD)",
-    "resolved_at": "2026-08-28T07:30:19.052168+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787925621/ei/FUCRaoWVGoDe4dUPsY20iAw/ip/138.117.221.249/id/NkXKmX2UkC8.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAk0KqM78fzgZTtL1r9Fja46dMaUHdFUTGN43FkpnXF3Vh9idk5OKj0ucUh9vFHCCcA1amsNa_jD/spc/KBGBcrD6hEUD1D0R7ikwAHvupffjORg1EUdAqQUA-WC9szI3u66Kb2CY6AHYSA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1728750/met/1787904021,/mh/IA/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787903559/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhANkryV7YUwYKbbvHs_oVVGxSAac1FyrgQzauqeyZaSZqAiEApDyj37lT8RdNjK_zELtyl5T5FPWVMYlcYUthJzMAil4%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAIM4N9AV7k5eP9_5dBfgw9a8986ibDXynb-Qp36hwBiZAiEA5brk4psimxNWAIQXuSKMoRKiidpVWdJhek0G_lBFimk%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-28T08:00:21.975133+00:00",
+    "expires_at": "2026-08-28T14:00:21+00:00",
+    "ttl_seconds": 21599
   },
   {
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
