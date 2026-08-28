@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T19:00:22.111983+00:00",
+    "resolved_at": "2026-08-28T19:30:20.676888+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T19:00:19.673983+00:00",
+    "resolved_at": "2026-08-28T19:30:18.026476+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -110,22 +110,6 @@
     "resolved_at": "2026-08-28T19:00:19.326670+00:00",
     "expires_at": null,
     "ttl_seconds": null
-  },
-  {
-    "id": "JovemPanNews.br.aLi0-MFguNs",
-    "name": "Jovem Pan Live - TEMPO REAL - 28/08/26",
-    "source_url": "https://www.youtube.com/watch?v=aLi0-MFguNs",
-    "logo": "https://i.ytimg.com/vi/aLi0-MFguNs/hq720.jpg?v=6a90a199&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBLhf_YZqyzdK6Dta8897rfgP4qkw",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787958021/ei/pb6RatrIK63w4dUPgLTSoQk/ip/138.117.221.249/id/aLi0-MFguNs.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAn0_lRFPPaB7d95xUXdsqZQCwqubrmvmeGzapjRzc5Te-EsSVFvjFiKD4yoGJ7kgvv3bTQGEfb8/spc/KBGBcsl0lM49lXXJ_iwz-Vwm_xK_Zw5hgUYhZGwBpKPzqXk3mq6P7trj3q1z_Q/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2003750/met/1787936422,/mh/vh/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787935975/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgQ4b1qXVpcQIv7Buv1TukoIu2yPsJxQ4DkeIfW6JrSIQCIDvNsW8ZvggiiTNwmcgyLzr1HMI08BFA6jm--l1pKWWz/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAPVPxdWWsMRkDmQNVcpaXb6ZokNmiS_NFI2j3GNbnPD5AiEAkq4psNlijU5lvpxABcLR0pSa9lHyXayeXqVgM413Fso%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-28T17:00:22.232758+00:00",
-    "expires_at": "2026-08-28T23:00:21+00:00",
-    "ttl_seconds": 21598
   },
   {
     "id": "JovemPanNews.br.CZLJ6xMdxsQ",
@@ -203,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T19:00:20.486978+00:00",
+    "resolved_at": "2026-08-28T19:30:18.820087+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -237,6 +221,22 @@
     "error": null,
     "resolved_at": "2026-08-28T17:00:25.393423+00:00",
     "expires_at": "2026-08-28T23:00:24+00:00",
+    "ttl_seconds": 21598
+  },
+  {
+    "id": "RecordNews.br._hEMkmAQ6Zc",
+    "name": "Record News Live - Link News - 28/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=_hEMkmAQ6Zc",
+    "logo": "https://i.ytimg.com/vi/_hEMkmAQ6Zc/hq720.jpg?v=6a91dc23&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCB7kBjh5aFzBUOPZMcFzTli3g_Lw",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787967019/ei/y-GRat3bK-SZobIPu_CnsA4/ip/138.117.221.249/id/_hEMkmAQ6Zc.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAnVRhnkhHYddgpZxppWpMpTjh193X0Lf0CMPZjG4OXJDt3ChL4O_OlRgobhx_cHiCcyH_Z5Hjjx/spc/KBGBchOqrOSnKDAtrLK9m9yI5T1lgdi5IhTb_ARapHxEUhY4K6XPF58nh62Mog/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2873750/met/1787945420,/mh/je/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787945083/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhANnkSCzHggAPzHrkH7DcE0PuM19QNqAWFOdsrG98AA6gAiADcmDLOM4sGSZ_BtQtznoy3bbz911-JyTajrS0_RvfGA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhANysVW1N4GeXYz1sdUsXEsB3pSotaUQxXWMNp_DaQk-0AiEA8VTKJcRoMYqBCyO-rNTpgVS0OWgS8FaJl_ykpnuck0w%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-28T19:30:20.303129+00:00",
+    "expires_at": "2026-08-29T01:30:19+00:00",
     "ttl_seconds": 21598
   },
   {
@@ -275,7 +275,7 @@
     "id": "SBTNacional.br.LLpNUqHVam8",
     "name": "SBT - YouTube - SBT Ao Vivo",
     "source_url": "https://www.youtube.com/watch?v=LLpNUqHVam8",
-    "logo": "https://i.ytimg.com/vi/LLpNUqHVam8/hq720.jpg?v=6931e6d1&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBtzTMJTmnDJ4-25aIXUBeMDz4blQ",
+    "logo": "https://i.ytimg.com/vi/LLpNUqHVam8/hq720.jpg?v=6931e6d1&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwm5buo6wD9pWzUsn5SJ7S-6l73g",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
