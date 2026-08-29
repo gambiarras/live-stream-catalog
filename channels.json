@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T05:30:24.761588+00:00",
+    "resolved_at": "2026-08-29T06:00:19.846073+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T05:30:18.797010+00:00",
+    "resolved_at": "2026-08-29T06:00:18.906826+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T05:30:18.172571+00:00",
+    "resolved_at": "2026-08-29T06:00:18.280948+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -83,7 +83,7 @@
     "id": "DiarioTVTeresopolis.br.cg7GkdA9k8M",
     "name": "Diário TV Teresópolis - DIÁRIO TV AO VIVO - Programação da Diário TV Teresópolis - Inscreva-se no nosso canal",
     "source_url": "https://www.youtube.com/watch?v=cg7GkdA9k8M",
-    "logo": "https://i.ytimg.com/vi/cg7GkdA9k8M/hq720.jpg?v=6a7f82d8&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVADjMFWQsNz-LfFqN3FVSdp5CRg",
+    "logo": "https://i.ytimg.com/vi/cg7GkdA9k8M/hq720.jpg?v=6a7f82d8&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAFKxbsCpGPvO22J7N3ub6I7Dq9sA",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T05:30:19.512383+00:00",
+    "resolved_at": "2026-08-29T06:00:19.537092+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -179,7 +179,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCvSb7TBHzyRNCGt7PZOsKfuAX3PQ",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3GDBFWnHmwvlSY0_0WlNgTWnHkg",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
