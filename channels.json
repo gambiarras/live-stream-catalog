@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T18:00:20.095252+00:00",
+    "resolved_at": "2026-08-29T18:30:20.266402+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -32,22 +32,6 @@
     "ttl_seconds": 21598
   },
   {
-    "id": "Caze.tv.TevRJQrh8e8",
-    "name": "CazéTV - AO VIVO: BORUSSIA DORTMUND X HAMBURGO | BUNDESLIGA 26/27 | 1ª RODADA",
-    "source_url": "https://www.youtube.com/watch?v=TevRJQrh8e8",
-    "logo": "https://i.ytimg.com/vi/TevRJQrh8e8/hq720.jpg?v=6a92fa8c&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC25jn3DbP-bE5muyr_8A_xJ6f2oQ",
-    "group": "sports",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788030019/ei/49eSapn1D-iIg-UPpICjwQM/ip/138.117.221.249/id/TevRJQrh8e8.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/bui/AR3QkAnNVBgB-7tbKmk3Gjf0aymEZfXalrsR7JlVXHq_qjaIyl3FYAAeqiBK-jZKgEWd0Y2KLcV3uzeH/spc/KBGBckxLgpSLotm4WrNwNyb1KxWySH-yCNRA5yxgejN6Vh_-HjfP6iA2H9ABIw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1956250/met/1788008419,/mh/N5/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1788008198/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhALuj27QfSX4U9noIFWqQQg9mWxnVdt8D1N314uy3bbQ1AiBPKM6Tg37unVElxF2yGNZj7u89zhBsTXHpGQmPJk06Ag%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgCOeH8XEn9LwECGE7S7mhYrpA1NavhDC-j-SaywByhisCIC0MX9-GTikAOBB4t8Gxw7FTyDLcRy5cWjUtBOnphKgM/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-29T13:00:19.837913+00:00",
-    "expires_at": "2026-08-29T19:00:19+00:00",
-    "ttl_seconds": 21599
-  },
-  {
     "id": "chavesvivo.tv",
     "name": "Chaves 24H",
     "source_url": "https://kick.com/chchannel02",
@@ -59,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T18:00:18.471275+00:00",
+    "resolved_at": "2026-08-29T18:30:18.130033+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -112,6 +96,22 @@
     "ttl_seconds": 21598
   },
   {
+    "id": "CNNbrasil.tv.ySfVKaPA21w",
+    "name": "CNN Brasil - AO VIVO: Noruega - Pelos mares e fiordes da Escandinávia | CNN V&G",
+    "source_url": "https://www.youtube.com/watch?v=ySfVKaPA21w",
+    "logo": "https://i.ytimg.com/vi/ySfVKaPA21w/hq720.jpg?v=6a91b310&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCegRudASnG2ijbkF1r4uIqm9CHxA",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788049821/ei/PSWTapK6Bor7-LAPgIqzwAE/ip/138.117.221.249/id/ySfVKaPA21w.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAlCexBeWmXo58ZL4weUvc94rntl5UV9Dh6u33cTItzGfdb4OhAGj6SdgR1mThcMwPUN3N7CXv4c/spc/KBGBcstP0T9j-rJ5BigzEw2iEdNGnW9br_HF8cOaxNkcSj7rHavTJQMx1BpJOw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2082500/met/1788028221,/mh/kz/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788028108/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAIG_NwXAdmFty9Z6mYHj_EZfBvvVljRZluHFGtFfkHzfAiEAj3CEthvFu7uFjM1wwYZubZ2NzVYxrxzHo1R9nqmpZw8%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgLkpx6-MwZAsW6FfApgIVoB8CDGoO2wO1HDGXnJdmVWwCIARGranJi3trdNwZqivpvtGrvgySu1FUo6xypyLfMjlx/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-29T18:30:21.732022+00:00",
+    "expires_at": "2026-08-30T00:30:21+00:00",
+    "ttl_seconds": 21599
+  },
+  {
     "id": "DiarioTVTeresopolis.br",
     "name": "Diário TV Teresópolis",
     "source_url": "https://www.youtube.com/@odiariodeteresopolis/live",
@@ -123,7 +123,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T18:00:19.740107+00:00",
+    "resolved_at": "2026-08-29T18:30:19.920723+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -203,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T18:00:19.362407+00:00",
+    "resolved_at": "2026-08-29T18:30:19.564502+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -243,7 +243,7 @@
     "id": "RecordNews.br.dy7cD4J27g4",
     "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
     "source_url": "https://www.youtube.com/watch?v=dy7cD4J27g4",
-    "logo": "https://i.ytimg.com/vi/dy7cD4J27g4/hq720.jpg?v=6a918d4c&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAD_1oG2QoBvIUV1rgjcqUiG80NKg",
+    "logo": "https://i.ytimg.com/vi/dy7cD4J27g4/hq720.jpg?v=6a918d4c&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPw6EAO0S0FoefJdCbhjJiWxvX9w",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
