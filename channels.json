@@ -11,25 +11,9 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T13:00:20.962717+00:00",
+    "resolved_at": "2026-08-29T13:30:18.659742+00:00",
     "expires_at": null,
     "ttl_seconds": null
-  },
-  {
-    "id": "Caze.tv.qfWlR1KvREs",
-    "name": "CazéTV - AO VIVO: LIVERPOOL X NOTTINGHAM FOREST | PREMIER LEAGUE 26/27 | 2ª RODADA",
-    "source_url": "https://www.youtube.com/watch?v=qfWlR1KvREs",
-    "logo": "https://i.ytimg.com/vi/qfWlR1KvREs/hq720.jpg?v=6a8f5915&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDT5dsGL5UZs83OA5RNXKTCcKG9jQ",
-    "group": "sports",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788022819/ei/w7uSaob-EeOzobIPkZTH-AU/ip/138.117.221.249/id/qfWlR1KvREs.2/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AR3QkAmUit71Xri2h4iy2AJvO8KO3J4omxdz-NWMsolZImcZqoN_k4dDFWITsOdpvQ77yBBf92wC7MT-/spc/KBGBcsDMO8PihCB8biK2TlRQtRAaWOuM044OniEbS6hsgAVW9SsBZb88xmr0sQ/vprv/1/reg/0/playlist_type/DVR/hcs/sd/initcwndbps/2781250/met/1788001220,/mh/zs/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rmhost/rr1---sn-n0hpjput-bpbk.googlevideo.com/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115,52135441/mt/1788000997/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhALagTVhK0a7Ybz03N8EerEWkxqNWnFY29EbocctlbewXAiA5p2_c9pL17QgguZag0arrJKQ3Nl3R6L1M2oVn_g6Y0g%3D%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rmhost,rms/lsig/APaTxxMwRAIgPNXAOGWQgVLLuEDurQbaUYXEhPvJ3rY90nSbJl0tDIwCIA7_pjcnqB4BOa32OX0eAXa3xtgsWeqJfNHoFJhEsqLE/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-29T11:00:20.047785+00:00",
-    "expires_at": "2026-08-29T17:00:19+00:00",
-    "ttl_seconds": 21598
   },
   {
     "id": "Caze.tv.qWWO3s6wolA",
@@ -75,7 +59,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T13:00:16.996906+00:00",
+    "resolved_at": "2026-08-29T13:30:17.478043+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -176,22 +160,6 @@
     "ttl_seconds": 21598
   },
   {
-    "id": "JovemPanNews.br.PMdJnD3_9bQ",
-    "name": "Jovem Pan Live - JORNAL DA MANHÃ -  29/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=PMdJnD3_9bQ",
-    "logo": "https://i.ytimg.com/vi/PMdJnD3_9bQ/hq720.jpg?v=6a920f8c&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdOpJk8HBVO665XWPD1Jmig99k9Q",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788015920/ei/0KCSaqqVEYT9-LAPn4jyqA0/ip/138.117.221.249/id/PMdJnD3_9bQ.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAn4I-iKznxAUTtdvfv2sLnB5qpedQzq1iJvClvwkCQHcqIi1wBE2FHd8aB-LqauIGshpKd7rSFP/spc/KBGBcqqRkuahRS3boBOz12QlhZjpghnmFfmFyhigBdbLMVprFSpfjNGu8zclug/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2012500/met/1787994320,/mh/vI/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787994024/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAL9kWcSw0TZ2dv4UkEvg-MesOCRxzUBTi9XMjJdqjS7EAiEA33MPPMvr0yuKXwFs58adp7AgqCmUrXsPV58_UW2U3x8%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAMuKDqoj6EKPpiQmt5mleiAD6QrvuhFeLWpWm7538-ZVAiEAqmf86_R9qGu8BbcpKZXg69QiAdpJ-7xpoAffI0_MeDg%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-29T09:05:20.861321+00:00",
-    "expires_at": "2026-08-29T15:05:20+00:00",
-    "ttl_seconds": 21599
-  },
-  {
     "id": "mr-bean.tv.oPonPGALYaU",
     "name": "Mr Bean - Mr. Bean Cartoon S1 LIVE: Hilarious Trouble Starts Here!",
     "source_url": "https://www.youtube.com/watch?v=oPonPGALYaU",
@@ -235,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T13:00:20.616987+00:00",
+    "resolved_at": "2026-08-29T13:30:18.330196+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
