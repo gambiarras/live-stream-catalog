@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T02:30:19.508650+00:00",
+    "resolved_at": "2026-08-29T03:00:19.121260+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T02:30:18.399260+00:00",
+    "resolved_at": "2026-08-29T03:00:17.934909+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T02:30:16.930923+00:00",
+    "resolved_at": "2026-08-29T03:00:17.043530+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -64,20 +64,20 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "CNNbrasil.tv.zHEfLYXfD0A",
-    "name": "CNN Brasil - AO VIVO: O GRANDE DEBATE - ELEIÇÕES - 28/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=zHEfLYXfD0A",
-    "logo": "https://i.ytimg.com/vi/zHEfLYXfD0A/hq720.jpg?v=6a90f9f2&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCralwPEp7IAWTp7uO0RZ_6AwgPRw",
+    "id": "CNNbrasil.tv._r8B4e2OFpc",
+    "name": "CNN Brasil - AO VIVO: CNN MADRUGADA - 29/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=_r8B4e2OFpc",
+    "logo": "https://i.ytimg.com/vi/_r8B4e2OFpc/hq720.jpg?v=6a9000b2&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDK06bwI8qn8cAjZLtMX052MOsZeA",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787990422/ei/Nj2SavvGGfWZ-LAPqqXn4QE/ip/138.117.221.249/id/zHEfLYXfD0A.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAkrtD--eYltWPAkRtLYyuZ_KlBFN7lVVfzJMHTSMbEvDsg2HrEsr_tLm1OMx5ZmUKxxLqVu1LMN/spc/KBGBcg3fkh-VjtDLpc25aiDnurB6UeXHIGSNE-yVAY_oy2i4advrUexzoIDM6A/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2192500/met/1787968822,/mh/ho/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787968344/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgLV0d-5UWycIYOQlaeAt2-fxE_8gbpEr_xiU6RNw-7c8CIQDao7N2ZDfCwp9SKMPVc5WqMdFXoBbmPZvHX_RtwFDTEQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgfqk9Qh7ro_FnK4fcUdJDcDL7LBxf7HqxF5T3Ed-wi8UCIE5yHIXd1X6ZX6bBJNWUVLMoOCSCmXc5J6I5nGawkxPZ/playlist/index.m3u8",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787994020/ei/REuSatj9AeuO-LAPidP0cA/ip/138.117.221.249/id/_r8B4e2OFpc.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAmYSdMNAyOLZ8Rrz6FhXgcb7eFUEILf09pB2EeBt_vOO7vnTWuj1d3dl6L1fBfwbgotrXM1bR50/spc/KBGBcj5rGoDNMiWku3tFL76Qoi6UKfZCq0SyIFTDkb0lNTT-Ped2mLSkXv4Tvg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2011250/met/1787972420,/mh/CY/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1787971942/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgaT-CIk8ZguySITuP07Qqy6CmZyW5aUMCBq63uoa_6BUCIQD2lUGB4N_cb5ioiXhgL6nUsmd3C6ijGQIvHDQqUiDAEQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAMEENk7EmRq8xLWxspufYSmeKD1pFJhOZPKN9PbjpoGdAiBuvHpmiuu-3FMnmmefDukDIZwSjbPP3pBnMuxtGZC6vA%3D%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-29T02:00:23.010418+00:00",
-    "expires_at": "2026-08-29T08:00:22+00:00",
-    "ttl_seconds": 21598
+    "resolved_at": "2026-08-29T03:00:20.618144+00:00",
+    "expires_at": "2026-08-29T09:00:20+00:00",
+    "ttl_seconds": 21599
   },
   {
     "id": "DiarioTVTeresopolis.br.cg7GkdA9k8M",
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-29T02:30:19.204042+00:00",
+    "resolved_at": "2026-08-29T03:00:18.674400+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
