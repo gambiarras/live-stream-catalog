@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T23:30:24.428462+00:00",
+    "resolved_at": "2026-08-29T00:00:24.353390+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T23:30:20.760277+00:00",
+    "resolved_at": "2026-08-29T00:00:21.172212+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -67,7 +67,7 @@
     "id": "CNNbrasil.tv.x_t8DLm3J24",
     "name": "CNN Brasil - AO VIVO: EUA ALERTAM BRASIL POR INCIDENTE ENVOLVENDO MARINE ONE | CNN PRIME TIME",
     "source_url": "https://www.youtube.com/watch?v=x_t8DLm3J24",
-    "logo": "https://i.ytimg.com/vi/x_t8DLm3J24/hq720.jpg?v=6a90ef07&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbVgBE-YWcFGLoK64l-V6ww652iA",
+    "logo": "https://i.ytimg.com/vi/x_t8DLm3J24/hq720.jpg?v=6a90ef07&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBQ_EGOXMru9fjYDNAYW52KgEjDHQ",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -187,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-28T23:30:23.886181+00:00",
+    "resolved_at": "2026-08-29T00:00:22.147223+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -211,7 +211,7 @@
     "id": "PowerRangersTV.br.cQHlHWNg5zA",
     "name": "PowerRangers TV - 🔴 Power Rangers AO VIVO | Dino Fury | Séries para Crianças",
     "source_url": "https://www.youtube.com/watch?v=cQHlHWNg5zA",
-    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hq720.jpg?v=6a0d8090&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmMWf6nxX5oy1Jp82eFkbTLMss3w",
+    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hq720.jpg?v=6a0d8090&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCFdJwcZtcH9uRRcpuEBfs7rkR2NA",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -237,6 +237,22 @@
     "error": null,
     "resolved_at": "2026-08-28T22:30:21.783539+00:00",
     "expires_at": "2026-08-29T04:30:21+00:00",
+    "ttl_seconds": 21599
+  },
+  {
+    "id": "RecordNews.br.gdKNTuFB2GI",
+    "name": "Record News Live - Jornal da Record News - 28/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=gdKNTuFB2GI",
+    "logo": "https://i.ytimg.com/vi/gdKNTuFB2GI/hq720.jpg?v=6a918b48&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNI-3ODKnuzONyCNIy0dZS91Q5yA",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787983223/ei/FyGSarKgB_6-obIPuLPCwQ8/ip/138.117.221.249/id/gdKNTuFB2GI.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAmh2xtUIfZFcPgLlOQtSXMshuUD5e2_khDZEz1cz7yNrpZAenmDGReSWiZ8XobsB4rPwo9KHz0q/spc/KBGBcuILJEd4xHHKtQbRUCgOlTo0J32VOueu_cQOwQ-9bGBmLfgLQjxQzKWggA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1373750/met/1787961623,/mh/kL/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1787961142/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAO_hRH40A2X6Hq5Bi_oe78qiIPrO5KmYwQWX3OPbJHMNAiEArjAxjC2BgDW3yjAj-3e2Klhq-gRF49MnIMBedJ6xS8Q%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgRiZhyvKoCNOk3tFh8nvoNHG8j-GQaybsLPJZ00rwISgCIQCC87yvb_wsk1d_lMmrViOvjr7Un5EHTooOK5hsDr3sBw%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-29T00:00:23.775880+00:00",
+    "expires_at": "2026-08-29T06:00:23+00:00",
     "ttl_seconds": 21599
   },
   {
