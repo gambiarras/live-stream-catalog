@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T20:00:21.596245+00:00",
+    "resolved_at": "2026-08-30T20:30:19.202577+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -59,7 +59,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T20:00:20.030806+00:00",
+    "resolved_at": "2026-08-30T20:30:17.812615+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -67,7 +67,7 @@
     "id": "classic-mr-bean.tv.mF3s5-6mIH4",
     "name": "Classic Mr Bean - Classic Mr Bean 🔴 LIVE! - All Episodes",
     "source_url": "https://www.youtube.com/watch?v=mF3s5-6mIH4",
-    "logo": "https://i.ytimg.com/vi/mF3s5-6mIH4/hq720.jpg?v=6a86ec87&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLB1uLrG3o9E5b_TLE03mJUn--ZK_w",
+    "logo": "https://i.ytimg.com/vi/mF3s5-6mIH4/hq720.jpg?v=6a86ec87&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOMiWNBbJweq_yH7IpI2b7slDssQ",
     "group": "series",
     "source_type": "youtube",
     "tvg_id": null,
@@ -78,22 +78,6 @@
     "resolved_at": "2026-08-30T18:00:31.996931+00:00",
     "expires_at": "2026-08-31T00:00:31+00:00",
     "ttl_seconds": 21599
-  },
-  {
-    "id": "CNNbrasil.tv.23LC_qH9i4o",
-    "name": "CNN Brasil - AO VIVO: CHUVAS NO SUL CAUSAM DANOS EM MAIS DE 2,5 MIL CASAS - CNN AGORA TARDE II",
-    "source_url": "https://www.youtube.com/watch?v=23LC_qH9i4o",
-    "logo": "https://i.ytimg.com/vi/23LC_qH9i4o/hq720.jpg?v=6a9009aa&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAW3bJS3fThpqky5nmdnjzWOaEMAw",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788139821/ei/zYSUasjGJfi1obIP-NquyQk/ip/138.117.222.11/id/23LC_qH9i4o.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAk_qmc54wVn6bgmAlGq1T31E3wJqgqHlKudzflUaWobXNb1lgc1JhrOppL2Tlv42a8CpynCLZ4F/spc/KBGBcpmDkkOfFPUbXKJdY7zjUACivTSTqI2fwYjo29K8fe5RC9lKQIyPBKTixQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1567500/met/1788118222,/mh/W8/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115,52135441/mt/1788117862/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgBDS2g7hwZdcsOc-v7IBwl91pTyeuXGelKT1m5LiIx44CICR4alymIshoigA5So5gFplZX8dQDZt_cka8sl1njX9H/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAPQ9SpQsTeD-NE-lvgzOTH9HLsFd63qviW_y8FpiSD2lAiBLC402SDOTy1iXa5VBiCeHAYU8KxMhYSSMWhRZ2FwgDA%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-30T19:30:22.223978+00:00",
-    "expires_at": "2026-08-31T01:30:21+00:00",
-    "ttl_seconds": 21598
   },
   {
     "id": "CNNbrasil.tv.vaTmIq0JWCM",
@@ -109,6 +93,22 @@
     "error": null,
     "resolved_at": "2026-08-30T18:00:28.815410+00:00",
     "expires_at": "2026-08-31T00:00:28+00:00",
+    "ttl_seconds": 21599
+  },
+  {
+    "id": "CNNbrasil.tv.vPALV9tJJPs",
+    "name": "CNN Brasil - AO VIVO: FORA DA ORDEM - 30/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=vPALV9tJJPs",
+    "logo": "https://i.ytimg.com/vi/vPALV9tJJPs/hq720.jpg?v=6a900e4b&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSri8kzymWaSsCdF7hEFyWZh0K0A",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788143420/ei/3JKUaonbAaODobIPj6_DkAo/ip/138.117.222.11/id/vPALV9tJJPs.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAkZWJzaEnDFY2v_WfYpxhosvJzv_DgYhYQFqY9370u7iCS6erGidumKuX9uC_JaFY65M3RaGQnC/spc/KBGBcjCAaicMeKj_HDnq11sgS5Bj4-crhYrjafnNkV2HC-HE87lZkgwDvXekLg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2195000/met/1788121820,/mh/0d/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788121464/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgIeoUhoRbWgxkUCWpgdZaIJkQ7eKbhgddgmOtCoZ9p9QCIBrCvkYrgr7WsyWaeRgV5xrvNIm0_8zIRz3GRSJjtrGG/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAL5xkUK24RXIWJ4RZ8VpLlC9Tki0hc-cIaaBiPGxr9DnAiEAkL0ydz1x_5neY8b97d-qaTf5ty3CD7R23vbYGkTq_Kg%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-30T20:30:20.393142+00:00",
+    "expires_at": "2026-08-31T02:30:20+00:00",
     "ttl_seconds": 21599
   },
   {
@@ -251,7 +251,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T20:00:21.180388+00:00",
+    "resolved_at": "2026-08-30T20:30:18.816130+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -2611,7 +2611,7 @@
     "id": "tvc-youtube.tv.p6ORNg85AAU",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=p6ORNg85AAU",
-    "logo": "https://i.ytimg.com/vi/p6ORNg85AAU/hq720.jpg?v=6a8c15c7&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBCliKHeYIyzoHbD2JSEAorRW3rWw",
+    "logo": "https://i.ytimg.com/vi/p6ORNg85AAU/hq720.jpg?v=6a8c15c7&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4JgvtWoHhfI5giO9TGLS6u3aNXw",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
