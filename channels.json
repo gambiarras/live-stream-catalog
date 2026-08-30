@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T11:00:19.506853+00:00",
+    "resolved_at": "2026-08-30T11:30:18.675342+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T11:00:17.304432+00:00",
+    "resolved_at": "2026-08-30T11:30:17.174264+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T11:00:16.450348+00:00",
+    "resolved_at": "2026-08-30T11:30:16.449413+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -91,7 +91,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T11:00:19.188631+00:00",
+    "resolved_at": "2026-08-30T11:30:18.309347+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T11:00:17.998148+00:00",
+    "resolved_at": "2026-08-30T11:30:17.903876+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -227,7 +227,7 @@
     "id": "RecordNews.br.Li6CGZTCUCM",
     "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
     "source_url": "https://www.youtube.com/watch?v=Li6CGZTCUCM",
-    "logo": "https://i.ytimg.com/vi/Li6CGZTCUCM/hq720.jpg?v=6a934714&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAcWtfd_QU_4bxrHeVF5U7W-EhFyA",
+    "logo": "https://i.ytimg.com/vi/Li6CGZTCUCM/hq720.jpg?v=6a934714&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCwdFqj3cYbkkCYTObBRrrVy3iuAQ",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
