@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T06:00:26.865994+00:00",
+    "resolved_at": "2026-08-30T06:30:22.321238+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T06:00:23.266079+00:00",
+    "resolved_at": "2026-08-30T06:30:21.101486+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T06:00:22.430952+00:00",
+    "resolved_at": "2026-08-30T06:30:20.504043+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -67,7 +67,7 @@
     "id": "CNNbrasil.tv.erUavmB_XwQ",
     "name": "CNN Brasil - AO VIVO: CNN MADRUGADA - 30/08/2026",
     "source_url": "https://www.youtube.com/watch?v=erUavmB_XwQ",
-    "logo": "https://i.ytimg.com/vi/erUavmB_XwQ/hq720.jpg?v=6a9006aa&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDA6DBDL-_OEedhzWpt2145r8gaXA",
+    "logo": "https://i.ytimg.com/vi/erUavmB_XwQ/hq720.jpg?v=6a9006aa&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDisl_Hoc02acJvVDKZFPdEJAaeBg",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -91,7 +91,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T06:00:26.539720+00:00",
+    "resolved_at": "2026-08-30T06:30:22.032374+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T06:00:23.958349+00:00",
+    "resolved_at": "2026-08-30T06:30:21.741076+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
