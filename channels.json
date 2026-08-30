@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T14:00:19.591742+00:00",
+    "resolved_at": "2026-08-30T14:30:20.782751+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -19,7 +19,7 @@
     "id": "Caze.tv.7jjh-BbW_0A",
     "name": "CazéTV - AO VIVO: PARIS FC X NICE | LIGUE 1 26/27 | 2ª RODADA",
     "source_url": "https://www.youtube.com/watch?v=7jjh-BbW_0A",
-    "logo": "https://i.ytimg.com/vi/7jjh-BbW_0A/hq720.jpg?v=6a8d9fc8&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCIbkf_kLmf7ZKZrhcGoFbO7XBj8g",
+    "logo": "https://i.ytimg.com/vi/7jjh-BbW_0A/hq720.jpg?v=6a8d9fc8&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAywOuZ7H_q6mB-8x-LY9tLQ2wbwA",
     "group": "sports",
     "source_type": "youtube",
     "tvg_id": null,
@@ -29,6 +29,22 @@
     "error": null,
     "resolved_at": "2026-08-30T13:00:21.058175+00:00",
     "expires_at": "2026-08-30T19:00:20+00:00",
+    "ttl_seconds": 21598
+  },
+  {
+    "id": "Caze.tv.WilUvT8sTLA",
+    "name": "CazéTV - AO VIVO: REAL MADRID X MÁLAGA | LALIGA 26/27 | 3ª RODADA",
+    "source_url": "https://www.youtube.com/watch?v=WilUvT8sTLA",
+    "logo": "https://i.ytimg.com/vi/WilUvT8sTLA/hq720.jpg?v=6a8cb410&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDEH0CTG-sarPjSowSogcd4-pJMcg",
+    "group": "sports",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788121818/ei/ej6Uap63K_rO4dUPlL3XiQg/ip/138.117.222.11/id/WilUvT8sTLA.2/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/bui/AR3QkAlMacMqtr8dKo23CYgmmk4Z3n64sKbFIZLIyxJ95iFLq3b_0d84SRyKayVy7wehLJZg01DRKofO/spc/KBGBcjW-u5yAgTCKd5lVX62Kqsz9WYAEjY-CLu7A6hGEl3XTJ3uAiLzcbgQ8MQ/vprv/1/reg/0/playlist_type/DVR/hcs/sd/initcwndbps/1683750/met/1788100219,/mh/bv/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1788099872/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAJdl0GGpZgXEXUQBfrtsnNpr5l992ot2WRrXiZSJ_5-hAiEA4gq0vQBYI6zdzi2mEskaqxVbo6bWEAtbIqC1dsXcxlA%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAIKQ5CmRlosnkuy5GriUQuCGULST6ZPlfRT_NQWjn_v5AiEA0M7Q21Sb-d65lmUDLLqVbLYA_rc4Vf4O91uRc7wlKq8%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-30T14:30:19.270896+00:00",
+    "expires_at": "2026-08-30T20:30:18+00:00",
     "ttl_seconds": 21598
   },
   {
@@ -43,7 +59,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T14:00:17.037754+00:00",
+    "resolved_at": "2026-08-30T14:30:17.842139+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -219,7 +235,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T14:00:18.113025+00:00",
+    "resolved_at": "2026-08-30T14:30:20.439632+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -227,7 +243,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDhUZYMhNZrYOGbCmPfCzgXZk70cw",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3GDBFWnHmwvlSY0_0WlNgTWnHkg",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
