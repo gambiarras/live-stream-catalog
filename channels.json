@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T04:00:22.601224+00:00",
+    "resolved_at": "2026-08-30T04:30:20.929317+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T04:00:21.022682+00:00",
+    "resolved_at": "2026-08-30T04:30:19.426424+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -91,7 +91,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T04:00:22.279908+00:00",
+    "resolved_at": "2026-08-30T04:30:20.606844+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-30T04:00:21.973463+00:00",
+    "resolved_at": "2026-08-30T04:30:20.273781+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -2531,7 +2531,7 @@
     "id": "tvc-youtube.tv.p6ORNg85AAU",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=p6ORNg85AAU",
-    "logo": "https://i.ytimg.com/vi/p6ORNg85AAU/hq720.jpg?v=6a8c15c7&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDShx8Uf6132EssHwNH6MjmguJVJQ",
+    "logo": "https://i.ytimg.com/vi/p6ORNg85AAU/hq720.jpg?v=6a8c15c7&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4JgvtWoHhfI5giO9TGLS6u3aNXw",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
