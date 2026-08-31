@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T16:00:21.069755+00:00",
+    "resolved_at": "2026-08-31T16:30:20.324142+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T16:00:17.806064+00:00",
+    "resolved_at": "2026-08-31T16:30:17.445229+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -203,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T16:00:20.698986+00:00",
+    "resolved_at": "2026-08-31T16:30:18.526203+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -237,6 +237,22 @@
     "error": null,
     "resolved_at": "2026-08-31T12:00:22.574596+00:00",
     "expires_at": "2026-08-31T18:00:22+00:00",
+    "ttl_seconds": 21599
+  },
+  {
+    "id": "RecordNews.br.w3LzDH3Ptzw",
+    "name": "Record News Live - Conexão Record News - 31/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=w3LzDH3Ptzw",
+    "logo": "https://i.ytimg.com/vi/w3LzDH3Ptzw/hq720.jpg?v=6a95a973&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDausLB68ATsGi3ZWs3sB5ZPn0-ow",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788215419/ei/G6yVatf-FfSzobIP08fLsQk/ip/138.117.222.11/id/w3LzDH3Ptzw.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAkzTdlRErLZrKb2sGOTpqSjh2hip7bpeqvpGhw44T4H6jRcfOBeiLpvQDmNj-xtpfH107QIvYPp/spc/KBGBctxDVErq7NSzmfnGMRyJlthRB5eMdzo7izcvH4Njl_Jxi2wP-_0oeJ3E-A/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1701250/met/1788193819,/mh/3k/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788193476/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgEhGkYNt_j1MS6evHMca3zOSwFec1wPIXY4uA1j4ACXcCIHv8-yysHAFCiA-kAofyVjz6WsXM7pvnRj5GQKDlWnNt/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAMgj3UBRuh3tpEoq5W5Ybr3LZQ-XPgWBuZ_tS1jj1iKfAiEA2U1ywQcjTChbrRHeXjjvs2M13L9eouM4209M2wILoM8%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-31T16:30:19.977970+00:00",
+    "expires_at": "2026-08-31T22:30:19+00:00",
     "ttl_seconds": 21599
   },
   {
