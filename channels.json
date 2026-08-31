@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T12:00:25.038263+00:00",
+    "resolved_at": "2026-08-31T12:30:18.489437+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T12:00:19.375253+00:00",
+    "resolved_at": "2026-08-31T12:30:17.491207+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T12:00:18.567405+00:00",
+    "resolved_at": "2026-08-31T12:30:16.827101+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -131,7 +131,7 @@
     "id": "JovemPanNews.br.eTz4XgOQaAE",
     "name": "Jovem Pan Live - Jovem Pan News Av. Paulista",
     "source_url": "https://www.youtube.com/watch?v=eTz4XgOQaAE",
-    "logo": "https://i.ytimg.com/vi/eTz4XgOQaAE/hq720.jpg?v=658ae6ef&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDaZEBEw6K9bwjZEwu6kUUFRHXc7g",
+    "logo": "https://i.ytimg.com/vi/eTz4XgOQaAE/hq720.jpg?v=658ae6ef&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAw0kQoDfubC8DajR_ydi9tidcB-g",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -147,7 +147,7 @@
     "id": "JovemPanNews.br.MvuHPwdDeK8",
     "name": "Jovem Pan Live - AO VIVO: SABATINA COM RONALDO CAIADO | JORNAL DA MANHÃ - 2° EDIÇÃO -  31/08/2026",
     "source_url": "https://www.youtube.com/watch?v=MvuHPwdDeK8",
-    "logo": "https://i.ytimg.com/vi/MvuHPwdDeK8/hq720.jpg?v=6a948958&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLB5vk7oxfSeGUpaha8kDWv9Cx-8xA",
+    "logo": "https://i.ytimg.com/vi/MvuHPwdDeK8/hq720.jpg?v=6a948958&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDD1r93yssK3-Kl8SNd9QxgDhNhbw",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -203,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T12:00:20.067420+00:00",
+    "resolved_at": "2026-08-31T12:30:18.189277+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
