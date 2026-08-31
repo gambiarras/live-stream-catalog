@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T05:00:20.224169+00:00",
+    "resolved_at": "2026-08-31T05:30:19.438803+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T05:00:19.262082+00:00",
+    "resolved_at": "2026-08-31T05:30:18.491719+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T05:00:18.367486+00:00",
+    "resolved_at": "2026-08-31T05:30:17.760808+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T05:00:19.899035+00:00",
+    "resolved_at": "2026-08-31T05:30:19.148318+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -243,7 +243,7 @@
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
     "name": "Santuário Nacional de Aparecida - Santuário Nacional AO VIVO - Você em constante Oração na Casa da Mãe",
     "source_url": "https://www.youtube.com/watch?v=juUt-rN5CVo",
-    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDn5j6nje4Wuy6BC_CBMdyOgz9FIg",
+    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD3cP5NpvEP_ZaUWWqC408qTopkg",
     "group": "religious",
     "source_type": "youtube",
     "tvg_id": null,
