@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T08:30:19.337052+00:00",
+    "resolved_at": "2026-08-31T09:00:21.014867+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T08:30:18.322322+00:00",
+    "resolved_at": "2026-08-31T09:00:18.839672+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T08:30:17.664091+00:00",
+    "resolved_at": "2026-08-31T09:00:17.143646+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -64,20 +64,20 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "CNNbrasil.tv.c0bxi5LANWo",
-    "name": "CNN Brasil - AO VIVO: CNN MADRUGADA - 31/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=c0bxi5LANWo",
-    "logo": "https://i.ytimg.com/vi/c0bxi5LANWo/hq720.jpg?v=6a91c183&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2Wf7zXBkaovFUiC_mJc0s6EYUKA",
+    "id": "CNNbrasil.tv.ZH_IDop5GLE",
+    "name": "CNN Brasil - AO VIVO: CNN NOVO DIA - 31/08/2026",
+    "source_url": "https://www.youtube.com/watch?v=ZH_IDop5GLE",
+    "logo": "https://i.ytimg.com/vi/ZH_IDop5GLE/hq720.jpg?v=6a91c0f9&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBGgykexIrwP2YHONSMhQq16q8mLQ",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788186620/ei/nDuVarfJCL6DobIPlYaOyAc/ip/138.117.222.11/id/c0bxi5LANWo.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAl320z_qdaGhaaRhheyQsTQlHXzunyEGo6idlD3QVr98O3cDu-hmNWHuzZek5q7UuJH4-lzYjvm/spc/KBGBcplxYw5dCTCTqDNucbPFRPk_QTuOus_VtAyPUTvzJeya1EkL-Ya-bu4Dyw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1451250/met/1788165020,/mh/On/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1788164664/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAItff47TZljL0leAgM2sodmaoRm2hy9dpwgypRkWmKqEAiEAhnAayhc-geVxWmwJ63hI3WIUhXV3VpFo_seo5cHCYjk%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAKHe1pzUOjPmMIRaX0BnuWTNcnSh_1U13dgvly0tDC6GAiBh2BlCSAvNaiGUpmiBHOGthgDPkwCBU08ApQAzdVFy9w%3D%3D/playlist/index.m3u8",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788188421/ei/pUKVauyfM7Lx4dUP67SHqAk/ip/138.117.222.11/id/ZH_IDop5GLE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAm45S_NYLT4hbl7mJszLx1Li1j_wHZqk_o267_PsXcMqZw4IKGgGAmYwSOn9g-duDi2pBUMvH-L/spc/KBGBcgDABRtiGWnNnnnUjl3zukgHKR048BOibHWAraUIB8fSvRw7Edzeu-R9mA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1781250/met/1788166822,/mh/qP/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1788166586/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgQz_uAal1NVJ3zSW_2Kf4S12kcA4yAoFoucBTLiRmVT0CIAbRBbrOKEP6jLtL9qwuzzJwpwgj6gCp1wbrBgsVCnZY/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgLi-nYY-0GYM82ZooGxTC7lqXmrX8_pf6srg3ajqN1tkCIQDJsN3_VoIbyvV3S1uTkCFYrYxGaw05F1r2fcbqcjUyaw%3D%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-31T08:30:20.720289+00:00",
-    "expires_at": "2026-08-31T14:30:20+00:00",
-    "ttl_seconds": 21599
+    "resolved_at": "2026-08-31T09:00:22.350220+00:00",
+    "expires_at": "2026-08-31T15:00:21+00:00",
+    "ttl_seconds": 21598
   },
   {
     "id": "DiarioTVTeresopolis.br.b466W5HJl9M",
@@ -120,10 +120,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtIEuDgE4jAdxryWwLMZs_bzInYKJWYZ3FwyVlbe0byZR0ac-CDJh4VCMHiaKJvwSqHUuS7TGi_nuW8V-9aN8PDe8hWG7txtWNeoZedPlhQYdvOwVzUKEraIgls5T2jyU7zGSqHjmYwG9tpSFzv9xSXbuyTToXFoFSLrxrA-E9Iv-4IcuuKLYD_TCR4Flf6W9dKHHArzvll_xpIVPYzUSAWei8hxQ_HZ_4BViKm4IQybHr4Y0AoWfdk8Cf4y3G1MVZ7uMj4lK3tRvcUGu_70ANCNRPf2iivclqPJneRyfr1RUaSpwtnxE3uBUV2RjU0A8J-PtJwhLCfE0SPvFTYrHOb7r9SNqUNPNMCcakac2pfQGb9YS8-ejpfOf7hKcb4Q3vVCAQsDJbBI_bOPmLQmqTZ9EfyEMekXI1jNXQ0gJflHAfifdWxeWyyXGRaDlPbUu0B2ykdaBUs9jHGGJIEyBtUVgrq_Itjo8RU2Jvfo9jjEJKHv-aDBwGEGx_4aIioqtBqnrJtjxFNJMXnFvrrhqlUxpzWwCDL25VKENKEgVISo7NDtimPPtcdovOJSgpoaxfMYT45m4yddWlrBNnoddio4W1UMxcWxi4RRhYU75f1_YhV4amNxILzhWXgu8Kg-fBOLE9g-sgpgGN7P7i2uLWQ8_2V2WguZkRDg37W1K2T4QstelZ1mBApJW4_8qN9bQqmh38d8EyajA4jGA93VXZy1dHVrmkPzcKrwJp1lEKhzxDT4TybQWdGrKC259YMOLmUhyQ9rC4f9gmBJbIddltDwqoMtGgxooaJQPnG4JbOySwIgASoJdXMtZWFzdC0yMPsP.m3u8",
+    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtMEBCm2jOVv45_fE4juqWSGIPhJMMCUJPM8iTas83_LoUpEuM7AqUcuywzw_-DTmlRtT93AyStX9eUpWtpR34R2uQGCsebwxVp3Nbf4j6gzkSsuToZVe56jyWd-d1J6odZrPEKzRsjSaQrtRQKiEl6AUISrN3W9c4m66WQVd1lgQfMd-igNoxXoIiINXp9_5CFfrbGTJsVpdCr0c4LKKyS4RaPFDuGdRKABmaZicsIinxw6dcIc9LjKeSnc6fFhr0GzKiiyEYht5atdn-Z5fUfKMcd-fLr4_1TR2PGIuknEvvbq__R3t_W7eLY55H0NEJwxSKzFh0iT3_v0qBGdYRIPBmSRiX-2maxTjsKf7WYS1bB8NYemRjvwhM8bWgde2Nk-lQdDgFAm6BmkCAnuhi6mxgW2TH6dCLnt-7fJUaehOyuEv908ehjeuKsvP1BCgLjq7CMYM-Q6Ws9IEo5YBQbCuUwIo7-bRZsy72k3hcPA5xLMNfLGtynTmlEoHhLPcXwcTJzJxDWFsgsObJSfw4z-OafLxcud_bWWJtbyL8BkYlgkmwLAKuOnL7wGvXf-9U2xgztg0Tpau5l8FRoN9XqT7ebuR9T5CewMTNSbTaG0xmEOZt56yA1tw-EpmdVmb9ioPhqlNr4oSZGmhpKgaFRIokSMUbIMlpDSuXID3QYf1nnpcRm3iUBd4K_ecTMDaDtu_-Fxxd4HXgE3XT3K52juAk0rbo8cEA32-iUp22qkGeI-b1HLoZH4175nM6g5T7oM7pFizPJxMiYZ_2-2KDgcyAPh4BoMrhSRPFnvsCb-2eeWIAEqCXVzLWVhc3QtMjD7Dw.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-31T08:00:17.733148+00:00",
+    "resolved_at": "2026-08-31T09:00:18.272394+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -163,7 +163,7 @@
     "id": "mr-bean.tv.oPonPGALYaU",
     "name": "Mr Bean - Mr. Bean Cartoon S1 LIVE: Hilarious Trouble Starts Here!",
     "source_url": "https://www.youtube.com/watch?v=oPonPGALYaU",
-    "logo": "https://i.ytimg.com/vi/oPonPGALYaU/hq720.jpg?v=6a70b205&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmCSDK0IQ8JAwHetfWMsjmAfOw6Q",
+    "logo": "https://i.ytimg.com/vi/oPonPGALYaU/hq720.jpg?v=6a70b205&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDL6q8YCSbzwe0eK6YQXq-O_Zkdiw",
     "group": "series",
     "source_type": "youtube",
     "tvg_id": null,
@@ -179,7 +179,7 @@
     "id": "mr-bean.tv.S_71wzZMf0M",
     "name": "Mr Bean - 🔴 Mr Bean LIVE! Classic Comedy | Full Episodes",
     "source_url": "https://www.youtube.com/watch?v=S_71wzZMf0M",
-    "logo": "https://i.ytimg.com/vi/S_71wzZMf0M/hq720.jpg?v=6a70ac13&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7PfE0I4U1GrIJTa2gkbLsXzgjbw",
+    "logo": "https://i.ytimg.com/vi/S_71wzZMf0M/hq720.jpg?v=6a70ac13&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAhyFeX2FN6C3PCBwUlcSm5nhwSiw",
     "group": "series",
     "source_type": "youtube",
     "tvg_id": null,
@@ -203,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T08:30:19.048756+00:00",
+    "resolved_at": "2026-08-31T09:00:19.446124+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -248,12 +248,12 @@
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788167119/ei/b--UaqH-JOKsobIPn_vl6Qg/ip/138.117.222.11/id/yq3rPQ9jPmE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAmb7pKJWEfBoKabWkZSKbvUu5e4XsZVAORgltVQrtUmMkMfkrK0_rYdAU-xcFQGfP_krbGKDT5x/spc/KBGBcmgkW5fXp58Qgtq8hfTCNVa9AoBec5kxJKEoMRlt1Mrp9jlQ3Q97Toamgw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2248750/met/1788145520,/mh/Nf/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788144978/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAOFW9iaHsg0sfZXWNKcJc7KuJNnDGbvdASU4AGyZ5ITiAiEA9Zp8T6-FoMyyxGtq45e2f-GKv70WdqJaVyG1XUXKx2k%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAKBeofNWZ2F299gtGD91qjoEYVmBkxs_JnWGgUlAsH8YAiB_Sh7Y1gEjY8Hl2BmGV4T3W5woRI-BdziCXQuU5nvrDQ%3D%3D/playlist/index.m3u8",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788188420/ei/pEKVas3WCbbgobIP_t6G8Qs/ip/138.117.222.11/id/yq3rPQ9jPmE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAlbYq7gd2ZxnweP490wYW19tvq9Y0enhyteHgvDkaE2Olyu1qHaOI_w4pxBbvwHgUIsuad_t6cA/spc/KBGBchdx1CzMM7hGlhwr0fxKmHr_-fc35lJtHwBGuolftM6EO_eJ8Ms8nUNHbA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1781250/met/1788166820,/mh/Nf/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1788166343/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgB7Gnd9za9SeSmQ4isJ9s4cxbOyqkMR9PJ6GyoxuvSy0CIQDMsStvGaDrlXyTMdpJ54hVx4MRpiFkFwEqgTpkvgoXiA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgIDxkGWUY4utSUO32XMQ5fRj6tVu2dJ_8t7P93VU8rGsCIQCDf4nIw_diIyhxSbF4iU-6M-Fa3NtHcDXgaMmgO5SAmA%3D%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-31T03:05:20.150848+00:00",
-    "expires_at": "2026-08-31T09:05:19+00:00",
-    "ttl_seconds": 21598
+    "resolved_at": "2026-08-31T09:00:20.698981+00:00",
+    "expires_at": "2026-08-31T15:00:20+00:00",
+    "ttl_seconds": 21599
   },
   {
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
