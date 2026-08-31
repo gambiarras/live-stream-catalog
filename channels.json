@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T13:00:19.805415+00:00",
+    "resolved_at": "2026-08-31T13:30:20.864673+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T13:00:17.271635+00:00",
+    "resolved_at": "2026-08-31T13:30:19.677641+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T13:00:16.645265+00:00",
+    "resolved_at": "2026-08-31T13:30:18.679722+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -64,10 +64,26 @@
     "ttl_seconds": 21599
   },
   {
+    "id": "CNNbrasil.tv.pKiPZqzgFCk",
+    "name": "CNN Brasil - AO VIVO: NEYMAR DÁ SHOW CONTRA O CORINTHIANS; PALMEIRAS TROPEÇA E FLAMENGO ENCOSTA NA LIDERANÇA",
+    "source_url": "https://www.youtube.com/watch?v=pKiPZqzgFCk",
+    "logo": "https://i.ytimg.com/vi/pKiPZqzgFCk/hq720.jpg?v=6a91b0f1&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBikGH0rM4HUaI2FMQr-jUyWpWYnA",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788204621/ei/7YGVaonSHJzCobIPj_i7kQg/ip/138.117.222.11/id/pKiPZqzgFCk.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAlfAo8uOh-QqMjdaNEZa6Kch4UCdDBaP952I1f8qeHVIF8DF3p45scl_LI6gd75o1GiWHoZ9rRl/spc/KBGBcsvSWSIxLAwYT6J6xW72xEh8bMzcDzh8PSzavov6EbEiBLB_kVOUtHoCbA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2200000/met/1788183022,/mh/r0/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788182683/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgKWYi7tnXrcHNoTaFZY54M-Aike3GgxQLuxTl7nZbChECIQDIpSLSSSzhUvYT322TAVY7rzTp9JBx1rESDl_Ykv9waA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgU5dn47VPdxUJUA4CtbZ2NdiQ9pmyRp2vyW7pREiZXIcCIF9-Y9kHtwjvztm1K3czw8UCjZg0jhAe8Mh2u37Ug7kO/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-08-31T13:30:22.070220+00:00",
+    "expires_at": "2026-08-31T19:30:21+00:00",
+    "ttl_seconds": 21598
+  },
+  {
     "id": "CNNbrasil.tv.q48g4zE2quo",
     "name": "CNN Brasil - AO VIVO: BRASIL FAZ REUNIÃO COM EUA SOBRE TARIFAÇO HOJE - LIVE CNN",
     "source_url": "https://www.youtube.com/watch?v=q48g4zE2quo",
-    "logo": "https://i.ytimg.com/vi/q48g4zE2quo/hq720.jpg?v=6a91bb3d&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBLKVn5iCYhkCz7zWydV6DnJgIvsg",
+    "logo": "https://i.ytimg.com/vi/q48g4zE2quo/hq720.jpg?v=6a91bb3d&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDvE-8SyPk4UVHz0O0InJE9B6XsGA",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -120,10 +136,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtIEO36zP7q1MRY7TGZvrYHeytUlsfGoFkCzGtrRoyNfuYFTapnYEYlbAVVX9GNfReCuP7dGEgzptfA610H0ub_nlGouMnKKznn3usvxND_Rlif-GTvombFEYswp6wKX9LhCQZksVWV17EI2abmfydU8qPhoP6LVLBLo6Mhxsr8sFwsg-44qEh0osUNvvg_A-ZFR27oECoqxfLgNgWoELUKU3kyX0KfKQyZCj4P-UHn2ENBbvwVxTbTpKCqxjxXxvMHJdkqBvpIV6FPwQMREsJXObpDuD3FWclvW-6OkmwlH5MpxtsgAc0X6mLEUuX2fOCd7LjCGExakiZc2r6cjL3eeBqUGBEQWHd-YSNAl4qGr6KJGAnhAwgeg0IQppWj9v_NJs3zh5JawXOhQHNrdLczwN7rnkFD0ZgQ0Part2kEFAIPJpkBA3Tawbjo5jf7nf1zAKkNUadvi3a8WajssB14zLYCQw_f8Sqb67C5ecxpozbNzvMPBZj-tZQaHzQLh31prkK2CyxFRwzHyxCpJ89ZeLdBQfT20B2s3hDi-_6_LD6L4f-fV9GZDRmEGXA0pQ8VTBNDaNSMZntahaIhHKoVQ1B6O1_aC6zdufcdZ9-UrAHwrhr9acZ2FUkehT3AlK0gSYtq3U-ODjrUrPYUnzotg6gzC9rDtTaqztXPknjI6EdjaByZsbi2VjE9tys7f4ZI5yfkGE1VP4skZVgNH-zYJ3WGGF6KPnyH4i4jfDi5xv63q74d6ALz0hkdLx0K-DokDR4oN35yOiu9ru_1UM9k-ajHMGgw78x4EKLuMtwSQ600gASoJdXMtZWFzdC0yMPsP.m3u8",
+    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtIE58KRqnvbpdwwYPeWMhwZ937cxXg5K07q0Tid7BH8Mjs-zpEy3jxHes56GJn7buw30bV0rQPSFiMqWJSqSKRLDnGKLt-x9MlXJuLkUM_ZkxJcCbocYoTE-oZeEvqfM315sdCkee8vwsv3WaGlpLJ9WelbYb47y_L22zJpF85guHbwASQRhEhEHCyY17ijUKrFc7BIJDgZKZodad8qlGH-4g_eqRLMaokTSBXSy85mRYLTU4YcoPUCHFzUIIwhI0FONUpGKkEyNAyzjsZTQ_Px8nD0Yrf9hav4evsH4pVQOEgWO6NEfJrE4pqvQ2ho7ONepiBY648aFyiUZEE48F3KXUFpnc2U96eY65ckaP8aCWDQmE6cQtucn-OTxcM4Ke-bZPlCM_Ermk0N_faDHJjTH4A9GiiirQ8GHsQ2N_3kZf7-uVtWlJBdySvKnZMgF7pgwiZnjeWsinqzyd17QRU0eKU-E1Sobq_Ahnz__aNutLRkNFj2_dwBzrN-kpGpPZdD0qCNDtqoCdIVQCX-16YCZQzCcnUlrtXd3YgHRss5Uj8-esfHt4A2hj71yWpfBi96Xkg-pjcv4yYhk43U3TtC_W45Sk7a7DGYFMu4Se7zE5s7GTE3ngFmOuVc-Zk3ko3c5HCVWbx2nFpr4GajuW6LXVY-bVlc39-KHycvT0OpGEof-IysyBY9xa0kETYxK8JrSqn-RlSGjHz9eEs4zuDgrZkkaMG90T1hQACbBRigAy-ffISDprtOK_g3oVs52vu6ouLLlRclYBMUSAs1KWMiC7J0Ggxur_0dIpdb_1UICxsgASoJdXMtZWFzdC0yMPsP.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-31T13:00:16.799874+00:00",
+    "resolved_at": "2026-08-31T13:30:18.840755+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -157,22 +173,6 @@
     "error": null,
     "resolved_at": "2026-08-31T13:00:19.456470+00:00",
     "expires_at": "2026-08-31T19:00:18+00:00",
-    "ttl_seconds": 21598
-  },
-  {
-    "id": "JovemPanNews.br.MvuHPwdDeK8",
-    "name": "Jovem Pan Live - AO VIVO: SABATINA COM RONALDO CAIADO | JORNAL DA MANHÃ - 2° EDIÇÃO -  31/08/2026",
-    "source_url": "https://www.youtube.com/watch?v=MvuHPwdDeK8",
-    "logo": "https://i.ytimg.com/vi/MvuHPwdDeK8/hq720.jpg?v=6a948958&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDD1r93yssK3-Kl8SNd9QxgDhNhbw",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788192020/ei/tFCVatagJ-WaobIPlI-CuAE/ip/138.117.222.11/id/MvuHPwdDeK8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAnEH5oL-gOtHFiuV71M5QTzbWVTxDvqwvSqco-DlZajJoWINPL_ZiCS2y9ATp4Oy8lG1H0lH19E/spc/KBGBcqLtASMaTZ4Rz54BePzC7lyCCltPnhD_uBHbzh25k1vHq65cCymdzIWwqw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1718750/met/1788170421,/mh/J6/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788169963/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAMgLg8e2K_dOTzjkKcl2JdqLK7i0gZBZ7zul3t6WzpV2AiEA8heO0WWKrTMe9NGXUev1m03yugdVo0N2NKl4SZEIIAQ%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAN96RTxQokxvG88JS0b7fdSUNX9JOsc60OiJqyriiTr_AiAONlM7klU1WLnUf-DGfn1ekcHCKgTTIc9W3wipmKtfBg%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-08-31T10:00:21.167167+00:00",
-    "expires_at": "2026-08-31T16:00:20+00:00",
     "ttl_seconds": 21598
   },
   {
@@ -219,7 +219,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T13:00:18.183008+00:00",
+    "resolved_at": "2026-08-31T13:30:20.520128+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -291,7 +291,7 @@
     "id": "SBTNacional.br.LLpNUqHVam8",
     "name": "SBT - YouTube - SBT Ao Vivo",
     "source_url": "https://www.youtube.com/watch?v=LLpNUqHVam8",
-    "logo": "https://i.ytimg.com/vi/LLpNUqHVam8/hq720.jpg?v=6931e6d1&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwm5buo6wD9pWzUsn5SJ7S-6l73g",
+    "logo": "https://i.ytimg.com/vi/LLpNUqHVam8/hq720.jpg?v=6a957dda&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwm5buo6wD9pWzUsn5SJ7S-6l73g",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
