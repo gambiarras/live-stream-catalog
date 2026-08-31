@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T01:30:20.113159+00:00",
+    "resolved_at": "2026-08-31T02:00:20.150812+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T01:30:19.036256+00:00",
+    "resolved_at": "2026-08-31T02:00:18.929154+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T01:30:18.321112+00:00",
+    "resolved_at": "2026-08-31T02:00:17.698775+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -136,10 +136,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtME1nYRXJYMCtY7tOHvGrKf3I5SZqa-XoQhdJCVYWzwj9hLIO3-2QvkFpfALqsO-VBIpjebkev0DPMwsNkMs7EgTr6bm5wKkdkt6K_35YJtYVH2SUZ8zDRbPi-mMAM0_DjB04RZLy6wTqrw8v1POXgJH_KEBvNOzoSMbbzv4oTyAsGC6Q9_wANYRJVKHT8v4Doq65E5XDzD-orMtc4DA7myem2H8o2-e1Tf8LE6nBRUbu1sEYwfEJibMctvt2Wn6pAW3aJCojCwKQHFsR_7z_7mF4kzI6LLTTxXgXnNxtxpG1OZXoio0gDTn7twpEKomvj874TyjKPQHl4-zbpCaaA1V2hTW0sVqY0ieQxNMSzxWqDFpr-Crpa35pVlmFvsIzmIToPfpHCKhm9aMr5CP3_7qffXZlUxgKOa9Zj3JmClic5Ca8dsOspshmY7wcQA67J3jqk0T1hql6imzyxcV_3hRe89uTl2IwKYRFT302l_pLbRDdP9rYgQhiwRQ97F7gElcmjExeWLaSYpqNLGkoIuGWUNmOyvE2YzfWxeXO_Rg9jjFkhvboAol7LFUdbEz-qD4NEmnaREk0DgwrZxA9EqRNhIhLsphXO7qw_NXqGTif95I40_t58wHgpU6-gmQWT28Q67HPRYtNa8ySqVkKMBFxhHG8ujRDOb3BClWLLcASGemEJfoRI51P5MxxAhBRboLgM3_IqTJD860YU_j7qL2EnQ_qa9ATtlDg2BJZ5pIn9T1EP_Y_5-PJutxmgpqNj8U4uaLsAieI1jIp_GegGzwQiA7xoMP1w1C4cRqlkirGWIIAEqCXVzLWVhc3QtMjD7Dw.m3u8",
+    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtME97Ex4N-1wUssK8jmig7yf6Nw4ccKQ5se6fRqOxZD_iDtCkKYihwlvoWfwMaQs7dMEyNuuo_u-d--pDcjb40ih_WRjXDOMh80WGvldtAyWkwAOX2lnwjex8vfkPj1w1lzGLoYa-npQsIgCLlRHEefNwKSDF0IWa8A9fmA9AetG--WZrmA0KmK2lTQx_m-u4hwRPgjyZUZgWaFbg1P0XbcyGKGOd6dakkVV-tYEAfH_yjnjkIcgAk5f7ZndjTxvm6clCtEwdKjSnmOOxadviG5do4nlJuWxjRzS0ahyyUu0EHAmNuJOagP8HpkpUPs9fipdjlKyYXAbanjiLo33J-kzVuydmXevJU_wyYKnPrK1zfh5uIQGCEzME_fM7SsLBgpftcJtiEQwWileY29vL-KEsAxgmp8ElwjgWPANLq5Sow8fhr1NyMH2XxQS4wz99I9diiFspGzemKFT7z2FzAVevx4G-VxYWemBhiOY3SWnUP1x2ANQjqPUbkLcwRY2QdkffcOUBr9Q1lwkrShoMlRRQDlUiSTH6N-tsuWzgy0CM5HCHNE_tIqfuhCL37vk3penJ7U6wu-_3OuLRp9XPFZIwbwUyn-jucYfkoXDU4jmKV_7-n_coZA6W3Qs_s-QryIhy5o9wiYCRICEEGEHhboIXWaDzAvwMwUeBC5tVSA8k7FF_P6x3WOrrq57kzYOR0MvQWA8jxrWUE81ov-jM4hvUMmKS5GvIjcFMK6seZl2AAkJWz6FQLa41jrZYBg3knawA71B36LZ1JlFCbm8hb-q3USRhoMNOvrIjAPJC6nZXSnIAEqCXVzLWVhc3QtMjD7Dw.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-08-31T01:00:18.331192+00:00",
+    "resolved_at": "2026-08-31T02:00:18.161753+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -203,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-08-31T01:30:19.805492+00:00",
+    "resolved_at": "2026-08-31T02:00:19.790070+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -259,7 +259,7 @@
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
     "name": "Santuário Nacional de Aparecida - Santuário Nacional AO VIVO - Você em constante Oração na Casa da Mãe",
     "source_url": "https://www.youtube.com/watch?v=juUt-rN5CVo",
-    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD3cP5NpvEP_ZaUWWqC408qTopkg",
+    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDn5j6nje4Wuy6BC_CBMdyOgz9FIg",
     "group": "religious",
     "source_type": "youtube",
     "tvg_id": null,
