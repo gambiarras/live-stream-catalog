@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T17:00:20.013760+00:00",
+    "resolved_at": "2026-09-01T17:30:18.809322+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T17:00:18.655508+00:00",
+    "resolved_at": "2026-09-01T17:30:17.954986+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -80,22 +80,6 @@
     "ttl_seconds": 21598
   },
   {
-    "id": "CNNbrasil.tv.xmRUMUByw_E",
-    "name": "CNN Brasil - AO VIVO: ENTREVISTA COM REQUIÃO FILHO (PDT) AO GOVERNO DO PARANÁ | CNN ELEIÇÕES",
-    "source_url": "https://www.youtube.com/watch?v=xmRUMUByw_E",
-    "logo": "https://i.ytimg.com/vi/xmRUMUByw_E/hq720.jpg?v=6a91d02a&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAB3UDfThSVVyJy298IbkeH6hw_HQ",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788303623/ei/pwSXarHmH_z51sQP19PoyQg/ip/138.117.222.11/id/xmRUMUByw_E.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAkHw3SZcR8is06xmX_bsYKcqqVF-a8m4DmDRXNKi2JHfSvqmNyImTWUquk4rz7sYcuUdJ4JqG_V/spc/KBGBchQl11bNMbJpmVCGbwYw1EQvNn3_JL0OuIPV84pEPUEf--u5QqPtkdgiag/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2440000/met/1788282024,/mh/4p/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788281582/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgAOBvGO7R2jtTiR-VxhmJW1NNupQMjRlhc3_2BLlvdb4CID_ZbTr3D45-cmMNm9j2bbCTJNCB6Qh_RHdCZMeIv4t-/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAOjQc682cY5rENMiPvabHzmPHp1vSs4-b-XK8Bi1iWIcAiAln7tXYIklWYRmp9gYmHg8fM6A8w39i6Y7BBn_gp6TbA%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-09-01T17:00:24.096002+00:00",
-    "expires_at": "2026-09-01T23:00:23+00:00",
-    "ttl_seconds": 21598
-  },
-  {
     "id": "DiarioTVTeresopolis.br.cAGqgeL4Ym4",
     "name": "Diário TV Teresópolis - DIÁRIO WEB RÁDIO  - A rádio do jornal O Diário de Teresópolis",
     "source_url": "https://www.youtube.com/watch?v=cAGqgeL4Ym4",
@@ -126,22 +110,6 @@
     "resolved_at": "2026-09-01T17:00:19.039194+00:00",
     "expires_at": null,
     "ttl_seconds": null
-  },
-  {
-    "id": "JovemPanNews.br.aMwSRH2FtjE",
-    "name": "Jovem Pan Live - FLAMENGO CONTRATA REFORÇOS; GABRIEL JESUS NO BARCELONA; HOJE TEM GALO X CRUZEIRO! | BATE-PRONTO",
-    "source_url": "https://www.youtube.com/watch?v=aMwSRH2FtjE",
-    "logo": "https://i.ytimg.com/vi/aMwSRH2FtjE/hq720.jpg?v=6a96d621&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB_jF4niJbCvRfuiS7lxU8jKVBnCQ",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788296422/ei/huiWapHOIK6I4dUPloWiyQw/ip/138.117.222.11/id/aMwSRH2FtjE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAmmVefkCItf5XPNyk4YCcF_It281VEKn9Xe0skGWZmW1LQwRcLWQZuahCDwvOGASlFI-CBKtW3F/spc/KBGBcoTjYxhs-XQSlnpmNoCiDPqglY14oAvjxP6-oGCiXktolg7_kRQB4U0cCg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2535000/met/1788274823,/mh/zg/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788274361/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgHJEAR-66O2AyeJjpENHtr4eFmA3Z_gINZ5mketzvCZcCIDK-R_P3RPRo29Sp_MZvyBFFox6q6q6wtWXykmndgMXM/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgHFog7nztcwBQFdGfA9qsRBQSLkeygjnDOpRi5inV1mcCIQCHzBiQ-k-BGbTWcfRjhrIO3jJP9XSsiEbN-wk6rgvAyw%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-09-01T15:00:23.062033+00:00",
-    "expires_at": "2026-09-01T21:00:22+00:00",
-    "ttl_seconds": 21598
   },
   {
     "id": "JovemPanNews.br.eTz4XgOQaAE",
@@ -219,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T17:00:21.116073+00:00",
+    "resolved_at": "2026-09-01T17:30:19.855184+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -227,7 +195,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3GDBFWnHmwvlSY0_0WlNgTWnHkg",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCvSb7TBHzyRNCGt7PZOsKfuAX3PQ",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -291,7 +259,7 @@
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
     "name": "Santuário Nacional de Aparecida - Santuário Nacional AO VIVO - Você em constante Oração na Casa da Mãe",
     "source_url": "https://www.youtube.com/watch?v=juUt-rN5CVo",
-    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDn5j6nje4Wuy6BC_CBMdyOgz9FIg",
+    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD3cP5NpvEP_ZaUWWqC408qTopkg",
     "group": "religious",
     "source_type": "youtube",
     "tvg_id": null,
@@ -307,7 +275,7 @@
     "id": "SBTNacional.br.LLpNUqHVam8",
     "name": "SBT - YouTube - SBT Ao Vivo",
     "source_url": "https://www.youtube.com/watch?v=LLpNUqHVam8",
-    "logo": "https://i.ytimg.com/vi/LLpNUqHVam8/hq720.jpg?v=6a957dda&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCls9zl1O5y5hQDhYA647dYWnb1YQ",
+    "logo": "https://i.ytimg.com/vi/LLpNUqHVam8/hq720.jpg?v=6a957dda&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwm5buo6wD9pWzUsn5SJ7S-6l73g",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
@@ -2592,19 +2560,19 @@
     "ttl_seconds": null
   },
   {
-    "id": "tvc-youtube.tv.ti-l5_BDGlg",
-    "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
-    "source_url": "https://www.youtube.com/watch?v=ti-l5_BDGlg",
-    "logo": "https://i.ytimg.com/vi/ti-l5_BDGlg/hq720.jpg?v=6a95ec96&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtV8Tqa9_lk5oZw4WoocnkO5CkPQ",
+    "id": "tvc-youtube.tv",
+    "name": "TV Correio da Manhã",
+    "source_url": "https://www.youtube.com/c/TVCorreiodaManh%C3%A3/live",
+    "logo": "https://yt3.ggpht.com/ygMbu6lhpO4HV0hqceunzUNG_dqkdyOIrmr1VrtZfC8F48pyK8NFBw3Vn6P3YFmDJDq24YjFHA=s88-c-k-c0x00ffffff-no-rj",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788296425/ei/ieiWavucMP_Q-LAPu92Z0A0/ip/138.117.222.11/id/ti-l5_BDGlg.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AR3QkAkdKe_OybeNxKS2UMT-gomupoTFphC2_mNVgsOF4mV8vnBBF4W3bsMhwlXbzgOpVhDJA-5QRvxf/spc/I-rgIeklidGF_iJiasDKNuO_1o1tYAsRLaLV7ZH7o0SL6i-2GLUgw0bkvaNy3Q/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2535000/met/1788274826,/mh/Dt/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788274361/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgJk4CPe6dYXkQRQQ10hEsJZSx6n_BAmikr-CkwbSoEqoCIHJLrMF1IMLXCekcvlO1WNu8nVNlfNjnP5Gv8XdiqLOE/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAJNeAbIiCISxU7IODn10_71Y9Yf2BnKO28me0wJ61Ri8AiEAvlHA1eVlMIDmCTBvSUqZLLtuNa60zn-WJ8VVwNW7QJs%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-09-01T15:00:26.357354+00:00",
-    "expires_at": "2026-09-01T21:00:25+00:00",
-    "ttl_seconds": 21598
+    "stream_url": null,
+    "status": "offline",
+    "error": "no_stream_found",
+    "resolved_at": "2026-09-01T17:30:20.250416+00:00",
+    "expires_at": null,
+    "ttl_seconds": null
   }
 ]
