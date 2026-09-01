@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T23:00:19.904483+00:00",
+    "resolved_at": "2026-09-01T23:30:19.185688+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T23:00:18.412734+00:00",
+    "resolved_at": "2026-09-01T23:30:18.029079+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -64,24 +64,8 @@
     "ttl_seconds": 21598
   },
   {
-    "id": "CNNbrasil.tv.50qmtPeNgB0",
-    "name": "CNN Brasil - 🚨 AO VIVO: PGR PEDE NULIDADE DE RELATÓRIO DA PF QUE CITA MORAES | HORA H",
-    "source_url": "https://www.youtube.com/watch?v=50qmtPeNgB0",
-    "logo": "https://i.ytimg.com/vi/50qmtPeNgB0/hqdefault.jpg?v=6a973954&sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAMX3UZb1pDkmGwCg-Px83rz5gAHA",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788318028/ei/6zyXapz8PMiO-LAPxqXCkAc/ip/138.117.222.11/id/50qmtPeNgB0.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAloDqfN5-S-E91stYm_Hi-Z9UVr9HF8NiKFJirPkwPXmbLo-SQW0nmpdlqOXsZRTQovhUSPywq3/spc/I-rgITnSFZeSx8gmQMAcyGhKD5k2feVwE3HRSrTuoSwOeQDBTH2a1vL76lTmDw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1852500/met/1788296428,/mh/91/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1788296201/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgasnetScXG9RHRGPn9Bg6ijN5YCJKx2U3HZj2k4gInakCIQDvzC7q5db9VFei1lvBgtFwVE_STZCbQoFfK7Un8vzolQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgc1wokvNTLG8CljN-fnLs21PfdGaXORwah6SmrJlMTocCIQDx7jD3tabHQB8Mb7uWnQ0Ds9a7Jz6mSc-sRdJp3LeuCA%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-09-01T21:00:28.889937+00:00",
-    "expires_at": "2026-09-02T03:00:28+00:00",
-    "ttl_seconds": 21599
-  },
-  {
     "id": "CNNbrasil.tv.flz4r4lbrQE",
-    "name": "CNN Brasil - AO VIVO: PGR SOLICITA NULIDADE DE RELATÓRIO DA PF QUE CITA MORAES | CNN PRIME TIME",
+    "name": "CNN Brasil - AO VIVO: PGR DIZ QUE MENDONÇA NÃO PODERIA MANDAR INVESTIGAR MORAES | CNN PRIME TIME",
     "source_url": "https://www.youtube.com/watch?v=flz4r4lbrQE",
     "logo": "https://i.ytimg.com/vi/flz4r4lbrQE/hq720.jpg?v=6a962c95&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAuRyVO1_lLNS3NTpKynke6zkDNew",
     "group": "news",
@@ -128,6 +112,22 @@
     "ttl_seconds": null
   },
   {
+    "id": "JovemPanNews.br.9vpjzkIQgsE",
+    "name": "Jovem Pan Live - Atlético-MG x Cruzeiro - AO VIVO - 01/09/2026 - Copa do Brasil",
+    "source_url": "https://www.youtube.com/watch?v=9vpjzkIQgsE",
+    "logo": "https://i.ytimg.com/vi/9vpjzkIQgsE/hq720.jpg?v=6a9731f5&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-dO_GA4GRViTLXTxpQ3YdEwx1KQ",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788327021/ei/DWCXauWAFN6TwrcPx4-LwA0/ip/138.117.222.11/id/9vpjzkIQgsE.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAniwmpix-amQ889q1ZwrCMoJa459xId_qT_I5pJVfATrqhSxhVZsl5aOzQL95Ue3oOpPWgXE6BI/spc/KBGBcj4VRN2PBE-8whrd1MHh34tvZLIxrStIUTA8qaKQ0HtCs96LJSnQqOTecQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1902500/met/1788305421,/mh/il/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1788304592/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgZJHzQefEIBCrgZ7d6wb2bO1FjO72QX1wp1WwZbpu1NkCIAh4HHC3xR_jmzpZHS2DtLHTbhmZsawSnObrQilR6EW6/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAKo5kVhmoUWXjBf9-O37oXqtnNtMxb5Wrn-Ibimh_7kGAiBfGz_KYPXRhtvLuiePhQ7qFWXAK4NJKbiVwa_MOq7SCA%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-09-01T23:30:21.922950+00:00",
+    "expires_at": "2026-09-02T05:30:21+00:00",
+    "ttl_seconds": 21599
+  },
+  {
     "id": "JovemPanNews.br.eTz4XgOQaAE",
     "name": "Jovem Pan Live - Jovem Pan News Av. Paulista",
     "source_url": "https://www.youtube.com/watch?v=eTz4XgOQaAE",
@@ -157,22 +157,6 @@
     "error": null,
     "resolved_at": "2026-09-01T23:00:21.509665+00:00",
     "expires_at": "2026-09-02T05:00:21+00:00",
-    "ttl_seconds": 21599
-  },
-  {
-    "id": "JovemPanNews.br.Y92zFb5Aljw",
-    "name": "Jovem Pan Live - OS PINGOS NOS IS - 01/09/2026",
-    "source_url": "https://www.youtube.com/watch?v=Y92zFb5Aljw",
-    "logo": "https://i.ytimg.com/vi/Y92zFb5Aljw/hq720.jpg?v=6a961bed&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9bSgGgtsPENTyqxFPR_v88BHW6A",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788318024/ei/6DyXaubrC7ybobIP4JiyCA/ip/138.117.222.11/id/Y92zFb5Aljw.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAmiRWDevWkahn9shPDH0YV5vuXZNersrpY6SHZ73hSSdUWCs2DSk3S74iVQqyowqjkhTqw6DoC_/spc/KBGBcvNXuxYFZlbjz_s4jckehDsRqCuNhNFoQZ-MHjoc3qI4t3xUlwtr5l91ew/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1748750/met/1788296424,/mh/hj/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788295987/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAIUwczDe_BC8PKEydcV9Jfh5-82V4y2KlIbPlFoiDSmRAiAC79XTFBU97r8drs_RXB6jHTUPVGGBzy-M_7Uwf5ElFw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAOTd8gVv-OTnk7xnDE5LgC6clAiHB4GV_XIprZcJ1rfVAiAljqt85oXF4MXYns8Ts_sMNnULtzPKwqse439EBtJDLA%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-09-01T21:00:24.836887+00:00",
-    "expires_at": "2026-09-02T03:00:24+00:00",
     "ttl_seconds": 21599
   },
   {
@@ -219,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T23:00:20.796131+00:00",
+    "resolved_at": "2026-09-01T23:30:20.130270+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -256,26 +240,10 @@
     "ttl_seconds": 21599
   },
   {
-    "id": "RecordNews.br.IQcLncwsKhE",
-    "name": "Record News Live - Elas com a Bola - 01/09/2026",
-    "source_url": "https://www.youtube.com/watch?v=IQcLncwsKhE",
-    "logo": "https://i.ytimg.com/vi/IQcLncwsKhE/hq720.jpg?v=6a975675&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCHOd7X6kY3YluaOaCLh4zFG1y4Dg",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788325222/ei/BlmXatTjLdqqobIPuM-EoQ8/ip/138.117.222.11/id/IQcLncwsKhE.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAnw_xygFb3FX0-EjVlvcFHdrM7g28StonwH9F61A0LgCWyPqvel-kv7fvpL_xyjlQbVqlAudRJ7/spc/I-rgIVI7U2xNGlohfae1hi0IYtP4jA5V2kjVayA0TEkTiFUMTdhEmDX5tBiNWw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1825000/met/1788303623,/mh/Nz/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1788303183/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhANmotF8fmzrJDhb4CWsdu1C2JJPKrSTFjfhrTef5h6QgAiAM98974iGnCRs_FcQ7bI5k0H2KowzBV3cyMAOZPX9S1w%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAKI7n_QNFh8zQSk-lRjfrXRMWIwUyQiWMUj2BuFMp77yAiBnnGwkBXh4PI2KHYzQmAZPYhvkmYbiOvnRD8bxDITlUg%3D%3D/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-09-01T23:00:23.267391+00:00",
-    "expires_at": "2026-09-02T05:00:22+00:00",
-    "ttl_seconds": 21598
-  },
-  {
     "id": "RecordNews.br.jiqu17yaonk",
     "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
     "source_url": "https://www.youtube.com/watch?v=jiqu17yaonk",
-    "logo": "https://i.ytimg.com/vi/jiqu17yaonk/hq720.jpg?v=6a957dd9&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLA2BuTha01ENESuFg6uze4DoD2V5g",
+    "logo": "https://i.ytimg.com/vi/jiqu17yaonk/hq720.jpg?v=6a957dd9&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB9BS4aIDCUMyPfzUHiIcxtqoc4Ow",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
@@ -2595,7 +2563,7 @@
     "id": "tvc-youtube.tv.NTebHSPw1-8",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=NTebHSPw1-8",
-    "logo": "https://i.ytimg.com/vi/NTebHSPw1-8/hq720.jpg?v=6a970d6e&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCV-XVZOWm5E3cBuLnaGcTcEkid_A",
+    "logo": "https://i.ytimg.com/vi/NTebHSPw1-8/hq720.jpg?v=6a970d6e&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDChCyDjMaJHav-rSJXhZG01VB2rQ",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
