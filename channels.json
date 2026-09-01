@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T16:00:18.700429+00:00",
+    "resolved_at": "2026-09-01T16:30:17.428977+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T16:00:17.508508+00:00",
+    "resolved_at": "2026-09-01T16:30:16.395630+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -83,7 +83,7 @@
     "id": "DiarioTVTeresopolis.br.cAGqgeL4Ym4",
     "name": "Diário TV Teresópolis - DIÁRIO WEB RÁDIO  - A rádio do jornal O Diário de Teresópolis",
     "source_url": "https://www.youtube.com/watch?v=cAGqgeL4Ym4",
-    "logo": "https://i.ytimg.com/vi/cAGqgeL4Ym4/hqdefault.jpg?v=6a941fe5&sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCg0CF24rMYml_M3Ao-JNIBIHWpsQ",
+    "logo": "https://i.ytimg.com/vi/cAGqgeL4Ym4/hqdefault.jpg?v=6a941fe5&sqp=-oaymwEgCOADEI4CSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCRL_AjkmPyY2MOajBAYyzBADSg0w",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
@@ -187,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T16:00:20.157301+00:00",
+    "resolved_at": "2026-09-01T16:30:18.410759+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -222,6 +222,22 @@
     "resolved_at": "2026-09-01T14:30:24.550174+00:00",
     "expires_at": "2026-09-01T20:30:24+00:00",
     "ttl_seconds": 21599
+  },
+  {
+    "id": "RecordNews.br.c6sM8zjy2rA",
+    "name": "Record News Live - Conexão Record News - 01/09/2026",
+    "source_url": "https://www.youtube.com/watch?v=c6sM8zjy2rA",
+    "logo": "https://i.ytimg.com/vi/c6sM8zjy2rA/hq720.jpg?v=6a96fb93&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrwOP0hBYJSDfaIhFSBFNGrQFINg",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788301819/ei/m_2Wav67F-XeobIPu5iWqQE/ip/138.117.222.11/id/c6sM8zjy2rA.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAnHKFV7BEeIggFAAdhd6EPexwRiCJBke8G7gYowAz4O4n-5z_QQKsZAoEIWzxk9sYJJDbDGw-f5/spc/KBGBcsndJhzoK3b6YTbrF5HzDB94bPczJqw9hr51zJfZ2byHGDIV7rJPddBxNA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2280000/met/1788280220,/mh/gu/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788279409/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAOUFCBipJwZErbswR00QYcO7eOgq73FsJ6_rCHafXEtEAiEA-cTyXQLcnSqQ41gwCbzkxuK3gkGkhc-iH5rzR8POTu0%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAITscO1wVsh88hMwPizdG_urUw8Ti81aO0ilIt7PDB0zAiAKwxpVa76Vda7rRv4zYfCNbsJY4Bdx27Sg7m4Yf7pfjw%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-09-01T16:30:20.433026+00:00",
+    "expires_at": "2026-09-01T22:30:19+00:00",
+    "ttl_seconds": 21598
   },
   {
     "id": "RecordNews.br.jiqu17yaonk",
@@ -2547,7 +2563,7 @@
     "id": "tvc-youtube.tv.ti-l5_BDGlg",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=ti-l5_BDGlg",
-    "logo": "https://i.ytimg.com/vi/ti-l5_BDGlg/hq720.jpg?v=6a95ec96&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtV8Tqa9_lk5oZw4WoocnkO5CkPQ",
+    "logo": "https://i.ytimg.com/vi/ti-l5_BDGlg/hq720.jpg?v=6a95ec96&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCm3s6qeJUNhXmkHG_9h5GeKa4Ojg",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
