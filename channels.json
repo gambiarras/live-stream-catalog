@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T17:30:18.809322+00:00",
+    "resolved_at": "2026-09-01T18:00:18.523270+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T17:30:17.954986+00:00",
+    "resolved_at": "2026-09-01T18:00:17.533477+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -65,7 +65,7 @@
   },
   {
     "id": "CNNbrasil.tv.6Axf4VBidbE",
-    "name": "CNN Brasil - 🚨 AO VIVO: VORCARO CONSULTOU MORAES SOBRE FUGA: \"SEGUNDA TENHO QUE ESTAR FORA?\", DIZ JORNAL",
+    "name": "CNN Brasil - 🚨AO VIVO: VORCARO CONSULTOU MORAES SOBRE FUGA: \"SEGUNDA TENHO QUE ESTAR FORA?\", DIZ JORNAL",
     "source_url": "https://www.youtube.com/watch?v=6Axf4VBidbE",
     "logo": "https://i.ytimg.com/vi/6Axf4VBidbE/hq720.jpg?v=6a970276&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAp9cUGWvR4KJ_XkINMbb6Y69bCWw",
     "group": "news",
@@ -78,6 +78,22 @@
     "resolved_at": "2026-09-01T15:00:25.053626+00:00",
     "expires_at": "2026-09-01T21:00:24+00:00",
     "ttl_seconds": 21598
+  },
+  {
+    "id": "CNNbrasil.tv.g5ktMo8CUxE",
+    "name": "CNN Brasil - 🚨AO VIVO: MENDONÇA AVISOU FACHIN E MORAES QUE AVANÇARIA COM INVESTIGAÇÃO | CNN 360",
+    "source_url": "https://www.youtube.com/watch?v=g5ktMo8CUxE",
+    "logo": "https://i.ytimg.com/vi/g5ktMo8CUxE/hq720.jpg?v=6a9711e2&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDymVK26fPW-Em1CmOp5fweT48byg",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788307220/ei/tBKXaob9G76O-LAPxN6f-Qc/ip/138.117.222.11/id/g5ktMo8CUxE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAl5uEhmVYXA6-2hYXogfsrtVhHHZeCfY9lWJn3Tbkx3lJwyi2ldd3wBvUxI0sFkOo0Dx1WcAjF5/spc/I-rgIaSC1WPO7SrZwQjcXzRChrBIqJLOFYeGNb5q443QZTqwDyQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2405000/met/1788285620,/mh/Ns/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788285164/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgXPQ8hFnVrtVwNo8AJTv-tz95GZbM46v9VhKkhVLelGkCIHMoSnGlmKobHqK88kvugRlxegMhssK1HwsX5IPM1wzH/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgYE1_AFoyuecgvtk1os8YR4YOdDiR_0UdfNhNMJ1AOfICIFdXc7ebnkU8HKQl7irUnaCsqt3DncrgShS0lEHCAAvt/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-09-01T18:00:20.732491+00:00",
+    "expires_at": "2026-09-02T00:00:20+00:00",
+    "ttl_seconds": 21599
   },
   {
     "id": "DiarioTVTeresopolis.br.cAGqgeL4Ym4",
@@ -104,10 +120,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtEEXo2_jfxvUdemycCTsHYMgSj1Ei37-dxzQylTxZJ9K5eqywfK1g19UBPS8VkyWGDFXK-SIAkhUXRymYQvI0EhqogLW10vqJer2vvnFFViKPX7H7xxwDJyyKg4Nt_5tLpGcB1Ej2zpJIh4Byf3tNIf3CQuiVNj5OR5KJg5T9fHdKwRYD0LiSL0FZG1m06Jv0J9iMwa7LI_nYwwbk863v4t-sb3ugTMpP9oepGjMuhx429Quh9qd69iBxentqOGuLeTwpxlTzbMOuqE3ywMOOhvyGUZfzFE5q_1MBdSwzW2vqHsGLuQpIUUfxemRT0l4gnUS36SG7CpTX1u4iwFgzZsGybljgDX6F43qDXJTSHxAAHLEpjxtYuqHclxwrC3mFkuaA1Hwo5LSUM-oYss0b-XlEoLPJPGdQ2boDkYNmBLAktPM-9sWvGMHjkbupHrY4Y_6WKSscMfov4xVO16ouX5sxGp9xgss-3ZLcm46jAB2Z-L2DEEMCh6wcolfhrmxnYX0yJQLx7eiFC81Fjz5PsGZRf6rHJhH6AuhMatZ4UX8xEDAcZByLiHHI0gMNOT81FONornXXYmCB4JpkFJPVFWmKjGTI5U9slyp9vQSpIP61c39RVETi-SpZ7KcGhbJNi90U2BDXcDcH6fw9rQ9VaGH8FpvyrhiT3OKu1BV5sLnTskJh5t1MqxsYaQB1McAOYZbvdyjXH7gs8-P2OCiyb2glTu96clqkWIZBy0FuWpi4s3Fm56b42TS_9eq0GUdOSGhvYlXXEEwkXoV3kIGhCj_-YaDKoASZbnIC_lQb5yiCABKgl1cy1lYXN0LTIw_A8.m3u8",
+    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtIEgkJbA-xXAtq7QAn_GM3Axf4RcNEAQ0ynX_cRAsfKSfIQbmkpQrnu-QjT_Pdea5OdWgnwFkiCFz8363nZSmIwQ18TQ9CN1G1Jo_G9rngLG2-3KmaqZlKdTEVcXrvFHV7VeccBKVOFVY2TRaGVWP2oofl7QmsgQ_tColXsdiKD2M-p4KXiwdRgwNlrbSr9Cr30M5JK8mw-Qp0wJASxQ53cfhQdhvJME39ijPV8ns2ZQMW9S8PIgw9gMmk1kYfOYoflfKkOLp_e0ykFzcwcJY4AkQZ6tSitUPmY8-vIChFPGMLeg9xNGsD7kyJsKdVl6ieqD2uT-9_nuoCwHzXWGdEblqfs8dRtcTVe6xVIFh8kYQNko5cWvYeh1o2rvfYnqVXXnukWOwfizANoYQz06eNdTP3Ig8OS2gsW53D2BOC9ZSGqL1bWOl6W2EHq1LWh4QCw5oI4BONooV8ZMsb3KmQWFM0lqFVWGuMswZGOHB8Xn3DjTUVo__UPow46J0ZPsOJRitE_oOE44Dcbmf8oHg83Xp9WjUphd1FmbJayKTisvG6LmgCXDqWH39E5QASr2RousSK3i8oGQA14FahU94YvghXUtLUetoYYiwhNS897CcV0xW9wNjjSN-EXH2ACg7dhFLx8Z1PMPHOy3qCZumTg6q9gtxb6dK7Ybdd9xvYiCc0PVQzJp7va4avmnM_LeZg8eoQRuhETCF0RwY9kJ-tr7Vvog7STW6IpBFx72H0L_L9QuT_4qr2nmwCbEaHWZI3DSyMzhi6-6nBKredoW2nOZlHyGgwJ7jaH-iAWCojPF6AgASoJdXMtZWFzdC0yMPwP.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-09-01T17:00:19.039194+00:00",
+    "resolved_at": "2026-09-01T18:00:17.754014+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T17:30:19.855184+00:00",
+    "resolved_at": "2026-09-01T18:00:19.349768+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -195,7 +211,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLCvSb7TBHzyRNCGt7PZOsKfuAX3PQ",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3GDBFWnHmwvlSY0_0WlNgTWnHkg",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -2560,19 +2576,19 @@
     "ttl_seconds": null
   },
   {
-    "id": "tvc-youtube.tv",
-    "name": "TV Correio da Manhã",
-    "source_url": "https://www.youtube.com/c/TVCorreiodaManh%C3%A3/live",
-    "logo": "https://yt3.ggpht.com/ygMbu6lhpO4HV0hqceunzUNG_dqkdyOIrmr1VrtZfC8F48pyK8NFBw3Vn6P3YFmDJDq24YjFHA=s88-c-k-c0x00ffffff-no-rj",
+    "id": "tvc-youtube.tv.NTebHSPw1-8",
+    "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
+    "source_url": "https://www.youtube.com/watch?v=NTebHSPw1-8",
+    "logo": "https://i.ytimg.com/vi/NTebHSPw1-8/hq720.jpg?v=6a970d6e&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDChCyDjMaJHav-rSJXhZG01VB2rQ",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": null,
-    "status": "offline",
-    "error": "no_stream_found",
-    "resolved_at": "2026-09-01T17:30:20.250416+00:00",
-    "expires_at": null,
-    "ttl_seconds": null
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788307221/ei/tRKXare_Jtai1sQP54zZ6Qo/ip/138.117.222.11/id/NTebHSPw1-8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AR3QkAk1Uay2nEAe6BW702LQja9S9jihDEIyFWOoO4Bvd4GzfaEwZvYCPrjnAI-GnYrHTsv1ASN499g0/spc/KBGBcqfxmyWXjCOX4ubGvFEIiqmF66lm_LRtvE-IpwAM_LVYUuM/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2405000/met/1788285621,/mh/eL/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1788285164/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgNqe2Oj9xBB7kVA885EeQbphiyiNxU6yFxNVJHyZUsGMCIDNZ8j1w7xltOHbaizWqbMvJpKPR-9vM0mzYxLZl4ISI/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAIxObfT28_FVDRT1IGqheyKQ3O9m49AD6t_o6zleMKNdAiEAimIrH3uILLPzqXjQ13JgMe4TXHqzD_M_Jnk4c47gNCk%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-09-01T18:00:21.902756+00:00",
+    "expires_at": "2026-09-02T00:00:21+00:00",
+    "ttl_seconds": 21599
   }
 ]
