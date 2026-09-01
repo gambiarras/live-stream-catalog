@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T10:00:20.469466+00:00",
+    "resolved_at": "2026-09-01T10:30:18.521584+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T10:00:17.837120+00:00",
+    "resolved_at": "2026-09-01T10:30:17.161166+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T10:00:16.449009+00:00",
+    "resolved_at": "2026-09-01T10:30:16.433907+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -203,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T10:00:18.570937+00:00",
+    "resolved_at": "2026-09-01T10:30:17.857993+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -227,7 +227,7 @@
     "id": "PowerRangersTV.br.cQHlHWNg5zA",
     "name": "PowerRangers TV - 🔴 Power Rangers AO VIVO | Dino Fury | Séries para Crianças",
     "source_url": "https://www.youtube.com/watch?v=cQHlHWNg5zA",
-    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hq720.jpg?v=6a0d8090&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAlCMUX_qFOIvfLUIu6SSRnQuPK_A",
+    "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hq720.jpg?v=6a0d8090&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmMWf6nxX5oy1Jp82eFkbTLMss3w",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -2563,7 +2563,7 @@
     "id": "tvc-youtube.tv.ti-l5_BDGlg",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=ti-l5_BDGlg",
-    "logo": "https://i.ytimg.com/vi/ti-l5_BDGlg/hq720.jpg?v=6a95ec96&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtV8Tqa9_lk5oZw4WoocnkO5CkPQ",
+    "logo": "https://i.ytimg.com/vi/ti-l5_BDGlg/hq720.jpg?v=6a95ec96&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDGXhzNsdXYh7sWQ8QC0N2ayXHLFA",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
