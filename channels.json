@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T12:30:19.581645+00:00",
+    "resolved_at": "2026-09-01T13:00:21.545621+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T12:30:18.203684+00:00",
+    "resolved_at": "2026-09-01T13:00:18.648923+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T12:30:17.482859+00:00",
+    "resolved_at": "2026-09-01T13:00:18.000942+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -120,10 +120,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtMEMhS91qdqNMK9Atq9XWrO2pyAqH_0pFqubwvpwZdQ3Ah-re_X0JsNklWPnDr7z9zHYKKSX1LzTo15PRLklfBT8ugJp3ZCpA8hLTcGho9j1p9A2indll1j69juMrWaDVuIdhhuMF9G9pbyfEc2roEHqsHtEKrzffV4xAWZlPEkJrc7R58CgT05y7mqdH74M-Tri_5hbd3gm2Us1LYwYUKUe8tnHyl4C1aBS_CFIu_Jnscj9oRFev9QgdC8xEUqj0Iv9kHBbUM1YrddImGWF8KJ7yW-YsbfXwePNjiVKC6C4VrbcjzqOC1lqxshTmQ0_KRxOM5l60C-QMxJqrOAYDv1UQ0OZwpAE2VEHDRqhJObP7Svc2-Wrp6cLnuLTad2xBs9_SxtLWKIYPEk3Q-3Gx_HJzSwnODe_ctUkWeTUvjVsCdH3e7Qg3DBYI0b_caS4U4HlG8rQW0GjlJlSoYrVchkMNAXM26RshwyIP4ftMAg-3NGXhpdSNo3Q2uMNFLUxpSdOUzJ0B-xNtBCxCT_XpNoZQa3e5v7RdmQhYD-PHeISmv3tRrmkceLnBwja0oQXUNHhsPbrs8frONtKGS_0a-_lds3YpJhaACUBanWJqeCpUUtw2hByQ6r66EQsy9bpKCGEhGOWpc4yKBoJdQ03LpNTeDIFOwaNVinUd8iL2h8jvxCZTsG4eYlIlJlJt6kmyIOIDoAELulZwhZxLJVOD4_fy4DRxFtC7ZCgHAj54W5J7aCM77KvNuJfcMLGkXplTIw1yMfnVBzXCOhuzcAP8h1VCgU7BoMfupMmvim2V4wUu_yIAEqCXVzLWVhc3QtMjD8Dw.m3u8",
+    "stream_url": "https://sae12.playlist.ttvnw.net/v1/playlist/CtMEApnp6h2WwEOUlvpWi5o49RsQFg6l2O8VWN-4hEGuJVS47BW9o8P8jC_UCIkF3xl-Rj9T--9u2Aej5o_wWJxQTSVxJ_OD2-3xgU265-dbfZAVKJqFu_For4sr1O7DPOvP5ntdAE0ooai9DbNfMFnwXHzaNP9X-gAKzbWRcAsCOkHlq5MOh8w0EY_mTuK_XfvJKC0h2tkbNMgf5PqhzUwhAM8LOdQkuBEoJuuC_0DL0iWYb_M2a21w7UJ3SJJfZOr-6CWjBi88kWPZJzFP1LFfYuR4lXkXbibrGzIrZR6uIyT4y5vg5uUd1HgAMZtO0W2H3E9xajT68U22AoB-I_UcLXV5zInDeefsgkW0gIX0QKfdtYeBi-KiVA4xFszKmdm5Sx8aVyhCbzUm7_Le9eUnmsbso4tryIns7Y62uHZ-3c0vlEaUfvaQdKZZH7aYBdMk-bZrYf5jtj6KCg73TSoTcSdDPe8q9ZLvUTr-ZPX2Ybhho9lYc85MXPJ36s0rzKNTtQZaWRxjvomYii-4Lp2rIndNpkiMM7vmoKkXRoZh0l9r3GLAoEo_I1WuhYLov4uRsDHmDAV3Px69CBCdFABBX6rnpmsxLAjXRNsOsOyDI3eMzlX-koMqtcDf5sJ29zM3LXGfAqljoKX9yU7M9KcZFzSDQpw9Ku5WixCE2sIM-IWeznwb_hu1h5ik_eGnlk9tdEo0fhNcaUKkqTFU8dfoYLmjeOaTpDQIk9us_FPOmFeYquwdZmRF1-NK521j7-ZBTxnb_jRE1f83HhpDj7Hyt9GAfhoM0W1sNwVqgjt5YavOIAEqCXVzLWVhc3QtMjD8Dw.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-09-01T12:00:19.256110+00:00",
+    "resolved_at": "2026-09-01T13:00:18.199756+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -157,6 +157,22 @@
     "error": null,
     "resolved_at": "2026-09-01T08:30:19.586329+00:00",
     "expires_at": "2026-09-01T14:30:19+00:00",
+    "ttl_seconds": 21599
+  },
+  {
+    "id": "JovemPanNews.br.H23uHqomW5A",
+    "name": "Jovem Pan Live - MORNING SHOW - 01/09/2026",
+    "source_url": "https://www.youtube.com/watch?v=H23uHqomW5A",
+    "logo": "https://i.ytimg.com/vi/H23uHqomW5A/hq720.jpg?v=6a95ec16&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTPTlRscvMKZ0h-8VQxH8XcLthNA",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788289220/ei/ZMyWatKbDdai1sQPx9jYmQo/ip/138.117.222.11/id/H23uHqomW5A.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAm4UevgeOB863lHR0NRdaDfDlvmt9in3uifD9oPX1vTfpKGmyJm5p4usw-5-xOvcqcyoG7B0_aD/spc/KBGBcsAkfKJ7G_9DLE3qpKUG-kFDHq9ll3TFwNFjRYKqX4eOl-I3q21OXrLnRQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2752500/met/1788267620,/mh/ef/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788267188/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhANio047VFtBhg7WCZDMyuWJthjIgOhoX-L_l510Wj81xAiEA88N5vF1K5S2nLs-235dnp2gwKsbj3-CAeW6Ba46EarM%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhANv_2oUSIUqojaMy3EG4X2ANAq00GmBVzFkZg15nIVS9AiBS2XJcGQ_4YnXsQzo67ieCN1hni08a7zcLa5-wsc9XUQ%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-09-01T13:00:20.762136+00:00",
+    "expires_at": "2026-09-01T19:00:20+00:00",
     "ttl_seconds": 21599
   },
   {
@@ -203,7 +219,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T12:30:18.858962+00:00",
+    "resolved_at": "2026-09-01T13:00:19.381795+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
