@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T06:00:21.248404+00:00",
+    "resolved_at": "2026-09-01T06:30:19.532639+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T06:00:18.742368+00:00",
+    "resolved_at": "2026-09-01T06:30:18.368641+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T06:00:17.973610+00:00",
+    "resolved_at": "2026-09-01T06:30:17.717707+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -51,7 +51,7 @@
     "id": "classic-mr-bean.tv.mF3s5-6mIH4",
     "name": "Classic Mr Bean - Classic Mr Bean 🔴 LIVE! - All Episodes",
     "source_url": "https://www.youtube.com/watch?v=mF3s5-6mIH4",
-    "logo": "https://i.ytimg.com/vi/mF3s5-6mIH4/hq720.jpg?v=6a86ec87&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOMiWNBbJweq_yH7IpI2b7slDssQ",
+    "logo": "https://i.ytimg.com/vi/mF3s5-6mIH4/hq720.jpg?v=6a86ec87&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLBHq-eFVoLIKzrFEBIajrq30mr-vg",
     "group": "series",
     "source_type": "youtube",
     "tvg_id": null,
@@ -187,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T06:00:19.355171+00:00",
+    "resolved_at": "2026-09-01T06:30:18.950268+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -2547,7 +2547,7 @@
     "id": "tvc-youtube.tv.ti-l5_BDGlg",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=ti-l5_BDGlg",
-    "logo": "https://i.ytimg.com/vi/ti-l5_BDGlg/hq720.jpg?v=6a95ec96&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDGXhzNsdXYh7sWQ8QC0N2ayXHLFA",
+    "logo": "https://i.ytimg.com/vi/ti-l5_BDGlg/hq720.jpg?v=6a95ec96&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtV8Tqa9_lk5oZw4WoocnkO5CkPQ",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
