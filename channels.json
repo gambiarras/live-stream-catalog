@@ -11,7 +11,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T13:00:21.545621+00:00",
+    "resolved_at": "2026-09-01T13:30:19.062975+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T13:00:18.648923+00:00",
+    "resolved_at": "2026-09-01T13:30:17.626011+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T13:00:18.000942+00:00",
+    "resolved_at": "2026-09-01T13:30:16.772253+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -128,22 +128,6 @@
     "ttl_seconds": null
   },
   {
-    "id": "JovemPanNews.br.6U6nK40VOjU",
-    "name": "Jovem Pan Live - JORNAL DA MANHÃ - 2° EDIÇÃO -  01/09/2026",
-    "source_url": "https://www.youtube.com/watch?v=6U6nK40VOjU",
-    "logo": "https://i.ytimg.com/vi/6U6nK40VOjU/hq720.jpg?v=6a95ebc0&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUjvPbzGw_-T_yOGlbVMtvCg9Cyw",
-    "group": "news",
-    "source_type": "youtube",
-    "tvg_id": null,
-    "resolution": "best",
-    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788278419/ei/M6KWaqbtDbqO-LAP1MOjqQM/ip/138.117.222.11/id/6U6nK40VOjU.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAmCuGcAG895qHLfLy7hIxPRTPadoyhgJzNhK8MeLEznAhMDaF8Hp_ER2NqWco-v8bblYIFv8JCT/spc/KBGBcvb97ArGj8HmMnQR3YDV3avw0CL0A7dpIRt5nB2lT9vK7RgA001mRlcKaQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1776250/met/1788256819,/mh/dm/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,52135441/mt/1788256350/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAO0d8F_8-rARIelik6MRixhsYJldo4rvQU5iTNsf3ShoAiBOiODoEDcLM-yAVQT8wNXC6dbhmVSTnRU7Kph9zdpjvA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgUW8N7czek4vLZljXQ08oOLwy310f6dT8ulKKLpXSsUkCIBGbqYszNRxJlDqTJp748vfcbhx2cThCeEL6gD_bwmZW/playlist/index.m3u8",
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-09-01T10:00:19.721144+00:00",
-    "expires_at": "2026-09-01T16:00:19+00:00",
-    "ttl_seconds": 21599
-  },
-  {
     "id": "JovemPanNews.br.eTz4XgOQaAE",
     "name": "Jovem Pan Live - Jovem Pan News Av. Paulista",
     "source_url": "https://www.youtube.com/watch?v=eTz4XgOQaAE",
@@ -219,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-01T13:00:19.381795+00:00",
+    "resolved_at": "2026-09-01T13:30:18.343303+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -275,7 +259,7 @@
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
     "name": "Santuário Nacional de Aparecida - Santuário Nacional AO VIVO - Você em constante Oração na Casa da Mãe",
     "source_url": "https://www.youtube.com/watch?v=juUt-rN5CVo",
-    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD3cP5NpvEP_ZaUWWqC408qTopkg",
+    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCxtsGB1e1YDC-A3Eyi7Qe2bUFJyQ",
     "group": "religious",
     "source_type": "youtube",
     "tvg_id": null,
