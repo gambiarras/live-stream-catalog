@@ -1,6 +1,8 @@
 import unittest
 from unittest.mock import patch
 
+import requests
+
 from live_stream_catalog.sources.stremio_addon_catalog import (
     StremioAddonCatalogConfig,
     load_config_resource,
@@ -82,6 +84,28 @@ class FakeSession:
         return FakeResponse(payloads[url])
 
 
+class PartiallyFailingSession:
+    def get(self, url, headers=None, timeout=None):
+        if url.endswith("/manifest.json"):
+            return FakeResponse(
+                {"catalogs": [{"type": "channel", "id": "live", "name": "Live"}]}
+            )
+        if url.endswith("/catalog/channel/live.json"):
+            return FakeResponse(
+                {
+                    "metas": [
+                        {"id": "working", "type": "channel", "name": "Working"},
+                        {"id": "timeout", "type": "channel", "name": "Timeout"},
+                    ]
+                }
+            )
+        if url.endswith("/stream/channel/working.json"):
+            return FakeResponse(
+                {"streams": [{"url": "https://media.example.test/working.m3u8"}]}
+            )
+        raise requests.Timeout("transient timeout")
+
+
 class StremioAddonCatalogTest(unittest.TestCase):
     def test_loads_manifest_url_from_environment(self):
         with patch.dict(
@@ -93,6 +117,7 @@ class StremioAddonCatalogTest(unittest.TestCase):
         self.assertEqual(len(configs), 1)
         self.assertEqual(configs[0].provider_id, "addon_catalog_1")
         self.assertEqual(configs[0].manifest_url, "https://addon.example.test/manifest.json")
+        self.assertEqual(configs[0].max_workers, 8)
 
     def test_builds_protocol_resource_url(self):
         self.assertEqual(
@@ -125,6 +150,25 @@ class StremioAddonCatalogTest(unittest.TestCase):
         self.assertFalse(channels[1].publishable_static)
         self.assertNotIn("explicit-adult", " ".join(session.requested_urls))
         self.assertNotIn("addon.example.test", str([channel.to_dict() for channel in channels]))
+
+    def test_keeps_successful_channels_when_another_stream_times_out(self):
+        config = StremioAddonCatalogConfig(
+            id="addon_catalog_1",
+            provider_id="addon_catalog_1",
+            manifest_url="https://addon.example.test/manifest.json",
+            max_workers=2,
+        )
+
+        with self.assertLogs(
+            "live_stream_catalog.sources.stremio_addon_catalog",
+            level="WARNING",
+        ):
+            channels = load_stremio_addon_channels(
+                [config],
+                session=PartiallyFailingSession(),
+            )
+
+        self.assertEqual([channel.name for channel in channels], ["Working"])
 
 
 if __name__ == "__main__":

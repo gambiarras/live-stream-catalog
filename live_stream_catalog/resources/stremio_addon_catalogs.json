@@ -4,8 +4,9 @@
     "provider_id": "addon_catalog_1",
     "manifest_url_env": "LIVE_ADDON_MANIFEST_URL",
     "types": ["channel", "tv"],
-    "timeout": 30,
+    "timeout": 15,
     "max_items": 1000,
-    "page_size": 100
+    "page_size": 100,
+    "max_workers": 8
   }
 ]

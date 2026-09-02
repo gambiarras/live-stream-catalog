@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from importlib import resources
 from urllib.parse import quote, urlencode
@@ -37,6 +38,7 @@ class StremioAddonCatalogConfig:
     timeout: int = 30
     max_items: int = 1000
     page_size: int = 100
+    max_workers: int = 4
 
     @classmethod
     def from_dict(cls, data: dict) -> "StremioAddonCatalogConfig":
@@ -56,6 +58,7 @@ class StremioAddonCatalogConfig:
             timeout=int(data.get("timeout", 30)),
             max_items=int(data.get("max_items", 1000)),
             page_size=int(data.get("page_size", 100)),
+            max_workers=max(1, int(data.get("max_workers", 4))),
         )
 
 
@@ -286,6 +289,93 @@ def _channels_from_streams(
     return result
 
 
+def _load_meta_channels(
+    session: requests.Session,
+    config: StremioAddonCatalogConfig,
+    catalog: dict,
+    meta: dict,
+    default_resolution: str,
+) -> list[Channel]:
+    channels: list[Channel] = []
+    for video_id in _meta_video_ids(meta):
+        endpoint = resource_url(
+            config.manifest_url,
+            "stream",
+            str(meta.get("type") or catalog["type"]),
+            video_id,
+        )
+        try:
+            payload = _request_json(session, endpoint, config.timeout)
+        except Exception as exc:
+            logger.warning(
+                "Failed to load addon stream id=%s error_type=%s",
+                config.id,
+                type(exc).__name__,
+            )
+            continue
+        streams = payload.get("streams", [])
+        if not isinstance(streams, list):
+            continue
+        channels.extend(
+            _channels_from_streams(
+                config,
+                catalog,
+                meta,
+                video_id,
+                [item for item in streams if isinstance(item, dict)],
+                default_resolution,
+            )
+        )
+    return channels
+
+
+def _load_catalog_channels(
+    session: requests.Session,
+    config: StremioAddonCatalogConfig,
+    catalog: dict,
+    default_resolution: str,
+) -> list[Channel]:
+    metas = [
+        meta
+        for meta in _load_catalog_metas(session, config, catalog)
+        if not is_explicit_adult(meta)
+    ]
+    if not metas:
+        return []
+
+    worker_count = min(config.max_workers, len(metas))
+    ordered: dict[int, list[Channel]] = {}
+    with ThreadPoolExecutor(max_workers=worker_count) as executor:
+        futures = {
+            executor.submit(
+                _load_meta_channels,
+                session,
+                config,
+                catalog,
+                meta,
+                default_resolution,
+            ): index
+            for index, meta in enumerate(metas)
+        }
+        for future in as_completed(futures):
+            index = futures[future]
+            try:
+                ordered[index] = future.result()
+            except Exception as exc:
+                logger.warning(
+                    "Failed to process addon item id=%s error_type=%s",
+                    config.id,
+                    type(exc).__name__,
+                )
+                ordered[index] = []
+
+    return [
+        channel
+        for index in sorted(ordered)
+        for channel in ordered[index]
+    ]
+
+
 def load_stremio_addon_channels(
     configs: list[StremioAddonCatalogConfig],
     default_resolution: str = "best",
@@ -311,32 +401,20 @@ def load_stremio_addon_channels(
                 for catalog in catalogs:
                     if not isinstance(catalog, dict) or not _catalog_is_selected(catalog, config):
                         continue
-                    for meta in _load_catalog_metas(session, config, catalog):
-                        if is_explicit_adult(meta):
-                            continue
-                        for video_id in _meta_video_ids(meta):
-                            endpoint = resource_url(
-                                config.manifest_url,
-                                "stream",
-                                str(meta.get("type") or catalog["type"]),
-                                video_id,
-                            )
-                            payload = _request_json(session, endpoint, config.timeout)
-                            streams = payload.get("streams", [])
-                            if not isinstance(streams, list):
-                                continue
-                            channels.extend(
-                                _channels_from_streams(
-                                    config,
-                                    catalog,
-                                    meta,
-                                    video_id,
-                                    [item for item in streams if isinstance(item, dict)],
-                                    default_resolution,
-                                )
-                            )
+                    channels.extend(
+                        _load_catalog_channels(
+                            session,
+                            config,
+                            catalog,
+                            default_resolution,
+                        )
+                    )
             except Exception as exc:
-                logger.exception("Failed to load addon catalog id=%s error=%s", config.id, exc)
+                logger.error(
+                    "Failed to load addon catalog id=%s error_type=%s",
+                    config.id,
+                    type(exc).__name__,
+                )
                 if not continue_on_error:
                     raise
     finally:
