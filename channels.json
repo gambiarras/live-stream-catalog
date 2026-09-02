@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T04:30:17.136586+00:00",
+    "resolved_at": "2026-09-02T05:00:18.241024+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T04:30:16.471991+00:00",
+    "resolved_at": "2026-09-02T05:00:17.582761+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -91,7 +91,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T04:30:18.346570+00:00",
+    "resolved_at": "2026-09-02T05:00:19.765553+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -104,10 +104,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae12.playlist.ttvnw.net/v1/playlist/CtEEtxF3a5FemkChAFTBX5MCQzwfxlHTjvzNkvYVEeMO3i_davfiGO9MCsgwsqmoH-46zebecV7TI2zBTdfFguHtKJTKpSGOL4wlZ9-_nQnl8tCC7EEyBi2EF61VrCLhJA28b6s6dBuz0yQFvqYFqKsX6O1aqo3yETkUKZ1-Pm2YIRejNy1UWIFecILAfGYEqagujpAfScoF7CfYYDA5lcjwUa6jthnyMOOPNU_Vau1BW_tPhadQ8iB62ZjA0Llmu7S11DfESZBxlRYiW03xuVNhzvvy5cjn4WgbSkp-Syc3saN_6SYjrivWdo8nCRBVyeMaxZZWKsNSmvMZG3Ymc0TlmFxzb1h84OEDWSLCHyePobvZf7uG_FNN20TDCczDRwL-kXN1eUOrcTSthZbV1rfQ69Aaw-EByPSwIbMOSnrVp1lP4TDN1CuaL4nE8SKaQA0zPxHGlwXuQt0QbMjGtbS23OMZurtXcBNMTulzlbH6HLHG-R8nBm5RWXmwvv9jVcg04M4TkvpS0n5U0anfODCdRKstJ-oZPoPTpMMgsTXv_P1_Rj2JL5-trUe-6s5arPfEAvrL-HirQXNyxwPIu-AK8MMXpLfd7xjURyBcZzoGQV5YRdohJ29t9Bof-HC3Sk0_r8Orb7A-UqwDyfG_zWRXSs7h4_6xaU7vVSqoBwwICA-DGRyvev_rR-1nzIEAcLAowJ218EH1j2m5FtbiMIxHaUCdbrx1RB8kkOyOmlPxoBcZejO5SNLMikCIL-F-bCj9l7rsXF9255HfNXoTOXv8jpYaDJeCnMOjXsbzJ7ifxyABKgl1cy1lYXN0LTIw_Q8.m3u8",
+    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtEEcc_OXx6Wlash3_szXP2N_btqnYm66zyUZcelihMpTdKInI0-kJEVZpin73VJR2wq3fK7z2g8ljIXwa5qR7_PKYl9QhqWyls1jdDg4BKPPW3FOtfk9yqO7R4W_dfAEvLXcYmi856qMgFy-CIyiXSPTHLAVw39YrC0_2eALaIsVoaknwOtaWpuSLClfQ3R8vT1fF2LfoZUppSkPopFim48kcPYY6Gh5PPwHJ30B9rF8JT7WJOVU4BDb-XHa5MaodhOu7PvhOiXEKbz9VIMuYl1l8DNGyRCp1yHkXk3T0I1SrQlp9CVquBI6mZioV8daaU_fVNa8ubcM6HUKVKwQyd_Prqr9NGmuvlGcUK2eUxEGoaQfJDTFxmmn5tk-TQfSdwfSgwijcPNLNFmZQIR5U6hm7W8SQsqfP7wQ8HtzIZHA8baDacv_9_AROKTawwh-KpnPx_bAe02_Vv_D5IZlcdgIuFfN1awmgHHR85JTcgyDYRavWJXh-vhT57Tr8nYzu25BnpfCfrslEIAMRsebjpVncXV8BVEXOe2fROKjuCSuBue251LP2VaXX9MfOl5ZcGUr_SlZMEyJ_V6LZ0FVnOZIzC4rr_OQkXhEa6W46NRfqI2gDCuL3vJXTAxLhRWi57vpFf7fXvC6gxIVRdO3pKJk2PYtoquzWoRW6VY0UXHgDYbnQ8rPM-NwVSmrb_ganOh8_RJflCDvUiaGjLSvvc1jeLXY7Ddwox6gTiqVuvLWV0NpswLMGG_BiTEyRi3BM1iYXVE_Qkincr17jozk8HfXxUaDD8NDWscep_pYPys2iABKgl1cy1lYXN0LTIw_Q8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-09-02T04:00:17.878284+00:00",
+    "resolved_at": "2026-09-02T05:00:17.805611+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T04:30:17.721495+00:00",
+    "resolved_at": "2026-09-02T05:00:18.974086+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -2675,7 +2675,7 @@
     "id": "tvc-youtube.tv.NTebHSPw1-8",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
     "source_url": "https://www.youtube.com/watch?v=NTebHSPw1-8",
-    "logo": "https://i.ytimg.com/vi/NTebHSPw1-8/hq720.jpg?v=6a970d6e&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDChCyDjMaJHav-rSJXhZG01VB2rQ",
+    "logo": "https://i.ytimg.com/vi/NTebHSPw1-8/hq720.jpg?v=6a970d6e&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLD3K1IyAkw05FvqdItYOzabX00ftQ",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
