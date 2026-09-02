@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T19:30:17.949923+00:00",
+    "resolved_at": "2026-09-02T20:00:19.186579+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T19:30:17.101221+00:00",
+    "resolved_at": "2026-09-02T20:00:18.194092+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -120,10 +120,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtAEgkd-sm_k4PoNqHBhFu-6a5MgX9skGaRgwzoogLsUQFAcU7N3PCRncv_8sxyJnzP-BuM6Rlofe3gQauOcwU61_CgU0ZoIpLKiSRmWdo_5WLzVyepgyh30Ggu0KoU61gnx230w_5Ku-iHfntldr1O9O2_iCpWMWtG51_IK7NVPlNc8Fe3gE7AdAoXDlCSKBKCKV5yYppbaJZbuE8_e-CwdSuoy2mm-nHGrKLKtPtNs-xB-gWbrG7Cl9PybNlnMoLXmKKWHHYwaUner0qjY3t63ra3GQZu1SSAdw5Lva0DNBNIu60-c5taDSfK7cbCecUlSxElErjQ68XvJ0Xvj_mfOxiFeFzrZVWQ9kMMPQB27_PVtJLoff_xO80Z7VO15IQarOZ04Ynp1xhVIRKf0040X7oZ1Px19Km0LUWPMzztNSMQp7yQiW9wo3ZGfFR9mD4DJWo5U5_QYWoCtOqzWv-UmKsgC_9UtacBqp3a-ck4ZyIduV8Ff2XOIxVsqIzWfEGiUTHo3-6O5ZHULfD3B5tCM2EySgybHmSRMhppAlFiPMPuUB9_UPG7zzLVAxcLkFr0vgMYkLk-EbGZjU9YOolP7p94Ca8h_xIc3Tiihamm_n4lI5tc0vhej6dHqX4tcuDYeEyUus1rXGm4oWrArTOgMurdxqWX8ms-oZpZPM266qnwULXtk-vckiqUWtHnZ-fz4QM6wcbFedeeFmfQFGLycwPISpWnYYgMdIV9VkSz1yNWaz00477yoyFMYKVt5FXWbstJNSM3G-c04xsZuXKlOlxoM-iBWPSV_CBB3znZbIAEqCXVzLWVhc3QtMjD9Dw.m3u8",
+    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtIEUpeTMgb4bCquQSvxZL2wJRrokjFNlQnBrE6GMUXRLFjabW0b7hXqQ9Xjd8Q-0Rp3Q5CmvtjyVV5L9cGuIza6NvdRqf4Nb5QI2LcTaS_SdjCe3u6PPaESaAM_Oy9jrU40Qi-jdDzLHIw5ArKUPdEdbRC6Y9UpPX-A7r-9rKDnWzHYR07DQyMqTXeIBvTD2RQJIA0fJXsxlgJAML3iLBccrcqn7bqwMC32afERMVrt7BkQ5WdIF7j6vf9s13Uk7cfym0yjataFscm1yqS259Lhbzjtei4XrBHZ5YdpgVLQ1sLMkmDanUR5tOnhWviD6tFZujehLPcGo-9o3LjDbG-1C5lTNC-xrOb7RoI4h2NpT2UpJ257Q3MSczjR5geBjeO-1Z3MZ3o6ptKvIzvIrgwB-djDNEprbxYKiT4aLxwmermLzveIezX1V6CMMf_QkVYKnBRCh8eJj4bVMFNEOHOoHHgU-BAzi4SMlWdMgCdIK4DULEydhDwQUzkcqCw0rLORGHz67w0HmBaoIqIAWSUO0-wZFD-HR5k840YTSyM6-tyvuxlHqYUpH45oetRTVUKHvM3xu_QWblT6v0eJiT99_mPoUbUcXobLvC1K-vQeAQtWww2JJusHl__tI9hxAu-ILO5IUaxK_LtG2-BIlppmYlamqJWuqkROXByYzPb0yDEQQMevF7e0FAIZAdzIY4qvz7ROSRHU7OlvMHsXY66nMIjzGtPhl9mPI5FML3zAORaRCCHrKST-p_zGpdwc546VJthGX6A-xCeyaBHdwzl8z4o8Ggw7puNrKvWT4ylTmkEgASoJdXMtZWFzdC0yMP0P.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-09-02T19:00:18.357573+00:00",
+    "resolved_at": "2026-09-02T20:00:18.464190+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -203,7 +203,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T19:30:18.829435+00:00",
+    "resolved_at": "2026-09-02T20:00:20.121056+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
