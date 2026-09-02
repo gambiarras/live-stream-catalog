@@ -30,6 +30,11 @@ class FakeYoutubeDL:
         return self.__class__.payload
 
 
+class FailingYoutubeDL(FakeYoutubeDL):
+    def extract_info(self, url, download=False):
+        raise RuntimeError("503 Service Unavailable")
+
+
 class YoutubeLiveDiscoveryTest(unittest.TestCase):
     def setUp(self):
         FakeYoutubeDL.payload = {"entries": []}
@@ -138,6 +143,28 @@ class YoutubeLiveDiscoveryTest(unittest.TestCase):
         self.assertEqual(len(channels), 1)
         self.assertEqual(channels[0].resolution, "720p")
         self.assertEqual(channels[0].source_url, "https://www.youtube.com/watch?v=live_video_1")
+
+    def test_transient_discovery_failure_can_abort_without_becoming_removed(self):
+        configs = [
+            YouTubeLiveDiscoveryConfig(
+                id="sample.tv",
+                name="Sample TV",
+                streams_url="https://www.youtube.com/@sample/streams",
+                fallback_url="https://www.youtube.com/@sample/live",
+                logo="",
+                group="general",
+            )
+        ]
+
+        with self.assertLogs(
+            "live_stream_catalog.sources.youtube_live_discovery",
+            level="ERROR",
+        ), self.assertRaisesRegex(RuntimeError, "503"):
+            load_youtube_live_discovery_channels(
+                youtube_dl_cls=FailingYoutubeDL,
+                configs=configs,
+                continue_on_error=False,
+            )
 
     def test_config_resource_replaces_legacy_youtube_registry(self):
         resource_names = [resource_name for resource_name, _source_type in get_resource_registry()]
