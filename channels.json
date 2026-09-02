@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T10:30:16.587584+00:00",
+    "resolved_at": "2026-09-02T11:00:17.817038+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T10:30:15.939119+00:00",
+    "resolved_at": "2026-09-02T11:00:16.154558+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -91,7 +91,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T10:30:24.084302+00:00",
+    "resolved_at": "2026-09-02T11:00:18.793529+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -104,10 +104,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae12.playlist.ttvnw.net/v1/playlist/CtIEYSpmbHzw-RNJj-dCljMpV5Cj0MFyucFD3X5PvRlgehbVFTl47Mss-NN0UGC75LMPSIyHydn9Mgjs6isQyJqIokFqLBGocUX3Cv_KR6z950HtZdue3DapjP_yBKf9vEHzjapSzu-yo__I21iLnHyZ5P-WyHSjPczOn14ctDeR0sgh4W3j9pDlBr-pgWkalsfAxgdrvOGO5giZoFAl6Q9DnQgcVQ7Vmpp1cIJxe0-FTKMZ_cNLAdJjUSA2-UOZKmdjdb8ErZQ1KcZsaVd2YJzXIWZRSgUOHx2d6I1K77Ra6hyQoEDMt0XWKQLCpapz2UfMcLbed6VAeMWpYei97gjeXLGJrs8Aoe6u3B1ts5gp8D108JsIWN3nMlVfHBSPQli1qtRP8W-NKbHQ1wCtOqxEVcBqAFKtzNOhTH0vO3euVEYhU2uKNdQzjSS96Ffdo2Iuqem54xMpm-905Bn41jkyukFNhY4YZUHyvuM2zZfSx-l0z_GD4mYziQ3ICZtDHtC2MVbR1P6pKK13Z4zcL80Ih_YFwXL5hjxmi8V0ibojviIRUEHaVGyDjMJgwxq1hQtucj3hTRiACh7F4bPYtU2ajH8iVLm4HYJXzHVK1J9yVp6LJ4HKYhA-Y7wyK7YslBdpY5n-0pipWdNBz39sMBmu1Bz5_qra4Y7RiIuS24P_zR-62B_2P-3J7IyHd0mYkKBVA5_uJfxpGdQu7JQnwGRNOq-izIG_NUvKZI8CKRbwYv2BcCyMbAueR9GA5MxZ5B87-Mtl1AadXosza95ElxM1lD5VGgxlwq6Rw2jCd2lTKhIgASoJdXMtZWFzdC0yMP0P.m3u8",
+    "stream_url": "https://sae13.playlist.ttvnw.net/v1/playlist/CtIExSQMW9R02gQLNbWuRdQP-qZ294rceycA7qfa_1hkUQoBTAVYrViNipdAX3x6Ws4tqJ-G6bjtJAANHpcvrNyelVLjI7XVOAzSKyW5g4ZaSy8sSNsIwvAzKC2lsTW9-CEOdvd2uHv332YIJC43f4oxQAELxu40MUVj1ZK8Dx2_2m-UzZVLhYYdAU8ilzv6uFM6SI9SwM4y2c-o3nyBzMYeyBG2vpG4rUfDHQZ_iY3SQU86Eb9RUGEPe-fH-AbrpvpcPPBlcKZU5_FTScHzoHIulvUiGZtWPG6gsg-CCj6RBQ625aAup3H81CvC5iAG7mOPSo_X2A8lOHhPVgORj36DPRrkjZkJkPdegLeMDMpltMsIuZ24b3yrCUgrwp_lcAKRA8J2Ar67sCw7s4WrNjMYrzlNMmDAyxC0DgRjV6O5ir5xf7U-bZFed_yCspJA7qWJ2c3Ta6l-wz2w63T7GrdCVaLhk5d9ofSwSQJ6-j5Ef18fGZaM4YAimA3f9fY4pTxRQ0wFJxx0H4G11Rc2Le6QMD9vYXMdFSI1EFJ2dy2ic-YSplWRpb5otZahP_t9AdnchRFx8DuEVVKuGOyI1s56svWhIYq17R3QM8R7iNT83cBVttffiEsY4p6Fve3VvxNoMFyBJhxY4xFmbFaMWs2t8ybif5jKzm1Lk4H8IpT5Mmgy71q4fpibkG0grMVtq9ca5EPuXfvuvY7hfnoNCd7OVm7H52qQruo2446eS14u2rg6j24dbU6TUuUBwAV-apivXf6RilPN4NP-NbS3jll5_2RuGgxDGWMLKU_3NpZGVU4gASoJdXMtZWFzdC0yMP0P.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-09-02T10:00:19.147082+00:00",
+    "resolved_at": "2026-09-02T11:00:17.059281+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T10:30:17.207298+00:00",
+    "resolved_at": "2026-09-02T11:00:18.486741+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -259,7 +259,7 @@
     "id": "SBTNacional.br.LLpNUqHVam8",
     "name": "SBT - YouTube - SBT Ao Vivo",
     "source_url": "https://www.youtube.com/watch?v=LLpNUqHVam8",
-    "logo": "https://i.ytimg.com/vi/LLpNUqHVam8/hq720.jpg?v=6a957dda&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBtzTMJTmnDJ4-25aIXUBeMDz4blQ",
+    "logo": "https://i.ytimg.com/vi/LLpNUqHVam8/hq720.jpg?v=6a957dda&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwm5buo6wD9pWzUsn5SJ7S-6l73g",
     "group": "general",
     "source_type": "youtube",
     "tvg_id": null,
