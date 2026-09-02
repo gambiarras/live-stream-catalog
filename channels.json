@@ -3,7 +3,7 @@
     "id": "BRCartoonNetworkvideos.br.R__oFJgWDqg",
     "name": "Cartoon Network Brasil - AO VIVO 🔴 OUTRA SEMANA NO CARTOON",
     "source_url": "https://www.youtube.com/watch?v=R__oFJgWDqg",
-    "logo": "https://i.ytimg.com/vi/R__oFJgWDqg/hq720.jpg?v=6a9084c1&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvsCpTNHnUyKjFQIUr4AkFhNSjZQ",
+    "logo": "https://i.ytimg.com/vi/R__oFJgWDqg/hq720.jpg?v=6a9084c1&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLCsMP9hsSTdI93yzW5UYPywY39NQw",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T16:30:17.847708+00:00",
+    "resolved_at": "2026-09-02T17:00:19.714134+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T16:30:17.041384+00:00",
+    "resolved_at": "2026-09-02T17:00:18.816642+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -77,6 +77,22 @@
     "error": null,
     "resolved_at": "2026-09-02T15:05:20.453364+00:00",
     "expires_at": "2026-09-02T21:05:20+00:00",
+    "ttl_seconds": 21599
+  },
+  {
+    "id": "CNNbrasil.tv._u3OtzLPFgw",
+    "name": "CNN Brasil - AO VIVO: ENTREVISTA COM SERGIO MORO (PL) AO GOVERNO DO PARANÁ | CNN ELEIÇÕES",
+    "source_url": "https://www.youtube.com/watch?v=_u3OtzLPFgw",
+    "logo": "https://i.ytimg.com/vi/_u3OtzLPFgw/hq720.jpg?v=6a91dff6&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB9Lmf07Z4lO5cEa3z4MRYl3jaA4Q",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788390023/ei/J1aYavGSCa7DobIP3f-F-Qw/ip/138.117.222.11/id/_u3OtzLPFgw.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AR3QkAkNyEFgpxcU9t1VSFfV9P0KutCcJBQqYvBZSWA5qgvPCD50-Rhpxbu4aEKumuvMAOL173tjnTlr/spc/KBGBcscydvP_66KLfixaXumWGcpoBEiwMnpi27IzK-IFcYRmlTg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2133750/met/1788368423,/mh/gU/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115,52135441/mt/1788368198/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgQshRr49FNUyHv94nTYscCWq5gPiGfK5vmtncx2XinNMCIBzbvmlHYKH8T329BmzZ9pjPWwL7TTIuoHXvOMHGOyYZ/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgYaZp0u7oALDX4bQDSC2y9z5tUSiJCyH_0lxLQoya_JMCIGLfbyAO0Azfo3WSXaRQa7kmAMskRdWVshAvgnlDAOaR/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-09-02T17:00:23.703273+00:00",
+    "expires_at": "2026-09-02T23:00:23+00:00",
     "ttl_seconds": 21599
   },
   {
@@ -120,10 +136,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtEE1I1GKedTuK1qt3-2L4Bs4K5Z1Umjh0cOfrx8fD69oOvKMWAK_BvjSWhn1saKTAdHeuVsZk30ktZRQF3THOK1gGOaEDjrvAIiXrEr9dYl1L_gb-rBo-M7J16lwi3hrDO_K6PZyagCBGvO5ra9G1ish7E602N3mDiCEkaLrHE9tLNdpADfXXkNue8NsuZR0QQ4uuwFEFxJ2kK5Fm_45GxhT9yb_aLzE4-TsCalgoQNcRvbOEmLPhJpm6Nynt-jfX9MrUoKc7C6WFumlR37JBpo2Oda_eNy_jUGDvvbK7mcmGVPDXO-7QouOfQGwcyn3dw8J8c6bqmXAnq9oHZ-f4du9T9mdozwQsrtb5nVtMHSvSTArhAeZj-4h5bl5QbZG0nuQ2vLsyrLVtvEA7uhZKzP2XvaQi6fibHa2A_q0iZP4LeAYZcxSRtYnJtOShj67pcnzUEexYjLeFx8_gowCDDvOslswIjET2NuKJD3CKOb5sB-ltahXborVviY89KvtsihmkVYPXQbSaN5qp3ap63ovyfV2QXQKU-VQ26mNuIxJkxcOxJKtiZGWO5uIaY41wOkCixilAzL_LwwyI0qs0atngflHPIE9JSuMwgrlXcwM9eeL7KQILycN_lkFrHyn1NseMFqlkAYMwRpew7u9eChnqiLr8IMqTCVInr61yNPcHxNh_TdGepNeBpJRx02NfBwnw5kDAGhAMb8Gedo56TJqKP8Cwnq5EQsNDhI2hBBZOZ-nR_pd_wCb04BYTZmPlV9pow_erhZD-xbSfOkIJa_G4AaDLgmRlrfKJ0ol_uCjCABKgl1cy1lYXN0LTIw_Q8.m3u8",
+    "stream_url": "https://sae11.playlist.ttvnw.net/v1/playlist/CtIEiemIh-mBDPF95oPHhruC1cwJGJR5_kss3fyoaCnTLmC6vT9cgslM6Yjyd6oefbAcrXXTUIleGBEKzUpE7qoEXxPzStXwCjUO2arHTaKDfr3jtHpU0ASfHlf3EcMqR-sg7PyskQeK0-tTJ0voOHpB4TxOoK0I46g_G6lDZ7mTKmKzSTfP98MD1g2Pt4fFApYLH0fGb_Elsa375a3kFgT5vwb1ZPtz3jcG4SS1JZvJ7afPAluAylq3WThKb_o7IYYccpZlyzKF9y-xxY4xUebo_IheY_maT2Hc0p28lrHDXQAOeprPnWQ1ef38HyWxmHvuQVPy3JYYaN0ulFuAQ7l-7bEMnKzrSGe3E685KinWu3D_hDD8ODh4h-DCRQUpLgx85Q-M7scTNVxN3qHIV0VHHiftwQCt0BowyzXGHSGsLn-RBXmHAwL4ToGxp1maRe2R1iSVixMZ8BwGKvviZx7vJlek8gnuODHnrLi_50nBgWnozWXLBZqbEQtYwDJLU_vK4-AU8EOAMLVw_pwpVV3bE0uwSbc9bH0Ac33x_FG0z0h9Y1XP0WHDLKi4x_4jWzVWwiRrzWTh5ty0b8uwcpD86hdwmWNNeAp7SurTPq9Udh4lcxgmHcSuCLPBcjf6TQk-aIVr6gVcgxlcyyvj_gO5rHkfM-QFfx7F7y1dGxWZWHSyKK6Wxjc--8iTvzHmFLxVEYRjV292WtVFV8yJqZ1a2OmaRaSu19OgjPuviVG6rXVoNrdTzsOgnIYlccWFVWJGnbGdvG6JAMg9Fk6z8gd8IREQGgxQkFys-hx5GErnwY4gASoJdXMtZWFzdC0yMP0P.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-09-02T16:00:17.642003+00:00",
+    "resolved_at": "2026-09-02T17:00:18.338621+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -141,6 +157,22 @@
     "error": null,
     "resolved_at": "2026-09-02T16:30:20.391037+00:00",
     "expires_at": "2026-09-02T22:30:19+00:00",
+    "ttl_seconds": 21598
+  },
+  {
+    "id": "JovemPanNews.br.RlSKn1b0Fwg",
+    "name": "Jovem Pan Live - TEMPO REAL - 02/09/26",
+    "source_url": "https://www.youtube.com/watch?v=RlSKn1b0Fwg",
+    "logo": "https://i.ytimg.com/vi/RlSKn1b0Fwg/hq720.jpg?v=6a974bb7&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwJuAqxt18rPeza1womqvyyJNiAw",
+    "group": "news",
+    "source_type": "youtube",
+    "tvg_id": null,
+    "resolution": "best",
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1788390021/ei/JVaYao6uNuHTobIPyLKeuAo/ip/138.117.222.11/id/RlSKn1b0Fwg.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-n0hpjput-bpbk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AR3QkAlhhaw_mqzimkqjLlU2lM162_RHfFQZQ3Jr1VfYlHS_Zoviu1mVcIQfKqp92A2NcI8uECYV40se/spc/KBGBcij0t5OfHHoJcjLK2MhtJQz3aricGNZUX02i_U9ERni5wxRRXSvgAJTgNg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2133750/met/1788368422,/mh/p_/mm/44/mn/sn-n0hpjput-bpbk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565116,52135441/mt/1788368198/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAJeBamBh0_VfNJ7XrTivM0eRjv6NQ9Oaw_S3r4MbxJreAiEA8tdIchcytBTeMw3RUDF9V8WYdPtxHobBSPH2BBrKzKA%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgeel8ev_yzvAr6kjydhiQRuhzX88LDQoMSDJmHjtyt00CIQCDNda2RC0ft8dOveDTau_kzIRmQ3XojLa39h2ViTnadA%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-09-02T17:00:22.401603+00:00",
+    "expires_at": "2026-09-02T23:00:21+00:00",
     "ttl_seconds": 21598
   },
   {
@@ -203,7 +235,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T16:30:18.730468+00:00",
+    "resolved_at": "2026-09-02T17:00:20.778899+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -211,7 +243,7 @@
     "id": "pica-pau.br.bK03WDeq5SI",
     "name": "Pica-Pau - LIVE 🔴 Pica-Pau é o Melhor Pescador! + Mais! 🎣 Pica-Pau Antigo 🔴 Maratona de Episódios Antigos",
     "source_url": "https://www.youtube.com/watch?v=bK03WDeq5SI",
-    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3GDBFWnHmwvlSY0_0WlNgTWnHkg",
+    "logo": "https://i.ytimg.com/vi/bK03WDeq5SI/hq720.jpg?v=69bd7a4f&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDhUZYMhNZrYOGbCmPfCzgXZk70cw",
     "group": "kids",
     "source_type": "youtube",
     "tvg_id": null,
