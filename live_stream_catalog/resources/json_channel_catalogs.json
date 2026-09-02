@@ -1,0 +1,10 @@
+[
+  {
+    "id": "json_catalog_1",
+    "provider_id": "json_catalog_1",
+    "endpoint_url_env": "LIVE_JSON_CATALOG_URL",
+    "request_headers_env": "LIVE_JSON_CATALOG_HEADERS",
+    "timeout": 30,
+    "variants_field": "variants"
+  }
+]

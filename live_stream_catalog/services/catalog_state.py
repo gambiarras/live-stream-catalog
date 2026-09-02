@@ -16,7 +16,23 @@ def carry_previous_resolution(
 
     for channel in channels:
         current = current_by_id.get(channel.id)
-        if not current or current.source_url != channel.source_url or not current.stream_url:
+        if not current or current.source_url != channel.source_url:
+            continue
+
+        if current.removed or current.status == "removed":
+            channel.status = "removed"
+            channel.error = current.error
+            channel.stream_url = None
+            channel.resolved_at = current.resolved_at
+            channel.expires_at = None
+            channel.ttl_seconds = None
+            channel.removed = True
+            channel.removed_at = current.removed_at
+            channel.removal_reason = current.removal_reason
+            channel.publishable_static = False
+            continue
+
+        if not current.stream_url:
             continue
 
         channel.stream_url = current.stream_url

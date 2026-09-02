@@ -6,6 +6,7 @@ from importlib import resources
 from urllib.parse import urlparse
 
 from live_stream_catalog.models import Channel
+from live_stream_catalog.services.removal import mark_removed, terminal_removal_reason
 
 
 logger = logging.getLogger(__name__)
@@ -176,8 +177,13 @@ def _fallback_channel(config: YouTubeLiveDiscoveryConfig) -> Channel:
         logo=config.logo,
         group=config.group,
         source_type=SOURCE_TYPE,
+        provider_id=SOURCE_TYPE,
+        logical_channel_id=config.id,
+        variant_id=config.id,
         tvg_id=config.tvg_id,
         resolution=config.resolution or "best",
+        requires_dynamic_resolution=True,
+        publishable_static=False,
     )
 
 
@@ -219,8 +225,13 @@ def discover_live_channels(
                 logo=_entry_logo(config, entry),
                 group=config.group,
                 source_type=SOURCE_TYPE,
+                provider_id=SOURCE_TYPE,
+                logical_channel_id=config.id,
+                variant_id=f"{config.id}.{video_id}",
                 tvg_id=config.tvg_id,
                 resolution=config.resolution or "best",
+                requires_dynamic_resolution=True,
+                publishable_static=False,
             )
         )
 
@@ -234,6 +245,7 @@ def load_youtube_live_discovery_channels(
     default_resolution: str = "best",
     youtube_dl_cls=None,
     configs: list[YouTubeLiveDiscoveryConfig] | None = None,
+    continue_on_error: bool = True,
 ) -> list[Channel]:
     channels: list[Channel] = []
 
@@ -257,11 +269,21 @@ def load_youtube_live_discovery_channels(
         try:
             channels.extend(discover_live_channels(config, youtube_dl_cls=youtube_dl_cls))
         except Exception as exc:
-            logger.exception(
-                "Failed to discover YouTube live streams id=%s url=%s error=%s",
-                config.id,
+            removal_reason = terminal_removal_reason(
+                SOURCE_TYPE,
                 _streams_url(config),
                 exc,
             )
+            if removal_reason:
+                channels.append(mark_removed(_fallback_channel(config), removal_reason))
+                continue
+            channels.append(_fallback_channel(config))
+            logger.error(
+                "Failed to discover YouTube live streams id=%s error_type=%s",
+                config.id,
+                type(exc).__name__,
+            )
+            if not continue_on_error:
+                raise
 
     return channels

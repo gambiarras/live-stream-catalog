@@ -10,10 +10,12 @@ from live_stream_catalog.services.expiry import (
     parse_iso_datetime,
     utc_now,
 )
+from live_stream_catalog.services.removal import mark_removed, terminal_removal_reason
+from live_stream_catalog.sources.channel_contract import infer_protocol
 
 logger = logging.getLogger(__name__)
 
-DIRECT_STREAM_SOURCE_TYPES = {"script_discovered"}
+DIRECT_STREAM_SOURCE_TYPES = {"json_catalog", "script_discovered", "stremio_addon"}
 SERIAL_RESOLVE_SOURCE_TYPES = {"youtube"}
 NO_STREAM_RETRY_SOURCE_TYPES = {"kick", "twitch"}
 NO_STREAM_MAX_ATTEMPTS = 3
@@ -54,6 +56,8 @@ def _preserve_existing_stream_url(channel: Channel, exc: Exception) -> Channel:
     channel.error = f"transient_resolve_error: {exc}"
     channel.resolved_at = utc_now().isoformat()
     channel.expires_at, channel.ttl_seconds = extract_expiry_from_stream_url(channel.stream_url)
+    channel.protocol = infer_protocol(channel.stream_url, channel.protocol)
+    channel.publishable_static = channel.expires_at is None
     return channel
 
 
@@ -97,10 +101,18 @@ def build_streamlink_session() -> Streamlink:
 
 
 def resolve_channel(channel: Channel) -> Channel:
+    if channel.removed or channel.status == "removed":
+        channel.removed = True
+        channel.publishable_static = False
+        return channel
+
     if _is_pre_resolved(channel):
         channel.error = None
         channel.resolved_at = utc_now().isoformat()
         channel.expires_at, channel.ttl_seconds = extract_expiry_from_stream_url(channel.stream_url)
+        channel.protocol = infer_protocol(channel.stream_url, channel.protocol)
+        if channel.expires_at is not None:
+            channel.publishable_static = False
         return channel
 
     session = build_streamlink_session()
@@ -122,9 +134,29 @@ def resolve_channel(channel: Channel) -> Channel:
         channel.error = None
         channel.resolved_at = utc_now().isoformat()
         channel.expires_at, channel.ttl_seconds = extract_expiry_from_stream_url(_stream_expiry_source_url(stream))
+        channel.protocol = infer_protocol(channel.stream_url, channel.protocol)
+        channel.requires_dynamic_resolution = channel.source_url != channel.stream_url
+        channel.publishable_static = bool(
+            channel.publishable_static
+            and not channel.requires_dynamic_resolution
+            and channel.expires_at is None
+        )
         return channel
 
     except Exception as exc:
+        removal_reason = terminal_removal_reason(
+            channel.source_type,
+            channel.source_url,
+            exc,
+        )
+        if removal_reason:
+            logger.warning(
+                "Channel source was permanently removed id=%s reason=%s",
+                channel.id,
+                removal_reason,
+            )
+            return mark_removed(channel, removal_reason)
+
         if channel.stream_url and _is_transient_resolve_error(exc):
             if not _existing_stream_url_has_expired(channel):
                 logger.warning(

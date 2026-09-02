@@ -10,6 +10,9 @@ from live_stream_catalog.sources import load_catalog
 logger = logging.getLogger(__name__)
 
 SOURCE_PRIORITY = {
+    "stremio_addon": 50,
+    "json_catalog": 40,
+    "script_discovered": 35,
     "youtube": 30,
     "twitch": 20,
     "kick": 25,
@@ -50,9 +53,10 @@ def run_build(config: AppConfig) -> None:
     write_json_atomic(config.meta_output_path, metadata.to_dict())
 
     logger.info(
-        "Build finished total=%s resolved=%s offline=%s errors=%s",
+        "Build finished total=%s resolved=%s offline=%s removed=%s errors=%s",
         metadata.total_channels,
         metadata.resolved_channels,
         metadata.offline_channels,
+        metadata.removed_channels,
         metadata.error_channels,
     )

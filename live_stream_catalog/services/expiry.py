@@ -94,6 +94,9 @@ def extract_expiry_from_stream_url(url: str | None) -> tuple[str | None, int | N
 
 
 def needs_refresh(channel, min_ttl_seconds: int, max_age_by_source: dict[str, int] | None = None) -> bool:
+    if getattr(channel, "removed", False) or channel.status == "removed":
+        return False
+
     if channel.status != "resolved":
         return True
 
