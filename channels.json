@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T03:30:16.689700+00:00",
+    "resolved_at": "2026-09-02T04:00:18.592395+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T03:30:15.910514+00:00",
+    "resolved_at": "2026-09-02T04:00:17.698232+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -91,7 +91,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T03:30:18.288282+00:00",
+    "resolved_at": "2026-09-02T04:00:19.919681+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -104,10 +104,10 @@
     "source_type": "twitch",
     "tvg_id": null,
     "resolution": "best",
-    "stream_url": "https://sae12.playlist.ttvnw.net/v1/playlist/CtAE-LZrTYuLMw1rfUZ52sKCZN0riFyqZ_90mCapsTiexGS7O0-oA0i1sRZUfY4PzZ750lNytnZxUKRa4FFY6tdJlAiI3FKx7THefTQI5aaXKuIoeCmj5jHeku7ykMeI6c9HtSHqbu4RWIvV8lbJqJ9ePdqmEQ9_IJbuOb5MCgdINedVpO6T7yJ1C0KLxZUMLhLE3JO98-aCuvtb8WWPy6FVad4QuIra6tQ9bRXrbUZQwcGn6wYwjFhRvs1cVABOJ1FYFBFLttxP4bPOQBWgfaL3lbzxV3FekREgNFwOIKEC7P-ipz8YoeonrVFfWNBRi-dheEkDQHIWeUY63ZSoSpmnMOlka_7cFwC1bzG3QKEe8HIfdiLNeoSWcM6Xxnm7uwoQlbeVKea0H7jkY68Ox_ADhDsbN-_cpqUZDGH-yp8s8hYkd4g6SIY0ogKVjxb4ALcxlD1s3oYOFuzDhfsa2NjIXypyQ3P8D_-uegedomWYdnp49Gk-QgH0uG4KKj4i1HODbB1manOegPMHfG6kf3oJUfqejbJF4N_hQpNQ37VYcjiAVQ25KgzaUzqahoMLVsgJMcKEEeYwnEaDXvg23_r2n6keOqZliaUgwugJ-UkDzXX3vjSfsDlV-aOd4fSlOu1UVaSDFFSal7kuWKJ6MJm8dyM4jGka7_533h5X0uFP_vxXvUJ4IoI_bgMl7wuR0eO_uHmwVl29zqQNkZfDTlV4sY7fEOgvaS0tJSHzBWzGikvIJmIGXHx8lnzZCIco02Gkv-A91p-uMF5hjYsa7nSo5xoMtGKo0CNxm8vH4Ke5IAEqCXVzLWVhc3QtMjD9Dw.m3u8",
+    "stream_url": "https://sae12.playlist.ttvnw.net/v1/playlist/CtEEtxF3a5FemkChAFTBX5MCQzwfxlHTjvzNkvYVEeMO3i_davfiGO9MCsgwsqmoH-46zebecV7TI2zBTdfFguHtKJTKpSGOL4wlZ9-_nQnl8tCC7EEyBi2EF61VrCLhJA28b6s6dBuz0yQFvqYFqKsX6O1aqo3yETkUKZ1-Pm2YIRejNy1UWIFecILAfGYEqagujpAfScoF7CfYYDA5lcjwUa6jthnyMOOPNU_Vau1BW_tPhadQ8iB62ZjA0Llmu7S11DfESZBxlRYiW03xuVNhzvvy5cjn4WgbSkp-Syc3saN_6SYjrivWdo8nCRBVyeMaxZZWKsNSmvMZG3Ymc0TlmFxzb1h84OEDWSLCHyePobvZf7uG_FNN20TDCczDRwL-kXN1eUOrcTSthZbV1rfQ69Aaw-EByPSwIbMOSnrVp1lP4TDN1CuaL4nE8SKaQA0zPxHGlwXuQt0QbMjGtbS23OMZurtXcBNMTulzlbH6HLHG-R8nBm5RWXmwvv9jVcg04M4TkvpS0n5U0anfODCdRKstJ-oZPoPTpMMgsTXv_P1_Rj2JL5-trUe-6s5arPfEAvrL-HirQXNyxwPIu-AK8MMXpLfd7xjURyBcZzoGQV5YRdohJ29t9Bof-HC3Sk0_r8Orb7A-UqwDyfG_zWRXSs7h4_6xaU7vVSqoBwwICA-DGRyvev_rR-1nzIEAcLAowJ218EH1j2m5FtbiMIxHaUCdbrx1RB8kkOyOmlPxoBcZejO5SNLMikCIL-F-bCj9l7rsXF9255HfNXoTOXv8jpYaDJeCnMOjXsbzJ7ifxyABKgl1cy1lYXN0LTIw_Q8.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-09-02T03:00:17.699363+00:00",
+    "resolved_at": "2026-09-02T04:00:17.878284+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -171,7 +171,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T03:30:17.502278+00:00",
+    "resolved_at": "2026-09-02T04:00:19.258283+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -211,7 +211,7 @@
     "id": "RecordNews.br.0rOwzDR01vg",
     "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
     "source_url": "https://www.youtube.com/watch?v=0rOwzDR01vg",
-    "logo": "https://i.ytimg.com/vi/0rOwzDR01vg/hq720.jpg?v=6a96c940&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAe_iqi_VnKLpI0QXtJbZGzZ3bAvA",
+    "logo": "https://i.ytimg.com/vi/0rOwzDR01vg/hq720.jpg?v=6a96c940&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLD4B4e5PhCppxt8X3c_giU7hSba5A",
     "group": "news",
     "source_type": "youtube",
     "tvg_id": null,
