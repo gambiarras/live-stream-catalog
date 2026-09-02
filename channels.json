@@ -27,7 +27,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T11:00:17.817038+00:00",
+    "resolved_at": "2026-09-02T11:30:18.115701+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -43,7 +43,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T11:00:16.154558+00:00",
+    "resolved_at": "2026-09-02T11:30:17.384704+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -91,7 +91,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T11:00:18.793529+00:00",
+    "resolved_at": "2026-09-02T11:30:19.072385+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
@@ -187,7 +187,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-09-02T11:00:18.486741+00:00",
+    "resolved_at": "2026-09-02T11:30:18.769457+00:00",
     "expires_at": null,
     "ttl_seconds": null
   },
