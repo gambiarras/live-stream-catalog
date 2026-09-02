@@ -75,7 +75,7 @@ def load_catalog(default_resolution: str = "best") -> list[Channel]:
     channels.extend(
         load_youtube_live_discovery_channels(
             default_resolution=default_resolution,
-            continue_on_error=False,
+            continue_on_error=True,
         )
     )
 

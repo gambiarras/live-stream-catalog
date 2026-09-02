@@ -72,7 +72,10 @@ def _has_sensitive_query(url: str | None) -> bool:
     parsed = urlsplit(url)
     if parsed.username or parsed.password:
         return True
-    return any(name.casefold() in SENSITIVE_QUERY_NAMES for name, _ in parse_qsl(parsed.query))
+    return any(
+        name.casefold() in SENSITIVE_QUERY_NAMES
+        for name, _ in parse_qsl(parsed.query, keep_blank_values=True)
+    )
 
 
 def _public_drm(value: Any) -> dict[str, Any] | None:

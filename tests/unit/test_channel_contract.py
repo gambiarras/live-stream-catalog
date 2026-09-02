@@ -84,6 +84,21 @@ class ChannelContractTest(unittest.TestCase):
 
         self.assertIsNone(channel.to_dict()["stream_url"])
 
+    def test_omits_sensitive_stream_url_with_empty_token(self):
+        channel = Channel.from_dict(
+            {
+                "id": "temporary.channel",
+                "name": "Temporary",
+                "source_url": "config://provider/channel",
+                "stream_url": "https://media.example.test/live.m3u8?token=",
+                "group": "general",
+                "source_type": "stremio_addon",
+                "publishable_static": False,
+            }
+        )
+
+        self.assertIsNone(channel.to_dict()["stream_url"])
+
     def test_omits_cloud_signed_stream_url_from_public_payload(self):
         channel = Channel.from_dict(
             {

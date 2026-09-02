@@ -277,11 +277,11 @@ def load_youtube_live_discovery_channels(
             if removal_reason:
                 channels.append(mark_removed(_fallback_channel(config), removal_reason))
                 continue
-            logger.exception(
-                "Failed to discover YouTube live streams id=%s url=%s error=%s",
+            channels.append(_fallback_channel(config))
+            logger.error(
+                "Failed to discover YouTube live streams id=%s error_type=%s",
                 config.id,
-                _streams_url(config),
-                exc,
+                type(exc).__name__,
             )
             if not continue_on_error:
                 raise

@@ -166,6 +166,30 @@ class YoutubeLiveDiscoveryTest(unittest.TestCase):
                 continue_on_error=False,
             )
 
+    def test_transient_discovery_failure_remains_retryable_by_default(self):
+        config = YouTubeLiveDiscoveryConfig(
+            id="sample.tv",
+            name="Sample TV",
+            streams_url="https://www.youtube.com/@sample/streams",
+            fallback_url="https://www.youtube.com/@sample/live",
+            logo="",
+            group="general",
+        )
+
+        with self.assertLogs(
+            "live_stream_catalog.sources.youtube_live_discovery",
+            level="ERROR",
+        ):
+            channels = load_youtube_live_discovery_channels(
+                youtube_dl_cls=FailingYoutubeDL,
+                configs=[config],
+            )
+
+        self.assertEqual(len(channels), 1)
+        self.assertEqual(channels[0].status, "pending")
+        self.assertFalse(channels[0].removed)
+        self.assertTrue(channels[0].requires_dynamic_resolution)
+
     def test_config_resource_replaces_legacy_youtube_registry(self):
         resource_names = [resource_name for resource_name, _source_type in get_resource_registry()]
         configs = load_config_resource()
