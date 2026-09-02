@@ -1,10 +1,12 @@
 import unittest
+from unittest.mock import patch
 
 from live_stream_catalog.sources.script_discovered_catalog import (
     DiscoveredRestCatalog,
     ScriptDiscoveredCatalogConfig,
     discover_script_urls,
     extract_rest_catalog_config,
+    load_config_resource,
     load_rest_catalog_channels,
     row_to_channel,
 )
@@ -59,6 +61,17 @@ class FakeSession:
 
 
 class ScriptDiscoveredCatalogTest(unittest.TestCase):
+    def test_loads_site_url_from_environment(self):
+        with patch.dict(
+            "os.environ",
+            {"LIVE_REST_CATALOG_URL": "https://example.test/"},
+        ):
+            configs = load_config_resource()
+
+        self.assertEqual(len(configs), 1)
+        self.assertEqual(configs[0].site_url, "https://example.test/")
+        self.assertEqual(configs[0].provider_id, "rest_catalog_1")
+
     def test_discovers_absolute_script_urls(self):
         html = """
         <html>

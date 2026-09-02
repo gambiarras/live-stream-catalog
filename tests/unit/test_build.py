@@ -108,6 +108,31 @@ class BuildTest(unittest.TestCase):
             output = json.loads(config.output_path.read_text(encoding="utf-8"))
             self.assertEqual(output[0]["stream_url"], "https://new.example.test/live.m3u8")
 
+    def test_keeps_last_catalog_file_when_configured_source_loading_fails(self):
+        with tempfile.TemporaryDirectory() as directory:
+            config = self._config(directory)
+            original = [
+                {
+                    "id": "last-known-good",
+                    "name": "Last Known Good",
+                    "source_url": "https://example.test/channel",
+                    "logo": "",
+                    "group": "general",
+                    "source_type": "youtube",
+                    "status": "resolved",
+                }
+            ]
+            config.output_path.write_text(json.dumps(original), encoding="utf-8")
+
+            with patch(
+                "live_stream_catalog.services.build.load_catalog",
+                side_effect=RuntimeError("configured source unavailable"),
+            ):
+                with self.assertRaisesRegex(RuntimeError, "configured source unavailable"):
+                    run_build(config)
+
+            self.assertEqual(json.loads(config.output_path.read_text(encoding="utf-8")), original)
+
 
 if __name__ == "__main__":
     unittest.main()

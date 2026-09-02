@@ -54,6 +54,36 @@ class LoaderTest(unittest.TestCase):
 
         self.assertEqual(result, [channels[0]])
 
+    def test_keeps_variants_with_same_source_page_and_different_stream_urls(self):
+        channels = [
+            Channel(
+                id="globo.fhd",
+                name="Globo [FHD]",
+                source_url="https://provider.example.test/globo",
+                stream_url="https://media.example.test/globo-fhd.m3u8",
+                logo="",
+                group="TV Aberta",
+                source_type="stremio_addon",
+                provider_id="addon_catalog_1",
+                logical_channel_id="globo",
+                variant_id="globo.fhd",
+            ),
+            Channel(
+                id="globo.4k",
+                name="Globo [4K]",
+                source_url="https://provider.example.test/globo",
+                stream_url="https://media.example.test/globo-4k.m3u8",
+                logo="",
+                group="TV Aberta",
+                source_type="stremio_addon",
+                provider_id="addon_catalog_1",
+                logical_channel_id="globo",
+                variant_id="globo.4k",
+            ),
+        ]
+
+        self.assertEqual(_deduplicate(channels), channels)
+
 
 if __name__ == "__main__":
     unittest.main()

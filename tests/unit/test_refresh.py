@@ -8,6 +8,46 @@ from live_stream_catalog.services.refresh import _load_dynamic_channels
 
 
 class RefreshTest(unittest.TestCase):
+    def test_keeps_existing_addon_channels_when_refresh_fails(self):
+        config = AppConfig(
+            output_path=None,
+            meta_output_path=None,
+            log_level="INFO",
+            max_workers=1,
+            default_resolution="best",
+            min_ttl_seconds=1800,
+        )
+        existing = Channel(
+            id="addon.channel.fhd",
+            name="Addon Channel [FHD]",
+            source_url="config://addon_catalog_1/channel",
+            stream_url="https://media.example.test/live.m3u8",
+            logo="",
+            group="TV Aberta",
+            source_type="stremio_addon",
+            provider_id="addon_catalog_1",
+            logical_channel_id="addon_catalog_1.channel",
+            variant_id="addon.channel.fhd",
+            status="resolved",
+        )
+
+        with patch(
+            "live_stream_catalog.services.refresh.load_configured_stremio_addons",
+            side_effect=RuntimeError("boom"),
+        ), patch(
+            "live_stream_catalog.services.refresh.load_configured_json_catalogs",
+            return_value=[],
+        ), patch(
+            "live_stream_catalog.services.refresh.load_youtube_live_discovery_channels",
+            return_value=[],
+        ), patch(
+            "live_stream_catalog.services.refresh.load_configured_rest_catalogs",
+            return_value=[],
+        ), self.assertLogs("live_stream_catalog.services.refresh", level="ERROR"):
+            channels = _load_dynamic_channels(config, [existing])
+
+        self.assertEqual(channels, [existing])
+
     def test_loads_youtube_and_script_discovered_dynamic_channels(self):
         config = AppConfig(
             output_path=None,

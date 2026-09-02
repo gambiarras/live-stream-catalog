@@ -6,9 +6,17 @@ from live_stream_catalog.models import Channel
 from live_stream_catalog.services.catalog_state import carry_previous_resolution, split_refresh_candidates
 from live_stream_catalog.services.metadata import build_run_metadata
 from live_stream_catalog.services.resolver import resolve_channels
+from live_stream_catalog.sources.json_channel_catalog import (
+    SOURCE_TYPE as JSON_CATALOG_SOURCE_TYPE,
+    load_configured_json_catalogs,
+)
 from live_stream_catalog.sources.script_discovered_catalog import (
     SCRIPT_DISCOVERED_SOURCE_TYPE,
     load_configured_rest_catalogs,
+)
+from live_stream_catalog.sources.stremio_addon_catalog import (
+    SOURCE_TYPE as STREMIO_ADDON_SOURCE_TYPE,
+    load_configured_stremio_addons,
 )
 from live_stream_catalog.sources.youtube_live_discovery import (
     SOURCE_TYPE as YOUTUBE_SOURCE_TYPE,
@@ -17,7 +25,12 @@ from live_stream_catalog.sources.youtube_live_discovery import (
 
 logger = logging.getLogger(__name__)
 
-DYNAMIC_SOURCE_TYPES = {SCRIPT_DISCOVERED_SOURCE_TYPE, YOUTUBE_SOURCE_TYPE}
+DYNAMIC_SOURCE_TYPES = {
+    JSON_CATALOG_SOURCE_TYPE,
+    SCRIPT_DISCOVERED_SOURCE_TYPE,
+    STREMIO_ADDON_SOURCE_TYPE,
+    YOUTUBE_SOURCE_TYPE,
+}
 
 
 def _current_channels_by_source(
@@ -40,8 +53,41 @@ def _load_dynamic_channels(
 
     try:
         dynamic_channels.extend(
+            load_configured_stremio_addons(
+                default_resolution=config.default_resolution,
+                continue_on_error=False,
+            )
+        )
+    except Exception as exc:
+        logger.exception(
+            "Failed to refresh configured addon catalogs, keeping existing channels error=%s",
+            exc,
+        )
+        dynamic_channels.extend(
+            _current_channels_by_source(current_channels, STREMIO_ADDON_SOURCE_TYPE)
+        )
+
+    try:
+        dynamic_channels.extend(
+            load_configured_json_catalogs(
+                default_resolution=config.default_resolution,
+                continue_on_error=False,
+            )
+        )
+    except Exception as exc:
+        logger.exception(
+            "Failed to refresh configured JSON catalogs, keeping existing channels error=%s",
+            exc,
+        )
+        dynamic_channels.extend(
+            _current_channels_by_source(current_channels, JSON_CATALOG_SOURCE_TYPE)
+        )
+
+    try:
+        dynamic_channels.extend(
             load_youtube_live_discovery_channels(
                 default_resolution=config.default_resolution,
+                continue_on_error=False,
             )
         )
     except Exception as exc:
@@ -112,9 +158,10 @@ def run_refresh(config: AppConfig) -> None:
     write_json_atomic(config.meta_output_path, metadata.to_dict())
 
     logger.info(
-        "Refresh finished total=%s resolved=%s offline=%s errors=%s",
+        "Refresh finished total=%s resolved=%s offline=%s removed=%s errors=%s",
         metadata.total_channels,
         metadata.resolved_channels,
         metadata.offline_channels,
+        metadata.removed_channels,
         metadata.error_channels,
     )

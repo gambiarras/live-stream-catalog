@@ -1,4 +1,5 @@
 import logging
+import os
 import re
 from dataclasses import dataclass
 from html.parser import HTMLParser
@@ -8,6 +9,15 @@ from urllib.parse import urlencode, urljoin
 import requests
 
 from live_stream_catalog.models import Channel
+from live_stream_catalog.sources.channel_contract import (
+    as_bool,
+    as_string_dict,
+    display_name_with_variant,
+    infer_protocol,
+    is_explicit_adult,
+    normalize_variant_label,
+    optional_int,
+)
 
 
 logger = logging.getLogger(__name__)
@@ -68,6 +78,7 @@ class DiscoveryError(RuntimeError):
 class ScriptDiscoveredCatalogConfig:
     id: str
     site_url: str
+    provider_id: str = "rest_catalog"
     source_type: str = SCRIPT_DISCOVERED_SOURCE_TYPE
     table_name: str = "channels"
     select: str = "*,categories(name)"
@@ -77,9 +88,17 @@ class ScriptDiscoveredCatalogConfig:
 
     @classmethod
     def from_dict(cls, data: dict) -> "ScriptDiscoveredCatalogConfig":
+        site_url = data.get("site_url")
+        site_url_env = data.get("site_url_env")
+        if site_url_env:
+            site_url = os.environ.get(str(site_url_env), site_url)
+        if not site_url:
+            raise ValueError(f"Missing configured REST catalog URL for id={data.get('id')}")
+
         return cls(
             id=data["id"],
-            site_url=data["site_url"],
+            site_url=str(site_url),
+            provider_id=data.get("provider_id", data["id"]),
             source_type=data.get("source_type", SCRIPT_DISCOVERED_SOURCE_TYPE),
             table_name=data.get("table_name", "channels"),
             select=data.get("select", "*,categories(name)"),
@@ -183,6 +202,13 @@ def _category_name(row: dict) -> str:
     categories = row.get("categories")
     if isinstance(categories, dict):
         return categories.get("name") or "web"
+    if isinstance(categories, list) and categories:
+        first = categories[0]
+        if isinstance(first, dict):
+            return first.get("name") or "web"
+        return str(first)
+    if isinstance(categories, str) and categories:
+        return categories
     return "web"
 
 
@@ -223,23 +249,71 @@ def row_to_channel(
     source_type: str,
     default_resolution: str = "best",
     id_prefix: str | None = None,
+    provider_id: str | None = None,
 ) -> Channel:
     stream_url = row.get("stream_url") or row.get("url")
     base_id = _row_id(row)
     channel_id = f"{id_prefix}.{base_id}" if id_prefix else base_id
+    logical_channel_id = str(
+        row.get("logical_channel_id")
+        or row.get("channel_id")
+        or _row_tvg_id(row)
+        or base_id
+    )
+    resolution = str(row.get("resolution") or row.get("quality") or default_resolution)
+    codec = row.get("codec")
+    variant_label = normalize_variant_label(
+        row.get("variant_label"),
+        row.get("quality"),
+        row.get("name"),
+        resolution=resolution,
+        codec=str(codec) if codec else None,
+    )
+    removed = as_bool(row.get("removed"))
+    drm = row.get("drm") if isinstance(row.get("drm"), dict) else None
+    requires_dynamic_resolution = as_bool(row.get("requires_dynamic_resolution"))
+    delivery_mode = str(row.get("delivery_mode") or "direct").casefold()
+    safely_publishable = bool(
+        stream_url
+        and not removed
+        and not requires_dynamic_resolution
+        and drm is None
+        and delivery_mode == "direct"
+    )
+    publishable_static = safely_publishable and as_bool(
+        row.get("publishable_static"),
+        default=True,
+    )
+    name = str(row.get("name") or base_id)
 
     return Channel(
         id=channel_id,
-        name=str(row.get("name") or base_id),
+        name=display_name_with_variant(name, variant_label),
         source_url=str(row.get("source_url") or stream_url or ""),
         logo=str(row.get("logo_url") or row.get("logo") or ""),
         group=_category_name(row),
         source_type=source_type,
+        provider_id=provider_id or source_type,
+        logical_channel_id=logical_channel_id,
+        variant_id=str(row.get("variant_id") or channel_id),
+        variant_label=variant_label,
         tvg_id=_row_tvg_id(row),
-        resolution=default_resolution,
+        resolution=resolution,
+        codec=str(codec) if codec else None,
+        bitrate=optional_int(row.get("bitrate")),
+        protocol=infer_protocol(stream_url, row.get("protocol")),
+        request_headers=as_string_dict(row.get("request_headers") or row.get("headers")),
+        secret_refs=as_string_dict(row.get("secret_refs")),
         stream_url=stream_url,
-        status=_row_status(row, stream_url),
+        status="removed" if removed else _row_status(row, stream_url),
         ttl_seconds=None,
+        requires_dynamic_resolution=requires_dynamic_resolution,
+        publishable_static=publishable_static,
+        delivery_mode=delivery_mode,
+        drm=drm,
+        removed=removed,
+        removed_at=row.get("removed_at"),
+        removal_reason=row.get("removal_reason"),
     )
 
 
@@ -251,7 +325,13 @@ def load_config_resource() -> list[ScriptDiscoveredCatalogConfig]:
     raw = resource.read_text(encoding="utf-8")
     import json
 
-    return [ScriptDiscoveredCatalogConfig.from_dict(item) for item in json.loads(raw)]
+    configs: list[ScriptDiscoveredCatalogConfig] = []
+    for item in json.loads(raw):
+        try:
+            configs.append(ScriptDiscoveredCatalogConfig.from_dict(item))
+        except ValueError as exc:
+            logger.info("Configured REST catalog disabled: %s", exc)
+    return configs
 
 
 def load_rest_catalog_channels(
@@ -298,8 +378,10 @@ def load_rest_catalog_channels(
                     source_type=config.source_type,
                     default_resolution=default_resolution,
                     id_prefix=config.id,
+                    provider_id=config.provider_id,
                 )
                 for row in rows
+                if not is_explicit_adult(row)
             )
 
     finally:
