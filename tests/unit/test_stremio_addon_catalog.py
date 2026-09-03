@@ -86,8 +86,25 @@ class FakeSession:
         return FakeResponse(payloads[url])
 
 
+class MountedFakeSession(FakeSession):
+    def __init__(self):
+        super().__init__()
+        self.adapters = {}
+        self.closed = False
+
+    def mount(self, prefix, adapter):
+        self.adapters[prefix] = adapter
+
+    def close(self):
+        self.closed = True
+
+
 class PartiallyFailingSession:
+    def __init__(self):
+        self.requested_urls = []
+
     def get(self, url, headers=None, timeout=None):
+        self.requested_urls.append(url)
         if url.endswith("/manifest.json"):
             return FakeResponse(
                 {"catalogs": [{"type": "channel", "id": "live", "name": "Live"}]}
@@ -108,6 +125,16 @@ class PartiallyFailingSession:
         raise requests.Timeout("transient timeout")
 
 
+class RecoveredSession(PartiallyFailingSession):
+    def get(self, url, headers=None, timeout=None):
+        if url.endswith("/stream/channel/timeout.json"):
+            self.requested_urls.append(url)
+            return FakeResponse(
+                {"streams": [{"url": "https://media.example.test/timeout.m3u8"}]}
+            )
+        return super().get(url, headers=headers, timeout=timeout)
+
+
 class FailingSession:
     def get(self, url, headers=None, timeout=None):
         raise requests.Timeout("source unavailable")
@@ -117,7 +144,10 @@ class StremioAddonCatalogTest(unittest.TestCase):
     def test_loads_manifest_url_from_environment(self):
         with patch.dict(
             "os.environ",
-            {"LIVE_ADDON_MANIFEST_URL": "https://addon.example.test/manifest.json"},
+            {
+                "LIVE_ADDON_MANIFEST_URL": "https://addon.example.test/manifest.json",
+                "LIVE_ADDON_TOTAL_TIMEOUT": "1",
+            },
         ):
             configs = load_config_resource()
 
@@ -126,7 +156,26 @@ class StremioAddonCatalogTest(unittest.TestCase):
         self.assertEqual(configs[0].manifest_url, "https://addon.example.test/manifest.json")
         self.assertEqual(configs[0].max_workers, 16)
         self.assertEqual(configs[0].timeout, 8)
-        self.assertEqual(configs[0].total_timeout, 300)
+        self.assertFalse(hasattr(configs[0], "total_timeout"))
+
+    def test_sizes_owned_http_pool_to_worker_count(self):
+        config = StremioAddonCatalogConfig(
+            id="addon_catalog_1",
+            provider_id="addon_catalog_1",
+            manifest_url="https://addon.example.test/manifest.json",
+            max_workers=16,
+        )
+        session = MountedFakeSession()
+
+        with patch(
+            "live_stream_catalog.sources.stremio_addon_catalog.requests.Session",
+            return_value=session,
+        ):
+            load_stremio_addon_channels([config])
+
+        self.assertEqual(session.adapters["https://"]._pool_maxsize, 16)
+        self.assertEqual(session.adapters["http://"]._pool_maxsize, 16)
+        self.assertTrue(session.closed)
 
     def test_builds_protocol_resource_url(self):
         self.assertEqual(
@@ -219,6 +268,35 @@ class StremioAddonCatalogTest(unittest.TestCase):
 
             self.assertEqual([item.to_dict() for item in actual], [item.to_dict() for item in expected])
             self.assertIn("last-known-good addon cache", "\n".join(captured.output))
+
+    def test_resumes_incomplete_catalog_from_incremental_checkpoint(self):
+        with TemporaryDirectory() as directory:
+            config = StremioAddonCatalogConfig(
+                id="addon_catalog_1",
+                provider_id="addon_catalog_1",
+                manifest_url="https://addon.example.test/manifest.json",
+                cache_dir=Path(directory),
+                max_workers=2,
+            )
+            first_session = PartiallyFailingSession()
+            first = load_stremio_addon_channels([config], session=first_session)
+            checkpoint = Path(directory) / "addon-catalog-1.checkpoint.json"
+
+            recovered_session = RecoveredSession()
+            with self.assertLogs(
+                "live_stream_catalog.sources.stremio_addon_catalog",
+                level="INFO",
+            ) as captured:
+                second = load_stremio_addon_channels([config], session=recovered_session)
+
+            self.assertEqual([channel.name for channel in first], ["Working"])
+            self.assertEqual({channel.name for channel in second}, {"Working", "Timeout"})
+            self.assertNotIn(
+                "https://addon.example.test/stream/channel/working.json",
+                recovered_session.requested_urls,
+            )
+            self.assertFalse(checkpoint.exists())
+            self.assertIn("Resuming addon catalog", "\n".join(captured.output))
 
 
 if __name__ == "__main__":

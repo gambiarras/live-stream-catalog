@@ -2,7 +2,7 @@ import json
 import logging
 import os
 import time
-from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError, as_completed
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from hashlib import sha256
@@ -11,9 +11,10 @@ from pathlib import Path
 from urllib.parse import quote, urlencode
 
 import requests
+from requests.adapters import HTTPAdapter
 
-from live_stream_catalog.models import Channel, SENSITIVE_HEADER_NAMES
 from live_stream_catalog.io import write_json_atomic
+from live_stream_catalog.models import Channel, SENSITIVE_HEADER_NAMES
 from live_stream_catalog.services.expiry import extract_expiry_from_stream_url
 from live_stream_catalog.sources.channel_contract import (
     as_string_dict,
@@ -44,7 +45,6 @@ class StremioAddonCatalogConfig:
     max_items: int = 1000
     page_size: int = 100
     max_workers: int = 4
-    total_timeout: int = 600
     cache_dir: Path | None = None
     cache_ttl: int = 21600
     cache_lkg: int = 172800
@@ -80,7 +80,6 @@ class StremioAddonCatalogConfig:
             max_items=configured_int("max_items", 1000),
             page_size=configured_int("page_size", 100),
             max_workers=configured_int("max_workers", 4),
-            total_timeout=configured_int("total_timeout", 600),
             cache_dir=Path(str(cache_dir)) if cache_dir else None,
             cache_ttl=configured_int("cache_ttl", 21600, minimum=0),
             cache_lkg=configured_int("cache_lkg", 172800, minimum=0),
@@ -91,6 +90,13 @@ def _cache_path(config: StremioAddonCatalogConfig) -> Path | None:
     if config.cache_dir is None:
         return None
     return config.cache_dir / f"{slugify(config.id)}.json"
+
+
+def _checkpoint_path(config: StremioAddonCatalogConfig) -> Path | None:
+    path = _cache_path(config)
+    if path is None:
+        return None
+    return path.with_suffix(".checkpoint.json")
 
 
 def _cache_fingerprint(config: StremioAddonCatalogConfig) -> str:
@@ -139,6 +145,77 @@ def _write_cached_channels(config: StremioAddonCatalogConfig, channels: list[Cha
             "channels": [channel.to_dict() for channel in channels],
         },
     )
+
+
+def _load_checkpoint_channels(
+    config: StremioAddonCatalogConfig,
+    default_resolution: str,
+) -> dict[str, list[Channel]]:
+    path = _checkpoint_path(config)
+    if path is None or not path.is_file():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if payload.get("fingerprint") != _cache_fingerprint(config):
+            return {}
+        updated_at = datetime.fromisoformat(str(payload["updated_at"]).replace("Z", "+00:00"))
+        age = max(0.0, (datetime.now(timezone.utc) - updated_at).total_seconds())
+        if age > config.cache_lkg:
+            return {}
+        items = payload.get("items", {})
+        if not isinstance(items, dict):
+            return {}
+        result = {
+            str(key): [
+                Channel.from_dict(item, default_resolution=default_resolution)
+                for item in value
+                if isinstance(item, dict)
+            ]
+            for key, value in items.items()
+            if isinstance(value, list)
+        }
+        if result:
+            logger.info(
+                "Loaded addon checkpoint id=%s items=%d age=%.0fs",
+                config.id,
+                len(result),
+                age,
+            )
+        return result
+    except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
+        logger.warning(
+            "Ignoring invalid addon checkpoint id=%s error_type=%s",
+            config.id,
+            type(exc).__name__,
+        )
+        return {}
+
+
+def _write_checkpoint_channels(
+    config: StremioAddonCatalogConfig,
+    items: dict[str, list[Channel]],
+) -> None:
+    path = _checkpoint_path(config)
+    if path is None or not items:
+        return
+    write_json_atomic(
+        path,
+        {
+            "version": 1,
+            "fingerprint": _cache_fingerprint(config),
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+            "items": {
+                key: [channel.to_dict() for channel in channels]
+                for key, channels in items.items()
+            },
+        },
+    )
+
+
+def _clear_checkpoint(config: StremioAddonCatalogConfig) -> None:
+    path = _checkpoint_path(config)
+    if path is not None:
+        path.unlink(missing_ok=True)
 
 
 def _request_json(session: requests.Session, url: str, timeout: int) -> dict:
@@ -286,6 +363,20 @@ def _meta_video_ids(meta: dict) -> list[str]:
     return [str(meta["id"])] if meta.get("id") else []
 
 
+def _meta_checkpoint_key(catalog: dict, meta: dict) -> str:
+    identity = json.dumps(
+        [
+            catalog.get("type"),
+            catalog.get("id"),
+            meta.get("id"),
+            _meta_video_ids(meta),
+        ],
+        ensure_ascii=False,
+        separators=(",", ":"),
+    )
+    return sha256(identity.encode("utf-8")).hexdigest()
+
+
 def _channels_from_streams(
     config: StremioAddonCatalogConfig,
     catalog: dict,
@@ -416,6 +507,7 @@ def _load_catalog_channels(
     config: StremioAddonCatalogConfig,
     catalog: dict,
     default_resolution: str,
+    checkpoint_items: dict[str, list[Channel]],
 ) -> tuple[list[Channel], bool]:
     metas = [
         meta
@@ -425,21 +517,45 @@ def _load_catalog_channels(
     if not metas:
         return [], False
 
-    worker_count = min(config.max_workers, len(metas))
     ordered: dict[int, list[Channel]] = {}
+    pending: list[tuple[int, dict, str]] = []
+    for index, meta in enumerate(metas):
+        checkpoint_key = _meta_checkpoint_key(catalog, meta)
+        if checkpoint_key in checkpoint_items:
+            ordered[index] = checkpoint_items[checkpoint_key]
+        else:
+            pending.append((index, meta, checkpoint_key))
+
+    resumed = len(metas) - len(pending)
+    if resumed:
+        logger.info(
+            "Resuming addon catalog id=%s catalog=%s cached=%d remaining=%d",
+            config.id,
+            catalog.get("id"),
+            resumed,
+            len(pending),
+        )
+    if not pending:
+        return [
+            channel
+            for index in sorted(ordered)
+            for channel in ordered[index]
+        ], False
+
+    worker_count = min(config.max_workers, len(pending))
     failed = False
     started_at = time.monotonic()
     progress_interval = max(25, len(metas) // 10)
     logger.info(
-        "Loading addon items id=%s catalog=%s total=%d workers=%d timeout=%ds",
+        "Loading addon items id=%s catalog=%s total=%d workers=%d request_timeout=%ds",
         config.id,
         catalog.get("id"),
         len(metas),
         worker_count,
-        config.total_timeout,
+        config.timeout,
     )
-    executor = ThreadPoolExecutor(max_workers=worker_count)
-    try:
+    checkpoint_dirty = False
+    with ThreadPoolExecutor(max_workers=worker_count) as executor:
         futures = {
             executor.submit(
                 _load_meta_channels,
@@ -448,44 +564,40 @@ def _load_catalog_channels(
                 catalog,
                 meta,
                 default_resolution,
-            ): index
-            for index, meta in enumerate(metas)
+            ): (index, checkpoint_key)
+            for index, meta, checkpoint_key in pending
         }
-        try:
-            for completed, future in enumerate(
-                as_completed(futures, timeout=config.total_timeout),
-                start=1,
-            ):
-                index = futures[future]
-                try:
-                    ordered[index], item_failed = future.result()
-                    failed = failed or item_failed
-                except Exception as exc:
-                    failed = True
-                    logger.warning(
-                        "Failed to process addon item id=%s error_type=%s",
-                        config.id,
-                        type(exc).__name__,
-                    )
-                    ordered[index] = []
-                if completed % progress_interval == 0 or completed == len(metas):
-                    logger.info(
-                        "Addon progress id=%s catalog=%s completed=%d/%d elapsed=%.1fs",
-                        config.id,
-                        catalog.get("id"),
-                        completed,
-                        len(metas),
-                        time.monotonic() - started_at,
-                    )
-        except FuturesTimeoutError as exc:
-            failed = True
-            for future in futures:
-                future.cancel()
-            raise TimeoutError(
-                f"Addon catalog exceeded total timeout id={config.id} catalog={catalog.get('id')}"
-            ) from exc
-    finally:
-        executor.shutdown(wait=True, cancel_futures=True)
+        for completed, future in enumerate(as_completed(futures), start=resumed + 1):
+            index, checkpoint_key = futures[future]
+            try:
+                ordered[index], item_failed = future.result()
+                failed = failed or item_failed
+                if not item_failed:
+                    checkpoint_items[checkpoint_key] = ordered[index]
+                    checkpoint_dirty = True
+            except Exception as exc:
+                failed = True
+                logger.warning(
+                    "Failed to process addon item id=%s error_type=%s",
+                    config.id,
+                    type(exc).__name__,
+                )
+                ordered[index] = []
+            if completed % progress_interval == 0 or completed == len(metas):
+                if checkpoint_dirty:
+                    _write_checkpoint_channels(config, checkpoint_items)
+                    checkpoint_dirty = False
+                logger.info(
+                    "Addon progress id=%s catalog=%s completed=%d/%d elapsed=%.1fs",
+                    config.id,
+                    catalog.get("id"),
+                    completed,
+                    len(metas),
+                    time.monotonic() - started_at,
+                )
+
+    if checkpoint_dirty:
+        _write_checkpoint_channels(config, checkpoint_items)
 
     return [
         channel
@@ -501,7 +613,16 @@ def load_stremio_addon_channels(
     continue_on_error: bool = True,
 ) -> list[Channel]:
     owns_session = session is None
-    session = session or requests.Session()
+    if session is None:
+        session = requests.Session()
+        pool_size = max((config.max_workers for config in configs), default=1)
+        adapter = HTTPAdapter(
+            pool_connections=pool_size,
+            pool_maxsize=pool_size,
+            pool_block=True,
+        )
+        session.mount("https://", adapter)
+        session.mount("http://", adapter)
     channels: list[Channel] = []
 
     try:
@@ -515,8 +636,10 @@ def load_stremio_addon_channels(
                     cached[1],
                     config.cache_ttl,
                 )
+                _clear_checkpoint(config)
                 channels.extend(cached[0])
                 continue
+            checkpoint_items = _load_checkpoint_channels(config, default_resolution)
             try:
                 manifest = _request_json(session, config.manifest_url, config.timeout)
                 if is_explicit_adult(manifest.get("behaviorHints", {})):
@@ -537,6 +660,7 @@ def load_stremio_addon_channels(
                         config,
                         catalog,
                         default_resolution,
+                        checkpoint_items,
                     )
                     config_channels.extend(catalog_channels)
                     had_failures = had_failures or catalog_failed
@@ -554,6 +678,7 @@ def load_stremio_addon_channels(
                     channels.extend(config_channels)
                     if config_channels and not had_failures:
                         _write_cached_channels(config, config_channels)
+                        _clear_checkpoint(config)
             except Exception as exc:
                 if cached and cached[1] <= config.cache_lkg:
                     logger.warning(

@@ -10,8 +10,6 @@
     "page_size": 100,
     "max_workers": 16,
     "max_workers_env": "LIVE_ADDON_MAX_WORKERS",
-    "total_timeout": 300,
-    "total_timeout_env": "LIVE_ADDON_TOTAL_TIMEOUT",
     "cache_dir": ".cache/stremio-addons",
     "cache_ttl": 21600,
     "cache_ttl_env": "LIVE_ADDON_CACHE_TTL",
