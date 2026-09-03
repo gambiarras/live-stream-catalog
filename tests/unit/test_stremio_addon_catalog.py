@@ -1,4 +1,6 @@
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
 import requests
@@ -106,6 +108,11 @@ class PartiallyFailingSession:
         raise requests.Timeout("transient timeout")
 
 
+class FailingSession:
+    def get(self, url, headers=None, timeout=None):
+        raise requests.Timeout("source unavailable")
+
+
 class StremioAddonCatalogTest(unittest.TestCase):
     def test_loads_manifest_url_from_environment(self):
         with patch.dict(
@@ -117,7 +124,9 @@ class StremioAddonCatalogTest(unittest.TestCase):
         self.assertEqual(len(configs), 1)
         self.assertEqual(configs[0].provider_id, "addon_catalog_1")
         self.assertEqual(configs[0].manifest_url, "https://addon.example.test/manifest.json")
-        self.assertEqual(configs[0].max_workers, 8)
+        self.assertEqual(configs[0].max_workers, 16)
+        self.assertEqual(configs[0].timeout, 8)
+        self.assertEqual(configs[0].total_timeout, 300)
 
     def test_builds_protocol_resource_url(self):
         self.assertEqual(
@@ -169,6 +178,47 @@ class StremioAddonCatalogTest(unittest.TestCase):
             )
 
         self.assertEqual([channel.name for channel in channels], ["Working"])
+
+    def test_reuses_fresh_persistent_cache_without_network_requests(self):
+        with TemporaryDirectory() as directory:
+            config = StremioAddonCatalogConfig(
+                id="addon_catalog_1",
+                provider_id="addon_catalog_1",
+                manifest_url="https://addon.example.test/manifest.json",
+                cache_dir=Path(directory),
+            )
+
+            first = load_stremio_addon_channels([config], session=FakeSession())
+            with self.assertLogs(
+                "live_stream_catalog.sources.stremio_addon_catalog",
+                level="INFO",
+            ) as captured:
+                second = load_stremio_addon_channels([config], session=FailingSession())
+
+            self.assertEqual([item.to_dict() for item in second], [item.to_dict() for item in first])
+            self.assertTrue((Path(directory) / "addon-catalog-1.json").is_file())
+            self.assertIn("Using fresh addon cache", "\n".join(captured.output))
+
+    def test_uses_last_known_good_cache_after_transient_source_failure(self):
+        with TemporaryDirectory() as directory:
+            config = StremioAddonCatalogConfig(
+                id="addon_catalog_1",
+                provider_id="addon_catalog_1",
+                manifest_url="https://addon.example.test/manifest.json",
+                cache_dir=Path(directory),
+                cache_ttl=0,
+                cache_lkg=172800,
+            )
+            expected = load_stremio_addon_channels([config], session=FakeSession())
+
+            with self.assertLogs(
+                "live_stream_catalog.sources.stremio_addon_catalog",
+                level="WARNING",
+            ) as captured:
+                actual = load_stremio_addon_channels([config], session=FailingSession())
+
+            self.assertEqual([item.to_dict() for item in actual], [item.to_dict() for item in expected])
+            self.assertIn("last-known-good addon cache", "\n".join(captured.output))
 
 
 if __name__ == "__main__":

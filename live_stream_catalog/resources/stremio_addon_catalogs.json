@@ -4,9 +4,18 @@
     "provider_id": "addon_catalog_1",
     "manifest_url_env": "LIVE_ADDON_MANIFEST_URL",
     "types": ["channel", "tv"],
-    "timeout": 15,
+    "timeout": 8,
+    "timeout_env": "LIVE_ADDON_TIMEOUT",
     "max_items": 1000,
     "page_size": 100,
-    "max_workers": 8
+    "max_workers": 16,
+    "max_workers_env": "LIVE_ADDON_MAX_WORKERS",
+    "total_timeout": 300,
+    "total_timeout_env": "LIVE_ADDON_TOTAL_TIMEOUT",
+    "cache_dir": ".cache/stremio-addons",
+    "cache_ttl": 21600,
+    "cache_ttl_env": "LIVE_ADDON_CACHE_TTL",
+    "cache_lkg": 172800,
+    "cache_lkg_env": "LIVE_ADDON_CACHE_LKG"
   }
 ]

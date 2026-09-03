@@ -1,14 +1,19 @@
 import json
 import logging
 import os
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError, as_completed
 from dataclasses import dataclass
+from datetime import datetime, timezone
+from hashlib import sha256
 from importlib import resources
+from pathlib import Path
 from urllib.parse import quote, urlencode
 
 import requests
 
 from live_stream_catalog.models import Channel, SENSITIVE_HEADER_NAMES
+from live_stream_catalog.io import write_json_atomic
 from live_stream_catalog.services.expiry import extract_expiry_from_stream_url
 from live_stream_catalog.sources.channel_contract import (
     as_string_dict,
@@ -39,6 +44,10 @@ class StremioAddonCatalogConfig:
     max_items: int = 1000
     page_size: int = 100
     max_workers: int = 4
+    total_timeout: int = 600
+    cache_dir: Path | None = None
+    cache_ttl: int = 21600
+    cache_lkg: int = 172800
 
     @classmethod
     def from_dict(cls, data: dict) -> "StremioAddonCatalogConfig":
@@ -49,17 +58,87 @@ class StremioAddonCatalogConfig:
         if not manifest_url:
             raise ValueError(f"Missing addon manifest URL for id={data.get('id')}")
 
+        def configured_int(key: str, default: int, minimum: int = 1) -> int:
+            value = data.get(key, default)
+            env_name = data.get(f"{key}_env")
+            if env_name:
+                value = os.environ.get(str(env_name), value)
+            return max(minimum, int(value))
+
+        cache_dir = data.get("cache_dir")
+        cache_dir_env = data.get("cache_dir_env")
+        if cache_dir_env:
+            cache_dir = os.environ.get(str(cache_dir_env), cache_dir)
+
         return cls(
             id=str(data["id"]),
             provider_id=str(data.get("provider_id") or data["id"]),
             manifest_url=str(manifest_url),
             types=tuple(str(item) for item in data.get("types", ("channel", "tv"))),
             catalog_ids=tuple(str(item) for item in data.get("catalog_ids", ())),
-            timeout=int(data.get("timeout", 30)),
-            max_items=int(data.get("max_items", 1000)),
-            page_size=int(data.get("page_size", 100)),
-            max_workers=max(1, int(data.get("max_workers", 4))),
+            timeout=configured_int("timeout", 30),
+            max_items=configured_int("max_items", 1000),
+            page_size=configured_int("page_size", 100),
+            max_workers=configured_int("max_workers", 4),
+            total_timeout=configured_int("total_timeout", 600),
+            cache_dir=Path(str(cache_dir)) if cache_dir else None,
+            cache_ttl=configured_int("cache_ttl", 21600, minimum=0),
+            cache_lkg=configured_int("cache_lkg", 172800, minimum=0),
         )
+
+
+def _cache_path(config: StremioAddonCatalogConfig) -> Path | None:
+    if config.cache_dir is None:
+        return None
+    return config.cache_dir / f"{slugify(config.id)}.json"
+
+
+def _cache_fingerprint(config: StremioAddonCatalogConfig) -> str:
+    value = "|".join((config.id, config.provider_id, config.manifest_url, *config.types, *config.catalog_ids))
+    return sha256(value.encode("utf-8")).hexdigest()
+
+
+def _load_cached_channels(
+    config: StremioAddonCatalogConfig,
+    default_resolution: str,
+) -> tuple[list[Channel], float] | None:
+    path = _cache_path(config)
+    if path is None or not path.is_file():
+        return None
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if payload.get("fingerprint") != _cache_fingerprint(config):
+            return None
+        fetched_at = datetime.fromisoformat(str(payload["fetched_at"]).replace("Z", "+00:00"))
+        age = max(0.0, (datetime.now(timezone.utc) - fetched_at).total_seconds())
+        channels = [
+            Channel.from_dict(item, default_resolution=default_resolution)
+            for item in payload.get("channels", [])
+            if isinstance(item, dict)
+        ]
+        return (channels, age) if channels else None
+    except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
+        logger.warning(
+            "Ignoring invalid addon cache id=%s error_type=%s",
+            config.id,
+            type(exc).__name__,
+        )
+        return None
+
+
+def _write_cached_channels(config: StremioAddonCatalogConfig, channels: list[Channel]) -> None:
+    path = _cache_path(config)
+    if path is None:
+        return
+    write_json_atomic(
+        path,
+        {
+            "version": 1,
+            "fingerprint": _cache_fingerprint(config),
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+            "channels": [channel.to_dict() for channel in channels],
+        },
+    )
 
 
 def _request_json(session: requests.Session, url: str, timeout: int) -> dict:
@@ -295,8 +374,9 @@ def _load_meta_channels(
     catalog: dict,
     meta: dict,
     default_resolution: str,
-) -> list[Channel]:
+) -> tuple[list[Channel], bool]:
     channels: list[Channel] = []
+    failed = False
     for video_id in _meta_video_ids(meta):
         endpoint = resource_url(
             config.manifest_url,
@@ -307,6 +387,7 @@ def _load_meta_channels(
         try:
             payload = _request_json(session, endpoint, config.timeout)
         except Exception as exc:
+            failed = True
             logger.warning(
                 "Failed to load addon stream id=%s error_type=%s",
                 config.id,
@@ -315,6 +396,7 @@ def _load_meta_channels(
             continue
         streams = payload.get("streams", [])
         if not isinstance(streams, list):
+            failed = True
             continue
         channels.extend(
             _channels_from_streams(
@@ -326,7 +408,7 @@ def _load_meta_channels(
                 default_resolution,
             )
         )
-    return channels
+    return channels, failed
 
 
 def _load_catalog_channels(
@@ -334,18 +416,30 @@ def _load_catalog_channels(
     config: StremioAddonCatalogConfig,
     catalog: dict,
     default_resolution: str,
-) -> list[Channel]:
+) -> tuple[list[Channel], bool]:
     metas = [
         meta
         for meta in _load_catalog_metas(session, config, catalog)
         if not is_explicit_adult(meta)
     ]
     if not metas:
-        return []
+        return [], False
 
     worker_count = min(config.max_workers, len(metas))
     ordered: dict[int, list[Channel]] = {}
-    with ThreadPoolExecutor(max_workers=worker_count) as executor:
+    failed = False
+    started_at = time.monotonic()
+    progress_interval = max(25, len(metas) // 10)
+    logger.info(
+        "Loading addon items id=%s catalog=%s total=%d workers=%d timeout=%ds",
+        config.id,
+        catalog.get("id"),
+        len(metas),
+        worker_count,
+        config.total_timeout,
+    )
+    executor = ThreadPoolExecutor(max_workers=worker_count)
+    try:
         futures = {
             executor.submit(
                 _load_meta_channels,
@@ -357,23 +451,47 @@ def _load_catalog_channels(
             ): index
             for index, meta in enumerate(metas)
         }
-        for future in as_completed(futures):
-            index = futures[future]
-            try:
-                ordered[index] = future.result()
-            except Exception as exc:
-                logger.warning(
-                    "Failed to process addon item id=%s error_type=%s",
-                    config.id,
-                    type(exc).__name__,
-                )
-                ordered[index] = []
+        try:
+            for completed, future in enumerate(
+                as_completed(futures, timeout=config.total_timeout),
+                start=1,
+            ):
+                index = futures[future]
+                try:
+                    ordered[index], item_failed = future.result()
+                    failed = failed or item_failed
+                except Exception as exc:
+                    failed = True
+                    logger.warning(
+                        "Failed to process addon item id=%s error_type=%s",
+                        config.id,
+                        type(exc).__name__,
+                    )
+                    ordered[index] = []
+                if completed % progress_interval == 0 or completed == len(metas):
+                    logger.info(
+                        "Addon progress id=%s catalog=%s completed=%d/%d elapsed=%.1fs",
+                        config.id,
+                        catalog.get("id"),
+                        completed,
+                        len(metas),
+                        time.monotonic() - started_at,
+                    )
+        except FuturesTimeoutError as exc:
+            failed = True
+            for future in futures:
+                future.cancel()
+            raise TimeoutError(
+                f"Addon catalog exceeded total timeout id={config.id} catalog={catalog.get('id')}"
+            ) from exc
+    finally:
+        executor.shutdown(wait=True, cancel_futures=True)
 
     return [
         channel
         for index in sorted(ordered)
         for channel in ordered[index]
-    ]
+    ], failed
 
 
 def load_stremio_addon_channels(
@@ -388,6 +506,17 @@ def load_stremio_addon_channels(
 
     try:
         for config in configs:
+            cached = _load_cached_channels(config, default_resolution)
+            if cached and cached[1] <= config.cache_ttl:
+                logger.info(
+                    "Using fresh addon cache id=%s channels=%d age=%.0fs ttl=%ds",
+                    config.id,
+                    len(cached[0]),
+                    cached[1],
+                    config.cache_ttl,
+                )
+                channels.extend(cached[0])
+                continue
             try:
                 manifest = _request_json(session, config.manifest_url, config.timeout)
                 if is_explicit_adult(manifest.get("behaviorHints", {})):
@@ -398,18 +527,45 @@ def load_stremio_addon_channels(
                 if not isinstance(catalogs, list):
                     raise RuntimeError("Addon manifest catalogs is not a list")
 
+                config_channels: list[Channel] = []
+                had_failures = False
                 for catalog in catalogs:
                     if not isinstance(catalog, dict) or not _catalog_is_selected(catalog, config):
                         continue
-                    channels.extend(
-                        _load_catalog_channels(
-                            session,
-                            config,
-                            catalog,
-                            default_resolution,
-                        )
+                    catalog_channels, catalog_failed = _load_catalog_channels(
+                        session,
+                        config,
+                        catalog,
+                        default_resolution,
                     )
+                    config_channels.extend(catalog_channels)
+                    had_failures = had_failures or catalog_failed
+
+                if had_failures and cached and cached[1] <= config.cache_lkg:
+                    logger.warning(
+                        "Using last-known-good addon cache after transient item failures "
+                        "id=%s channels=%d age=%.0fs",
+                        config.id,
+                        len(cached[0]),
+                        cached[1],
+                    )
+                    channels.extend(cached[0])
+                else:
+                    channels.extend(config_channels)
+                    if config_channels and not had_failures:
+                        _write_cached_channels(config, config_channels)
             except Exception as exc:
+                if cached and cached[1] <= config.cache_lkg:
+                    logger.warning(
+                        "Using last-known-good addon cache after source failure "
+                        "id=%s channels=%d age=%.0fs error_type=%s",
+                        config.id,
+                        len(cached[0]),
+                        cached[1],
+                        type(exc).__name__,
+                    )
+                    channels.extend(cached[0])
+                    continue
                 logger.error(
                     "Failed to load addon catalog id=%s error_type=%s",
                     config.id,
