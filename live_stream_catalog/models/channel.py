@@ -189,7 +189,12 @@ class Channel:
         payload["error"] = _public_error(self.error)
         if _has_sensitive_query(self.source_url):
             payload["source_url"] = None
-        if not self.publishable_static and _has_sensitive_query(self.stream_url):
+        if not self.publishable_static and (
+            _has_sensitive_query(self.stream_url)
+            or self.requires_dynamic_resolution
+            or self.delivery_mode in {"dai", "ssai"}
+            or self.drm is not None
+        ):
             payload["stream_url"] = None
         payload["drm"] = _public_drm(self.drm)
         return payload

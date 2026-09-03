@@ -114,6 +114,23 @@ class ChannelContractTest(unittest.TestCase):
 
         self.assertIsNone(channel.to_dict()["stream_url"])
 
+    def test_omits_dynamic_ssai_stream_url_without_exposing_macros(self):
+        channel = Channel.from_dict(
+            {
+                "id": "dynamic.channel",
+                "name": "Dynamic",
+                "source_url": "config://provider/channel",
+                "stream_url": "https://media.example.test/live.m3u8?w=[WIDTH]&ip=[IP]",
+                "group": "general",
+                "source_type": "json_catalog",
+                "delivery_mode": "ssai",
+                "requires_dynamic_resolution": True,
+                "publishable_static": False,
+            }
+        )
+
+        self.assertIsNone(channel.to_dict()["stream_url"])
+
     def test_redacts_detailed_resolution_errors_from_public_payload(self):
         channel = Channel.from_dict(
             {

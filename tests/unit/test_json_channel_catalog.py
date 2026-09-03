@@ -53,6 +53,45 @@ class FakeSession:
         return FakeResponse()
 
 
+class LinkedFakeResponse:
+    def __init__(self, payload):
+        self.payload = payload
+
+    def raise_for_status(self):
+        return None
+
+    def json(self):
+        return self.payload
+
+
+class LinkedFakeSession:
+    def __init__(self):
+        self.calls = []
+
+    def get(self, url, headers=None, params=None, timeout=None):
+        self.calls.append({"url": url, "headers": headers, "params": params})
+        if len(self.calls) == 1:
+            return LinkedFakeResponse({"links": ["entry-a", "entry-b"]})
+        return LinkedFakeResponse(
+            {
+                "entries": [
+                    {
+                        "_meta": {"id": "entry-a"},
+                        "title": "Primary channel",
+                        "ovpId": "epg-a",
+                        "ssaiUrl": "https://media.example.test/live.m3u8?w=[WIDTH]",
+                    },
+                    {
+                        "_meta": {"id": "entry-b"},
+                        "title": "Encrypted channel",
+                        "ovpId": "epg-b",
+                        "ssaiUrl": "https://media.example.test/drm.m3u8",
+                    },
+                ]
+            }
+        )
+
+
 class JsonChannelCatalogTest(unittest.TestCase):
     def test_loads_endpoint_and_runtime_headers_from_environment(self):
         with patch.dict(
@@ -87,6 +126,43 @@ class JsonChannelCatalogTest(unittest.TestCase):
         self.assertEqual(session.headers["X-Client"], "test")
         self.assertFalse(next(channel for channel in channels if "4K" in channel.name).publishable_static)
         self.assertNotIn("api.example.test", str([channel.to_dict() for channel in channels]))
+
+    def test_loads_linked_catalog_and_keeps_dynamic_delivery_private(self):
+        config = JsonChannelCatalogConfig(
+            id="json_catalog_1",
+            provider_id="json_catalog_1",
+            endpoint_url="https://api.example.test/index",
+            request_headers={},
+            linked_entries_url="https://api.example.test/entries",
+            linked_ids_path="links",
+            linked_query_param="id",
+            linked_query_params={"offset": "0", "size": "50"},
+            items_path="entries",
+            item_id_path="ovpId",
+            stream_url_path="ssaiUrl",
+            tvg_id_path="ovpId",
+            default_delivery_mode="ssai",
+            default_requires_dynamic_resolution=True,
+            default_publishable_static=False,
+            item_overrides={
+                "epg-a": {"name": "Channel A", "group": "TV Aberta"},
+                "epg-b": {"drm": {"type": "declared"}},
+            },
+        )
+
+        session = LinkedFakeSession()
+        channels = load_json_catalog_channels([config], session=session)
+
+        self.assertEqual(len(channels), 2)
+        self.assertEqual(session.calls[1]["params"]["id"], "entry-a,entry-b")
+        self.assertEqual(channels[0].name, "Channel A")
+        self.assertEqual(channels[0].group, "TV Aberta")
+        self.assertEqual(channels[0].tvg_id, "epg-a")
+        self.assertEqual(channels[0].delivery_mode, "ssai")
+        self.assertTrue(channels[0].requires_dynamic_resolution)
+        self.assertFalse(channels[0].publishable_static)
+        self.assertIsNone(channels[0].to_dict()["stream_url"])
+        self.assertEqual(channels[1].drm, {"type": "declared"})
 
 
 if __name__ == "__main__":
