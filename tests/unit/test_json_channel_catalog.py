@@ -93,7 +93,7 @@ class LinkedFakeSession:
 
 
 class JsonChannelCatalogTest(unittest.TestCase):
-    def test_loads_endpoint_and_runtime_headers_from_environment(self):
+    def test_default_configuration_does_not_enable_json_catalog_fetch(self):
         with patch.dict(
             "os.environ",
             {
@@ -103,9 +103,7 @@ class JsonChannelCatalogTest(unittest.TestCase):
         ):
             configs = load_config_resource()
 
-        self.assertEqual(len(configs), 1)
-        self.assertEqual(configs[0].provider_id, "json_catalog_1")
-        self.assertEqual(configs[0].request_headers, {"Authorization": "Bearer runtime"})
+        self.assertEqual(configs, [])
 
     def test_keeps_provider_categories_and_quality_variants(self):
         config = JsonChannelCatalogConfig(
