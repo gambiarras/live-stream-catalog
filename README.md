@@ -103,6 +103,15 @@ resolver metadata, DRM metadata, publication capability, and expiration
 timestamps. Sensitive header values and short-lived session cookies are not
 serialized to the public artifact.
 
+Stremio's `behaviorHints.notWebReady` describes browser playback compatibility;
+it does not by itself require dynamic URL resolution or prevent static
+publication. Direct URLs without a media filename extension are retained as
+well. Their format must be checked using the response content type and media
+signature rather than assuming that every HTTPS URL is HLS. DRM, credentials,
+expiration, and explicit dynamic-resolution requirements remain separate checks.
+The addon cache format is versioned so a classification change also invalidates
+older snapshots and discovery checkpoints that may have redacted stream URLs.
+
 An explicitly missing platform account/channel is retained as a `removed`
 tombstone and is no longer resolved. An offline channel, ended live event,
 expired manifest, rate limit, timeout, or server failure remains retryable and

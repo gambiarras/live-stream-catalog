@@ -1,4 +1,6 @@
+import json
 import unittest
+from hashlib import sha256
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import patch
@@ -97,6 +99,18 @@ class MountedFakeSession(FakeSession):
 
     def close(self):
         self.closed = True
+
+
+class StreamPayloadSession(FakeSession):
+    def __init__(self, streams):
+        super().__init__()
+        self.streams = streams
+
+    def get(self, url, headers=None, timeout=None):
+        if url.endswith("/stream/tv/adult-swim.json"):
+            self.requested_urls.append(url)
+            return FakeResponse({"streams": self.streams})
+        return super().get(url, headers=headers, timeout=timeout)
 
 
 class PartiallyFailingSession:
@@ -227,6 +241,156 @@ class StremioAddonCatalogTest(unittest.TestCase):
             )
 
         self.assertEqual([channel.name for channel in channels], ["Working"])
+
+    def test_not_web_ready_keeps_direct_stream_urls_in_public_catalog(self):
+        config = StremioAddonCatalogConfig(
+            id="addon_catalog_1",
+            provider_id="addon_catalog_1",
+            manifest_url="https://addon.example.test/manifest.json",
+        )
+        urls = [
+            "https://media.example.test/live.m3u8",
+            "https://media.example.test/live.mpd",
+            "https://media.example.test/relay/channel",
+        ]
+        session = StreamPayloadSession([
+            {
+                "url": url,
+                "behaviorHints": {
+                    "notWebReady": True,
+                    "proxyHeaders": {
+                        "request": {"Referer": "https://player.example.test/"}
+                    },
+                },
+            }
+            for url in urls
+        ])
+
+        channels = load_stremio_addon_channels([config], session=session)
+        payload = json.loads(json.dumps([channel.to_dict() for channel in channels]))
+
+        self.assertEqual([item["stream_url"] for item in payload], urls)
+        self.assertEqual([item["protocol"] for item in payload], ["hls", "dash", "https"])
+        self.assertTrue(all(item["publishable_static"] for item in payload))
+        self.assertTrue(all(not item["requires_dynamic_resolution"] for item in payload))
+        self.assertTrue(all(
+            item["request_headers"] == {"Referer": "https://player.example.test/"}
+            for item in payload
+        ))
+
+    def test_not_web_ready_does_not_override_other_transport_restrictions(self):
+        config = StremioAddonCatalogConfig(
+            id="addon_catalog_1",
+            provider_id="addon_catalog_1",
+            manifest_url="https://addon.example.test/manifest.json",
+        )
+        cases = {
+            "drm": {"drm": {"type": "widevine"}},
+            "cookie": {"headers": {"Cookie": "session=private"}},
+            "authorization": {"headers": {"Authorization": "Bearer private"}},
+            "youtube": {"ytId": "example-video"},
+            "dynamic": {"requires_dynamic_resolution": True},
+            "ssai": {"delivery_mode": "ssai"},
+            "expiring": {"url": "https://media.example.test/live?exp=4102444800"},
+        }
+        for name, values in cases.items():
+            with self.subTest(name=name):
+                session = StreamPayloadSession([{
+                    "url": "https://media.example.test/live.m3u8",
+                    "behaviorHints": {"notWebReady": True},
+                    **values,
+                }])
+
+                channel, = load_stremio_addon_channels([config], session=session)
+
+                self.assertFalse(channel.publishable_static)
+                if name in {"youtube", "dynamic"}:
+                    self.assertTrue(channel.requires_dynamic_resolution)
+                    self.assertIsNone(channel.to_dict()["stream_url"])
+                self.assertNotIn("private", str(channel.to_dict()))
+
+    def test_not_web_ready_accepts_explicit_false_dynamic_flag(self):
+        config = StremioAddonCatalogConfig(
+            id="addon_catalog_1",
+            provider_id="addon_catalog_1",
+            manifest_url="https://addon.example.test/manifest.json",
+        )
+        session = StreamPayloadSession([{
+            "url": "https://media.example.test/relay/channel",
+            "behaviorHints": {"notWebReady": True},
+            "requires_dynamic_resolution": "false",
+        }])
+
+        channel, = load_stremio_addon_channels([config], session=session)
+
+        self.assertFalse(channel.requires_dynamic_resolution)
+        self.assertTrue(channel.publishable_static)
+
+    def test_rediscovery_replaces_legacy_cache_with_redacted_stream_urls(self):
+        with TemporaryDirectory() as directory:
+            config = StremioAddonCatalogConfig(
+                id="addon_catalog_1",
+                provider_id="addon_catalog_1",
+                manifest_url="https://addon.example.test/manifest.json",
+                cache_dir=Path(directory),
+            )
+            load_stremio_addon_channels([config], session=FakeSession())
+            cache_path = Path(directory) / "addon-catalog-1.json"
+            payload = json.loads(cache_path.read_text(encoding="utf-8"))
+            legacy_identity = "|".join((
+                config.id, config.provider_id, config.manifest_url,
+                *config.types, *config.catalog_ids,
+            ))
+            payload["fingerprint"] = sha256(legacy_identity.encode("utf-8")).hexdigest()
+            payload["version"] = 1
+            for item in payload["channels"]:
+                item.update(
+                    stream_url=None,
+                    requires_dynamic_resolution=True,
+                    publishable_static=False,
+                )
+            cache_path.write_text(json.dumps(payload), encoding="utf-8")
+            session = StreamPayloadSession([{
+                "url": "https://media.example.test/relay/channel",
+                "behaviorHints": {"notWebReady": True},
+            }])
+
+            channels = load_stremio_addon_channels([config], session=session)
+
+            self.assertIn("https://addon.example.test/stream/tv/adult-swim.json", session.requested_urls)
+            self.assertEqual(len(channels), 1)
+            self.assertEqual(channels[0].to_dict()["stream_url"], "https://media.example.test/relay/channel")
+            self.assertTrue(channels[0].publishable_static)
+
+    def test_rediscovery_ignores_legacy_checkpoint_with_redacted_stream_urls(self):
+        with TemporaryDirectory() as directory:
+            config = StremioAddonCatalogConfig(
+                id="addon_catalog_1",
+                provider_id="addon_catalog_1",
+                manifest_url="https://addon.example.test/manifest.json",
+                cache_dir=Path(directory),
+            )
+            with self.assertLogs("live_stream_catalog.sources.stremio_addon_catalog", level="WARNING"):
+                load_stremio_addon_channels([config], session=PartiallyFailingSession())
+            checkpoint = Path(directory) / "addon-catalog-1.checkpoint.json"
+            payload = json.loads(checkpoint.read_text(encoding="utf-8"))
+            legacy_identity = "|".join((
+                config.id, config.provider_id, config.manifest_url,
+                *config.types, *config.catalog_ids,
+            ))
+            payload["fingerprint"] = sha256(legacy_identity.encode("utf-8")).hexdigest()
+            payload["version"] = 1
+            for items in payload["items"].values():
+                for item in items:
+                    item.update(stream_url=None, requires_dynamic_resolution=True, publishable_static=False)
+            checkpoint.write_text(json.dumps(payload), encoding="utf-8")
+            session = RecoveredSession()
+
+            channels = load_stremio_addon_channels([config], session=session)
+
+            self.assertIn("https://addon.example.test/stream/channel/working.json", session.requested_urls)
+            self.assertTrue(all(channel.to_dict()["stream_url"] for channel in channels))
+            self.assertFalse(checkpoint.exists())
 
     def test_reuses_fresh_persistent_cache_without_network_requests(self):
         with TemporaryDirectory() as directory:

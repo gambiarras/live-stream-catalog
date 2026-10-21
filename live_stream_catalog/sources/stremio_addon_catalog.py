@@ -17,6 +17,7 @@ from live_stream_catalog.io import write_json_atomic
 from live_stream_catalog.models import Channel, SENSITIVE_HEADER_NAMES
 from live_stream_catalog.services.expiry import extract_expiry_from_stream_url
 from live_stream_catalog.sources.channel_contract import (
+    as_bool,
     as_string_dict,
     display_name_with_variant,
     infer_protocol,
@@ -32,6 +33,7 @@ logger = logging.getLogger(__name__)
 
 SOURCE_TYPE = "stremio_addon"
 CONFIG_RESOURCE_NAME = "stremio_addon_catalogs.json"
+CACHE_VERSION = 2
 
 
 @dataclass(slots=True, frozen=True)
@@ -100,7 +102,7 @@ def _checkpoint_path(config: StremioAddonCatalogConfig) -> Path | None:
 
 
 def _cache_fingerprint(config: StremioAddonCatalogConfig) -> str:
-    value = "|".join((config.id, config.provider_id, config.manifest_url, *config.types, *config.catalog_ids))
+    value = "|".join((str(CACHE_VERSION), config.id, config.provider_id, config.manifest_url, *config.types, *config.catalog_ids))
     return sha256(value.encode("utf-8")).hexdigest()
 
 
@@ -139,7 +141,7 @@ def _write_cached_channels(config: StremioAddonCatalogConfig, channels: list[Cha
     write_json_atomic(
         path,
         {
-            "version": 1,
+            "version": CACHE_VERSION,
             "fingerprint": _cache_fingerprint(config),
             "fetched_at": datetime.now(timezone.utc).isoformat(),
             "channels": [channel.to_dict() for channel in channels],
@@ -201,7 +203,7 @@ def _write_checkpoint_channels(
     write_json_atomic(
         path,
         {
-            "version": 1,
+            "version": CACHE_VERSION,
             "fingerprint": _cache_fingerprint(config),
             "updated_at": datetime.now(timezone.utc).isoformat(),
             "items": {
@@ -334,11 +336,6 @@ def _delivery_mode(stream: dict) -> str:
     return str(explicit or "direct").casefold()
 
 
-def _stream_is_not_web_ready(stream: dict) -> bool:
-    behavior_hints = stream.get("behaviorHints")
-    return isinstance(behavior_hints, dict) and behavior_hints.get("notWebReady") is True
-
-
 def _has_sensitive_headers(headers: dict[str, str]) -> bool:
     return any(name.casefold() in SENSITIVE_HEADER_NAMES for name in headers)
 
@@ -415,7 +412,8 @@ def _channels_from_streams(
         headers = _stream_headers(stream)
         drm = _stream_drm(stream)
         delivery_mode = _delivery_mode(stream)
-        dynamic = bool(stream.get("ytId")) or _stream_is_not_web_ready(stream)
+        # notWebReady describes browser compatibility, not URL lifetime or resolution.
+        dynamic = bool(stream.get("ytId")) or as_bool(stream.get("requires_dynamic_resolution"))
         expires_at, ttl_seconds = extract_expiry_from_stream_url(url)
         publishable_static = bool(
             url
