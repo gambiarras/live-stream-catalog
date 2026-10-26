@@ -46,6 +46,13 @@ The system operates in two modes:
 - updates only channels with expired or near-expiry URLs
 - reduces load and improves availability
 
+Both modes preserve transports and statuses returned by discovery. A previous
+resolution is carried only for a pending channel without a stream URL, from
+the same provider/source and with matching resolution inputs (including headers,
+variant and publication requirements). Presentation changes do not invalidate
+reuse. Carried candidates still pass through the normal expiry selection;
+removed channels remain removed.
+
 ---
 
 ## Output files

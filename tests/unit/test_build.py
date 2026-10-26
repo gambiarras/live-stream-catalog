@@ -7,6 +7,7 @@ from unittest.mock import patch
 from live_stream_catalog.config import AppConfig
 from live_stream_catalog.models import Channel
 from live_stream_catalog.services.build import run_build
+from live_stream_catalog.services.refresh import run_refresh
 
 
 class BuildTest(unittest.TestCase):
@@ -20,6 +21,55 @@ class BuildTest(unittest.TestCase):
             default_resolution="best",
             min_ttl_seconds=1800,
         )
+
+    def test_build_and_refresh_publish_newly_discovered_direct_transport(self):
+        for run in (run_build, run_refresh):
+            with self.subTest(mode=run.__name__):
+                with tempfile.TemporaryDirectory() as directory:
+                    config = self._config(directory)
+                    existing = Channel(
+                        id="fixture.channel",
+                        name="Fixture Channel",
+                        source_url="config://fixture/channel",
+                        logo="",
+                        group="general",
+                        source_type="json_catalog",
+                        stream_url="https://old.example.test/live.m3u8",
+                        status="resolved",
+                        expires_at="2000-01-01T00:00:00+00:00",
+                        ttl_seconds=0,
+                    )
+                    config.output_path.write_text(json.dumps([existing.to_dict()]))
+                    discovered = Channel(
+                        id="fixture.channel",
+                        name="Fixture Channel [FHD]",
+                        source_url="config://fixture/channel",
+                        logo="",
+                        group="general",
+                        source_type="json_catalog",
+                        stream_url="https://new.example.test/live.m3u8",
+                        status="resolved",
+                        protocol="hls",
+                    )
+                    with patch(
+                        "live_stream_catalog.services.build.load_catalog",
+                        return_value=[discovered],
+                    ), patch(
+                        "live_stream_catalog.services.refresh._load_dynamic_channels",
+                        return_value=[discovered],
+                    ), patch(
+                        "live_stream_catalog.services.resolver.build_streamlink_session",
+                        side_effect=AssertionError("Unexpected network resolution"),
+                    ):
+                        run(config)
+
+                    output = json.loads(config.output_path.read_text())
+                    metadata = json.loads(config.meta_output_path.read_text())
+                    self.assertEqual(len(output), 1)
+                    self.assertEqual(output[0], discovered.to_dict())
+                    self.assertEqual(output[0]["stream_url"], discovered.stream_url)
+                    self.assertIsNone(output[0]["expires_at"])
+                    self.assertEqual(metadata["resolved_channels"], 1)
 
     def test_reuses_unexpired_existing_stream_urls_during_full_build(self):
         with tempfile.TemporaryDirectory() as directory:

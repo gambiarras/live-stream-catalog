@@ -8,15 +8,43 @@ MAX_AGE_BY_SOURCE = {
 }
 
 
+def _resolution_inputs(channel: Channel) -> tuple[object, ...]:
+    """Compare resolution configuration privately, including transport requirements."""
+    return (
+        channel.logical_channel_id,
+        channel.variant_id,
+        channel.resolution,
+        channel.codec,
+        channel.request_headers,
+        channel.secret_refs,
+        channel.requires_dynamic_resolution,
+        channel.publishable_static,
+        channel.delivery_mode,
+        channel.drm,
+    )
+
+
+def _source_key(channel: Channel) -> tuple[str, str | None, str, str]:
+    return channel.id, channel.provider_id, channel.source_type, channel.source_url
+
+
 def carry_previous_resolution(
     channels: list[Channel],
     current_channels: list[Channel],
 ) -> list[Channel]:
-    current_by_id = {channel.id: channel for channel in current_channels}
+    """Carry candidates only when discovery still needs the same resolution.
+
+    Discovery transports and failures remain authoritative. Expiry selection
+    happens separately in split_refresh_candidates, including carried candidates.
+    """
+    current_by_source = {_source_key(channel): channel for channel in current_channels}
 
     for channel in channels:
-        current = current_by_id.get(channel.id)
-        if not current or current.source_url != channel.source_url:
+        if channel.removed or channel.status == "removed":
+            continue
+
+        current = current_by_source.get(_source_key(channel))
+        if current is None:
             continue
 
         if current.removed or current.status == "removed":
@@ -32,7 +60,14 @@ def carry_previous_resolution(
             channel.publishable_static = False
             continue
 
-        if not current.stream_url:
+        if (
+            channel.stream_url
+            or channel.status != "pending"
+            or current.status != "resolved"
+            or not current.stream_url
+            or (channel.protocol is not None and channel.protocol != current.protocol)
+            or _resolution_inputs(channel) != _resolution_inputs(current)
+        ):
             continue
 
         channel.stream_url = current.stream_url
