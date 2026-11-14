@@ -11,8 +11,13 @@ SENSITIVE_HEADER_NAMES = {
     "set-cookie",
     "x-api-key",
     "api-key",
+    "apikey",
 }
 SENSITIVE_QUERY_NAMES = {
+    "username",
+    "password",
+    "passwd",
+    "apikey",
     "access_token",
     "auth",
     "authorization",

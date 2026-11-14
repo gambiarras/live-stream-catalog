@@ -15,7 +15,7 @@ from live_stream_catalog.sources.channel_contract import infer_protocol
 
 logger = logging.getLogger(__name__)
 
-DIRECT_STREAM_SOURCE_TYPES = {"json_catalog", "script_discovered", "stremio_addon"}
+DIRECT_STREAM_SOURCE_TYPES = {"json_catalog", "script_discovered", "stremio_addon", "televisao"}
 SERIAL_RESOLVE_SOURCE_TYPES = {"youtube"}
 NO_STREAM_RETRY_SOURCE_TYPES = {"kick", "twitch"}
 NO_STREAM_MAX_ATTEMPTS = 3
@@ -104,6 +104,11 @@ def resolve_channel(channel: Channel) -> Channel:
     if channel.removed or channel.status == "removed":
         channel.removed = True
         channel.publishable_static = False
+        return channel
+
+    if channel.source_type == "televisao" and not channel.stream_url:
+        # The bounded discovery adapter already inspected this player's declared
+        # configuration. An HTML page/unavailable iframe is not a media stream.
         return channel
 
     if _is_pre_resolved(channel):

@@ -128,6 +128,13 @@ Public output names remain generic. Provider provenance may be retained in
 internal metadata and logs for diagnostics, but it must not be required in a
 public filename or URL.
 
+The optional [Televisão.TV discovery adapter](docs/televisao-source.md) accepts
+an explicit, bounded list of reviewed channel slugs. Its index contains channel
+pages rather than direct streams; unsupported players remain non-publishable
+candidates. Set `LIVE_TELEVISAO_SLUGS` to enable it and review original media
+hosts before approving direct media publication. It is disabled by default and
+does not change YouTube/DRM/credential publication rules.
+
 ---
 
 ## Development

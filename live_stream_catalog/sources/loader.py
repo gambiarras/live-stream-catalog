@@ -7,6 +7,7 @@ from live_stream_catalog.sources.json_channel_catalog import load_configured_jso
 from live_stream_catalog.sources.registry import get_resource_registry
 from live_stream_catalog.sources.script_discovered_catalog import load_configured_rest_catalogs
 from live_stream_catalog.sources.stremio_addon_catalog import load_configured_stremio_addons
+from live_stream_catalog.sources.televisao_catalog import load_configured_televisao_catalog
 from live_stream_catalog.sources.youtube_live_discovery import load_youtube_live_discovery_channels
 
 logger = logging.getLogger(__name__)
@@ -78,5 +79,6 @@ def load_catalog(default_resolution: str = "best") -> list[Channel]:
             continue_on_error=True,
         )
     )
+    channels.extend(load_configured_televisao_catalog(default_resolution=default_resolution))
 
     return _deduplicate(channels)
