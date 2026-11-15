@@ -155,6 +155,17 @@ class FailingSession:
 
 
 class StremioAddonCatalogTest(unittest.TestCase):
+    def test_frostview_override_is_ignored_before_http_or_cache_lookup(self):
+        for manifest, provider in [
+            ("https://frostview.example.test/manifest.json", "addon"),
+            ("https://addon.example.test/frostview/manifest.json", "addon"),
+            ("https://addon.example.test/manifest.json", "frostview_old"),
+        ]:
+            config = StremioAddonCatalogConfig(id=provider, provider_id=provider, manifest_url=manifest)
+            with patch("live_stream_catalog.sources.stremio_addon_catalog.requests.Session") as session:
+                self.assertEqual(load_stremio_addon_channels([config]), [])
+                session.assert_not_called()
+
     def test_loads_manifest_url_from_environment(self):
         with patch.dict(
             "os.environ",

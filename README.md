@@ -65,6 +65,10 @@ Contains resolved streaming URLs and metadata.
 
 Contains execution statistics for monitoring.
 
+JSON writers flush and sync a temporary file before replacing the previous
+output. A `finally` cleanup removes temporary payloads when serialization,
+sync or rename fails, preserving the previous published file.
+
 ---
 
 ## Configurable channel sources
@@ -128,12 +132,13 @@ Public output names remain generic. Provider provenance may be retained in
 internal metadata and logs for diagnostics, but it must not be required in a
 public filename or URL.
 
-The optional [Televisão.TV discovery adapter](docs/televisao-source.md) accepts
+The bounded [Televisão.TV discovery adapter](docs/televisao-source.md) accepts
 an explicit, bounded list of reviewed channel slugs. Its index contains channel
 pages rather than direct streams; unsupported players remain non-publishable
-candidates. Set `LIVE_TELEVISAO_SLUGS` to enable it and review original media
-hosts before approving direct media publication. It is disabled by default and
-does not change YouTube/DRM/credential publication rules.
+candidates. Six curated public channels are enabled by default; an explicitly
+empty `LIVE_TELEVISAO_SLUGS` disables discovery. Review original media hosts
+before approving direct publication. YouTube/DRM/credential publication rules
+still apply.
 
 ---
 

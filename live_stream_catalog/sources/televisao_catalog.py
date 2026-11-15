@@ -12,8 +12,9 @@ import logging
 import os
 import re
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from html.parser import HTMLParser
+from importlib import resources
 from pathlib import Path
 from urllib.parse import parse_qs, parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
@@ -31,7 +32,9 @@ INDEX_URL = BASE_URL + "channels-data.php"
 SOURCE_TYPE = "televisao"
 MAX_REVIEWED_CHANNELS = 24
 MAX_RESPONSE_BYTES = 2_000_000
-CACHE_VERSION = 2
+MAX_CACHE_BYTES = 8_000_000
+MAX_CACHE_FILES = 4
+CACHE_VERSION = 3
 DISCOVERY_USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -52,6 +55,7 @@ class TelevisaoCatalogConfig:
     cache_dir: Path | None = None
     cache_ttl: int = 21_600
     cache_lkg: int = 86_400
+    reviewed_hosts_by_slug: tuple[tuple[str, tuple[str, ...]], ...] = ()
 
     def __post_init__(self) -> None:
         if not self.slugs or len(self.slugs) > MAX_REVIEWED_CHANNELS:
@@ -62,24 +66,36 @@ class TelevisaoCatalogConfig:
             raise ValueError("Invalid Televisao timeout or cache lifetime")
 
 
+def default_review() -> dict:
+    """Small public-broadcaster inventory; no approval of arbitrary directory hosts."""
+    return json.loads(resources.files("live_stream_catalog.resources").joinpath(
+        "televisao_defaults.json").read_text(encoding="utf-8"))
+
+
 def config_from_environment() -> TelevisaoCatalogConfig | None:
-    """Disabled unless the operator supplies an explicit, reviewed slug list."""
-    raw_slugs = os.environ.get("LIVE_TELEVISAO_SLUGS", "")
+    """Load the six-channel curated default; explicit empty slugs disable it."""
+    reviewed = default_review()["channels"]
+    default_slugs = ",".join(item["slug"] for item in reviewed)
+    default_hosts = tuple(dict.fromkeys(host for item in reviewed for host in item["reviewed_stream_hosts"]))
+    raw_slugs = os.environ.get("LIVE_TELEVISAO_SLUGS", default_slugs)
     slugs = tuple(dict.fromkeys(value.strip() for value in raw_slugs.split(",") if value.strip()))
     if not slugs:
         return None
 
-    def csv(name: str) -> tuple[str, ...]:
-        values = os.environ.get(name, "").split(",")
+    def csv(name: str, default: str = "") -> tuple[str, ...]:
+        values = os.environ.get(name, default).split(",")
         return tuple(dict.fromkeys(value.strip().casefold() for value in values if value.strip()))
 
     cache_dir = os.environ.get("LIVE_TELEVISAO_CACHE_DIR", ".cache/televisao")
+    hosts = csv("LIVE_TELEVISAO_REVIEWED_STREAM_HOSTS", ",".join(default_hosts))
+    per_slug = tuple((item["slug"], tuple(item["reviewed_stream_hosts"])) for item in reviewed) if set(hosts) == set(default_hosts) else ()
     return TelevisaoCatalogConfig(
         slugs=slugs,
-        reviewed_stream_hosts=csv("LIVE_TELEVISAO_REVIEWED_STREAM_HOSTS"),
+        reviewed_stream_hosts=hosts,
         exclude_slugs=csv("LIVE_TELEVISAO_EXCLUDE"),
         timeout=int(os.environ.get("LIVE_TELEVISAO_TIMEOUT", "15")),
         cache_dir=Path(cache_dir) if cache_dir else None,
+        reviewed_hosts_by_slug=per_slug,
     )
 
 
@@ -209,6 +225,7 @@ def _cache_path(config: TelevisaoCatalogConfig) -> Path | None:
         "slugs": config.slugs,
         "exclude": config.exclude_slugs,
         "hosts": config.reviewed_stream_hosts,
+        "hosts_by_slug": config.reviewed_hosts_by_slug,
     }, sort_keys=True).encode()).hexdigest()[:20]
     return config.cache_dir / (fingerprint + ".json")
 
@@ -218,11 +235,16 @@ def _read_cache(config: TelevisaoCatalogConfig) -> tuple[list[Channel], float] |
     if path is None:
         return None
     try:
+        if path.is_symlink() or path.stat().st_size > MAX_CACHE_BYTES:
+            return None
         payload = json.loads(path.read_text(encoding="utf-8"))
         age = time.time() - float(payload["fetched_at"])
         if age < 0 or age > config.cache_lkg:
             return None
-        return [Channel.from_dict(item) for item in payload["channels"]], age
+        rows = payload["channels"]
+        if not isinstance(rows, list) or len(rows) > MAX_REVIEWED_CHANNELS:
+            return None
+        return [Channel.from_dict(item) for item in rows], age
     except (OSError, ValueError, TypeError, KeyError):
         return None
 
@@ -231,17 +253,48 @@ def _write_cache(config: TelevisaoCatalogConfig, channels: list[Channel]) -> Non
     path = _cache_path(config)
     if path is None:
         return
+    temp = path.with_suffix(".tmp")
     try:
         path.parent.mkdir(parents=True, exist_ok=True)
-        temp = path.with_suffix(".tmp")
         payload = {
             "fetched_at": time.time(),
             "channels": [channel.to_dict() for channel in channels],
         }
-        temp.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+        raw = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+        if len(raw) > MAX_CACHE_BYTES:
+            logger.warning("Televisao discovery cache exceeds size limit")
+            return
+        temp.write_bytes(raw)
         temp.replace(path)
+        _prune_cache(config)
     except OSError:
         logger.warning("Could not persist Televisao discovery cache")
+    finally:
+        try:
+            temp.unlink(missing_ok=True)
+        except OSError:
+            logger.warning("Could not clean temporary Televisao discovery cache")
+
+
+def _prune_cache(config: TelevisaoCatalogConfig) -> None:
+    """Bound generated discovery cache identities without touching unknown files."""
+    if config.cache_dir is None or not config.cache_dir.is_dir():
+        return
+    known = []
+    current = _cache_path(config)
+    for path in config.cache_dir.iterdir():
+        if path.is_symlink() or not path.is_file() or not re.fullmatch(r"[a-f0-9]{20}\.(?:json|tmp)", path.name):
+            continue
+        state = path.stat()
+        age = time.time() - state.st_mtime
+        if state.st_size > MAX_CACHE_BYTES or age > config.cache_lkg or (
+            path.suffix == ".tmp" and age > 3600
+        ):
+            path.unlink()
+        elif path.suffix == ".json":
+            known.append((path == current, state.st_mtime_ns, path))
+    for _, _, path in sorted(known, reverse=True)[MAX_CACHE_FILES:]:
+        path.unlink()
 
 
 def load_televisao_channels(
@@ -250,6 +303,10 @@ def load_televisao_channels(
     session: requests.Session | None = None,
     continue_on_error: bool = True,
 ) -> list[Channel]:
+    try:
+        _prune_cache(config)
+    except OSError:
+        logger.warning("Could not prune Televisao discovery cache")
     cached = _read_cache(config)
     if cached and cached[1] <= config.cache_ttl:
         return cached[0]
@@ -312,7 +369,9 @@ def load_televisao_channels(
                         session, _autoplay_url(iframe_url), config.timeout,
                         headers=_page_headers(page_url),
                     )
-                    _apply_player(channel, player, config)
+                    per_slug_hosts = dict(config.reviewed_hosts_by_slug)
+                    channel_config = replace(config, reviewed_stream_hosts=per_slug_hosts[slug]) if slug in per_slug_hosts else config
+                    _apply_player(channel, player, channel_config)
             except (requests.RequestException, ValueError, TypeError, AttributeError) as exc:
                 logger.warning("Televisao player unavailable slug=%s error_type=%s", slug, type(exc).__name__)
             channels.append(channel)

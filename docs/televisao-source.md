@@ -2,7 +2,10 @@
 
 The adapter is an optional, bounded discovery source for a reviewed selection of
 TV channels. It does not assume the site is a media API or a redistribution
-licence. It is disabled unless `LIVE_TELEVISAO_SLUGS` is set.
+licence. Its default is six public broadcasters: Canal Gov, TV Cultura, TV Brasil,
+TV Senado, TV Câmara and TV Justiça. Set `LIVE_TELEVISAO_SLUGS=` explicitly to
+disable discovery. The versioned review is in
+[`televisao_defaults.json`](../live_stream_catalog/resources/televisao_defaults.json).
 
 ## Observed public contract
 
@@ -50,11 +53,29 @@ one header or claim that `autoplay=1` alone fixes it. HTML 200 confirms a player
 document was obtained, not that video playback works. The adapter now follows
 the observed normal browsing flow and retains its publication/capability guards.
 
+## Curated default and scope
+
+The 2026-11-15 pilot returned six candidates and two direct-media candidates.
+Only Canal Gov (`canalgov-stream.ebc.com.br`) and TV Cultura
+(`player-tvcultura.stream.uol.com.br`) have reviewed literal media hosts in the
+default. The review links each hostname to its own public broadcaster; the other
+four defaults remain discovery-only until a supported authorized player is
+identified. Official public live pages: [Canal Gov](https://canalgov.ebc.com.br/)
+and [TV Cultura](https://cultura.uol.com.br/aovivo/). Public viewing does not
+authorize redistribution or promise playback on every device.
+
+Provider provenance is retained even when another provider has the same media
+URL. Different request-header contexts from the same provider are also kept;
+header names are normalized without discarding Referer/User-Agent differences.
+This lets the consumer prefer Televisão.TV and then Batista Play, IPTV-org,
+YouTube and extras. FrostView configurations are ignored before HTTP/cache
+loading, including stale environment overrides; other add-ons default disabled.
+
 ## Configuration
 
 | Variable | Meaning |
 | --- | --- |
-| `LIVE_TELEVISAO_SLUGS` | Explicit reviewed slugs, separated by commas; 1–24 channels per run. Empty disables discovery. |
+| `LIVE_TELEVISAO_SLUGS` | Six curated defaults, or explicit reviewed slugs separated by commas; 1–24 channels per run. Explicit empty disables discovery. |
 | `LIVE_TELEVISAO_EXCLUDE` | Optional channel slugs to omit. |
 | `LIVE_TELEVISAO_REVIEWED_STREAM_HOSTS` | Exact original media hostnames reviewed by the operator. Empty permits discovery only, never direct-media publication. |
 | `LIVE_TELEVISAO_CACHE_DIR` | Discovery cache directory, default `.cache/televisao`; empty disables disk cache. |
@@ -67,7 +88,9 @@ receives the observed autoplay parameter. Responses are capped at
 2 MB of actual decoded bytes. Requests are sequential; redirects, nested
 third-party iframe traversal, executable JavaScript and security challenges are
 not followed or executed. Valid discovery is cached for six hours; an index
-failure may reuse the last valid discovery for at most 24 hours. Cache identity
+failure may reuse the last valid discovery for at most 24 hours. Generated cache
+files are capped at 8 MB each and four fingerprints, with expired files and
+interrupted temporary writes removed; unknown operator files are preserved. Cache identity
 includes the request-protocol version, reviewed slugs, exclusions and media
 hosts. Version 2 invalidates candidates cached by the earlier isolated-request
 protocol. Cache writes are atomic

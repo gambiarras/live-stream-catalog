@@ -31,10 +31,13 @@ def _deduplicate(channels: list[Channel]) -> list[Channel]:
     result: list[Channel] = []
 
     for channel in channels:
+        provider = channel.provider_id or channel.source_type
+        headers = json.dumps(sorted((str(name).strip().casefold(), str(value).strip())
+                                    for name, value in channel.request_headers.items()), separators=(",", ":"))
         if channel.stream_url:
-            key = ("stream", channel.stream_url.strip())
+            key = ("stream", provider, channel.stream_url.strip(), headers)
         elif channel.source_url:
-            key = ("source", channel.source_url.strip())
+            key = ("source", provider, channel.source_url.strip(), headers)
         else:
             key = ("variant", channel.provider_id or channel.source_type, channel.variant_id or channel.id)
 

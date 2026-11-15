@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from hashlib import sha256
 from importlib import resources
 from pathlib import Path
-from urllib.parse import quote, urlencode
+from urllib.parse import quote, urlencode, urlsplit
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -610,6 +610,20 @@ def load_stremio_addon_channels(
     session: requests.Session | None = None,
     continue_on_error: bool = True,
 ) -> list[Channel]:
+    reviewed_configs = []
+    for config in configs:
+        try:
+            host = (urlsplit(config.manifest_url).hostname or "").casefold()
+        except ValueError:
+            host = ""
+        label = (config.id + " " + config.provider_id + " " + config.manifest_url).casefold()
+        if "frostview" in host or "frostview" in label:
+            logger.info("Excluded addon provider is disabled")
+            continue
+        reviewed_configs.append(config)
+    configs = reviewed_configs
+    if not configs:
+        return []
     owns_session = session is None
     if session is None:
         session = requests.Session()

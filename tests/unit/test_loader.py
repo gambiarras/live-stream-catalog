@@ -84,6 +84,25 @@ class LoaderTest(unittest.TestCase):
 
         self.assertEqual(_deduplicate(channels), channels)
 
+    def test_preserves_cross_provider_transport_for_downstream_priority(self):
+        channels = [Channel(id=provider, name="Public TV", source_url="https://example.test/page",
+                            stream_url="https://media.example.test/live.m3u8", logo="", group="TV Aberta",
+                            source_type=provider, provider_id=provider)
+                    for provider in ("rest_catalog_1", "televisao")]
+        self.assertEqual(_deduplicate(channels), channels)
+
+    def test_preserves_header_contexts_and_normalizes_header_names(self):
+        channels = [Channel(id=str(index), name="Public TV", source_url="https://example.test/page",
+                            stream_url="https://media.example.test/live.m3u8", logo="", group="TV Aberta",
+                            source_type="rest", provider_id="same-provider", request_headers=headers)
+                    for index, headers in enumerate([
+                        {"Referer": "https://one.example.test/", "User-Agent": "Player"},
+                        {"Referer": "https://two.example.test/", "User-Agent": "Player"},
+                        {"user-agent": "Player", "referer": "https://one.example.test/"},
+                    ])]
+        with self.assertLogs("live_stream_catalog.sources.loader", level="WARNING"):
+            self.assertEqual(_deduplicate(channels), channels[:2])
+
 
 if __name__ == "__main__":
     unittest.main()

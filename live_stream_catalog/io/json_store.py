@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 
@@ -16,9 +17,14 @@ def load_channels_file(path: Path, default_resolution: str = "best") -> list[Cha
 def write_json_atomic(path: Path, payload: list[dict] | dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
 
-    with NamedTemporaryFile("w", delete=False, encoding="utf-8", dir=path.parent) as tmp:
-        json.dump(payload, tmp, ensure_ascii=False, indent=2)
-        tmp.flush()
-        temp_path = Path(tmp.name)
-
-    temp_path.replace(path)
+    temp_path: Path | None = None
+    try:
+        with NamedTemporaryFile("w", delete=False, encoding="utf-8", dir=path.parent) as tmp:
+            temp_path = Path(tmp.name)
+            json.dump(payload, tmp, ensure_ascii=False, indent=2)
+            tmp.flush()
+            os.fsync(tmp.fileno())
+        temp_path.replace(path)
+    finally:
+        if temp_path is not None:
+            temp_path.unlink(missing_ok=True)

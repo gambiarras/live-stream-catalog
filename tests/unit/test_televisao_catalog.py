@@ -1,4 +1,5 @@
 import json
+import os
 import tempfile
 import unittest
 from dataclasses import replace
@@ -75,11 +76,20 @@ class TelevisaoCatalogTest(unittest.TestCase):
             **kwargs,
         )
 
-    def test_disabled_without_explicit_reviewed_slugs(self):
-        with patch.dict("os.environ", {}, clear=True), patch("requests.Session") as session:
+    def test_explicit_empty_slugs_disable_the_curated_default(self):
+        with patch.dict("os.environ", {"LIVE_TELEVISAO_SLUGS": ""}, clear=True), patch("requests.Session") as session:
             self.assertIsNone(config_from_environment())
             self.assertEqual(load_configured_televisao_catalog(), [])
         session.assert_not_called()
+
+    def test_curated_default_is_limited_and_hosts_are_scoped_to_broadcasters(self):
+        with patch.dict("os.environ", {}, clear=True):
+            config = config_from_environment()
+        self.assertEqual(len(config.slugs), 6)
+        self.assertIn("canal-gov", config.slugs)
+        self.assertEqual(dict(config.reviewed_hosts_by_slug)["canal-gov"], ("canalgov-stream.ebc.com.br",))
+        self.assertEqual(dict(config.reviewed_hosts_by_slug)["tv-brasil"], ())
+        self.assertEqual(set(config.reviewed_stream_hosts), {"canalgov-stream.ebc.com.br", "player-tvcultura.stream.uol.com.br"})
 
     def test_validates_bounded_slug_configuration(self):
         for slugs in [(), ("../unsafe",), tuple("tv-" + str(i) for i in range(25))]:
@@ -218,6 +228,11 @@ class TelevisaoCatalogTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             load_televisao_channels(self.config(), session=session, continue_on_error=False)
 
+    def test_default_scope_does_not_approve_another_channel_on_a_shared_host(self):
+        config = replace(self.config(), reviewed_hosts_by_slug=(("public-tv", ()),))
+        channel = load_televisao_channels(config, session=Session())[0]
+        self.assertFalse(channel.publishable_static)
+
     def test_caps_body_and_closes_response(self):
         session = Session()
         response = Response(b"x" * (MAX_RESPONSE_BYTES + 1))
@@ -225,6 +240,22 @@ class TelevisaoCatalogTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             load_televisao_channels(self.config(), session=session, continue_on_error=False)
         self.assertTrue(response.closed)
+
+    def test_cache_retains_at_most_four_generated_fingerprints_and_keeps_unknown_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory)
+            (folder / "operator-notes.json").write_text("keep")
+            for index in range(8):
+                path = folder / (f"{index:020x}.json")
+                path.write_text("{}")
+                os.utime(path, (1000 + index, 1000 + index))
+            config = self.config(cache_dir=folder)
+            with patch("live_stream_catalog.sources.televisao_catalog.time.time", return_value=1010):
+                load_televisao_channels(config, session=Session())
+                load_televisao_channels(config, session=Session())
+            self.assertLessEqual(len([path for path in folder.glob("*.json") if path.name != "operator-notes.json"]), 4)
+            self.assertEqual((folder / "operator-notes.json").read_text(), "keep")
+            self.assertFalse(list(folder.glob("*.tmp")))
 
 
 if __name__ == "__main__":

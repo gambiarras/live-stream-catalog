@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "channels": [
+    {"slug": "canal-gov", "origin": "https://canalgov.ebc.com.br/", "reviewed_stream_hosts": ["canalgov-stream.ebc.com.br"]},
+    {"slug": "tv-cultura", "origin": "https://cultura.uol.com.br/aovivo/", "reviewed_stream_hosts": ["player-tvcultura.stream.uol.com.br"]},
+    {"slug": "tv-brasil", "origin": "https://tvbrasil.ebc.com.br/", "reviewed_stream_hosts": []},
+    {"slug": "tv-senado", "origin": "https://www12.senado.leg.br/tv", "reviewed_stream_hosts": []},
+    {"slug": "tv-camara", "origin": "https://www.camara.leg.br/tv", "reviewed_stream_hosts": []},
+    {"slug": "tv-justica", "origin": "https://www.tvjustica.jus.br/", "reviewed_stream_hosts": []}
+  ]
+}
