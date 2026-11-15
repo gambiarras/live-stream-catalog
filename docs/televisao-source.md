@@ -22,17 +22,33 @@ way. The importer also enforces exclusions locally.
 
 For selected channels, `ajaxUrl` returns player metadata including `iframe`.
 The iframe is still HTML, not automatically a playable URL. On the investigation
-date the site announced these paths, which all returned HTTP 404:
+date four isolated direct requests to the following declared paths returned
+HTTP 404. This was a limited sample of requests, **not a finding that all 371
+channels or their underlying streams were unavailable**:
 
 - `/iframes/hls-player.php?ch=retro-cartoon`
 - `/iframes/hls-player.php?ch=tv-cultura`
 - `/iframes/youtube_player.php?ch=tv-brasil`
 - `/iframe/agrobrasil.html`
 
-The Retro Cartoon page embedded the same unavailable iframe. The importer
-preserves such entries as pending, non-publishable embed candidates, without
-substituting the HTML page as a stream. Fox Kids did not appear in the index;
-the existing Fox Kids and Retrô Cartoon extra sources are independent.
+The Retro Cartoon page embedded the same iframe reference. Fox Kids did not
+appear in the index; the existing Fox Kids and Retrô Cartoon extra sources are
+independent.
+
+Recheck on 2026-11-15 followed the ordinary site flow in one HTTP session:
+home, channel page, AJAX metadata and the declared iframe, using page-appropriate
+Accept, User-Agent and Referer headers. All six tested players (the four above,
+SBT and Band) returned HTML 200. The user's Canal Gov and RedeTV examples also
+returned 200 in that flow. Retro Cartoon, TV Cultura and Canal Gov declared HLS
+endpoints; RedeTV embedded Dailymotion, Agrobrasil embedded the broadcaster's
+player, and some YouTube-player wrappers contained another same-origin iframe.
+The adapter does not traverse these additional embeds by default.
+
+Isolated requests remained 404 in the recheck, even with individual or combined
+headers. The exact server-side cause was not isolated; do not attribute it to
+one header or claim that `autoplay=1` alone fixes it. HTML 200 confirms a player
+document was obtained, not that video playback works. The adapter now follows
+the observed normal browsing flow and retains its publication/capability guards.
 
 ## Configuration
 
@@ -44,13 +60,17 @@ the existing Fox Kids and Retrô Cartoon extra sources are independent.
 | `LIVE_TELEVISAO_CACHE_DIR` | Discovery cache directory, default `.cache/televisao`; empty disables disk cache. |
 | `LIVE_TELEVISAO_TIMEOUT` | Timeout per request in seconds, default 15. |
 
-The public index is fetched once, followed by at most two requests per selected
-channel (AJAX metadata and one same-origin iframe). Responses are capped at
+The homepage and public index are fetched once, followed by at most three
+requests per selected channel (page, AJAX metadata and one same-origin iframe).
+AJAX receives the site's time-zone parameter and request header; the iframe
+receives the observed autoplay parameter. Responses are capped at
 2 MB of actual decoded bytes. Requests are sequential; redirects, nested
 third-party iframe traversal, executable JavaScript and security challenges are
 not followed or executed. Valid discovery is cached for six hours; an index
 failure may reuse the last valid discovery for at most 24 hours. Cache identity
-includes the reviewed slugs, exclusions and media hosts. Cache writes are atomic
+includes the request-protocol version, reviewed slugs, exclusions and media
+hosts. Version 2 invalidates candidates cached by the earlier isolated-request
+protocol. Cache writes are atomic
 and use sanitized public channel serialization.
 
 Example using only this source, without invoking all other catalog providers:
@@ -105,9 +125,11 @@ players or copy editorial articles. Operators must review origin permissions
 for their selected channels and must not use a matching name in this directory
 as proof that a pay-TV source is authorized.
 
-Current 404 results mean this source adds useful discovery metadata but did not
-supply a new playable transport for the tested slugs. Do not fabricate streams
-or treat absent directory entries as proof that a broadcaster is paid.
+The original 404 sample did not establish that the directory was unusable.
+The recheck found player documents with declared direct media and other player
+types; their transport and client compatibility must still be checked
+individually. Do not fabricate streams, mistake an embed for direct media or
+treat absent directory entries as proof that a broadcaster is paid.
 
 Tests use synthetic/sanitized responses and cover disabled defaults, bounded
 selection, membership exclusions, provenance, missing players, reviewed hosts,

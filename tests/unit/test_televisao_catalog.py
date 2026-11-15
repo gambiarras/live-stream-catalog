@@ -3,6 +3,7 @@ import tempfile
 import unittest
 from dataclasses import replace
 from pathlib import Path
+from urllib.parse import urlsplit
 from unittest.mock import patch
 
 import requests
@@ -48,14 +49,17 @@ class Session:
 
     def get(self, url, **kwargs):
         self.calls.append((url, kwargs))
+        path = urlsplit(url).path
         if url == INDEX_URL:
             response = Response(FIXTURE.read_text())
+        elif url == BASE_URL or not path.startswith(("/ajax.php", "/player/")):
+            response = Response("<html>Public channel page</html>")
         elif "ajax.php" in url:
             slug = url.rsplit("=", 1)[-1]
             response = Response(json.dumps({"ok": True, "slug": slug, "iframe": "/player/" + slug}))
-        elif url.endswith("/unavailable-tv"):
+        elif path.endswith("/unavailable-tv"):
             response = Response("missing", 404)
-        elif url.endswith("/youtube-tv"):
+        elif path.endswith("/youtube-tv"):
             response = Response('<iframe src="https://www.youtube.com/embed/Abcde12345_"></iframe>')
         else:
             response = Response(self.player_html)
@@ -97,7 +101,19 @@ class TelevisaoCatalogTest(unittest.TestCase):
         self.assertTrue(channel.publishable_static)
         self.assertFalse(channel.requires_dynamic_resolution)
         self.assertEqual(channel.status, "resolved")
-        self.assertEqual(len(session.calls), 3)
+        self.assertEqual(len(session.calls), 5)
+        self.assertEqual([url for url, _kwargs in session.calls], [
+            BASE_URL, INDEX_URL, BASE_URL + "public-tv",
+            BASE_URL + "ajax.php?slug=public-tv",
+            BASE_URL + "player/public-tv?autoplay=1",
+        ])
+        self.assertEqual(session.calls[3][1]["params"], {"tz": "America/Sao_Paulo"})
+        self.assertEqual(session.calls[3][1]["headers"]["X-Requested-With"], "XMLHttpRequest")
+        self.assertEqual(session.calls[3][1]["headers"]["Accept"], "application/json")
+        for _url, kwargs in session.calls[3:]:
+            self.assertEqual(kwargs["headers"]["Referer"], BASE_URL + "public-tv")
+            self.assertIn("Mozilla/5.0", kwargs["headers"]["User-Agent"])
+        self.assertEqual(session.calls[4][1]["headers"]["Accept"], "text/html,application/xhtml+xml")
         self.assertTrue(all(response.closed for response in session.responses))
         with patch("live_stream_catalog.services.resolver.build_streamlink_session") as streamlink:
             resolved = resolve_channel(channel)
@@ -109,8 +125,8 @@ class TelevisaoCatalogTest(unittest.TestCase):
         config = replace(self.config(), exclude_slugs=("public-tv",))
         result = load_televisao_channels(config, session=session)
         self.assertEqual(result, [])
-        self.assertEqual(len(session.calls), 1)
-        self.assertEqual(session.calls[0][1]["params"], {"exclude": "public-tv"})
+        self.assertEqual(len(session.calls), 2)
+        self.assertEqual(session.calls[1][1]["params"], {"exclude": "public-tv"})
 
     def test_missing_player_is_nonpublishable_and_not_re_resolved_as_media(self):
         session = Session()
@@ -185,6 +201,16 @@ class TelevisaoCatalogTest(unittest.TestCase):
             unreviewed = replace(config, reviewed_stream_hosts=())
             channel = load_televisao_channels(unreviewed, session=Session())[0]
             self.assertFalse(channel.publishable_static)
+
+    def test_new_request_context_does_not_reuse_old_pending_cache(self):
+        with tempfile.TemporaryDirectory() as directory:
+            config = self.config(cache_dir=Path(directory))
+            with patch("live_stream_catalog.sources.televisao_catalog.CACHE_VERSION", 1):
+                previous = load_televisao_channels(config, session=Session("<html>unsupported</html>"))
+            self.assertFalse(previous[0].publishable_static)
+            current = load_televisao_channels(config, session=Session())
+            self.assertTrue(current[0].publishable_static)
+            self.assertEqual(len(list(Path(directory).glob("*.json"))), 2)
 
     def test_index_failure_does_not_hide_error_in_strict_mode(self):
         session = Session()

@@ -15,7 +15,7 @@ import time
 from dataclasses import dataclass
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import parse_qs, parse_qsl, urljoin, urlsplit
+from urllib.parse import parse_qs, parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 import requests
 
@@ -31,6 +31,13 @@ INDEX_URL = BASE_URL + "channels-data.php"
 SOURCE_TYPE = "televisao"
 MAX_REVIEWED_CHANNELS = 24
 MAX_RESPONSE_BYTES = 2_000_000
+CACHE_VERSION = 2
+DISCOVERY_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/131.0.0.0 Safari/537.36"
+)
+HTML_ACCEPT = "text/html,application/xhtml+xml"
 SLUG_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 MEDIA_PATTERN = re.compile(r"https?://[^\s\"'<>\\]+\.(?:m3u8|mpd|mp4)(?:\?[^\s\"'<>\\]*)?", re.I)
 YOUTUBE_ID_PATTERN = re.compile(r"^[A-Za-z0-9_-]{11}$")
@@ -120,6 +127,26 @@ def _get_text(session: requests.Session, url: str, timeout: int, **kwargs) -> st
         response.close()
 
 
+def _page_headers(referer: str | None = None, *, ajax: bool = False) -> dict[str, str]:
+    headers = {
+        "User-Agent": DISCOVERY_USER_AGENT,
+        "Accept": "application/json" if ajax else HTML_ACCEPT,
+    }
+    if referer:
+        headers["Referer"] = referer
+    if ajax:
+        headers["X-Requested-With"] = "XMLHttpRequest"
+    return headers
+
+
+def _autoplay_url(url: str) -> str:
+    """Mirror the site's static playerAutoplayUrl helper, without running JS."""
+    parsed = urlsplit(url)
+    query = dict(parse_qsl(parsed.query, keep_blank_values=True))
+    query.setdefault("autoplay", "1")
+    return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, urlencode(query), parsed.fragment))
+
+
 class _PlayerParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
@@ -178,7 +205,7 @@ def _cache_path(config: TelevisaoCatalogConfig) -> Path | None:
     if config.cache_dir is None:
         return None
     fingerprint = hashlib.sha256(json.dumps({
-        "version": 1,
+        "version": CACHE_VERSION,
         "slugs": config.slugs,
         "exclude": config.exclude_slugs,
         "hosts": config.reviewed_stream_hosts,
@@ -229,8 +256,14 @@ def load_televisao_channels(
     owns_session = session is None
     session = session or requests.Session()
     try:
+        # Use the site's ordinary browsing flow on this same Session. A failed
+        # isolated iframe GET is not evidence that the channel is unavailable.
+        _get_text(session, BASE_URL, config.timeout, headers=_page_headers())
         params = {"exclude": ",".join(config.exclude_slugs)} if config.exclude_slugs else {}
-        payload = json.loads(_get_text(session, INDEX_URL, config.timeout, params=params))
+        payload = json.loads(_get_text(
+            session, INDEX_URL, config.timeout, params=params,
+            headers=_page_headers(BASE_URL, ajax=True),
+        ))
         if (
             not isinstance(payload, dict)
             or payload.get("ok") is not True
@@ -265,12 +298,21 @@ def load_televisao_channels(
                 delivery_mode="embed",
             )
             try:
-                details = json.loads(_get_text(session, ajax_url, config.timeout))
+                _get_text(session, page_url, config.timeout, headers=_page_headers(BASE_URL))
+                details = json.loads(_get_text(
+                    session, ajax_url, config.timeout,
+                    params={"tz": "America/Sao_Paulo"},
+                    headers=_page_headers(page_url, ajax=True),
+                ))
                 if details.get("ok") is not True or details.get("slug") != slug:
                     raise ValueError("Invalid Televisao player metadata")
                 iframe_url = _same_origin_url(details.get("iframe"))
                 if iframe_url:
-                    _apply_player(channel, _get_text(session, iframe_url, config.timeout), config)
+                    player = _get_text(
+                        session, _autoplay_url(iframe_url), config.timeout,
+                        headers=_page_headers(page_url),
+                    )
+                    _apply_player(channel, player, config)
             except (requests.RequestException, ValueError, TypeError, AttributeError) as exc:
                 logger.warning("Televisao player unavailable slug=%s error_type=%s", slug, type(exc).__name__)
             channels.append(channel)
