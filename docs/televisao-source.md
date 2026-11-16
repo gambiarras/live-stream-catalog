@@ -92,8 +92,9 @@ failure may reuse the last valid discovery for at most 24 hours. Generated cache
 files are capped at 8 MB each and four fingerprints, with expired files and
 interrupted temporary writes removed; unknown operator files are preserved. Cache identity
 includes the request-protocol version, reviewed slugs, exclusions and media
-hosts. Version 2 invalidates candidates cached by the earlier isolated-request
-protocol. Cache writes are atomic
+hosts. The current cache version is **3**, which also fingerprints the
+per-slug reviewed-host configuration. Version 2 was the earlier browsing-flow
+fix that invalidated isolated-request candidates. Cache writes are atomic
 and use sanitized public channel serialization.
 
 Example using only this source, without invoking all other catalog providers:
@@ -154,7 +155,15 @@ types; their transport and client compatibility must still be checked
 individually. Do not fabricate streams, mistake an embed for direct media or
 treat absent directory entries as proof that a broadcaster is paid.
 
-Tests use synthetic/sanitized responses and cover disabled defaults, bounded
+Tests use synthetic/sanitized responses and cover curated defaults, explicit
+disabling, per-slug reviewed hosts, header-context preservation, bounded
 selection, membership exclusions, provenance, missing players, reviewed hosts,
 credential/expiry guards, YouTube capabilities, cross-origin rejection,
 response-size limits, cache expiry and last-known-good behavior.
+
+## Cross-repository delivery
+
+See the [consolidated delivery report](https://github.com/gambiarras/legal-iptv/blob/main/docs/delivery-2026-11-15.md)
+for provider precedence, Companion subtraction, media evidence, the shared EPG,
+Ops 1.2.0, storage budgets and dated pilot results. This document describes
+discovery; discovery itself does not confirm playable media.
