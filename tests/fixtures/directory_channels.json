@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "count": 4,
+  "channels": [
+    {"slug": "public-tv", "name": "Public TV", "category": "culture", "categories": ["culture"], "logo": "/images/public.webp", "url": "/public-tv", "ajaxUrl": "/ajax.php?slug=public-tv"},
+    {"slug": "video-platform-tv", "name": "VideoPlatform TV", "category": "news", "logo": "/images/video_platform.webp", "url": "/video-platform-tv", "ajaxUrl": "/ajax.php?slug=video-platform-tv"},
+    {"slug": "unavailable-tv", "name": "Unavailable TV", "category": "regional", "url": "/unavailable-tv", "ajaxUrl": "/ajax.php?slug=unavailable-tv"},
+    {"slug": "external-tv", "name": "External TV", "category": "general", "url": "https://external.example.test/", "ajaxUrl": "https://external.example.test/player"}
+  ]
+}

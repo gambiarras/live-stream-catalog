@@ -1,0 +1,10 @@
+[
+  {
+    "id": "sample.tv",
+    "name": "Sample TV",
+    "streams_url": "https://video.example.test/@sample/streams",
+    "fallback_url": "https://video.example.test/@sample/live",
+    "logo": "",
+    "group": "general"
+  }
+]

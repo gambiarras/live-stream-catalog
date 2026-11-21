@@ -1,0 +1,15 @@
+[
+  {
+    "id": "rest_catalog_1",
+    "provider_id": "rest_catalog_1",
+    "site_url_env": "LIVE_REST_CATALOG_URL",
+    "source_type": "script_discovered",
+    "table_name": "channels",
+    "select": "*,categories(name)",
+    "filters": {
+      "is_active": "eq.true"
+    },
+    "order": "channel_number.asc",
+    "timeout": 30
+  }
+]

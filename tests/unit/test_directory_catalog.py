@@ -1,0 +1,300 @@
+from tests import fixture_config  # noqa: F401
+
+import json
+import os
+import tempfile
+import unittest
+from dataclasses import replace
+from pathlib import Path
+from urllib.parse import urlsplit
+from unittest.mock import patch
+
+import requests
+
+from live_stream_catalog.services.resolver import resolve_channel
+from live_stream_catalog.sources.directory_catalog import (
+    BASE_URL,
+    INDEX_URL,
+    MAX_RESPONSE_BYTES,
+    DirectoryCatalogConfig,
+    config_from_environment,
+    load_configured_directory_catalog,
+    load_directory_catalog_channels,
+    _configured_base_url,
+    _cache_path,
+)
+
+
+FIXTURE = Path(__file__).parents[1] / "fixtures" / "directory_channels.json"
+
+
+class Response:
+    def __init__(self, content, status_code=200):
+        self.content = content.encode() if isinstance(content, str) else content
+        self.status_code = status_code
+        self.closed = False
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise requests.HTTPError("unavailable")
+
+    def iter_content(self, size):
+        for start in range(0, len(self.content), size):
+            yield self.content[start : start + size]
+
+    def close(self):
+        self.closed = True
+
+
+class Session:
+    def __init__(self, player_html=None):
+        self.calls = []
+        self.responses = []
+        self.player_html = player_html or '<video><source src="https://media.example.test/live.m3u8"></video>'
+
+    def get(self, url, **kwargs):
+        self.calls.append((url, kwargs))
+        path = urlsplit(url).path
+        if url == INDEX_URL:
+            response = Response(FIXTURE.read_text())
+        elif url == BASE_URL or not path.startswith(("/ajax.php", "/player/")):
+            response = Response("<html>Public channel page</html>")
+        elif "ajax.php" in url:
+            slug = url.rsplit("=", 1)[-1]
+            response = Response(json.dumps({"ok": True, "slug": slug, "iframe": "/player/" + slug}))
+        elif path.endswith("/unavailable-tv"):
+            response = Response("missing", 404)
+        elif path.endswith("/video-platform-tv"):
+            response = Response('<iframe src="https://video.example.test/embed/Abcde12345_"></iframe>')
+        else:
+            response = Response(self.player_html)
+        self.responses.append(response)
+        return response
+
+
+class DirectoryCatalogTest(unittest.TestCase):
+    def config(self, **kwargs):
+        return DirectoryCatalogConfig(
+            slugs=("public-tv",),
+            reviewed_stream_hosts=("media.example.test",),
+            **kwargs,
+        )
+
+    def test_explicit_empty_slugs_disable_the_curated_default(self):
+        with patch.dict("os.environ", {"LIVE_DIRECTORY_SLUGS": "", "IPTV_LOCAL_CONFIG_DIR": fixture_config.CONFIG_DIR}, clear=True), patch("requests.Session") as session:
+            self.assertIsNone(config_from_environment())
+            self.assertEqual(load_configured_directory_catalog(), [])
+        session.assert_not_called()
+
+    def test_base_url_override_is_https_normalized_and_does_not_expand_review(self):
+        with patch.dict("os.environ", {"LIVE_DIRECTORY_BASE_URL": "https://other-directory.example.test/catalog"}):
+            base = _configured_base_url()
+            config = config_from_environment()
+        self.assertEqual(base, "https://other-directory.example.test/catalog/")
+        self.assertEqual(base + "channels-data.php", "https://other-directory.example.test/catalog/channels-data.php")
+        self.assertEqual(config.slugs, tuple(f"channel-{i}" for i in range(1, 7)))
+        self.assertEqual(set(config.reviewed_stream_hosts), {"media-1.example.test", "media-2.example.test"})
+
+    def test_empty_base_override_uses_private_runtime_and_normalizes_root_slash(self):
+        with patch.dict("os.environ", {"LIVE_DIRECTORY_BASE_URL": ""}), \
+             patch("live_stream_catalog.sources.directory_catalog.source_settings",
+                   return_value={"base_url": "https://private-directory.example.test"}):
+            self.assertEqual(_configured_base_url(), "https://private-directory.example.test/")
+
+    def test_invalid_base_overrides_are_rejected_before_network_without_echoing_credentials(self):
+        invalid = ("http://directory.example.test", "https://", "https://user:private@directory.example.test/",
+                   "https://directory.example.test/?token=private", "https://directory.example.test/#fragment",
+                   "https://directory.example.test:invalid/", "https://directory.example.test/path with spaces",
+                   "https://directory.example.test/\\unsafe", "https://directory.example.test:99999/")
+        with patch("requests.Session") as session:
+            for value in invalid:
+                with self.subTest(value=value), patch.dict("os.environ", {"LIVE_DIRECTORY_BASE_URL": value}):
+                    with self.assertRaisesRegex(ValueError, "Invalid directory base URL") as error:
+                        _configured_base_url()
+                    self.assertNotIn("private", str(error.exception))
+            session.assert_not_called()
+
+    def test_directory_base_change_invalidates_discovery_cache(self):
+        config = self.config(cache_dir=Path("/tmp/catalog-cache-fixture"))
+        original = _cache_path(config)
+        with patch("live_stream_catalog.sources.directory_catalog.BASE_URL", "https://other-directory.example.test/"):
+            self.assertNotEqual(_cache_path(config), original)
+
+    def test_curated_default_is_limited_and_hosts_are_scoped_to_broadcasters(self):
+        with patch.dict("os.environ", {"IPTV_LOCAL_CONFIG_DIR": fixture_config.CONFIG_DIR}, clear=True):
+            config = config_from_environment()
+        self.assertEqual(len(config.slugs), 6)
+        self.assertIn("channel-1", config.slugs)
+        self.assertEqual(dict(config.reviewed_hosts_by_slug)["channel-1"], ("media-1.example.test",))
+        self.assertEqual(dict(config.reviewed_hosts_by_slug)["channel-3"], ())
+        self.assertEqual(set(config.reviewed_stream_hosts), {"media-1.example.test", "media-2.example.test"})
+
+    def test_validates_bounded_slug_configuration(self):
+        for slugs in [(), ("../unsafe",), tuple("tv-" + str(i) for i in range(25))]:
+            with self.subTest(slugs=slugs), self.assertRaises(ValueError):
+                DirectoryCatalogConfig(slugs=slugs)
+
+    def test_loads_only_reviewed_players_and_preserves_provenance(self):
+        session = Session()
+        result = load_directory_catalog_channels(self.config(), session=session)
+        self.assertEqual(len(result), 1)
+        channel = result[0]
+        self.assertEqual(channel.id, "directory_catalog.public-tv")
+        self.assertEqual(channel.logical_channel_id, channel.id)
+        self.assertEqual(channel.source_url, BASE_URL + "public-tv")
+        self.assertEqual(channel.logo, BASE_URL + "images/public.webp")
+        self.assertEqual(channel.provider_id, "directory_catalog")
+        self.assertEqual(channel.group, "culture")
+        self.assertEqual(channel.protocol, "hls")
+        self.assertTrue(channel.publishable_static)
+        self.assertFalse(channel.requires_dynamic_resolution)
+        self.assertEqual(channel.status, "resolved")
+        self.assertEqual(len(session.calls), 5)
+        self.assertEqual([url for url, _kwargs in session.calls], [
+            BASE_URL, INDEX_URL, BASE_URL + "public-tv",
+            BASE_URL + "ajax.php?slug=public-tv",
+            BASE_URL + "player/public-tv?autoplay=1",
+        ])
+        self.assertEqual(session.calls[3][1]["params"], {"tz": "America/Sao_Paulo"})
+        self.assertEqual(session.calls[3][1]["headers"]["X-Requested-With"], "XMLHttpRequest")
+        self.assertEqual(session.calls[3][1]["headers"]["Accept"], "application/json")
+        for _url, kwargs in session.calls[3:]:
+            self.assertEqual(kwargs["headers"]["Referer"], BASE_URL + "public-tv")
+            self.assertIn("Mozilla/5.0", kwargs["headers"]["User-Agent"])
+        self.assertEqual(session.calls[4][1]["headers"]["Accept"], "text/html,application/xhtml+xml")
+        self.assertTrue(all(response.closed for response in session.responses))
+        with patch("live_stream_catalog.services.resolver.build_streamlink_session") as streamlink:
+            resolved = resolve_channel(channel)
+        streamlink.assert_not_called()
+        self.assertIsNotNone(resolved.resolved_at)
+
+    def test_exclude_is_sent_as_slug_filter_and_enforced_locally(self):
+        session = Session()
+        config = replace(self.config(), exclude_slugs=("public-tv",))
+        result = load_directory_catalog_channels(config, session=session)
+        self.assertEqual(result, [])
+        self.assertEqual(len(session.calls), 2)
+        self.assertEqual(session.calls[1][1]["params"], {"exclude": "public-tv"})
+
+    def test_missing_player_is_nonpublishable_and_not_re_resolved_as_media(self):
+        session = Session()
+        result = load_directory_catalog_channels(replace(self.config(), slugs=("unavailable-tv",)), session=session)
+        channel = result[0]
+        self.assertEqual(channel.status, "pending")
+        self.assertEqual(channel.delivery_mode, "embed")
+        self.assertFalse(channel.publishable_static)
+        self.assertIsNone(channel.stream_url)
+        with patch("live_stream_catalog.services.resolver.build_streamlink_session") as streamlink:
+            self.assertIs(resolve_channel(channel), channel)
+        streamlink.assert_not_called()
+
+    def test_video_platform_embed_keeps_page_dynamic_and_omits_public_media(self):
+        result = load_directory_catalog_channels(replace(self.config(), slugs=("video-platform-tv",)), session=Session())
+        channel = result[0]
+        self.assertEqual(channel.source_type, "video_platform")
+        self.assertEqual(channel.provider_id, "directory_catalog")
+        self.assertEqual(channel.source_url, "https://video.example.test/watch?v=Abcde12345_")
+        self.assertTrue(channel.requires_dynamic_resolution)
+        self.assertFalse(channel.publishable_static)
+        self.assertIsNone(channel.to_dict()["stream_url"])
+
+    def test_signed_unreviewed_and_non_media_urls_are_not_exportable(self):
+        for html in [
+            '<source src="https://media.example.test/live.m3u8?token=private">',
+            '<source src="https://media.example.test/live.m3u8?username=account&amp;password=private">',
+            '<source src="https://media.example.test/live.m3u8?apikey=private">',
+            '<source src="https://media.example.test/live.m3u8?expire=1">',
+            '<source src="https://media.example.test/live.m3u8?EXPIRES=1794680000">',
+            '<source src="https://unknown.example.test/live.m3u8">',
+            '<source src="https://media.example.test/a-page.html">',
+            '<source src="http://media.example.test/a-page.html">',
+            '<iframe src="https://external.example.test/player"></iframe>',
+        ]:
+            with self.subTest(html=html):
+                channel = load_directory_catalog_channels(self.config(), session=Session(html))[0]
+                self.assertFalse(channel.publishable_static)
+                self.assertIsNone(channel.stream_url)
+                self.assertNotIn("private", json.dumps(channel.to_dict()))
+
+    def test_literal_javascript_hls_is_read_without_executing_code(self):
+        player = 'hls.loadSource("https:\\/\\/media.example.test/live.m3u8");'
+        channel = load_directory_catalog_channels(self.config(), session=Session(player))[0]
+        self.assertEqual(channel.stream_url, "https://media.example.test/live.m3u8")
+
+    def test_rejects_cross_origin_metadata(self):
+        result = load_directory_catalog_channels(replace(self.config(), slugs=("external-tv",)), session=Session())
+        self.assertEqual(result, [])
+
+    def test_cache_ttl_last_good_and_expiration(self):
+        with tempfile.TemporaryDirectory() as directory:
+            config = self.config(cache_dir=Path(directory), cache_ttl=60, cache_lkg=120)
+            with patch("live_stream_catalog.sources.directory_catalog.time.time", return_value=1000):
+                original = load_directory_catalog_channels(config, session=Session())
+            offline = Session()
+            offline.get = lambda *_args, **_kwargs: (_ for _ in ()).throw(requests.ConnectionError())
+            with patch("live_stream_catalog.sources.directory_catalog.time.time", return_value=1030):
+                fresh = load_directory_catalog_channels(config, session=offline)
+            with patch("live_stream_catalog.sources.directory_catalog.time.time", return_value=1090):
+                fallback = load_directory_catalog_channels(config, session=offline)
+            with patch("live_stream_catalog.sources.directory_catalog.time.time", return_value=1130):
+                expired = load_directory_catalog_channels(config, session=offline)
+            self.assertEqual(fresh[0].stream_url, original[0].stream_url)
+            self.assertEqual(fallback[0].stream_url, original[0].stream_url)
+            self.assertEqual(expired, [])
+
+    def test_cache_changes_with_reviewed_hosts(self):
+        with tempfile.TemporaryDirectory() as directory:
+            config = self.config(cache_dir=Path(directory))
+            load_directory_catalog_channels(config, session=Session())
+            unreviewed = replace(config, reviewed_stream_hosts=())
+            channel = load_directory_catalog_channels(unreviewed, session=Session())[0]
+            self.assertFalse(channel.publishable_static)
+
+    def test_new_request_context_does_not_reuse_old_pending_cache(self):
+        with tempfile.TemporaryDirectory() as directory:
+            config = self.config(cache_dir=Path(directory))
+            with patch("live_stream_catalog.sources.directory_catalog.CACHE_VERSION", 1):
+                previous = load_directory_catalog_channels(config, session=Session("<html>unsupported</html>"))
+            self.assertFalse(previous[0].publishable_static)
+            current = load_directory_catalog_channels(config, session=Session())
+            self.assertTrue(current[0].publishable_static)
+            self.assertEqual(len(list(Path(directory).glob("*.json"))), 2)
+
+    def test_index_failure_does_not_hide_error_in_strict_mode(self):
+        session = Session()
+        session.get = lambda *_args, **_kwargs: Response("<html>failure</html>")
+        with self.assertRaises(ValueError):
+            load_directory_catalog_channels(self.config(), session=session, continue_on_error=False)
+
+    def test_default_scope_does_not_approve_another_channel_on_a_shared_host(self):
+        config = replace(self.config(), reviewed_hosts_by_slug=(("public-tv", ()),))
+        channel = load_directory_catalog_channels(config, session=Session())[0]
+        self.assertFalse(channel.publishable_static)
+
+    def test_caps_body_and_closes_response(self):
+        session = Session()
+        response = Response(b"x" * (MAX_RESPONSE_BYTES + 1))
+        session.get = lambda *_args, **_kwargs: response
+        with self.assertRaises(ValueError):
+            load_directory_catalog_channels(self.config(), session=session, continue_on_error=False)
+        self.assertTrue(response.closed)
+
+    def test_cache_retains_at_most_four_generated_fingerprints_and_keeps_unknown_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory)
+            (folder / "operator-notes.json").write_text("keep")
+            for index in range(8):
+                path = folder / (f"{index:020x}.json")
+                path.write_text("{}")
+                os.utime(path, (1000 + index, 1000 + index))
+            config = self.config(cache_dir=folder)
+            with patch("live_stream_catalog.sources.directory_catalog.time.time", return_value=1010):
+                load_directory_catalog_channels(config, session=Session())
+                load_directory_catalog_channels(config, session=Session())
+            self.assertLessEqual(len([path for path in folder.glob("*.json") if path.name != "operator-notes.json"]), 4)
+            self.assertEqual((folder / "operator-notes.json").read_text(), "keep")
+            self.assertFalse(list(folder.glob("*.tmp")))
+
+
+if __name__ == "__main__":
+    unittest.main()

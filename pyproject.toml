@@ -1,0 +1,26 @@
+[project]
+name = "live-stream-catalog"
+version = "0.1.0"
+description = "Builds and refreshes a public catalog of live streaming channel URLs"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "requests>=2.31.0",
+  "streamlink>=7.0.0",
+  "cloudscraper>=1.2.71",
+  "yt-dlp>=2025.1.15",
+]
+
+[project.scripts]
+live-stream-catalog = "live_stream_catalog.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["live_stream_catalog*"]
+
+[tool.setuptools.package-data]
+"live_stream_catalog.resources" = ["*.json"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

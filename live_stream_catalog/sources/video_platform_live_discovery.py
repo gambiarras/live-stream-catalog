@@ -1,0 +1,284 @@
+import json
+import logging
+import os
+from dataclasses import dataclass
+from live_stream_catalog.local_config import resource_json, source_settings, discovery_client_factory
+from urllib.parse import urlparse
+
+from live_stream_catalog.models import Channel
+from live_stream_catalog.services.removal import mark_removed, terminal_removal_reason
+
+
+logger = logging.getLogger(__name__)
+
+
+CONFIG_RESOURCE_NAME = "video_platform_live_discovery_channels.json"
+SOURCE_TYPE = "video_platform"
+VIDEO_PLATFORM_WATCH_URL = source_settings("video_platform").get("watch_url", "https://video.example.test/watch?v={video_id}")
+VIDEO_PLATFORM_BASE_URL = source_settings("video_platform").get("base_url", "https://video.example.test/")
+
+
+@dataclass(slots=True, frozen=True)
+class VideoPlatformLiveDiscoveryConfig:
+    id: str
+    name: str
+    logo: str
+    group: str
+    tvg_id: str | None = None
+    handle: str | None = None
+    streams_url: str | None = None
+    url: str | None = None
+    fallback_url: str | None = None
+    use_fallback_when_empty: bool = True
+    max_results: int = 50
+    include_upcoming: bool = False
+    resolution: str | None = None
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "VideoPlatformLiveDiscoveryConfig":
+        return cls(
+            id=data["id"],
+            name=data["name"],
+            logo=data.get("logo", ""),
+            group=data.get("group", "general"),
+            tvg_id=data.get("tvg_id"),
+            handle=data.get("handle"),
+            streams_url=data.get("streams_url"),
+            url=data.get("url"),
+            fallback_url=data.get("fallback_url"),
+            use_fallback_when_empty=bool(data.get("use_fallback_when_empty", True)),
+            max_results=int(data.get("max_results", 50)),
+            include_upcoming=bool(data.get("include_upcoming", False)),
+            resolution=data.get("resolution"),
+        )
+
+
+def load_config_resource() -> list[VideoPlatformLiveDiscoveryConfig]:
+    return [
+        VideoPlatformLiveDiscoveryConfig.from_dict(item)
+        for item in resource_json(CONFIG_RESOURCE_NAME)
+    ]
+
+
+def _streams_url(config: VideoPlatformLiveDiscoveryConfig) -> str:
+    if config.streams_url:
+        return config.streams_url.rstrip("/")
+
+    if config.url:
+        url = config.url.rstrip("/")
+        if url.endswith("/streams"):
+            return url
+        if url.endswith("/live"):
+            return f"{url[:-5]}/streams"
+        return f"{url}/streams"
+
+    if not config.handle:
+        raise ValueError(f"VideoPlatform live discovery config requires handle or url: {config.id}")
+
+    handle = config.handle if config.handle.startswith("@") else f"@{config.handle}"
+    return f"{VIDEO_PLATFORM_BASE_URL}{handle}/streams"
+
+
+def _fallback_url(config: VideoPlatformLiveDiscoveryConfig) -> str:
+    if config.fallback_url:
+        return config.fallback_url
+
+    if config.streams_url:
+        url = config.streams_url.rstrip("/")
+        if url.endswith("/streams"):
+            return f"{url[:-8]}/live"
+        return f"{url}/live"
+
+    if config.url:
+        url = config.url.rstrip("/")
+        if url.endswith("/streams"):
+            return f"{url[:-8]}/live"
+        return config.url
+
+    handle = config.handle if config.handle and config.handle.startswith("@") else f"@{config.handle}"
+    return f"{VIDEO_PLATFORM_BASE_URL}{handle}/live"
+
+
+def _entry_video_id(entry: dict) -> str | None:
+    video_id = entry.get("id")
+    if video_id:
+        return str(video_id)
+
+    url = entry.get("url")
+    if not url:
+        return None
+
+    parsed = urlparse(str(url))
+    if parsed.netloc in source_settings("video_platform").get("page_hosts", ["video.example.test"]) and parsed.path == "/watch":
+        from urllib.parse import parse_qs
+
+        return parse_qs(parsed.query).get("v", [None])[0]
+
+    if parsed.netloc in source_settings("video_platform").get("short_hosts", ["video-short.example.test"]):
+        return parsed.path.strip("/") or None
+
+    return None
+
+
+def _entry_is_usable(entry: dict, include_upcoming: bool) -> bool:
+    live_status = entry.get("live_status")
+    if live_status == "is_live":
+        return True
+
+    if include_upcoming and live_status == "is_upcoming":
+        return True
+
+    return entry.get("is_live") is True
+
+
+def _entry_title(config: VideoPlatformLiveDiscoveryConfig, entry: dict) -> str:
+    title = entry.get("title")
+    if title:
+        return f"{config.name} - {title}"
+    return config.name
+
+
+def _entry_logo(config: VideoPlatformLiveDiscoveryConfig, entry: dict) -> str:
+    thumbnails = entry.get("thumbnails")
+    if isinstance(thumbnails, list) and thumbnails:
+        thumbnail = thumbnails[-1]
+        if isinstance(thumbnail, dict) and thumbnail.get("url"):
+            return str(thumbnail["url"])
+
+    return config.logo
+
+
+def _video_platform_dl_options(max_results: int) -> dict:
+    options = {
+        "quiet": True,
+        "no_warnings": True,
+        "skip_download": True,
+        "extract_flat": "in_playlist",
+        "playlistend": max_results,
+        "extractor_retries": 3,
+        "retries": 3,
+    }
+
+    cookie_file = os.environ.get("VIDEO_PLATFORM_COOKIES_FILE") or os.environ.get("DISCOVERY_COOKIES_FILE")
+    if cookie_file:
+        options["cookiefile"] = cookie_file
+
+    return options
+
+
+def _fallback_channel(config: VideoPlatformLiveDiscoveryConfig) -> Channel:
+    return Channel(
+        id=config.id,
+        name=config.name,
+        source_url=_fallback_url(config),
+        logo=config.logo,
+        group=config.group,
+        source_type=SOURCE_TYPE,
+        provider_id=SOURCE_TYPE,
+        logical_channel_id=config.id,
+        variant_id=config.id,
+        tvg_id=config.tvg_id,
+        resolution=config.resolution or "best",
+        requires_dynamic_resolution=True,
+        publishable_static=False,
+    )
+
+
+def discover_live_channels(
+    config: VideoPlatformLiveDiscoveryConfig,
+    video_platform_dl_cls=None,
+) -> list[Channel]:
+    if video_platform_dl_cls is None:
+        video_platform_dl_cls = discovery_client_factory()
+
+    streams_url = _streams_url(config)
+    with video_platform_dl_cls(_video_platform_dl_options(config.max_results)) as ydl:
+        payload = ydl.extract_info(streams_url, download=False)
+
+    entries = payload.get("entries") if isinstance(payload, dict) else None
+    if not entries:
+        return [_fallback_channel(config)] if config.use_fallback_when_empty else []
+
+    channels: list[Channel] = []
+    seen_video_ids: set[str] = set()
+
+    for entry in entries:
+        if not isinstance(entry, dict) or not _entry_is_usable(entry, config.include_upcoming):
+            continue
+
+        video_id = _entry_video_id(entry)
+        if not video_id or video_id in seen_video_ids:
+            continue
+
+        seen_video_ids.add(video_id)
+        source_url = VIDEO_PLATFORM_WATCH_URL.format(video_id=video_id)
+        channels.append(
+            Channel(
+                id=f"{config.id}.{video_id}",
+                name=_entry_title(config, entry),
+                source_url=source_url,
+                logo=_entry_logo(config, entry),
+                group=config.group,
+                source_type=SOURCE_TYPE,
+                provider_id=SOURCE_TYPE,
+                logical_channel_id=config.id,
+                variant_id=f"{config.id}.{video_id}",
+                tvg_id=config.tvg_id,
+                resolution=config.resolution or "best",
+                requires_dynamic_resolution=True,
+                publishable_static=False,
+            )
+        )
+
+    if not channels and config.use_fallback_when_empty:
+        return [_fallback_channel(config)]
+
+    return channels
+
+
+def load_video_platform_live_discovery_channels(
+    default_resolution: str = "best",
+    video_platform_dl_cls=None,
+    configs: list[VideoPlatformLiveDiscoveryConfig] | None = None,
+    continue_on_error: bool = True,
+) -> list[Channel]:
+    channels: list[Channel] = []
+
+    for config in configs if configs is not None else load_config_resource():
+        config = VideoPlatformLiveDiscoveryConfig(
+            id=config.id,
+            name=config.name,
+            logo=config.logo,
+            group=config.group,
+            tvg_id=config.tvg_id,
+            handle=config.handle,
+            streams_url=config.streams_url,
+            url=config.url,
+            fallback_url=config.fallback_url,
+            use_fallback_when_empty=config.use_fallback_when_empty,
+            max_results=config.max_results,
+            include_upcoming=config.include_upcoming,
+            resolution=config.resolution or default_resolution,
+        )
+
+        try:
+            channels.extend(discover_live_channels(config, video_platform_dl_cls=video_platform_dl_cls))
+        except Exception as exc:
+            removal_reason = terminal_removal_reason(
+                SOURCE_TYPE,
+                _streams_url(config),
+                exc,
+            )
+            if removal_reason:
+                channels.append(mark_removed(_fallback_channel(config), removal_reason))
+                continue
+            channels.append(_fallback_channel(config))
+            logger.error(
+                "Failed to discover VideoPlatform live streams id=%s error_type=%s",
+                config.id,
+                type(exc).__name__,
+            )
+            if not continue_on_error:
+                raise
+
+    return channels

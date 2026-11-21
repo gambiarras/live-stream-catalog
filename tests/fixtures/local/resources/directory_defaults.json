@@ -1,0 +1,38 @@
+{
+  "channels": [
+    {
+      "slug": "channel-1",
+      "origin": "https://station-1.example.test/",
+      "reviewed_stream_hosts": [
+        "media-1.example.test"
+      ]
+    },
+    {
+      "slug": "channel-2",
+      "origin": "https://station-2.example.test/",
+      "reviewed_stream_hosts": [
+        "media-2.example.test"
+      ]
+    },
+    {
+      "slug": "channel-3",
+      "origin": "https://station-3.example.test/",
+      "reviewed_stream_hosts": []
+    },
+    {
+      "slug": "channel-4",
+      "origin": "https://station-4.example.test/",
+      "reviewed_stream_hosts": []
+    },
+    {
+      "slug": "channel-5",
+      "origin": "https://station-5.example.test/",
+      "reviewed_stream_hosts": []
+    },
+    {
+      "slug": "channel-6",
+      "origin": "https://station-6.example.test/",
+      "reviewed_stream_hosts": []
+    }
+  ]
+}

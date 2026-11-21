@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "enabled": true,
+  "video_platform": {
+    "base_url": "https://video.example.test/",
+    "watch_url": "https://video.example.test/watch?v={video_id}",
+    "page_hosts": [
+      "video.example.test",
+      "video-embed.example.test"
+    ],
+    "short_hosts": [
+      "video-short.example.test"
+    ],
+    "media_hosts": [
+      "media.example.test"
+    ]
+  },
+  "directory_catalog": {
+    "base_url": "https://directory.example.test/",
+    "index_path": "channels-data.php"
+  },
+  "live_platform": {
+    "base_url": "https://live.example.test/",
+    "api_url": "https://live.example.test/api"
+  },
+  "script_discovered": {
+    "api_url_pattern": "https://[a-zA-Z0-9.-]+\\.backend\\.example\\.test"
+  },
+  "addon_catalog": {
+    "excluded_fragments": [
+      "blocked-provider"
+    ]
+  }
+}
