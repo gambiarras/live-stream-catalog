@@ -4,7 +4,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import ANY, patch
 
 from live_stream_catalog.config import AppConfig
 from live_stream_catalog.models import Channel
@@ -79,7 +79,7 @@ class BuildTest(unittest.TestCase):
             existing = Channel(
                 id="video_platform.live.video",
                 name="Old title",
-                source_url="https://video.example.test/watch?v=video",
+                source_url="https://video.example.test/watch?v=abcdefghijk",
                 logo="",
                 group="general",
                 source_type="video_platform",
@@ -88,15 +88,19 @@ class BuildTest(unittest.TestCase):
                 resolved_at="2026-07-16T00:00:00+00:00",
                 expires_at="2100-01-01T00:00:00+00:00",
                 ttl_seconds=3600,
+                requires_dynamic_resolution=True,
+                publishable_static=False,
             )
             config.output_path.write_text(json.dumps([existing.to_dict()]), encoding="utf-8")
             rediscovered = Channel(
                 id="video_platform.live.video",
                 name="New title",
-                source_url="https://video.example.test/watch?v=video",
+                source_url="https://video.example.test/watch?v=abcdefghijk",
                 logo="",
                 group="general",
                 source_type="video_platform",
+                requires_dynamic_resolution=True,
+                publishable_static=False,
             )
 
             with patch("live_stream_catalog.services.build.load_catalog", return_value=[rediscovered]), patch(
@@ -105,7 +109,7 @@ class BuildTest(unittest.TestCase):
             ) as resolve_channels:
                 run_build(config)
 
-            resolve_channels.assert_called_once_with([], max_workers=4)
+            resolve_channels.assert_called_once_with([], max_workers=4, video_platform_policy=ANY)
             output = json.loads(config.output_path.read_text(encoding="utf-8"))
             self.assertEqual(output[0]["id"], "video_platform.live.video")
             self.assertEqual(
@@ -113,6 +117,10 @@ class BuildTest(unittest.TestCase):
                 "https://rr1---sn.example.media.example.test/videoplayback/expire/4102444800/live.m3u8",
             )
             self.assertEqual(output[0]["status"], "resolved")
+            self.assertEqual(output[0]["resolved_at"], existing.resolved_at)
+            self.assertEqual(output[0]["protocol"], "hls")
+            self.assertTrue(output[0]["requires_dynamic_resolution"])
+            self.assertFalse(output[0]["publishable_static"])
 
     def test_refreshes_expired_existing_stream_urls_during_full_build(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -120,7 +128,7 @@ class BuildTest(unittest.TestCase):
             existing = Channel(
                 id="video_platform.live.video",
                 name="Old title",
-                source_url="https://video.example.test/watch?v=video",
+                source_url="https://video.example.test/watch?v=abcdefghijk",
                 logo="",
                 group="general",
                 source_type="video_platform",
@@ -134,7 +142,7 @@ class BuildTest(unittest.TestCase):
             rediscovered = Channel(
                 id="video_platform.live.video",
                 name="New title",
-                source_url="https://video.example.test/watch?v=video",
+                source_url="https://video.example.test/watch?v=abcdefghijk",
                 logo="",
                 group="general",
                 source_type="video_platform",
@@ -142,11 +150,11 @@ class BuildTest(unittest.TestCase):
             refreshed = Channel(
                 id="video_platform.live.video",
                 name="New title",
-                source_url="https://video.example.test/watch?v=video",
+                source_url="https://video.example.test/watch?v=abcdefghijk",
                 logo="",
                 group="general",
                 source_type="video_platform",
-                stream_url="https://new.example.test/live.m3u8",
+                stream_url="https://manifest.media.example.test/api/manifest/hls_variant/expire/4102444800/playlist.m3u8",
                 status="resolved",
             )
 
@@ -158,7 +166,7 @@ class BuildTest(unittest.TestCase):
 
             self.assertEqual(resolve_channels.call_args.args[0][0].id, "video_platform.live.video")
             output = json.loads(config.output_path.read_text(encoding="utf-8"))
-            self.assertEqual(output[0]["stream_url"], "https://new.example.test/live.m3u8")
+            self.assertEqual(output[0]["stream_url"], refreshed.stream_url)
 
     def test_keeps_last_catalog_file_when_configured_source_loading_fails(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -184,6 +192,35 @@ class BuildTest(unittest.TestCase):
                     run_build(config)
 
             self.assertEqual(json.loads(config.output_path.read_text(encoding="utf-8")), original)
+
+    def test_build_and_refresh_reuse_exported_video_platform_hls_without_another_media_resolution(self):
+        media = "https://manifest.media.example.test/api/manifest/hls_playlist/expire/4102444800/sig/public-media"
+        observed = "2026-11-21T12:00:00+00:00"
+        for run in (run_build, run_refresh):
+            with self.subTest(mode=run.__name__), tempfile.TemporaryDirectory() as directory:
+                config = self._config(directory)
+                existing = Channel(
+                    id="sample.abcdefghijk", name="Sample", source_type="video_platform", logo="", group="general",
+                    source_url="https://video.example.test/watch?v=abcdefghijk", stream_url=media, status="resolved",
+                    resolved_at=observed, expires_at="2100-01-01T00:00:00+00:00", protocol="hls",
+                    requires_dynamic_resolution=True, publishable_static=False,
+                )
+                config.output_path.write_text(json.dumps([existing.to_dict()]))
+                discovered = Channel(
+                    id=existing.id, name="Updated title", source_type="video_platform", logo="", group="general",
+                    source_url=existing.source_url, requires_dynamic_resolution=True, publishable_static=False,
+                )
+                with patch("live_stream_catalog.services.build.load_catalog", return_value=[discovered]), \
+                     patch("live_stream_catalog.services.refresh._load_dynamic_channels", return_value=[discovered]), \
+                     patch("live_stream_catalog.services.resolver.build_streamlink_session") as session:
+                    run(config)
+                session.assert_not_called()
+                payload = json.loads(config.output_path.read_text())[0]
+                self.assertEqual(payload["stream_url"], media)
+                self.assertEqual(payload["resolved_at"], observed)
+                self.assertEqual(payload["protocol"], "hls")
+                self.assertTrue(payload["requires_dynamic_resolution"])
+                self.assertFalse(payload["publishable_static"])
 
 
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 from live_stream_catalog.models import Channel
 from live_stream_catalog.services.expiry import needs_refresh
+from live_stream_catalog.video_platform_transport import is_public_video_platform_hls
 
 MAX_AGE_BY_SOURCE = {
     "video_platform": 1800,
@@ -76,6 +77,8 @@ def carry_previous_resolution(
         channel.resolved_at = current.resolved_at
         channel.expires_at = current.expires_at
         channel.ttl_seconds = current.ttl_seconds
+        if channel.source_type == "video_platform" and is_public_video_platform_hls(current):
+            channel.protocol = "hls"
 
     return channels
 

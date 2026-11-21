@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 
 from live_stream_catalog.models import Channel
 from live_stream_catalog.services.removal import mark_removed, terminal_removal_reason
+from live_stream_catalog.services.video_platform_policy import VideoPlatformRequestPolicy, is_video_platform_rate_limit
 
 
 logger = logging.getLogger(__name__)
@@ -155,8 +156,9 @@ def _video_platform_dl_options(max_results: int) -> dict:
         "skip_download": True,
         "extract_flat": "in_playlist",
         "playlistend": max_results,
-        "extractor_retries": 3,
-        "retries": 3,
+        # Retry in later scheduled runs, rather than repeating requests into a block.
+        "extractor_retries": 0,
+        "retries": 0,
     }
 
     cookie_file = os.environ.get("VIDEO_PLATFORM_COOKIES_FILE") or os.environ.get("DISCOVERY_COOKIES_FILE")
@@ -241,8 +243,10 @@ def load_video_platform_live_discovery_channels(
     video_platform_dl_cls=None,
     configs: list[VideoPlatformLiveDiscoveryConfig] | None = None,
     continue_on_error: bool = True,
+    video_platform_policy: VideoPlatformRequestPolicy | None = None,
 ) -> list[Channel]:
     channels: list[Channel] = []
+    video_platform_policy = video_platform_policy or VideoPlatformRequestPolicy()
 
     for config in configs if configs is not None else load_config_resource():
         config = VideoPlatformLiveDiscoveryConfig(
@@ -261,9 +265,17 @@ def load_video_platform_live_discovery_channels(
             resolution=config.resolution or default_resolution,
         )
 
+        if not video_platform_policy.allowed():
+            fallback = _fallback_channel(config)
+            fallback.error = "video_platform_rate_limited"
+            channels.append(fallback)
+            continue
+
         try:
             channels.extend(discover_live_channels(config, video_platform_dl_cls=video_platform_dl_cls))
         except Exception as exc:
+            if is_video_platform_rate_limit(exc):
+                video_platform_policy.block(exc)
             removal_reason = terminal_removal_reason(
                 SOURCE_TYPE,
                 _streams_url(config),

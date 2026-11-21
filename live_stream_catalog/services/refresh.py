@@ -7,6 +7,7 @@ from live_stream_catalog.models import Channel
 from live_stream_catalog.services.catalog_state import carry_previous_resolution, split_refresh_candidates
 from live_stream_catalog.services.metadata import build_run_metadata
 from live_stream_catalog.services.resolver import resolve_channels
+from live_stream_catalog.services.video_platform_policy import VideoPlatformRequestPolicy
 from live_stream_catalog.sources.json_channel_catalog import (
     SOURCE_TYPE as JSON_CATALOG_SOURCE_TYPE,
     load_configured_json_catalogs,
@@ -49,6 +50,7 @@ def _current_channels_by_source(
 def _load_dynamic_channels(
     config: AppConfig,
     current_channels: list[Channel],
+    video_platform_policy: VideoPlatformRequestPolicy | None = None,
 ) -> list[Channel]:
     dynamic_channels: list[Channel] = []
 
@@ -84,19 +86,22 @@ def _load_dynamic_channels(
             _current_channels_by_source(current_channels, JSON_CATALOG_SOURCE_TYPE)
         )
 
-    try:
-        dynamic_channels.extend(
-            load_video_platform_live_discovery_channels(
-                default_resolution=config.default_resolution,
-                continue_on_error=False,
-            )
-        )
-    except Exception as exc:
-        logger.exception(
-            "Failed to refresh VideoPlatform live discovery, keeping existing channels error=%s",
-            exc,
-        )
+    if video_platform_policy is not None and not video_platform_policy.allowed():
+        logger.info("Video platform discovery deferred during rate-limit cooldown; retaining existing identities")
         dynamic_channels.extend(_current_channels_by_source(current_channels, VIDEO_PLATFORM_SOURCE_TYPE))
+    else:
+        try:
+            dynamic_channels.extend(
+                load_video_platform_live_discovery_channels(
+                    default_resolution=config.default_resolution,
+                    continue_on_error=False,
+                    video_platform_policy=video_platform_policy,
+                )
+            )
+        except Exception as exc:
+            logger.error("Video platform discovery failed; keeping existing channels error_type=%s",
+                         type(exc).__name__)
+            dynamic_channels.extend(_current_channels_by_source(current_channels, VIDEO_PLATFORM_SOURCE_TYPE))
 
     try:
         dynamic_channels.extend(
@@ -130,8 +135,9 @@ def run_refresh(config: AppConfig) -> None:
         run_build(config)
         return
 
+    video_platform_policy = VideoPlatformRequestPolicy.for_output(config.output_path)
     dynamic_channels = carry_previous_resolution(
-        _load_dynamic_channels(config, current_channels),
+        _load_dynamic_channels(config, current_channels, video_platform_policy=video_platform_policy),
         current_channels,
     )
     static_channels = [
@@ -149,7 +155,9 @@ def run_refresh(config: AppConfig) -> None:
         len(to_keep),
     )
 
-    refreshed = resolve_channels(to_refresh, max_workers=config.max_workers)
+    refreshed = resolve_channels(to_refresh, max_workers=config.max_workers,
+                                 video_platform_policy=video_platform_policy)
+    video_platform_policy.finish()
 
     merged = to_keep + refreshed
     if not merged:

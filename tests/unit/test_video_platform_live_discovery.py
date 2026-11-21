@@ -206,8 +206,8 @@ class VideoPlatformLiveDiscoveryTest(unittest.TestCase):
 
         self.assertEqual(options["playlistend"], 8)
         self.assertEqual(options["cookiefile"], "/tmp/video_platform-cookies.txt")
-        self.assertEqual(options["extractor_retries"], 3)
-        self.assertEqual(options["retries"], 3)
+        self.assertEqual(options["extractor_retries"], 0)
+        self.assertEqual(options["retries"], 0)
 
 
 if __name__ == "__main__":

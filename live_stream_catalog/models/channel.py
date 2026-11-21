@@ -4,6 +4,7 @@ from typing import Any
 from urllib.parse import parse_qsl, urlsplit
 
 from live_stream_catalog.local_config import source_alias
+from live_stream_catalog.video_platform_transport import is_public_video_platform_hls, PRIVATE_HEADERS
 
 
 SENSITIVE_HEADER_NAMES = {
@@ -106,7 +107,7 @@ def _public_drm(value: Any) -> dict[str, Any] | None:
 def _public_error(value: str | None) -> str | None:
     if not value:
         return None
-    if value in {"no_stream_found", "account_not_found", "channel_not_found", "user_not_found"}:
+    if value in {"no_stream_found", "account_not_found", "channel_not_found", "user_not_found", "video_platform_rate_limited"}:
         return value
     if value.startswith("transient_resolve_error"):
         return "transient_resolve_error"
@@ -156,6 +157,17 @@ class Channel:
 
     @classmethod
     def from_dict(cls, data: dict[str, Any], default_resolution: str = "best") -> "Channel":
+        headers = data.get("request_headers") or data.get("headers")
+        stream_url = data.get("stream_url")
+        if source_alias(data.get("source_type")) == "video_platform" and (
+            data.get("secret_refs") or data.get("drm")
+            or (headers is not None and not isinstance(headers, dict))
+            or (isinstance(headers, dict) and any(
+                str(name).strip().casefold() in PRIVATE_HEADERS for name in headers
+            ))
+        ):
+            # Removing private header values must not promote their transport to public media.
+            stream_url = None
         return cls(
             id=data["id"],
             name=data["name"],
@@ -174,7 +186,7 @@ class Channel:
             protocol=data.get("protocol"),
             request_headers=_public_headers(data.get("request_headers") or data.get("headers")),
             secret_refs=_public_secret_refs(data.get("secret_refs")),
-            stream_url=data.get("stream_url"),
+            stream_url=stream_url,
             status=data.get("status", "pending"),
             error=data.get("error"),
             resolved_at=data.get("resolved_at"),
@@ -196,7 +208,10 @@ class Channel:
         payload["error"] = _public_error(self.error)
         if _has_sensitive_query(self.source_url):
             payload["source_url"] = None
-        if not self.publishable_static and (
+        renewable_hls = is_public_video_platform_hls(self)
+        if self.source_type == "video_platform" and not renewable_hls:
+            payload["stream_url"] = None
+        elif not renewable_hls and not self.publishable_static and (
             _has_sensitive_query(self.stream_url)
             or self.requires_dynamic_resolution
             or self.delivery_mode in {"dai", "ssai"}

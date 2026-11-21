@@ -13,6 +13,8 @@ from live_stream_catalog.services.expiry import (
 )
 from live_stream_catalog.services.removal import mark_removed, terminal_removal_reason
 from live_stream_catalog.sources.channel_contract import infer_protocol
+from live_stream_catalog.services.video_platform_policy import VideoPlatformRequestPolicy, is_video_platform_rate_limit
+from live_stream_catalog.video_platform_transport import is_media_hls_url
 
 logger = logging.getLogger(__name__)
 
@@ -55,10 +57,35 @@ def _existing_stream_url_has_expired(channel: Channel) -> bool:
 def _preserve_existing_stream_url(channel: Channel, exc: Exception) -> Channel:
     channel.status = "resolved"
     channel.error = f"transient_resolve_error: {exc}"
-    channel.resolved_at = utc_now().isoformat()
     channel.expires_at, channel.ttl_seconds = extract_expiry_from_stream_url(channel.stream_url)
     channel.protocol = infer_protocol(channel.stream_url, channel.protocol)
-    channel.publishable_static = channel.expires_at is None
+    channel.publishable_static = bool(
+        channel.publishable_static and not channel.requires_dynamic_resolution
+        and channel.expires_at is None and channel.source_type != "video_platform"
+    )
+    return channel
+
+
+def _defer_video_platform_channel(channel: Channel) -> Channel:
+    """Keep only known unexpired media, without inventing a new successful observation."""
+    expires_at = parse_iso_datetime(channel.expires_at)
+    if expires_at is None:
+        expiry, _ = extract_expiry_from_stream_url(channel.stream_url)
+        expires_at = parse_iso_datetime(expiry)
+    if expires_at is not None and expires_at.tzinfo is None:
+        expires_at = None
+    channel.requires_dynamic_resolution = True
+    channel.publishable_static = False
+    channel.error = "video_platform_rate_limited"
+    if channel.stream_url and expires_at is not None and expires_at > utc_now():
+        channel.status = "resolved"
+        channel.expires_at = expires_at.isoformat()
+        channel.ttl_seconds = int((expires_at - utc_now()).total_seconds())
+    else:
+        channel.status = "error"
+        channel.stream_url = None
+        channel.expires_at = None
+        channel.ttl_seconds = None
     return channel
 
 
@@ -101,11 +128,16 @@ def build_streamlink_session() -> Streamlink:
     return session
 
 
-def resolve_channel(channel: Channel) -> Channel:
+def resolve_channel(channel: Channel, *,
+                    video_platform_policy: VideoPlatformRequestPolicy | None = None) -> Channel:
     if channel.removed or channel.status == "removed":
         channel.removed = True
         channel.publishable_static = False
         return channel
+
+    if (channel.source_type == "video_platform" and video_platform_policy is not None
+            and not video_platform_policy.allowed()):
+        return _defer_video_platform_channel(channel)
 
     if channel.source_type == "directory_catalog" and not channel.stream_url:
         # The bounded discovery adapter already inspected this player's declared
@@ -140,16 +172,27 @@ def resolve_channel(channel: Channel) -> Channel:
         channel.error = None
         channel.resolved_at = utc_now().isoformat()
         channel.expires_at, channel.ttl_seconds = extract_expiry_from_stream_url(_stream_expiry_source_url(stream))
-        channel.protocol = infer_protocol(channel.stream_url, channel.protocol)
-        channel.requires_dynamic_resolution = channel.source_url != channel.stream_url
+        channel.protocol = (
+            "hls" if channel.source_type == "video_platform" and is_media_hls_url(channel.stream_url)
+            else infer_protocol(channel.stream_url, channel.protocol)
+        )
+        channel.requires_dynamic_resolution = (
+            channel.source_type == "video_platform" or channel.source_url != channel.stream_url
+        )
         channel.publishable_static = bool(
             channel.publishable_static
             and not channel.requires_dynamic_resolution
             and channel.expires_at is None
         )
+        if channel.source_type == "video_platform" and video_platform_policy is not None:
+            video_platform_policy.successful_resolution = True
         return channel
 
     except Exception as exc:
+        if (channel.source_type == "video_platform" and video_platform_policy is not None
+                and is_video_platform_rate_limit(exc)):
+            video_platform_policy.block(exc)
+            return _defer_video_platform_channel(channel)
         removal_reason = terminal_removal_reason(
             channel.source_type,
             channel.source_url,
@@ -196,7 +239,9 @@ def resolve_channel(channel: Channel) -> Channel:
             pass
 
 
-def resolve_channels(channels: list[Channel], max_workers: int) -> list[Channel]:
+def resolve_channels(channels: list[Channel], max_workers: int, *,
+                     video_platform_policy: VideoPlatformRequestPolicy | None = None) -> list[Channel]:
+    video_platform_policy = video_platform_policy or VideoPlatformRequestPolicy()
     pre_resolved = [channel for channel in channels if _is_pre_resolved(channel)]
     unresolved = [channel for channel in channels if not _is_pre_resolved(channel)]
     serial_unresolved = [
@@ -205,7 +250,7 @@ def resolve_channels(channels: list[Channel], max_workers: int) -> list[Channel]
     parallel_unresolved = [
         channel for channel in unresolved if channel.source_type not in SERIAL_RESOLVE_SOURCE_TYPES
     ]
-    results = [resolve_channel(channel) for channel in pre_resolved]
+    results = [resolve_channel(channel, video_platform_policy=video_platform_policy) for channel in pre_resolved]
 
     if parallel_unresolved:
         worker_count = max(1, min(max_workers, len(parallel_unresolved)))
@@ -215,6 +260,6 @@ def resolve_channels(channels: list[Channel], max_workers: int) -> list[Channel]
             for future in as_completed(futures):
                 results.append(future.result())
 
-    results.extend(resolve_channel(channel) for channel in serial_unresolved)
+    results.extend(resolve_channel(channel, video_platform_policy=video_platform_policy) for channel in serial_unresolved)
 
     return results

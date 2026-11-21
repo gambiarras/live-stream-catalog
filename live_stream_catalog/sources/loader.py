@@ -3,6 +3,7 @@ import logging
 from live_stream_catalog.local_config import resource_json
 
 from live_stream_catalog.models import Channel
+from live_stream_catalog.services.video_platform_policy import VideoPlatformRequestPolicy
 from live_stream_catalog.sources.json_channel_catalog import load_configured_json_catalogs
 from live_stream_catalog.sources.registry import get_resource_registry
 from live_stream_catalog.sources.script_discovered_catalog import load_configured_rest_catalogs
@@ -50,7 +51,8 @@ def _deduplicate(channels: list[Channel]) -> list[Channel]:
     return result
 
 
-def load_catalog(default_resolution: str = "best") -> list[Channel]:
+def load_catalog(default_resolution: str = "best", *,
+                 video_platform_policy: VideoPlatformRequestPolicy | None = None) -> list[Channel]:
     channels: list[Channel] = []
 
     channels.extend(
@@ -79,6 +81,7 @@ def load_catalog(default_resolution: str = "best") -> list[Channel]:
         load_video_platform_live_discovery_channels(
             default_resolution=default_resolution,
             continue_on_error=True,
+            video_platform_policy=video_platform_policy,
         )
     )
     channels.extend(load_configured_directory_catalog(default_resolution=default_resolution))
