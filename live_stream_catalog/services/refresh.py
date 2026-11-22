@@ -2,26 +2,36 @@ import logging
 
 from live_stream_catalog.config import AppConfig
 from live_stream_catalog.local_config import require_local_configuration
-from live_stream_catalog.io import load_channels_file, write_json_atomic
 from live_stream_catalog.models import Channel
-from live_stream_catalog.services.catalog_state import carry_previous_resolution, split_refresh_candidates
-from live_stream_catalog.services.metadata import build_run_metadata
+from live_stream_catalog.services.catalog_pipeline import (
+    finish_catalog_run,
+    prepare_catalog_run,
+)
+from live_stream_catalog.services.discovery import current_discovery, discovery_scope
 from live_stream_catalog.services.resolver import resolve_channels
-from live_stream_catalog.services.video_platform_policy import VideoPlatformRequestPolicy
+from live_stream_catalog.services.video_platform_policy import (
+    VideoPlatformRequestPolicy,
+)
+from live_stream_catalog.sources.addon_catalog import (
+    SOURCE_TYPE as ADDON_SOURCE_TYPE,
+)
+from live_stream_catalog.sources.addon_catalog import (
+    load_configured_addon_catalogs,
+)
 from live_stream_catalog.sources.json_channel_catalog import (
     SOURCE_TYPE as JSON_CATALOG_SOURCE_TYPE,
+)
+from live_stream_catalog.sources.json_channel_catalog import (
     load_configured_json_catalogs,
 )
 from live_stream_catalog.sources.script_discovered_catalog import (
     SCRIPT_DISCOVERED_SOURCE_TYPE,
     load_configured_rest_catalogs,
 )
-from live_stream_catalog.sources.addon_catalog import (
-    SOURCE_TYPE as ADDON_SOURCE_TYPE,
-    load_configured_addon_catalogs,
-)
 from live_stream_catalog.sources.video_platform_live_discovery import (
     SOURCE_TYPE as VIDEO_PLATFORM_SOURCE_TYPE,
+)
+from live_stream_catalog.sources.video_platform_live_discovery import (
     load_video_platform_live_discovery_channels,
 )
 
@@ -39,11 +49,11 @@ def _current_channels_by_source(
     current_channels: list[Channel],
     source_type: str,
 ) -> list[Channel]:
-    return [
-        channel
-        for channel in current_channels
-        if channel.source_type == source_type
-    ]
+    values = [channel for channel in current_channels if channel.source_type == source_type]
+    context = current_discovery()
+    if context:
+        context.retain(values, reason="discovery_failed")
+    return values
 
 
 
@@ -88,7 +98,15 @@ def _load_dynamic_channels(
 
     if video_platform_policy is not None and not video_platform_policy.allowed():
         logger.info("Video platform discovery deferred during rate-limit cooldown; retaining existing identities")
-        dynamic_channels.extend(_current_channels_by_source(current_channels, VIDEO_PLATFORM_SOURCE_TYPE))
+        retained = _current_channels_by_source(current_channels, VIDEO_PLATFORM_SOURCE_TYPE)
+        context = current_discovery()
+        if context:
+            if retained:
+                context.retain(retained, reason="rate_limited", origin="deferred")
+            else:
+                context.observe(VIDEO_PLATFORM_SOURCE_TYPE, VIDEO_PLATFORM_SOURCE_TYPE, [],
+                                origin="deferred", complete=False, reason="rate_limited")
+        dynamic_channels.extend(retained)
     else:
         try:
             dynamic_channels.extend(
@@ -124,50 +142,20 @@ def run_refresh(config: AppConfig) -> None:
     logger.info("Starting partial refresh")
     require_local_configuration()
 
-    current_channels = load_channels_file(
-        config.output_path,
-        default_resolution=config.default_resolution,
-    )
-
+    run = prepare_catalog_run(config)
+    current_channels = run.previous.channels
     if not current_channels:
         logger.info("No existing catalog found, falling back to full build")
         from live_stream_catalog.services.build import run_build
         run_build(config)
         return
-
-    video_platform_policy = VideoPlatformRequestPolicy.for_output(config.output_path)
-    dynamic_channels = carry_previous_resolution(
-        _load_dynamic_channels(config, current_channels, video_platform_policy=video_platform_policy),
-        current_channels,
-    )
-    static_channels = [
-        channel
-        for channel in current_channels
-        if channel.source_type not in DYNAMIC_SOURCE_TYPES
-    ]
-
-    to_keep, to_refresh = split_refresh_candidates(static_channels + dynamic_channels, config.min_ttl_seconds)
-
-    logger.info(
-        "Refresh selection total=%s refresh=%s keep=%s",
-        len(current_channels),
-        len(to_refresh),
-        len(to_keep),
-    )
-
-    refreshed = resolve_channels(to_refresh, max_workers=config.max_workers,
-                                 video_platform_policy=video_platform_policy)
-    video_platform_policy.finish()
-
-    merged = to_keep + refreshed
-    if not merged:
-        raise RuntimeError("No configured catalog candidates; preserve the last publication")
-    merged.sort(key=lambda item: item.id.casefold())
-
-    write_json_atomic(config.output_path, [channel.to_dict() for channel in merged])
-
-    metadata = build_run_metadata(merged)
-    write_json_atomic(config.meta_output_path, metadata.to_dict())
+    with discovery_scope(run.discovery):
+        dynamic_channels = _load_dynamic_channels(
+            config, current_channels, video_platform_policy=run.video_platform_policy)
+        static_channels = [channel for channel in current_channels
+                           if channel.source_type not in DYNAMIC_SOURCE_TYPES]
+        run.discovery.retain(static_channels, reason="not_due_in_refresh", origin="cache")
+        metadata = finish_catalog_run(run, static_channels + dynamic_channels, resolver=resolve_channels)
 
     logger.info(
         "Refresh finished total=%s resolved=%s offline=%s removed=%s errors=%s",

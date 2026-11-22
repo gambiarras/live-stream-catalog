@@ -3,22 +3,24 @@ import os
 import re
 from dataclasses import dataclass
 from html.parser import HTMLParser
-from live_stream_catalog.local_config import resource_json, source_settings
 from urllib.parse import urlencode, urljoin
 
 import requests
 
+from live_stream_catalog.local_config import resource_json, source_settings
 from live_stream_catalog.models import Channel
+from live_stream_catalog.models.channel import normalize_tags
+from live_stream_catalog.services.discovery import observe_source
 from live_stream_catalog.sources.channel_contract import (
     as_bool,
     as_string_dict,
+    declared_feed_id,
     display_name_with_variant,
     infer_protocol,
     is_explicit_adult,
     normalize_variant_label,
     optional_int,
 )
-
 
 logger = logging.getLogger(__name__)
 
@@ -298,6 +300,8 @@ def row_to_channel(
         variant_id=str(row.get("variant_id") or channel_id),
         variant_label=variant_label,
         tvg_id=_row_tvg_id(row),
+        feed_id=declared_feed_id(provider_id or source_type, logical_channel_id, row.get("feed_id"), row.get("feed")),
+        tags=normalize_tags([*normalize_tags(row.get("tags")), *normalize_tags(row.get("genres"))]),
         resolution=resolution,
         codec=str(codec) if codec else None,
         bitrate=optional_int(row.get("bitrate")),
@@ -355,6 +359,8 @@ def load_rest_catalog_channels(
                     timeout=config.timeout,
                 )
             except Exception as exc:
+                observe_source("script_discovered:" + config.id, config.source_type, [],
+                               complete=False, reason="discovery_error")
                 logger.exception(
                     "Failed to load script-discovered catalog id=%s url=%s error=%s",
                     config.id,
@@ -365,7 +371,7 @@ def load_rest_catalog_channels(
                     raise
                 continue
 
-            channels.extend(
+            found = list(
                 row_to_channel(
                     row,
                     source_type=config.source_type,
@@ -376,6 +382,9 @@ def load_rest_catalog_channels(
                 for row in rows
                 if not is_explicit_adult(row)
             )
+            observe_source("script_discovered:" + config.id, config.source_type, found,
+                           reason="discovered" if found else "empty")
+            channels.extend(found)
 
     finally:
         if owns_session:

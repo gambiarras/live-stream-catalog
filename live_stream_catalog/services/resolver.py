@@ -1,10 +1,11 @@
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime
 
 from streamlink import Streamlink
 
-from live_stream_catalog.models import Channel
 from live_stream_catalog.local_config import runtime_settings
+from live_stream_catalog.models import Channel
 from live_stream_catalog.plugins import register_custom_plugins
 from live_stream_catalog.services.expiry import (
     extract_expiry_from_stream_url,
@@ -12,8 +13,11 @@ from live_stream_catalog.services.expiry import (
     utc_now,
 )
 from live_stream_catalog.services.removal import mark_removed, terminal_removal_reason
+from live_stream_catalog.services.video_platform_policy import (
+    VideoPlatformRequestPolicy,
+    is_video_platform_rate_limit,
+)
 from live_stream_catalog.sources.channel_contract import infer_protocol
-from live_stream_catalog.services.video_platform_policy import VideoPlatformRequestPolicy, is_video_platform_rate_limit
 from live_stream_catalog.video_platform_transport import is_media_hls_url
 
 logger = logging.getLogger(__name__)
@@ -45,19 +49,31 @@ def _is_transient_resolve_error(exc: Exception) -> bool:
     return any(marker in message for marker in TRANSIENT_RESOLVE_ERROR_MARKERS)
 
 
-def _existing_stream_url_has_expired(channel: Channel) -> bool:
-    expires_at = parse_iso_datetime(channel.expires_at)
-    if expires_at is None:
-        extracted_expires_at, _ttl_seconds = extract_expiry_from_stream_url(channel.stream_url)
-        expires_at = parse_iso_datetime(extracted_expires_at)
+def _known_transport_expiries(channel: Channel) -> list[datetime]:
+    """Keep declared bounds even when a public URL does not encode its expiry."""
+    declared = parse_iso_datetime(channel.expires_at)
+    if channel.expires_at is not None and declared is None:
+        raise ValueError("Invalid declared transport expiry")
+    extracted, _ = extract_expiry_from_stream_url(channel.stream_url)
+    return [value for value in (declared, parse_iso_datetime(extracted))
+                if value is not None]
 
-    return expires_at is not None and expires_at <= utc_now()
+
+def _existing_stream_url_has_expired(channel: Channel) -> bool:
+    try:
+        return any(value.tzinfo is None or value <= utc_now() for value in _known_transport_expiries(channel))
+    except ValueError:
+        return True
 
 
 def _preserve_existing_stream_url(channel: Channel, exc: Exception) -> Channel:
     channel.status = "resolved"
     channel.error = f"transient_resolve_error: {exc}"
-    channel.expires_at, channel.ttl_seconds = extract_expiry_from_stream_url(channel.stream_url)
+    expiries = _known_transport_expiries(channel)
+    if expiries:
+        expiry = min(expiries)
+        channel.expires_at = expiry.isoformat()
+        channel.ttl_seconds = max(0, int((expiry - utc_now()).total_seconds()))
     channel.protocol = infer_protocol(channel.stream_url, channel.protocol)
     channel.publishable_static = bool(
         channel.publishable_static and not channel.requires_dynamic_resolution
@@ -68,11 +84,10 @@ def _preserve_existing_stream_url(channel: Channel, exc: Exception) -> Channel:
 
 def _defer_video_platform_channel(channel: Channel) -> Channel:
     """Keep only known unexpired media, without inventing a new successful observation."""
-    expires_at = parse_iso_datetime(channel.expires_at)
-    if expires_at is None:
-        expiry, _ = extract_expiry_from_stream_url(channel.stream_url)
-        expires_at = parse_iso_datetime(expiry)
-    if expires_at is not None and expires_at.tzinfo is None:
+    try:
+        expiries = _known_transport_expiries(channel)
+        expires_at = min(expiries) if expiries and all(value.tzinfo is not None for value in expiries) else None
+    except ValueError:
         expires_at = None
     channel.requires_dynamic_resolution = True
     channel.publishable_static = False
@@ -130,6 +145,7 @@ def build_streamlink_session() -> Streamlink:
 
 def resolve_channel(channel: Channel, *,
                     video_platform_policy: VideoPlatformRequestPolicy | None = None) -> Channel:
+    channel.declared_inputs()
     if channel.removed or channel.status == "removed":
         channel.removed = True
         channel.publishable_static = False
@@ -146,8 +162,18 @@ def resolve_channel(channel: Channel, *,
 
     if _is_pre_resolved(channel):
         channel.error = None
-        channel.resolved_at = utc_now().isoformat()
-        channel.expires_at, channel.ttl_seconds = extract_expiry_from_stream_url(channel.stream_url)
+        if _existing_stream_url_has_expired(channel):
+            channel.status = "error"
+            channel.error = "expired_transport"
+            channel.stream_url = None
+            return channel
+        expiries = _known_transport_expiries(channel)
+        if expiries:
+            expiry = min(expiries)
+            channel.expires_at = expiry.isoformat()
+            channel.ttl_seconds = max(0, int((expiry - utc_now()).total_seconds()))
+        if channel.resolved_at is None:
+            channel.resolved_at = utc_now().isoformat()
         channel.protocol = infer_protocol(channel.stream_url, channel.protocol)
         if channel.expires_at is not None:
             channel.publishable_static = False
@@ -162,7 +188,6 @@ def resolve_channel(channel: Channel, *,
             channel.status = "offline"
             channel.error = "no_stream_found"
             channel.stream_url = None
-            channel.resolved_at = utc_now().isoformat()
             channel.expires_at = None
             channel.ttl_seconds = None
             return channel
@@ -227,7 +252,6 @@ def resolve_channel(channel: Channel, *,
         channel.status = "error"
         channel.error = str(exc)
         channel.stream_url = None
-        channel.resolved_at = utc_now().isoformat()
         channel.expires_at = None
         channel.ttl_seconds = None
         return channel

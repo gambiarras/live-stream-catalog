@@ -6,7 +6,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from hashlib import sha256
-from live_stream_catalog.local_config import resource_json, source_settings
 from pathlib import Path
 from urllib.parse import quote, urlencode, urlsplit
 
@@ -14,11 +13,15 @@ import requests
 from requests.adapters import HTTPAdapter
 
 from live_stream_catalog.io import write_json_atomic
-from live_stream_catalog.models import Channel, SENSITIVE_HEADER_NAMES
+from live_stream_catalog.local_config import resource_json, source_settings
+from live_stream_catalog.models import SENSITIVE_HEADER_NAMES, Channel
+from live_stream_catalog.models.channel import normalize_tags
+from live_stream_catalog.services.discovery import observe_source
 from live_stream_catalog.services.expiry import extract_expiry_from_stream_url
 from live_stream_catalog.sources.channel_contract import (
     as_bool,
     as_string_dict,
+    declared_feed_id,
     display_name_with_variant,
     infer_protocol,
     is_explicit_adult,
@@ -28,12 +31,11 @@ from live_stream_catalog.sources.channel_contract import (
     stable_variant_id,
 )
 
-
 logger = logging.getLogger(__name__)
 
 SOURCE_TYPE = "addon_catalog"
 CONFIG_RESOURCE_NAME = "addon_catalogs.json"
-CACHE_VERSION = 2
+CACHE_VERSION = 3
 
 
 @dataclass(slots=True, frozen=True)
@@ -118,14 +120,21 @@ def _load_cached_channels(
         if payload.get("fingerprint") != _cache_fingerprint(config):
             return None
         fetched_at = datetime.fromisoformat(str(payload["fetched_at"]).replace("Z", "+00:00"))
-        age = max(0.0, (datetime.now(timezone.utc) - fetched_at).total_seconds())
+        age = (datetime.now(timezone.utc) - fetched_at).total_seconds()
+        if age < 0 or age > config.cache_lkg:
+            return None
         channels = [
-            Channel.from_dict(item, default_resolution=default_resolution)
-            for item in payload.get("channels", [])
-            if isinstance(item, dict)
+            Channel.from_state_dict(item, default_resolution=default_resolution)
+            for item in payload["channels"]
         ]
-        return (channels, age) if channels else None
-    except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
+        if not isinstance(payload["channels"], list):
+            return None
+        observe_source("addon_catalog:" + config.id, SOURCE_TYPE, channels,
+                       origin="cache" if age <= config.cache_ttl else "retained",
+                       complete=age <= config.cache_ttl, reason="within_ttl" if age <= config.cache_ttl else "cache_stale",
+                       observed_at=fetched_at.isoformat())
+        return channels, age
+    except (OSError, ValueError, TypeError, KeyError, AttributeError) as exc:
         logger.warning(
             "Ignoring invalid addon cache id=%s error_type=%s",
             config.id,
@@ -138,13 +147,14 @@ def _write_cached_channels(config: AddonCatalogConfig, channels: list[Channel]) 
     path = _cache_path(config)
     if path is None:
         return
+    path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
     write_json_atomic(
         path,
         {
             "version": CACHE_VERSION,
             "fingerprint": _cache_fingerprint(config),
             "fetched_at": datetime.now(timezone.utc).isoformat(),
-            "channels": [channel.to_dict() for channel in channels],
+            "channels": [channel.to_state_dict() for channel in channels],
         },
     )
 
@@ -161,15 +171,15 @@ def _load_checkpoint_channels(
         if payload.get("fingerprint") != _cache_fingerprint(config):
             return {}
         updated_at = datetime.fromisoformat(str(payload["updated_at"]).replace("Z", "+00:00"))
-        age = max(0.0, (datetime.now(timezone.utc) - updated_at).total_seconds())
-        if age > config.cache_lkg:
+        age = (datetime.now(timezone.utc) - updated_at).total_seconds()
+        if age < 0 or age > config.cache_lkg:
             return {}
         items = payload.get("items", {})
         if not isinstance(items, dict):
             return {}
         result = {
             str(key): [
-                Channel.from_dict(item, default_resolution=default_resolution)
+                Channel.from_state_dict(item, default_resolution=default_resolution)
                 for item in value
                 if isinstance(item, dict)
             ]
@@ -184,7 +194,7 @@ def _load_checkpoint_channels(
                 age,
             )
         return result
-    except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
+    except (OSError, ValueError, TypeError, KeyError, AttributeError) as exc:
         logger.warning(
             "Ignoring invalid addon checkpoint id=%s error_type=%s",
             config.id,
@@ -200,6 +210,7 @@ def _write_checkpoint_channels(
     path = _checkpoint_path(config)
     if path is None or not items:
         return
+    path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
     write_json_atomic(
         path,
         {
@@ -207,7 +218,7 @@ def _write_checkpoint_channels(
             "fingerprint": _cache_fingerprint(config),
             "updated_at": datetime.now(timezone.utc).isoformat(),
             "items": {
-                key: [channel.to_dict() for channel in channels]
+                key: [channel.to_state_dict() for channel in channels]
                 for key, channels in items.items()
             },
         },
@@ -437,6 +448,12 @@ def _channels_from_streams(
                 variant_id=variant_id,
                 variant_label=variant_label,
                 tvg_id=meta.get("tvg_id") or meta.get("tvgId"),
+                feed_id=declared_feed_id(config.provider_id, f"{config.provider_id}.{slugify(logical_id)}",
+                                          stream.get("feed_id") or meta.get("feed_id"),
+                                          stream.get("feed") or meta.get("feed")),
+                tags=normalize_tags([*normalize_tags(meta.get("tags")),
+                                     *normalize_tags(meta.get("genres")),
+                                     *normalize_tags(stream.get("tags"))]),
                 resolution=resolution,
                 codec=str(codec) if codec else None,
                 bitrate=optional_int(stream.get("bitrate")),
@@ -686,9 +703,14 @@ def load_addon_catalog_channels(
                         cached[1],
                     )
                     channels.extend(cached[0])
+                    observe_source("addon_catalog:" + config.id, SOURCE_TYPE, cached[0],
+                                   origin="retained", complete=False, reason="partial_discovery")
                 else:
                     channels.extend(config_channels)
-                    if config_channels and not had_failures:
+                    observe_source("addon_catalog:" + config.id, SOURCE_TYPE, config_channels,
+                                   complete=not had_failures,
+                                   reason="partial_discovery" if had_failures else ("discovered" if config_channels else "empty"))
+                    if not had_failures:
                         _write_cached_channels(config, config_channels)
                         _clear_checkpoint(config)
             except Exception as exc:
@@ -702,7 +724,11 @@ def load_addon_catalog_channels(
                         type(exc).__name__,
                     )
                     channels.extend(cached[0])
+                    observe_source("addon_catalog:" + config.id, SOURCE_TYPE, cached[0],
+                                   origin="retained", complete=False, reason="discovery_error")
                     continue
+                observe_source("addon_catalog:" + config.id, SOURCE_TYPE, [],
+                               complete=False, reason="discovery_error")
                 logger.error(
                     "Failed to load addon catalog id=%s error_type=%s",
                     config.id,

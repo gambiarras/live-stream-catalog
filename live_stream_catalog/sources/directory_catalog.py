@@ -13,18 +13,24 @@ import os
 import re
 import time
 from dataclasses import dataclass, replace
+from datetime import datetime, timezone
 from html.parser import HTMLParser
-from live_stream_catalog.local_config import resource_json, source_settings
 from pathlib import Path
 from urllib.parse import parse_qs, parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 import requests
 
+from live_stream_catalog.io import write_json_atomic
+from live_stream_catalog.local_config import resource_json, source_settings
 from live_stream_catalog.models import Channel
-from live_stream_catalog.models.channel import SENSITIVE_QUERY_NAMES
+from live_stream_catalog.models.channel import SENSITIVE_QUERY_NAMES, normalize_tags
+from live_stream_catalog.services.discovery import observe_source
 from live_stream_catalog.services.expiry import extract_expiry_from_stream_url
-from live_stream_catalog.sources.channel_contract import infer_protocol, is_explicit_adult
-
+from live_stream_catalog.sources.channel_contract import (
+    declared_feed_id,
+    infer_protocol,
+    is_explicit_adult,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -58,7 +64,7 @@ MAX_REVIEWED_CHANNELS = 24
 MAX_RESPONSE_BYTES = 2_000_000
 MAX_CACHE_BYTES = 8_000_000
 MAX_CACHE_FILES = 4
-CACHE_VERSION = 3
+CACHE_VERSION = 4
 DISCOVERY_USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -269,7 +275,12 @@ def _read_cache(config: DirectoryCatalogConfig) -> tuple[list[Channel], float] |
         rows = payload["channels"]
         if not isinstance(rows, list) or len(rows) > MAX_REVIEWED_CHANNELS:
             return None
-        return [Channel.from_dict(item) for item in rows], age
+        channels = [Channel.from_state_dict(item) for item in rows]
+        observe_source(SOURCE_TYPE, SOURCE_TYPE, channels,
+                       origin="cache" if age <= config.cache_ttl else "retained",
+                       complete=age <= config.cache_ttl, reason="within_ttl" if age <= config.cache_ttl else "cache_stale",
+                       observed_at=datetime.fromtimestamp(float(payload["fetched_at"]), tz=timezone.utc).isoformat())
+        return channels, age
     except (OSError, ValueError, TypeError, KeyError):
         return None
 
@@ -278,27 +289,21 @@ def _write_cache(config: DirectoryCatalogConfig, channels: list[Channel]) -> Non
     path = _cache_path(config)
     if path is None:
         return
-    temp = path.with_suffix(".tmp")
     try:
-        path.parent.mkdir(parents=True, exist_ok=True)
+        path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
         payload = {
             "fetched_at": time.time(),
-            "channels": [channel.to_dict() for channel in channels],
+            "channels": [channel.to_state_dict() for channel in channels],
         }
         raw = json.dumps(payload, ensure_ascii=False).encode("utf-8")
         if len(raw) > MAX_CACHE_BYTES:
             logger.warning("Directory discovery cache exceeds size limit")
             return
-        temp.write_bytes(raw)
-        temp.replace(path)
+        write_json_atomic(path, payload)
+        path.chmod(0o600)
         _prune_cache(config)
     except OSError:
         logger.warning("Could not persist Directory discovery cache")
-    finally:
-        try:
-            temp.unlink(missing_ok=True)
-        except OSError:
-            logger.warning("Could not clean temporary Directory discovery cache")
 
 
 def _prune_cache(config: DirectoryCatalogConfig) -> None:
@@ -354,6 +359,9 @@ def load_directory_catalog_channels(
             raise ValueError("Invalid Directory channel index")
         indexed = {item.get("slug"): item for item in payload["channels"] if isinstance(item, dict)}
         channels: list[Channel] = []
+        had_player_failures = False
+        retained_players = False
+        cached_by_id = {item.id: item for item in cached[0]} if cached else {}
         for slug in config.slugs:
             item = indexed.get(slug)
             if not item or slug in config.exclude_slugs or is_explicit_adult(item):
@@ -374,6 +382,8 @@ def load_directory_catalog_channels(
                 provider_id=SOURCE_TYPE,
                 logical_channel_id="directory_catalog." + slug,
                 variant_id="directory_catalog." + slug,
+                feed_id=declared_feed_id(SOURCE_TYPE, "directory_catalog." + slug, item.get("feed_id"), item.get("feed")),
+                tags=normalize_tags(item.get("tags")),
                 resolution=default_resolution,
                 requires_dynamic_resolution=True,
                 publishable_static=False,
@@ -398,16 +408,26 @@ def load_directory_catalog_channels(
                     channel_config = replace(config, reviewed_stream_hosts=per_slug_hosts[slug]) if slug in per_slug_hosts else config
                     _apply_player(channel, player, channel_config)
             except (requests.RequestException, ValueError, TypeError, AttributeError) as exc:
+                had_player_failures = True
                 logger.warning("Directory player unavailable slug=%s error_type=%s", slug, type(exc).__name__)
+                previous = cached_by_id.get(channel.id)
+                if previous is not None and previous.stream_url and previous.status == "resolved":
+                    channel = previous
+                    retained_players = True
             channels.append(channel)
-        if not channels:
-            raise ValueError("No reviewed Directory channels found")
-        _write_cache(config, channels)
+        observe_source(SOURCE_TYPE, SOURCE_TYPE, channels, complete=not had_player_failures,
+                       origin="retained" if retained_players else "fresh",
+                       reason="partial_discovery" if had_player_failures else ("discovered" if channels else "empty"))
+        if not had_player_failures:
+            _write_cache(config, channels)
         return channels
     except (requests.RequestException, ValueError, TypeError, KeyError) as exc:
         logger.warning("Directory discovery failed error_type=%s", type(exc).__name__)
         if cached:
+            observe_source(SOURCE_TYPE, SOURCE_TYPE, cached[0], origin="retained", complete=False,
+                           reason="discovery_error")
             return cached[0]
+        observe_source(SOURCE_TYPE, SOURCE_TYPE, [], complete=False, reason="discovery_error")
         if not continue_on_error:
             raise
         return []

@@ -1,15 +1,26 @@
 import json
 import logging
-from live_stream_catalog.local_config import resource_json
 
+from live_stream_catalog.local_config import resource_json
 from live_stream_catalog.models import Channel
-from live_stream_catalog.services.video_platform_policy import VideoPlatformRequestPolicy
-from live_stream_catalog.sources.json_channel_catalog import load_configured_json_catalogs
-from live_stream_catalog.sources.registry import get_resource_registry
-from live_stream_catalog.sources.script_discovered_catalog import load_configured_rest_catalogs
+from live_stream_catalog.services.discovery import observe_source
+from live_stream_catalog.services.video_platform_policy import (
+    VideoPlatformRequestPolicy,
+)
 from live_stream_catalog.sources.addon_catalog import load_configured_addon_catalogs
-from live_stream_catalog.sources.directory_catalog import load_configured_directory_catalog
-from live_stream_catalog.sources.video_platform_live_discovery import load_video_platform_live_discovery_channels
+from live_stream_catalog.sources.directory_catalog import (
+    load_configured_directory_catalog,
+)
+from live_stream_catalog.sources.json_channel_catalog import (
+    load_configured_json_catalogs,
+)
+from live_stream_catalog.sources.registry import get_resource_registry
+from live_stream_catalog.sources.script_discovered_catalog import (
+    load_configured_rest_catalogs,
+)
+from live_stream_catalog.sources.video_platform_live_discovery import (
+    load_video_platform_live_discovery_channels,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -23,6 +34,7 @@ def _load_single_resource(resource_name: str, source_type: str, default_resoluti
         item["source_type"] = source_type
         channels.append(Channel.from_dict(item, default_resolution=default_resolution))
 
+    observe_source(source_type, source_type, channels, reason="discovered" if channels else "empty")
     return channels
 
 
@@ -35,11 +47,11 @@ def _deduplicate(channels: list[Channel]) -> list[Channel]:
         headers = json.dumps(sorted((str(name).strip().casefold(), str(value).strip())
                                     for name, value in channel.request_headers.items()), separators=(",", ":"))
         if channel.stream_url:
-            key = ("stream", provider, channel.stream_url.strip(), headers)
+            key = ("stream", provider, channel.feed_id or "", channel.stream_url.strip(), headers)
         elif channel.source_url:
-            key = ("source", provider, channel.source_url.strip(), headers)
+            key = ("source", provider, channel.feed_id or "", channel.source_url.strip(), headers)
         else:
-            key = ("variant", channel.provider_id or channel.source_type, channel.variant_id or channel.id)
+            key = ("variant", channel.provider_id or channel.source_type, channel.feed_id or "", channel.variant_id or channel.id)
 
         if key in seen_keys:
             logger.warning("Duplicate channel transport skipped id=%s", channel.id)

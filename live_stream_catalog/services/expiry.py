@@ -1,6 +1,6 @@
 import base64
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from urllib.parse import parse_qs, unquote, urlparse
 
 from live_stream_catalog.local_config import source_settings
@@ -11,7 +11,7 @@ def utc_now() -> datetime:
 
 
 def parse_iso_datetime(value: str | None) -> datetime | None:
-    if not value:
+    if not isinstance(value, str) or not value:
         return None
 
     try:
@@ -104,16 +104,25 @@ def needs_refresh(channel, min_ttl_seconds: int, max_age_by_source: dict[str, in
     if channel.status != "resolved":
         return True
 
-    expires_at = parse_iso_datetime(channel.expires_at)
-    if expires_at is not None:
-        remaining = int((expires_at - utc_now()).total_seconds())
+    if not channel.stream_url:
+        return True
+    declared = parse_iso_datetime(channel.expires_at)
+    if channel.expires_at is not None and declared is None:
+        return True
+    actual_expiry, _ = extract_expiry_from_stream_url(channel.stream_url)
+    actual = parse_iso_datetime(actual_expiry)
+    expiries = [value for value in (declared, actual) if value is not None]
+    if any(value.tzinfo is None for value in expiries):
+        return True
+    if expiries:
+        remaining = int((min(expiries) - utc_now()).total_seconds())
         return remaining <= min_ttl_seconds
 
     if max_age_by_source:
         max_age_seconds = max_age_by_source.get(channel.source_type)
         if max_age_seconds is not None:
             resolved_at = parse_iso_datetime(channel.resolved_at)
-            if resolved_at is None:
+            if resolved_at is None or resolved_at.tzinfo is None:
                 return True
 
             age_seconds = int((utc_now() - resolved_at).total_seconds())

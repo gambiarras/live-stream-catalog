@@ -83,6 +83,7 @@ class ExpiryTest(unittest.TestCase):
             group="general",
             source_type="script_discovered",
             status="resolved",
+            stream_url="https://media.example.test/live.m3u8",
         )
 
         self.assertFalse(needs_refresh(channel, min_ttl_seconds=1800))

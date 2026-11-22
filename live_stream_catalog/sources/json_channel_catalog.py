@@ -2,16 +2,19 @@ import json
 import logging
 import os
 from dataclasses import dataclass, field
-from live_stream_catalog.local_config import resource_json, source_settings
 from typing import Any
 
 import requests
 
-from live_stream_catalog.models import Channel, SENSITIVE_HEADER_NAMES
+from live_stream_catalog.local_config import resource_json
+from live_stream_catalog.models import SENSITIVE_HEADER_NAMES, Channel
+from live_stream_catalog.models.channel import normalize_tags
+from live_stream_catalog.services.discovery import observe_source
 from live_stream_catalog.services.expiry import extract_expiry_from_stream_url
 from live_stream_catalog.sources.channel_contract import (
     as_bool,
     as_string_dict,
+    declared_feed_id,
     display_name_with_variant,
     infer_protocol,
     is_explicit_adult,
@@ -20,7 +23,6 @@ from live_stream_catalog.sources.channel_contract import (
     slugify,
     stable_variant_id,
 )
-
 
 logger = logging.getLogger(__name__)
 
@@ -308,6 +310,11 @@ def _channel_from_variant(
         variant_id=variant_id,
         variant_label=variant_label,
         tvg_id=tvg_id,
+        feed_id=declared_feed_id(config.provider_id, logical_channel_id,
+                                  _first(variant, "feed_id") or _first(item, "feed_id"),
+                                  _first(variant, "feed") or _first(item, "feed")),
+        tags=normalize_tags([*normalize_tags(item.get("tags")),
+                             *normalize_tags(item.get("genres")), *normalize_tags(variant.get("tags"))]),
         resolution=resolution,
         codec=codec,
         bitrate=optional_int(_first(variant, "bitrate", "bandwidth")),
@@ -342,6 +349,7 @@ def load_json_catalog_channels(
 
     try:
         for config in configs:
+            before = len(channels)
             try:
                 response = session.get(
                     config.endpoint_url,
@@ -381,8 +389,12 @@ def load_json_catalog_channels(
                                 default_resolution,
                             )
                         )
+                observe_source("json_catalog:" + config.id, SOURCE_TYPE, channels[before:],
+                               reason="discovered" if len(channels) > before else "empty")
             except Exception as exc:
-                logger.exception("Failed to load JSON channel catalog id=%s error=%s", config.id, exc)
+                observe_source("json_catalog:" + config.id, SOURCE_TYPE, channels[before:],
+                               complete=False, reason="discovery_error")
+                logger.error("JSON channel discovery failed error_type=%s", type(exc).__name__)
                 if not continue_on_error:
                     raise
     finally:

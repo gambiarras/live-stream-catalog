@@ -2,11 +2,12 @@ import logging
 
 from live_stream_catalog.config import AppConfig
 from live_stream_catalog.local_config import require_local_configuration
-from live_stream_catalog.io import load_channels_file, write_json_atomic
-from live_stream_catalog.services.catalog_state import carry_previous_resolution, split_refresh_candidates
-from live_stream_catalog.services.metadata import build_run_metadata
+from live_stream_catalog.services.catalog_pipeline import (
+    finish_catalog_run,
+    prepare_catalog_run,
+)
+from live_stream_catalog.services.discovery import discovery_scope
 from live_stream_catalog.services.resolver import resolve_channels
-from live_stream_catalog.services.video_platform_policy import VideoPlatformRequestPolicy
 from live_stream_catalog.sources import load_catalog
 
 logger = logging.getLogger(__name__)
@@ -30,36 +31,12 @@ def run_build(config: AppConfig) -> None:
     logger.info("Starting full build")
     require_local_configuration()
 
-    current_channels = load_channels_file(
-        config.output_path,
-        default_resolution=config.default_resolution,
-    )
-    video_platform_policy = VideoPlatformRequestPolicy.for_output(config.output_path)
-    catalog = load_catalog(default_resolution=config.default_resolution,
-                           video_platform_policy=video_platform_policy)
-    if not catalog:
-        raise RuntimeError("No configured catalog candidates; preserve the last publication")
-    catalog = carry_previous_resolution(catalog, current_channels)
-
-    to_keep, to_refresh = split_refresh_candidates(catalog, config.min_ttl_seconds)
-    to_refresh = _sort_for_resolution(to_refresh)
-
-    logger.info(
-        "Build selection total=%s refresh=%s keep=%s",
-        len(catalog),
-        len(to_refresh),
-        len(to_keep),
-    )
-
-    resolved = to_keep + resolve_channels(to_refresh, max_workers=config.max_workers,
-                                         video_platform_policy=video_platform_policy)
-    video_platform_policy.finish()
-    resolved.sort(key=lambda item: item.id.casefold())
-
-    write_json_atomic(config.output_path, [channel.to_dict() for channel in resolved])
-
-    metadata = build_run_metadata(resolved)
-    write_json_atomic(config.meta_output_path, metadata.to_dict())
+    run = prepare_catalog_run(config)
+    with discovery_scope(run.discovery):
+        catalog = load_catalog(default_resolution=config.default_resolution,
+                               video_platform_policy=run.video_platform_policy)
+        metadata = finish_catalog_run(run, catalog, sort_for_resolution=_sort_for_resolution,
+                                      resolver=resolve_channels)
 
     logger.info(
         "Build finished total=%s resolved=%s offline=%s removed=%s errors=%s",

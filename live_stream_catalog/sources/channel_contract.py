@@ -2,8 +2,17 @@ import hashlib
 import re
 import unicodedata
 from typing import Any
-from urllib.parse import urlparse
+from urllib.parse import quote
 
+
+def declared_feed_id(provider_id: str, logical_channel_id: str, global_id: Any, local_feed: Any = None) -> str | None:
+    """Preserve canonical feed_id, or scope an upstream feed label to its channel."""
+    if isinstance(global_id, str) and global_id.strip():
+        return global_id.strip()
+    if not isinstance(local_feed, str) or not local_feed.strip():
+        return None
+    return ":".join(quote(part, safe="") for part in (provider_id, logical_channel_id, local_feed.strip()))
+from urllib.parse import urlparse
 
 EXPLICIT_ADULT_PATTERN = re.compile(
     r"(?:^|[\s(/_-])(?:\+18|18\+|adultos?|adults?|nsfw|xxx)(?:$|[\s)/_-])",

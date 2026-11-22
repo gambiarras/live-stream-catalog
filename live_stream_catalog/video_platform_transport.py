@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-import re
 import math
+import re
 from datetime import datetime, timezone
 from typing import TYPE_CHECKING
 from urllib.parse import SplitResult, parse_qsl, unquote, urlsplit
@@ -35,8 +35,6 @@ def _hosts(name: str) -> tuple[str, ...]:
 
 def _public_https(url: str) -> SplitResult | None:
     """Parse a credential-free HTTPS URL, rejecting ambiguous authority syntax."""
-    if not isinstance(url, str) or not url:
-        return None
     if not isinstance(url, str) or not url:
         return None
     try:
@@ -84,6 +82,29 @@ def _public_source(url: str) -> bool:
         return any(re.fullmatch(pattern, parsed.path.rstrip("/")) for pattern in patterns)
     except (TypeError, re.error):
         return False
+
+
+def _private_header_context(headers: dict[str, str]) -> bool:
+    """A public media URL must not rely on a credential-bearing header URL."""
+    for name, value in headers.items():
+        if str(name).strip().casefold() in PRIVATE_HEADERS:
+            return True
+        try:
+            text = str(value)
+            parsed = urlsplit(text)
+            port = parsed.port
+            if ((parsed.scheme in {"http", "https"} and not parsed.hostname)
+                    or (parsed.netloc and (not parsed.hostname or port == 0
+                        or "\\" in text or any(char.isspace() or ord(char) < 32 for char in text)))):
+                return True
+            if parsed.username is not None or parsed.password is not None or any(
+                key.strip().casefold() in PRIVATE_NAMES | {"sig", "signature"}
+                for key, _ in parse_qsl(parsed.query, keep_blank_values=True)
+            ):
+                return True
+        except (TypeError, ValueError):
+            return True
+    return False
 
 
 def is_media_hls_url(url: str | None) -> bool:
@@ -141,7 +162,7 @@ def is_public_video_platform_hls(channel: Channel, *, min_ttl_seconds: int = 900
         or str(channel.delivery_mode or "").casefold() != "direct"
         or channel.protocol not in {None, "hls", "https"}
         or not _public_source(channel.source_url)
-        or any(str(name).strip().casefold() in PRIVATE_HEADERS for name in channel.request_headers)
+        or _private_header_context(channel.request_headers)
     ):
         return False
     expiry = media_hls_expiry(channel.stream_url)

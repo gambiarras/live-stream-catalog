@@ -1,3 +1,5 @@
+from dataclasses import replace
+
 from live_stream_catalog.models import Channel
 from live_stream_catalog.services.expiry import needs_refresh
 from live_stream_catalog.video_platform_transport import is_public_video_platform_hls
@@ -9,24 +11,14 @@ MAX_AGE_BY_SOURCE = {
 }
 
 
-def _resolution_inputs(channel: Channel) -> tuple[object, ...]:
-    """Compare resolution configuration privately, including transport requirements."""
-    return (
-        channel.logical_channel_id,
-        channel.variant_id,
-        channel.resolution,
-        channel.codec,
-        channel.request_headers,
-        channel.secret_refs,
-        channel.requires_dynamic_resolution,
-        channel.publishable_static,
-        channel.delivery_mode,
-        channel.drm,
-    )
+def _resolution_inputs(channel: Channel):
+    """Compare declared inputs, never values derived by a previous resolution."""
+    # Protocol compatibility is checked against the resolved transport separately.
+    return replace(channel.declared_inputs(), protocol=None)
 
 
-def _source_key(channel: Channel) -> tuple[str, str | None, str, str]:
-    return channel.id, channel.provider_id, channel.source_type, channel.source_url
+def _source_key(channel: Channel) -> tuple[str, str | None, str, str, str | None]:
+    return channel.id, channel.provider_id, channel.source_type, channel.source_url, channel.feed_id
 
 
 def carry_previous_resolution(
@@ -77,6 +69,9 @@ def carry_previous_resolution(
         channel.resolved_at = current.resolved_at
         channel.expires_at = current.expires_at
         channel.ttl_seconds = current.ttl_seconds
+        channel.requires_dynamic_resolution = current.requires_dynamic_resolution
+        channel.publishable_static = current.publishable_static
+        channel._source_instance = channel._source_instance or current._source_instance
         if channel.source_type == "video_platform" and is_public_video_platform_hls(current):
             channel.protocol = "hls"
 

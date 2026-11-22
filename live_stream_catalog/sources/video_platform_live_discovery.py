@@ -1,14 +1,28 @@
-import json
 import logging
 import os
-from dataclasses import dataclass
-from live_stream_catalog.local_config import resource_json, source_settings, discovery_client_factory
+from collections.abc import Iterable
+from dataclasses import asdict, dataclass, replace
+from pathlib import Path
 from urllib.parse import urlparse
 
+from live_stream_catalog.local_config import (
+    discovery_client_factory,
+    resource_json,
+    source_settings,
+)
 from live_stream_catalog.models import Channel
+from live_stream_catalog.models.channel import normalize_tags
+from live_stream_catalog.services.discovery import (
+    configuration_fingerprint,
+    current_discovery,
+    observe_source,
+)
+from live_stream_catalog.services.expiry import utc_now
 from live_stream_catalog.services.removal import mark_removed, terminal_removal_reason
-from live_stream_catalog.services.video_platform_policy import VideoPlatformRequestPolicy, is_video_platform_rate_limit
-
+from live_stream_catalog.services.video_platform_policy import (
+    VideoPlatformRequestPolicy,
+    is_video_platform_rate_limit,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -34,6 +48,14 @@ class VideoPlatformLiveDiscoveryConfig:
     max_results: int = 50
     include_upcoming: bool = False
     resolution: str | None = None
+    feed_id: str | None = None
+    tags: tuple[str, ...] = ()
+    cache_ttl_seconds: int = 900
+    cache_lkg_seconds: int = 21600
+
+    def __post_init__(self) -> None:
+        if self.cache_ttl_seconds < 0 or self.cache_lkg_seconds < self.cache_ttl_seconds:
+            raise ValueError("Invalid discovery cache lifetime")
 
     @classmethod
     def from_dict(cls, data: dict) -> "VideoPlatformLiveDiscoveryConfig":
@@ -51,6 +73,9 @@ class VideoPlatformLiveDiscoveryConfig:
             max_results=int(data.get("max_results", 50)),
             include_upcoming=bool(data.get("include_upcoming", False)),
             resolution=data.get("resolution"),
+            feed_id=data.get("feed_id"), tags=tuple(normalize_tags(data.get("tags"))),
+            cache_ttl_seconds=int(data.get("cache_ttl_seconds", 900)),
+            cache_lkg_seconds=int(data.get("cache_lkg_seconds", 21600)),
         )
 
 
@@ -180,6 +205,7 @@ def _fallback_channel(config: VideoPlatformLiveDiscoveryConfig) -> Channel:
         logical_channel_id=config.id,
         variant_id=config.id,
         tvg_id=config.tvg_id,
+        feed_id=config.feed_id, tags=list(config.tags),
         resolution=config.resolution or "best",
         requires_dynamic_resolution=True,
         publishable_static=False,
@@ -197,7 +223,11 @@ def discover_live_channels(
     with video_platform_dl_cls(_video_platform_dl_options(config.max_results)) as ydl:
         payload = ydl.extract_info(streams_url, download=False)
 
-    entries = payload.get("entries") if isinstance(payload, dict) else None
+    if not isinstance(payload, dict) or "entries" not in payload:
+        raise ValueError("Invalid discovery inventory")
+    entries = payload["entries"]
+    if not isinstance(entries, Iterable) or isinstance(entries, (str, bytes, dict)):
+        raise TypeError("Invalid discovery inventory entries")
     if not entries:
         return [_fallback_channel(config)] if config.use_fallback_when_empty else []
 
@@ -226,6 +256,8 @@ def discover_live_channels(
                 logical_channel_id=config.id,
                 variant_id=f"{config.id}.{video_id}",
                 tvg_id=config.tvg_id,
+                feed_id=config.feed_id,
+                tags=normalize_tags([*config.tags, *normalize_tags(entry.get("tags"))]),
                 resolution=config.resolution or "best",
                 requires_dynamic_resolution=True,
                 publishable_static=False,
@@ -249,30 +281,45 @@ def load_video_platform_live_discovery_channels(
     video_platform_policy = video_platform_policy or VideoPlatformRequestPolicy()
 
     for config in configs if configs is not None else load_config_resource():
-        config = VideoPlatformLiveDiscoveryConfig(
-            id=config.id,
-            name=config.name,
-            logo=config.logo,
-            group=config.group,
-            tvg_id=config.tvg_id,
-            handle=config.handle,
-            streams_url=config.streams_url,
-            url=config.url,
-            fallback_url=config.fallback_url,
-            use_fallback_when_empty=config.use_fallback_when_empty,
-            max_results=config.max_results,
-            include_upcoming=config.include_upcoming,
-            resolution=config.resolution or default_resolution,
-        )
+        config = replace(config, resolution=config.resolution or default_resolution)
+        instance = SOURCE_TYPE + ":" + config.id
+        context = current_discovery()
+        cookie_file = os.environ.get("VIDEO_PLATFORM_COOKIES_FILE") or os.environ.get("DISCOVERY_COOKIES_FILE")
+        cookie_context = None
+        if cookie_file:
+            try:
+                stat = Path(cookie_file).stat()
+                cookie_context = (cookie_file, stat.st_mtime_ns, stat.st_size)
+            except OSError:
+                cookie_context = (cookie_file, None, None)
+        fingerprint = configuration_fingerprint({"configuration": asdict(config),
+                                                "platform": source_settings(SOURCE_TYPE),
+                                                "cookie_context": cookie_context})
+        cached = (context.cache.read(instance, fingerprint, max_age_seconds=config.cache_lkg_seconds)
+                  if context else None)
 
         if not video_platform_policy.allowed():
-            fallback = _fallback_channel(config)
-            fallback.error = "video_platform_rate_limited"
-            channels.append(fallback)
+            values = cached.channels if cached is not None else [_fallback_channel(config)]
+            if cached is None:
+                values[0].error = "video_platform_rate_limited"
+            observe_source(instance, SOURCE_TYPE, values, origin="deferred", complete=False,
+                           reason="rate_limited", observed_at=cached.observed_at if cached else None)
+            channels.extend(values)
+            continue
+        if cached is not None and config.cache_ttl_seconds and cached.age_seconds <= config.cache_ttl_seconds:
+            observe_source(instance, SOURCE_TYPE, cached.channels, origin="cache", reason="within_ttl",
+                           observed_at=cached.observed_at)
+            channels.extend(cached.channels)
             continue
 
         try:
-            channels.extend(discover_live_channels(config, video_platform_dl_cls=video_platform_dl_cls))
+            values = discover_live_channels(config, video_platform_dl_cls=video_platform_dl_cls)
+            observed_at = utc_now().isoformat()
+            if context:
+                context.cache.write(instance, fingerprint, values, observed_at)
+            observe_source(instance, SOURCE_TYPE, values, reason="discovered" if values else "empty",
+                           observed_at=observed_at)
+            channels.extend(values)
         except Exception as exc:
             if is_video_platform_rate_limit(exc):
                 video_platform_policy.block(exc)
@@ -282,9 +329,23 @@ def load_video_platform_live_discovery_channels(
                 exc,
             )
             if removal_reason:
-                channels.append(mark_removed(_fallback_channel(config), removal_reason))
+                values = [mark_removed(_fallback_channel(config), removal_reason)]
+                observed_at = utc_now().isoformat()
+                if context:
+                    context.cache.write(instance, fingerprint, values, observed_at)
+                observe_source(instance, SOURCE_TYPE, values, reason="removed", observed_at=observed_at)
+                channels.extend(values)
                 continue
-            channels.append(_fallback_channel(config))
+            if cached is not None:
+                origin = "deferred" if not video_platform_policy.allowed() else "retained"
+                reason = "rate_limited" if origin == "deferred" else "discovery_error"
+                observe_source(instance, SOURCE_TYPE, cached.channels, origin=origin, complete=False,
+                               reason=reason, observed_at=cached.observed_at)
+                channels.extend(cached.channels)
+                continue
+            values = [_fallback_channel(config)]
+            observe_source(instance, SOURCE_TYPE, values, complete=False, reason="discovery_error")
+            channels.extend(values)
             logger.error(
                 "Failed to discover VideoPlatform live streams id=%s error_type=%s",
                 config.id,

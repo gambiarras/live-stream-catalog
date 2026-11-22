@@ -1,13 +1,19 @@
-from dataclasses import asdict, dataclass, field
 import re
+from copy import deepcopy
+from dataclasses import asdict, dataclass, field
 from typing import Any
 from urllib.parse import parse_qsl, urlsplit
 
 from live_stream_catalog.local_config import source_alias
-from live_stream_catalog.video_platform_transport import is_public_video_platform_hls, PRIVATE_HEADERS
+from live_stream_catalog.models.public_channel import PublicChannelDTO
+from live_stream_catalog.models.resolution import ResolutionInputs
+from live_stream_catalog.video_platform_transport import (
+    PRIVATE_HEADERS,
+    PRIVATE_NAMES,
+    is_public_video_platform_hls,
+)
 
-
-SENSITIVE_HEADER_NAMES = {
+SENSITIVE_HEADER_NAMES = PRIVATE_HEADERS | {
     "authorization",
     "cookie",
     "proxy-authorization",
@@ -16,7 +22,7 @@ SENSITIVE_HEADER_NAMES = {
     "api-key",
     "apikey",
 }
-SENSITIVE_QUERY_NAMES = {
+SENSITIVE_QUERY_NAMES = PRIVATE_NAMES | {
     "username",
     "password",
     "passwd",
@@ -60,7 +66,8 @@ def _public_headers(value: Any) -> dict[str, str]:
     return {
         str(name): str(header_value)
         for name, header_value in value.items()
-        if str(name).casefold() not in SENSITIVE_HEADER_NAMES
+        if str(name).strip().casefold() not in SENSITIVE_HEADER_NAMES
+        and not _has_sensitive_query(str(header_value))
     }
 
 
@@ -77,13 +84,21 @@ def _public_secret_refs(value: Any) -> dict[str, str]:
 def _has_sensitive_query(url: str | None) -> bool:
     if not url:
         return False
-    parsed = urlsplit(url)
-    if parsed.username or parsed.password:
+    try:
+        parsed = urlsplit(url)
+        port = parsed.port
+        if ((parsed.scheme in {"http", "https"} and not parsed.hostname)
+                or (parsed.netloc and (not parsed.hostname or port == 0
+                    or "\\" in url or any(char.isspace() or ord(char) < 32 for char in url)))):
+            return True
+        if parsed.username is not None or parsed.password is not None:
+            return True
+        return any(
+            name.strip().casefold() in SENSITIVE_QUERY_NAMES
+            for name, _ in parse_qsl(parsed.query, keep_blank_values=True)
+        )
+    except (TypeError, ValueError):
         return True
-    return any(
-        name.casefold() in SENSITIVE_QUERY_NAMES
-        for name, _ in parse_qsl(parsed.query, keep_blank_values=True)
-    )
 
 
 def _public_drm(value: Any) -> dict[str, Any] | None:
@@ -107,11 +122,19 @@ def _public_drm(value: Any) -> dict[str, Any] | None:
 def _public_error(value: str | None) -> str | None:
     if not value:
         return None
-    if value in {"no_stream_found", "account_not_found", "channel_not_found", "user_not_found", "video_platform_rate_limited"}:
+    if value in {"no_stream_found", "account_not_found", "channel_not_found", "user_not_found", "video_platform_rate_limited", "expired_transport"}:
         return value
     if value.startswith("transient_resolve_error"):
         return "transient_resolve_error"
     return "resolution_error"
+
+
+def normalize_tags(value: Any) -> list[str]:
+    """Keep distinct declared string tags without inventing tags from arbitrary objects."""
+    if not isinstance(value, (list, tuple)):
+        return []
+    return list(dict.fromkeys(item.strip() for item in value
+                              if isinstance(item, str) and item.strip()))
 
 
 @dataclass(slots=True)
@@ -146,6 +169,10 @@ class Channel:
     removed: bool = False
     removed_at: str | None = None
     removal_reason: str | None = None
+    feed_id: str | None = None
+    tags: list[str] = field(default_factory=list)
+    _resolution_inputs: ResolutionInputs | None = field(default=None, repr=False, compare=False)
+    _source_instance: str | None = field(default=None, repr=False, compare=False)
 
     def __post_init__(self) -> None:
         if self.provider_id is None:
@@ -159,6 +186,11 @@ class Channel:
     def from_dict(cls, data: dict[str, Any], default_resolution: str = "best") -> "Channel":
         headers = data.get("request_headers") or data.get("headers")
         stream_url = data.get("stream_url")
+        if headers is not None and (
+            not isinstance(headers, dict) or len(_public_headers(headers)) != len(headers)
+        ):
+            # Discarding required private headers cannot make their media transport public.
+            stream_url = None
         if source_alias(data.get("source_type")) == "video_platform" and (
             data.get("secret_refs") or data.get("drm")
             or (headers is not None and not isinstance(headers, dict))
@@ -199,24 +231,79 @@ class Channel:
             removed=bool(data.get("removed", False)),
             removed_at=data.get("removed_at"),
             removal_reason=data.get("removal_reason"),
+            feed_id=data.get("feed_id"),
+            tags=normalize_tags(data.get("tags")),
         )
 
-    def to_dict(self) -> dict[str, Any]:
+    def declared_inputs(self) -> ResolutionInputs:
+        """Capture inputs once, before reconciliation or resolver mutation."""
+        if self._resolution_inputs is None:
+            self._resolution_inputs = ResolutionInputs.from_channel(self)
+        return self._resolution_inputs
+
+    def to_state_dict(self) -> dict[str, Any]:
+        """Serialize complete private state, including private request context."""
+        declared = self.declared_inputs()
         payload = asdict(self)
+        payload.pop("_resolution_inputs")
+        payload["resolution_inputs"] = declared.to_dict()
+        payload["source_instance"] = payload.pop("_source_instance")
+        return payload
+
+    @classmethod
+    def from_state_dict(cls, data: dict[str, Any], default_resolution: str = "best") -> "Channel":
+        """Restore trusted private state without passing it through the public sanitizer."""
+        if not isinstance(data, dict):
+            raise TypeError("Invalid private channel entry")
+        if any(not isinstance(data.get(key), str) for key in ("id", "name", "source_type")):
+            raise TypeError("Invalid private channel identity")
+        for key in ("request_headers", "secret_refs"):
+            if key in data and not isinstance(data[key], dict):
+                raise TypeError("Invalid private channel request context")
+        if data.get("source_instance") is not None and not isinstance(data["source_instance"], str):
+            raise TypeError("Invalid private channel source instance")
+        if data.get("resolution_inputs") is not None and not isinstance(data["resolution_inputs"], dict):
+            raise TypeError("Invalid private channel declared inputs")
+        channel = cls.from_dict(data, default_resolution=default_resolution)
+        channel.source_url = data.get("source_url", data.get("url", ""))
+        channel.stream_url = data.get("stream_url")
+        channel.request_headers = {str(key): str(value) for key, value in
+                                   (data.get("request_headers") or {}).items()}
+        channel.secret_refs = {str(key): str(value) for key, value in
+                              (data.get("secret_refs") or {}).items()}
+        channel.drm = deepcopy(data.get("drm"))
+        channel._source_instance = data.get("source_instance")
+        declared = data.get("resolution_inputs")
+        if isinstance(declared, dict):
+            channel._resolution_inputs = ResolutionInputs.from_dict(declared)
+        return channel
+
+    def to_public_dto(self) -> PublicChannelDTO:
+        payload = asdict(self)
+        payload.pop("_resolution_inputs")
+        payload.pop("_source_instance")
         payload["request_headers"] = _public_headers(self.request_headers)
         payload["secret_refs"] = _public_secret_refs(self.secret_refs)
         payload["error"] = _public_error(self.error)
         if _has_sensitive_query(self.source_url):
             payload["source_url"] = None
-        renewable_hls = is_public_video_platform_hls(self)
+        withheld_headers = len(payload["request_headers"]) != len(self.request_headers)
+        renewable_hls = not withheld_headers and is_public_video_platform_hls(self)
         if self.source_type == "video_platform" and not renewable_hls:
             payload["stream_url"] = None
-        elif not renewable_hls and not self.publishable_static and (
+        elif not renewable_hls and (
             _has_sensitive_query(self.stream_url)
-            or self.requires_dynamic_resolution
+            or self.secret_refs
+            or withheld_headers
+            or any(str(name).strip().casefold() in SENSITIVE_HEADER_NAMES for name in self.request_headers)
             or self.delivery_mode in {"dai", "ssai"}
             or self.drm is not None
+            or (not self.publishable_static and self.requires_dynamic_resolution)
         ):
             payload["stream_url"] = None
         payload["drm"] = _public_drm(self.drm)
-        return payload
+        return PublicChannelDTO.from_payload(payload)
+
+    def to_dict(self) -> dict[str, Any]:
+        """Backward-compatible public array entry."""
+        return self.to_public_dto().to_dict()
