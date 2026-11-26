@@ -1,14 +1,14 @@
 [
   {
-    "id": "BRCartoonNetworkvideos.br.apIsxQZ0rUE",
-    "name": "Cartoon Network Brasil - AO VIVO 🔴 O caminho para se tornar lendas gamers 🎮 Toontubers | Cartoon Network Brasil",
-    "source_url": "https://www.youtube.com/watch?v=apIsxQZ0rUE",
-    "logo": "https://i.ytimg.com/vi/apIsxQZ0rUE/hq720.jpg?v=6aecd042&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCsbKu4GugRsnZ72qLluTcRoPLeQg",
+    "id": "BRCartoonNetworkvideos.br.qMqo8mtE1XI",
+    "name": "Cartoon Network Brasil - AO VIVO 🔴 Os momentos mais caóticos 🌀 Apenas Um Show | Cartoon Network Brasil",
+    "source_url": "https://www.youtube.com/watch?v=qMqo8mtE1XI",
+    "logo": "https://i.ytimg.com/vi/qMqo8mtE1XI/hq720.jpg?v=6aff03ec&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCsULJ0O4cn3yoDZGHwfd5Nst4Kvw",
     "group": "kids",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "BRCartoonNetworkvideos.br",
-    "variant_id": "BRCartoonNetworkvideos.br.apIsxQZ0rUE",
+    "variant_id": "BRCartoonNetworkvideos.br.qMqo8mtE1XI",
     "variant_label": null,
     "tvg_id": null,
     "resolution": "best",
@@ -17,11 +17,11 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795744831/ei/348Ia7vVFJOI4dUP9f-1qAY/ip/200.151.110.161/id/qMqo8mtE1XI.4/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AZFAFb9cI8RhdhtzehJkG1zS7P_K8gFdYjxZn3XDjC-1q-pF_yBe_zYD8UgdXZDuzN-pQDgMtQG4bMp5/spc/nfZ8ZhLdBsSmO6kgmeegCG0OVuZpUZFbv5QlWkDxLCuPA4h8vqIVBYvdBQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1692625/met/1795723231,/mh/wx/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795722763/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgG6ukCg3_fZiklBrvtG7WS0_c7zX8Dfg1OzqLYisBqGYCIG0suvKyqU69tiKQMf7l4QzJeV9hYZI_LiN2WiEDthRQ/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgJDt01FVB9yRNMplLzL57h_1RwuzBJE7taPLOD7WE0PgCIBA7q-b8zSHhCuh8rblfocQY3IrJb8SXVOEXq_V-ZqBE/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:31.750984+00:00",
-    "expires_at": "2026-11-22T04:30:31+00:00",
+    "resolved_at": "2026-11-26T20:00:31.852623+00:00",
+    "expires_at": "2026-11-27T02:00:31+00:00",
     "ttl_seconds": 21599,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
@@ -29,50 +29,20 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
-    "id": "BRCartoonNetworkvideos.br.tfibWDh00io",
-    "name": "Cartoon Network Brasil - AO VIVO 🔴 O Mundo de Greg #DiaDaConsciênciaNegra | Cartoon Network Brasil",
-    "source_url": "https://www.youtube.com/watch?v=tfibWDh00io",
-    "logo": "https://i.ytimg.com/vi/tfibWDh00io/hq720.jpg?v=6afc5aef&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqYsztVUgnF05TDf_eKtfr6S-U2A",
-    "group": "kids",
-    "source_type": "youtube",
-    "provider_id": "youtube",
-    "logical_channel_id": "BRCartoonNetworkvideos.br",
-    "variant_id": "BRCartoonNetworkvideos.br.tfibWDh00io",
-    "variant_label": null,
-    "tvg_id": null,
-    "resolution": "best",
-    "codec": null,
-    "bitrate": null,
-    "protocol": "hls",
-    "request_headers": {},
-    "secret_refs": {},
-    "stream_url": null,
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-11-21T22:30:30.334460+00:00",
-    "expires_at": "2026-11-22T04:30:29+00:00",
-    "ttl_seconds": 21598,
-    "requires_dynamic_resolution": true,
-    "publishable_static": false,
-    "delivery_mode": "direct",
-    "drm": null,
-    "removed": false,
-    "removed_at": null,
-    "removal_reason": null
-  },
-  {
-    "id": "Caze.tv.q-abbpI42es",
-    "name": "CazéTV - AO VIVO: FLAMENGO CAMPEÃO BRASILEIRO E REAL MADRID PEGA A LIDERANÇA NA VOLTA DE VINI JR | SEIS EM UM",
-    "source_url": "https://www.youtube.com/watch?v=q-abbpI42es",
-    "logo": "https://i.ytimg.com/vi/q-abbpI42es/hq720.jpg?v=6b0214f4&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhsXUqDr3CxSsm2NwdtMoWdVJ8Xg",
+    "id": "Caze.tv.9lcWYyhlTVQ",
+    "name": "CazéTV - AO VIVO (SOM AMBIENTE): BRAGA X KUPS | CONFERENCE LEAGUE 26/27 | 4ª RODADA",
+    "source_url": "https://www.youtube.com/watch?v=9lcWYyhlTVQ",
+    "logo": "https://i.ytimg.com/vi/9lcWYyhlTVQ/hq720.jpg?v=6b08264f&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC5eQRDQ4sASzoDAwHhmIaUMMsdvA",
     "group": "sports",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "Caze.tv",
-    "variant_id": "Caze.tv.q-abbpI42es",
+    "variant_id": "Caze.tv.9lcWYyhlTVQ",
     "variant_label": null,
     "tvg_id": null,
     "resolution": "best",
@@ -81,11 +51,11 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795744827/ei/2o8Ia7qAPZ_X1sQPxO2wkAU/ip/200.151.110.161/id/9lcWYyhlTVQ.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AZFAFb8-tXKMRCkk_A67WKJbyGJ5cVnuvf5waSh0ONxe9xvynfpOVqso9Waa4SOGty1EstLn6NbKLK-V/spc/nfZ8ZgIX68hjtMrb0sOJ0C3D-AJ8wwn2zb5picG0iQqP6v-w7Tmp46T1TA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1692625/met/1795723227,/mh/hU/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795722763/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgI_6iaNv0dq0ouxMcE1xKZuWeUL6BplmPyduJ0BawH9cCIAFP-dwGFwP58AzwXKUmXsYQHjoXp5w1FYmw1UBSldrK/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgTMaNbmT6hhcNbyxrqKei_r4CQVb6frho5sL1CJ_QFCYCIGC8BCIj71wLhTgWtifqSq6vEEw134c6R6yYjBSPvsat/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:20.617450+00:00",
-    "expires_at": "2026-11-22T04:30:20+00:00",
+    "resolved_at": "2026-11-26T20:00:27.537339+00:00",
+    "expires_at": "2026-11-27T02:00:27+00:00",
     "ttl_seconds": 21599,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
@@ -93,18 +63,20 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
-    "id": "Caze.tv.W3Fat7nIC8Q",
-    "name": "CazéTV - AO VIVO: NOCHE DE COPA | ATLÉTICO-MG X BOCA JUNIORS | FINAL DA COPA SUL-AMERICANA 2026",
-    "source_url": "https://www.youtube.com/watch?v=W3Fat7nIC8Q",
-    "logo": "https://i.ytimg.com/vi/W3Fat7nIC8Q/hq720.jpg?v=6afe3016&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4OHQj9fb9gvE-11RNnzJHOogAQA",
+    "id": "Caze.tv.dASnIbujkBc",
+    "name": "CazéTV - AO VIVO (SOM AMBIENTE): CSKA SOFIA X TRABZONSPOR | CONFERENCE LEAGUE 26/27 | 4ª RODADA",
+    "source_url": "https://www.youtube.com/watch?v=dASnIbujkBc",
+    "logo": "https://i.ytimg.com/vi/dASnIbujkBc/hq720.jpg?v=6b082651&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRzQRDYs5TSSHw-hKn8jbnV2EoEQ",
     "group": "sports",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "Caze.tv",
-    "variant_id": "Caze.tv.W3Fat7nIC8Q",
+    "variant_id": "Caze.tv.dASnIbujkBc",
     "variant_label": null,
     "tvg_id": null,
     "resolution": "best",
@@ -113,11 +85,45 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795744821/ei/1Y8Ia-HGAYay4dUPh7KQqAo/ip/200.151.110.161/id/dASnIbujkBc.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AZFAFb-nWUgld75mxWqOeC2c0duDzf1gJRDY4jTjtzIy9kNEqTCVBWh4H6jszyzh93ZzaLNCWKQS_o8H/spc/nfZ8ZhO7pZ0U0h61Hpj4Ig4unGEVPbz_MOOo6Svmpdg1ke6_o913T7A2jA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1692625/met/1795723221,/mh/-H/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795722763/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgO616qEz2ZxFx4H6zQnJYn3f3cmV8lDEnZ0mmVDha6gYCIHisIShQ8BqxbeBSCH2xa9e7bJEemA5kvBo__eDj-pz4/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAO9SI5clhAnUj75zVtq5lb3UgBEaQmTB9Et61jZbM4FKAiBppWugPC1Mysb2_Vloh_yF2MtK7Y3-XSlj8UDsNE9XhA%3D%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:19.125283+00:00",
-    "expires_at": "2026-11-22T04:30:18+00:00",
+    "resolved_at": "2026-11-26T20:00:21.565045+00:00",
+    "expires_at": "2026-11-27T02:00:21+00:00",
+    "ttl_seconds": 21599,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "Caze.tv.h-fp2h7UOns",
+    "name": "CazéTV - AO VIVO (SOM AMBIENTE): BORAC X ATALANTA | CONFERENCE LEAGUE 26/27 | 4ª RODADA",
+    "source_url": "https://www.youtube.com/watch?v=h-fp2h7UOns",
+    "logo": "https://i.ytimg.com/vi/h-fp2h7UOns/hq720.jpg?v=6b082652&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0b33h1ekUn7SgRrvqg2b1WWfUew",
+    "group": "sports",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
+    "logical_channel_id": "Caze.tv",
+    "variant_id": "Caze.tv.h-fp2h7UOns",
+    "variant_label": null,
+    "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795744819/ei/048Ia-GuOLiP-LAPoNLOiQQ/ip/200.151.110.161/id/h-fp2h7UOns.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AZFAFb8lgPiFVsME6xqll5C8Gnm2UrIu1uImXX9R3fneK35TXUfN3u6l3zgUm9AE4eUffG8LZdhoY7pc/spc/nfZ8Zgq7l58tyw9vMhHT66L0IK26P25xYHKoWsy_kXWjnHpbpW7IpmNnUA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1692625/met/1795723220,/mh/Pu/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795722763/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAJQHWupJ36aioUk87FFNDq0OPtUra1yXNzIPglk2zrtbAiEAxQWf-smWsaO18GQod_0PFxCubfvvd3ebgpG8p19Oqn4%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgcRoK-2rPpVUNGHvKfklPDDxtqbhOQIQTpnHQEAwOBdcCIAYQ5_PKtIc6ON4xr_uhzDatgSsyuZEAEQXcHMjMZ1ys/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T20:00:20.423877+00:00",
+    "expires_at": "2026-11-27T02:00:19+00:00",
     "ttl_seconds": 21598,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
@@ -125,7 +131,247 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "Caze.tv.Jtqi_cW0EJM",
+    "name": "CazéTV - AO VIVO (SOM AMBIENTE): TORREENSE X CELTIC | EUROPA LEAGUE 26/27 | 5ª RODADA",
+    "source_url": "https://www.youtube.com/watch?v=Jtqi_cW0EJM",
+    "logo": "https://i.ytimg.com/vi/Jtqi_cW0EJM/hq720.jpg?v=6b082651&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAs0wo0tEFLH4XwK2ZC-ozKMjBxog",
+    "group": "sports",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
+    "logical_channel_id": "Caze.tv",
+    "variant_id": "Caze.tv.Jtqi_cW0EJM",
+    "variant_label": null,
+    "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795744823/ei/148Ia73PG5ik-LAPgK7T4Ak/ip/200.151.110.161/id/Jtqi_cW0EJM.1~45367092/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AZFAFb9j9c5Y_WrODp-8CCTtq9OvHSzJgyPPE41KAy8sIqhZa1a9IzCz0lrSHB8U-I2uqd99sjA_gUJX/spc/nfZ8ZuFfPUtWCOCJkM07wjhtIX55FonyIDHF5VoM3C8DvLziVmsKlDp1Jg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1692625/met/1795723224,/mh/O6/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795722763/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhALnelU_l9XclgXbJkpoDvgsSKaNJbItBGwdbKoN_6FL1AiBvjn-RXC8zGRZes0NjABWcEm3WwqBs0nr70t6gwYO2GA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhALhlqSN0JuS5eBfKUkx9HQ2yf6g0Ecb_Gij5VMsABnT_AiBta95JTIlUz78R7zLTOqvDPwC0NulY3BMPyESMWQn5Sw%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T20:00:24.039610+00:00",
+    "expires_at": "2026-11-27T02:00:23+00:00",
+    "ttl_seconds": 21598,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "Caze.tv.lwy1aTGEzxw",
+    "name": "CazéTV - AO VIVO: JUVENTUS X OMONIA | EUROPA LEAGUE 26/27 | 5ª RODADA",
+    "source_url": "https://www.youtube.com/watch?v=lwy1aTGEzxw",
+    "logo": "https://i.ytimg.com/vi/lwy1aTGEzxw/hq720.jpg?v=6b088b36&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDj_BgW6dxB4JwWEj_9rh3Er1KGQg",
+    "group": "sports",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
+    "logical_channel_id": "Caze.tv",
+    "variant_id": "Caze.tv.lwy1aTGEzxw",
+    "variant_label": null,
+    "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795730420/ei/lFcIa9n0L6zr-LAP8NWemQ0/ip/200.151.110.161/id/lwy1aTGEzxw.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/bui/AZFAFb86d8OiUvya2Kqxdij6dB4se3IvsxRfpkD269UTner4IoGc7GyxmeepcgiB91-muLpQjeEVsiEk/spc/nfZ8Znfv5aKWFS1TkypyFPbEgGniDMwAG9MaoAw-hfDP_8iBR12SO_wz7w/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2195500/met/1795708821,/mh/5E/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795708368/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAJ3Hk746BqKtpz8rUO-13QFzQNJpVdWGgZ1YhfHyMeATAiEAuM9CpDTtGPxJ28DNlGDzUU9yB3noCVktPpk2JyyKIIE%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgJrOjkK9cHgFq-C73nUKMGwG6Hh0T3PXMIbQA4ry_uzUCICOnTeBIuVGeJDi8meHKCLlZghoFxsfAoXLoFXZscQn8/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T16:00:21.348551+00:00",
+    "expires_at": "2026-11-26T22:00:20+00:00",
+    "ttl_seconds": 21598,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "Caze.tv.mNtB4XCk1NE",
+    "name": "CazéTV - AO VIVO (SOM AMBIENTE): NORDSJAELLAND X PANATHINAIKOS | CONFERENCE LEAGUE 26/27 | RODADA",
+    "source_url": "https://www.youtube.com/watch?v=mNtB4XCk1NE",
+    "logo": "https://i.ytimg.com/vi/mNtB4XCk1NE/hq720.jpg?v=6b082653&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB7LhCioRzmG6Z2wZ8h-WyawqfDXA",
+    "group": "sports",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
+    "logical_channel_id": "Caze.tv",
+    "variant_id": "Caze.tv.mNtB4XCk1NE",
+    "variant_label": null,
+    "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795744824/ei/2I8Ia-uGKIyZ-LAPo7ykoQk/ip/200.151.110.161/id/mNtB4XCk1NE.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AZFAFb-IDFBGoxFFTe6NX1Tawb13NTDo8CcYrqNeOYg1NUOwb_H0_1t6NiA3vh7mKgyl1UiNpRS4EmXg/spc/nfZ8ZvyJvcw8kaqKYfYg4LamBBUptiKRdjvch50E8kGYhkXUU9uNCDZqTA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1692625/met/1795723225,/mh/Nc/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795722763/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgTt8xUagI1J_pAbsfJL8Wja-ikDsc1RUDuakR9NnrUaECIFIvJK7weD91v1htJ0U0Gdyoat3amORqelspkeg9yopp/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgHvgP5RrmiJ_z_WXj_pHv5IWauH0rZLShdedXSuLy4wECIGK_aOGySnNuT7jWSMvGP6yd_HJ9anVgnWkii_ad8Mww/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T20:00:25.171093+00:00",
+    "expires_at": "2026-11-27T02:00:24+00:00",
+    "ttl_seconds": 21598,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "Caze.tv.pqGgFfGUcFU",
+    "name": "CazéTV - AO VIVO (SOM AMBIENTE): FREIBURG X TWENTE | CONFERENCE LEAGUE 26/27 | 4ª RODADA",
+    "source_url": "https://www.youtube.com/watch?v=pqGgFfGUcFU",
+    "logo": "https://i.ytimg.com/vi/pqGgFfGUcFU/hq720.jpg?v=6b082652&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLeEctnMi2oQ92p-9-OnLq0oQ9dQ",
+    "group": "sports",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
+    "logical_channel_id": "Caze.tv",
+    "variant_id": "Caze.tv.pqGgFfGUcFU",
+    "variant_label": null,
+    "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795744825/ei/2Y8Ia9_BMrmY-LAP292fqQo/ip/200.151.110.161/id/pqGgFfGUcFU.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AZFAFb-B5vTRr_Hw3oy7xGRf5nANSj6RyW9KtCd8pPZQRoyUAcejszzHGt3AwG9zkU-qaZZeo8Fy5vZx/spc/nfZ8ZmFDMoJsKRGs6-1m2MddY3zIzQ8ci-eG-MWtqT8RaOIMrM7vDMHP7w/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1692625/met/1795723226,/mh/V_/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795722763/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAMepQrWwQtW-66qSBNbTlGe0IQrgufDyfA6CtVKfabQZAiEAmf3-US3FHOAOZAJMJZPAGXnsDmSrqUlf-TAKOo08m44%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAK38k00P4qI5Enf0rOAVnznfacHBHuuJF1DV7eudfjUCAiBcdSYas9tCT9lLsegm6MoIUYcOoyFBP0tVdPqkp7dVGw%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T20:00:26.349742+00:00",
+    "expires_at": "2026-11-27T02:00:25+00:00",
+    "ttl_seconds": 21598,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "Caze.tv.QLMYhEXsyYY",
+    "name": "CazéTV - AO VIVO: CRYSTAL PALACE X REAL SOCIEDAD | EUROPA LEAGUE 26/27 | 5ª RODADA",
+    "source_url": "https://www.youtube.com/watch?v=QLMYhEXsyYY",
+    "logo": "https://i.ytimg.com/vi/QLMYhEXsyYY/hq720.jpg?v=6b088c63&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtp0Ofmxve1U1wKi3XeX9AmX7hAg",
+    "group": "sports",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
+    "logical_channel_id": "Caze.tv",
+    "variant_id": "Caze.tv.QLMYhEXsyYY",
+    "variant_label": null,
+    "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795730419/ei/k1cIa-aaGu2ewrcPov7Q8QI/ip/200.151.110.161/id/QLMYhEXsyYY.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/gcr/br/bui/AZFAFb-N0HDrCbaSA8IAYPITtyiNVSLlnAZqIbgEDBur8oymsOyuJeL7jwWCnT5Tk_9KA-iih0CONgMx/spc/nfZ8ZqqP55XTXgrbwI_56tdEzwuaF9QgC49nULOAXUa0qBCff9VZDXzQ2A/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2195500/met/1795708819,/mh/qi/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795708368/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,gcr,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAIkpEqIZ5aEYE83IZ6iOzHXl3OHVYuIZyb6qTX8mimPnAiEA8VuEgStOfS2QzQWlbx752-YqpXyNKqwMcJw8sPqYPbs%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAI3ApoLRFYjlgg0FDs3PyhJiiVkM4Lf-yKKMQb0-le0FAiEAiXTPzWk6mX3AYMfN6vbHOnZtXCVTDcaOqF5y6DHuU8c%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T16:00:19.978237+00:00",
+    "expires_at": "2026-11-26T22:00:19+00:00",
+    "ttl_seconds": 21599,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "Caze.tv.QrOM2f9cwzA",
+    "name": "CazéTV - AO VIVO (SOM AMBIENTE): LYON X LILLESTRØM | EUROPA LEAGUE 26/27 | 5ª RODADA",
+    "source_url": "https://www.youtube.com/watch?v=QrOM2f9cwzA",
+    "logo": "https://i.ytimg.com/vi/QrOM2f9cwzA/hq720.jpg?v=6b082651&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtm3zJuqanDYd_a4mj8J1zzanx7A",
+    "group": "sports",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
+    "logical_channel_id": "Caze.tv",
+    "variant_id": "Caze.tv.QrOM2f9cwzA",
+    "variant_label": null,
+    "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795744822/ei/1o8Ia4WJDa2ZobIP8-DR0A0/ip/200.151.110.161/id/QrOM2f9cwzA.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AZFAFb8yGVyNgZqeQR3uvCtX7tJ3P-RMatIzVJBAMDyXw59r04qAyZZrDKl69CDgtbPHf9FnGw6zCT6c/spc/nfZ8ZgyiTZZF1cuVfY0_TFPHHDmKEIF6BuN1kP3Bl2Pwxg840DBnO3TRnw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1692625/met/1795723222,/mh/C4/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795722763/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAKsmNdN6mMkcaK2xQScs2GOl82yn1Dol3Zgtg2Pe2KV0AiEA0COAxHc3UPARPIGsZrXV2yX8iAWGXtNqIRhntENLBos%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgNQFvwGYo9WShAU-n8TusbjMP3WmQywxhEWQg1OjXBlsCIA6E9RQ4e7y14GHlq7R_xPN6wJpQWu0q9veTb8q-FYd9/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T20:00:22.770720+00:00",
+    "expires_at": "2026-11-27T02:00:22+00:00",
+    "ttl_seconds": 21599,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "Caze.tv.uko5Zl0zG74",
+    "name": "CazéTV - AO VIVO (SOM AMBIENTE): NEC NIJMEGEN X RENNES | EUROPA LEAGUE 26/27 | 5ª RODADA",
+    "source_url": "https://www.youtube.com/watch?v=uko5Zl0zG74",
+    "logo": "https://i.ytimg.com/vi/uko5Zl0zG74/hq720.jpg?v=6b082653&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjE5GJXWhClRUNRFIES45mWtHGWw",
+    "group": "sports",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
+    "logical_channel_id": "Caze.tv",
+    "variant_id": "Caze.tv.uko5Zl0zG74",
+    "variant_label": null,
+    "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795744828/ei/3I8Ia-SjCI_21sQP-IWquA4/ip/200.151.110.161/id/uko5Zl0zG74.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AZFAFb_owwpSMdZmhJoVKR2fOE2ByBgSJRFh1QJl8gAcu7N63K5vbvKCkIVuduDI_Hokjs5iiRK1hYrg/spc/nfZ8Ztk-A24URyHBTMZY_HIG7_UVIF8vmUk5RLJOfjWAdIIqXQdyoBeQ9g/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1692625/met/1795723228,/mh/o4/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795722763/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAJPE5L7XEISKLgiCQaeWfAmfAWx66ATdxn3gTSFa9TdpAiAajunE2n_d1MFgXALNkv-6kwZiZNhQe8oUf5NVfKEczA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAKNgdrP_YeRpez2ZoWfMVX18xGxGoO0GOnE8Zf64mKNrAiEA3hy0MSPeGd1eyynoUjHwC4ZujN_pz9KlH2iiEHvTi8U%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T20:00:28.668090+00:00",
+    "expires_at": "2026-11-27T02:00:28+00:00",
+    "ttl_seconds": 21599,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "chavesvivo.tv",
@@ -133,8 +379,8 @@
     "source_url": "https://kick.com/chchannel02",
     "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/ddca22fb-c604-4609-b129-6613ac861ed5-profile_image-70x70.png",
     "group": "series",
-    "source_type": "kick",
-    "provider_id": "kick",
+    "source_type": "live_platform",
+    "provider_id": "live_platform",
     "logical_channel_id": "chavesvivo.tv",
     "variant_id": "chavesvivo.tv",
     "variant_label": null,
@@ -157,7 +403,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "classic-mr-bean.tv.mF3s5-6mIH4",
@@ -165,8 +413,8 @@
     "source_url": "https://www.youtube.com/watch?v=mF3s5-6mIH4",
     "logo": "https://i.ytimg.com/vi/mF3s5-6mIH4/hq720.jpg?v=6a86ec87&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOMiWNBbJweq_yH7IpI2b7slDssQ",
     "group": "series",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "classic-mr-bean.tv",
     "variant_id": "classic-mr-bean.tv.mF3s5-6mIH4",
     "variant_label": null,
@@ -177,11 +425,45 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737638/ei/xnMIa8DVLNKZobIPh62WuQc/ip/200.151.110.161/id/mF3s5-6mIH4.292/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AZFAFb_jPNtJD_qhE3lscALEPp_rcBPKzyDgyHdL0GLi3rpwBHXBa-iNlWSTHjk0aqXOZcxes2gUMFWk/spc/nfZ8Zsp1Z595lK9lTJG6pN-uJ-d8kcZSqFv9U5u2icg8i4Cd55MQcfHBIA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1603625/met/1795716039,/mh/He/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116,52240175/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgH9Xn2bokV5QVGf6u8f4r8vpLeeDNBzmuW_ImpVyRFnUCIQDva_Xec-qYRDX6TcF-05trvtCosbucKi_tEiyvNU_GFw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAJhITkWfx--CJLQqvqJ1pyrIy_bX43lcSDpvg-UDZkWqAiADNGQka3d4TyBy5ZW4L1jMrR-LLM_vg2DZlhPgqAxn6w%3D%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:43.559497+00:00",
-    "expires_at": "2026-11-22T04:30:43+00:00",
+    "resolved_at": "2026-11-26T18:00:39.316286+00:00",
+    "expires_at": "2026-11-27T00:00:38+00:00",
+    "ttl_seconds": 21598,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "CNNbrasil.tv.ZH1dIfVUEkI",
+    "name": "CNN Brasil - AO VIVO: TARIFAÇO DOS EUA MIRA PRESSÃO SOBRE PIX | CNN 360°",
+    "source_url": "https://www.youtube.com/watch?v=ZH1dIfVUEkI",
+    "logo": "https://i.ytimg.com/vi/ZH1dIfVUEkI/hq720.jpg?v=6b088a0d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCYPt4CgFgmUrfFuhzwNEM34r2qDw",
+    "group": "news",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
+    "logical_channel_id": "CNNbrasil.tv",
+    "variant_id": "CNNbrasil.tv.ZH1dIfVUEkI",
+    "variant_label": null,
+    "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737636/ei/xHMIa5vAD7uYobIPqKGEeA/ip/200.151.110.161/id/ZH1dIfVUEkI.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AZFAFb-pMbo-tHagl0MiVGZrBCStmiegVVssOcI8HabCWDY1tSpr8vdGaNSLzFooXwEuYblTt4EBMr1m/spc/nfZ8Zpsy_mo-K5UTx5pE4eElzbCOujN7Ghup9gpy2Bq5QcoSoeQ_D1LO8A/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1603625/met/1795716036,/mh/TL/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgEK-BL66s7c6deuCJcVhPuuBtzyLdT4M95yeRJBngNS8CIQDa-iA1-XnwF8SYaz3jloZPrRYfRNiF_tF87s6POtDFQQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAIIKwU4YXwG0XlyfGrfNVb6d_j0pF_u1YzGm2VufAeQtAiEAsQ3GX01LANj72jnPLw8BI8QN35l7z4M0Awh-cSpobpQ%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T18:00:36.820954+00:00",
+    "expires_at": "2026-11-27T00:00:36+00:00",
     "ttl_seconds": 21599,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
@@ -189,103 +471,77 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
-    "id": "CNNbrasil.tv.KWKwCfhvGJg",
-    "name": "CNN Brasil - AO VIVO: FLAMENGO EMPATA COM PALMEIRAS E CONQUISTA CAMPEONATO BRASILEIRO | CNN AGORA NOITE",
-    "source_url": "https://www.youtube.com/watch?v=KWKwCfhvGJg",
-    "logo": "https://i.ytimg.com/vi/KWKwCfhvGJg/hq720.jpg?v=6b00b37d&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLChmLvNwME1_L9NfxkTpv-BiL6n9w",
-    "group": "news",
-    "source_type": "youtube",
-    "provider_id": "youtube",
-    "logical_channel_id": "CNNbrasil.tv",
-    "variant_id": "CNNbrasil.tv.KWKwCfhvGJg",
-    "variant_label": null,
-    "tvg_id": null,
-    "resolution": "best",
-    "codec": null,
-    "bitrate": null,
-    "protocol": "hls",
-    "request_headers": {},
-    "secret_refs": {},
-    "stream_url": null,
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-11-21T22:30:41.159767+00:00",
-    "expires_at": "2026-11-22T04:30:40+00:00",
-    "ttl_seconds": 21598,
-    "requires_dynamic_resolution": true,
-    "publishable_static": false,
-    "delivery_mode": "direct",
-    "drm": null,
-    "removed": false,
-    "removed_at": null,
-    "removal_reason": null
-  },
-  {
-    "id": "CNNbrasil.tv.YX59rv7UxLQ",
-    "name": "CNN Brasil - AO VIVO: CNN SINAIS VITAIS - DR. KALIL ENTREVISTA: EPILEPSIA | 21/11/2026",
-    "source_url": "https://www.youtube.com/watch?v=YX59rv7UxLQ",
-    "logo": "https://i.ytimg.com/vi/YX59rv7UxLQ/hq720.jpg?v=6b00b29c&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLBo7sGlikohFBEAHp0Y90ARZkDriQ",
-    "group": "news",
-    "source_type": "youtube",
-    "provider_id": "youtube",
-    "logical_channel_id": "CNNbrasil.tv",
-    "variant_id": "CNNbrasil.tv.YX59rv7UxLQ",
-    "variant_label": null,
-    "tvg_id": null,
-    "resolution": "best",
-    "codec": null,
-    "bitrate": null,
-    "protocol": "hls",
-    "request_headers": {},
-    "secret_refs": {},
-    "stream_url": null,
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-11-21T22:30:39.482914+00:00",
-    "expires_at": "2026-11-22T04:30:38+00:00",
-    "ttl_seconds": 21598,
-    "requires_dynamic_resolution": true,
-    "publishable_static": false,
-    "delivery_mode": "direct",
-    "drm": null,
-    "removed": false,
-    "removed_at": null,
-    "removal_reason": null
-  },
-  {
-    "id": "DiarioTVTeresopolis.br.4T5-gdXYdOY",
-    "name": "Diário TV Teresópolis - DIÁRIO WEB RÁDIO  - A rádio do jornal O Diário de Teresópolis",
-    "source_url": "https://www.youtube.com/watch?v=4T5-gdXYdOY",
-    "logo": "https://i.ytimg.com/vi/4T5-gdXYdOY/hqdefault.jpg?v=6a980da5&sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCn7ie10vbpKgsRo1KNLzRgH2LD-g",
+    "id": "DiarioTVTeresopolis.br.gSCQJkqMQBU",
+    "name": "Diário TV Teresópolis - DIÁRIO TV AO VIVO - Programação da Diário TV Teresópolis - Inscreva-se no nosso canal",
+    "source_url": "https://www.youtube.com/watch?v=gSCQJkqMQBU",
+    "logo": "https://i.ytimg.com/vi/gSCQJkqMQBU/hq720.jpg?v=6b082022&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnRNhaBX6NmLaOJYpsY2f0Do-YwQ",
     "group": "general",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "DiarioTVTeresopolis.br",
-    "variant_id": "DiarioTVTeresopolis.br.4T5-gdXYdOY",
+    "variant_id": "DiarioTVTeresopolis.br.gSCQJkqMQBU",
     "variant_label": null,
     "tvg_id": null,
     "resolution": "best",
     "codec": null,
     "bitrate": null,
-    "protocol": null,
+    "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
-    "status": "offline",
-    "error": "no_stream_found",
-    "resolved_at": "2026-11-21T22:30:29.141722+00:00",
-    "expires_at": null,
-    "ttl_seconds": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795741222/ei/xoEIa_uoJLSTobIPj4nM8Qw/ip/200.151.110.161/id/gSCQJkqMQBU.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb-PWQ_HCLwSEaszW7mSepAfZVIdkyHT4uC9oKtEQSi59pi7cl31qdG0fOhre0-nvmrrluBp_kRm/spc/nfZ8ZhNKUR1bBVZfYvjQPIX0PA4aS6nBAUJRRX1f4jGmhfX1w7uO1--COA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1966750/met/1795719623,/mh/Af/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795719183/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhANtgLiii5ONeNdYbUHOEsNkfCZpVYHZwr5SzWtuhrGmFAiEA8WlYl2H0ZJnUSsc1cu0JhoSiW5C0iz1asyV3_kvrKWk%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgYjl8174aKTCAkIOiJ9oXwMV-xbWCHBfDqwS87J1rDeQCIEGyObLXinF-ngDETXZT8o-TIIWLgiTBBjSUkFpQ5OZ_/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T19:00:23.177353+00:00",
+    "expires_at": "2026-11-27T01:00:22+00:00",
+    "ttl_seconds": 21598,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
     "delivery_mode": "direct",
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "DiarioTVTeresopolis.br.M1GdwHvRXK8",
+    "name": "Diário TV Teresópolis - DIÁRIO WEB RÁDIO  - A rádio do jornal O Diário de Teresópolis",
+    "source_url": "https://www.youtube.com/watch?v=M1GdwHvRXK8",
+    "logo": "https://i.ytimg.com/vi/M1GdwHvRXK8/hqdefault.jpg?v=6b056d38&sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4_ZA_zj9po9pNcXfz4F3GBZg0eg",
+    "group": "general",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
+    "logical_channel_id": "DiarioTVTeresopolis.br",
+    "variant_id": "DiarioTVTeresopolis.br.M1GdwHvRXK8",
+    "variant_label": null,
+    "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737628/ei/vHMIa5GlCYn4-LAPiKCt8Ac/ip/200.151.110.161/id/M1GdwHvRXK8.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb8KKmYHbRh6Ha7Z8rz7xvgeRlk5P2_qIy7mP5UAY-r8rb2NYTYZyKFcRshTUEOu1ZxTZ1yuoInS/spc/nfZ8Zrwj6Qwi2pcNVb3pVXBeWAQdS7nXtU1ZQYyLb8afheA8uJUQ9-4RkQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1603625/met/1795716028,/mh/hj/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhALogimtix0OUNiCqOzkGGn3X1VqCIah3-v7-84HMWqz3AiAxHSwGR7oS1RTPnr7fEOqyV2cC_yGHKN99AS2qQdrMZQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIga5WIUhHFus826mefatClr3SirfXC9mPSqfTbjBqBIuoCIQDEUqfeUNehx-bB_4Ms7Itf9uvISjdXOZrgxNJ1rIlMgQ%3D%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T18:00:28.737413+00:00",
+    "expires_at": "2026-11-27T00:00:28+00:00",
+    "ttl_seconds": 21599,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "iptvsimplesbr.tv",
@@ -293,8 +549,8 @@
     "source_url": "https://www.twitch.tv/iptvsimplesbr",
     "logo": "",
     "group": "series",
-    "source_type": "twitch",
-    "provider_id": "twitch",
+    "source_type": "game_platform",
+    "provider_id": "game_platform",
     "logical_channel_id": "iptvsimplesbr.tv",
     "variant_id": "iptvsimplesbr.tv",
     "variant_label": null,
@@ -317,39 +573,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
-  },
-  {
-    "id": "JovemPanNews.br.EalBwreIXXM",
-    "name": "Jovem Pan Live - CANELADA - 21/11/26",
-    "source_url": "https://www.youtube.com/watch?v=EalBwreIXXM",
-    "logo": "https://i.ytimg.com/vi/EalBwreIXXM/hq720.jpg?v=6b00e47c&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5jYjGyTTYy5ZEOe_fI9VMBl_JsQ",
-    "group": "news",
-    "source_type": "youtube",
-    "provider_id": "youtube",
-    "logical_channel_id": "JovemPanNews.br",
-    "variant_id": "JovemPanNews.br.EalBwreIXXM",
-    "variant_label": null,
-    "tvg_id": null,
-    "resolution": "best",
-    "codec": null,
-    "bitrate": null,
-    "protocol": "hls",
-    "request_headers": {},
-    "secret_refs": {},
-    "stream_url": null,
-    "status": "resolved",
-    "error": null,
-    "resolved_at": "2026-11-21T22:30:24.556507+00:00",
-    "expires_at": "2026-11-22T04:30:24+00:00",
-    "ttl_seconds": 21599,
-    "requires_dynamic_resolution": true,
-    "publishable_static": false,
-    "delivery_mode": "direct",
-    "drm": null,
-    "removed": false,
-    "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "JovemPanNews.br.eTz4XgOQaAE",
@@ -357,8 +583,8 @@
     "source_url": "https://www.youtube.com/watch?v=eTz4XgOQaAE",
     "logo": "https://i.ytimg.com/vi/eTz4XgOQaAE/hq720.jpg?v=658ae6ef&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAw0kQoDfubC8DajR_ydi9tidcB-g",
     "group": "news",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "JovemPanNews.br",
     "variant_id": "JovemPanNews.br.eTz4XgOQaAE",
     "variant_label": null,
@@ -369,11 +595,11 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795735822/ei/rmwIa7-QKZrw1sQPtaDW-A4/ip/200.151.110.161/id/eTz4XgOQaAE.6/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb-53xHE8wh3AZjQ9QwQ_jE-VEAnEMV_OpEmz3aIzI9qGYU-avy_dFpZN1Ezp2QLN6RTQnt4yL_R/spc/nfZ8ZiopLwQK7J9P1gTveOStP0llVIsNKgVY7Dl27sMG21zNDMskv0UFsQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1569250/met/1795714223,/mh/Ro/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795713664/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgJX23YF_baCSPcSjh4vMzyN-cq9IhDbtpwy-ansoVTqMCIEdLB65Vmi2LOkJrqgH-Gs_V86_dQvXmLDbaaIMfjnSF/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhANfe3fE5LBGq8oPrR_TkrKiVSJe3BABtc_ExlA9GRWSWAiEAtR9DtxZ-aiRYseyrJpHcTbI5oxbQ_W5HlKkx16_mScU%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:26.117722+00:00",
-    "expires_at": "2026-11-22T04:30:25+00:00",
+    "resolved_at": "2026-11-26T17:30:23.260648+00:00",
+    "expires_at": "2026-11-26T23:30:22+00:00",
     "ttl_seconds": 21598,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
@@ -381,20 +607,56 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
-    "id": "JovemPanNews.br.rOnsvyngCA4",
-    "name": "Jovem Pan Live - JORNAL JOVEM PAN - 21/11/26",
-    "source_url": "https://www.youtube.com/watch?v=rOnsvyngCA4",
-    "logo": "https://i.ytimg.com/vi/rOnsvyngCA4/hq720.jpg?v=6b00e64d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtaL2zL51F1nQuokx3Frbff5hGOA",
+    "id": "JovemPanNews.br.mA1Pa9MHxPI",
+    "name": "Jovem Pan Live - 3 EM 1 - 26/11/2026",
+    "source_url": "https://www.youtube.com/watch?v=mA1Pa9MHxPI",
+    "logo": "https://i.ytimg.com/vi/mA1Pa9MHxPI/hq720.jpg?v=6b04f0d3&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAI0SpMjbZGkAsDvwB-jwhRQMBHdA",
     "group": "news",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "JovemPanNews.br",
-    "variant_id": "JovemPanNews.br.rOnsvyngCA4",
+    "variant_id": "JovemPanNews.br.mA1Pa9MHxPI",
     "variant_label": null,
     "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795741221/ei/xYEIa9WUB7Lp1sQP38r3kAQ/ip/200.151.110.161/id/mA1Pa9MHxPI.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb-IOAOYWlldE1I_E068XvOo2uzXlMDEbatsN1b7rErG0qJsuy7ClMeTMgo6SQ2NJUuGvxAooEyi/spc/nfZ8Zu2Xa4eXunT1YEql_q__9iQvYNeatrYDWMl3_Ox_-6bDRo78R_IapQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1966750/met/1795719621,/mh/3S/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795719183/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgelXI9xZRh5WU-odKA_xzHve8z7NUwrRtRsch6QQ6BQ8CIQCzh8sbeh-C8VnYxm8d25dOsb2_YQbJp72geR_IO-xQVw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgEyr57RYnYxkW6_OQk64HsDjxS0c7XyV1b6uYnj3eyYECID08iZNq3kcGeVlKiYN4xUAwbGWZvcdkkJEiuO5R15uX/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T19:00:21.845559+00:00",
+    "expires_at": "2026-11-27T01:00:21+00:00",
+    "ttl_seconds": 21599,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "json_catalog_1.497282d8-216c-407e-8bd5-3b88c56d2575.json-catalog-1-json-catalog-1-497282d8-216c-407e-8bd5-3b88c56d2575-variant-1-09a863b0",
+    "name": "SBT Rio",
+    "source_url": "config://json_catalog_1/497282d8-216c-407e-8bd5-3b88c56d2575",
+    "logo": "https://stream.maissbt.com/uploads/722eace8-1ab8-4cf3-ae70-5ad49f2a6c3d.png",
+    "group": "TV Aberta",
+    "source_type": "json_catalog",
+    "provider_id": "json_catalog_1",
+    "logical_channel_id": "json_catalog_1.497282d8-216c-407e-8bd5-3b88c56d2575",
+    "variant_id": "json-catalog-1.json-catalog-1-497282d8-216c-407e-8bd5-3b88c56d2575.variant-1.09a863b0",
+    "variant_label": null,
+    "tvg_id": "497282d8-216c-407e-8bd5-3b88c56d2575",
     "resolution": "best",
     "codec": null,
     "bitrate": null,
@@ -404,25 +666,203 @@
     "stream_url": null,
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:23.330972+00:00",
-    "expires_at": "2026-11-22T04:30:22+00:00",
-    "ttl_seconds": 21598,
+    "resolved_at": null,
+    "expires_at": null,
+    "ttl_seconds": null,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
-    "delivery_mode": "direct",
+    "delivery_mode": "ssai",
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "json_catalog_1.6341479532112.json-catalog-1-json-catalog-1-6341479532112-variant-1-1a081149",
+    "name": "+SBT Kids",
+    "source_url": "config://json_catalog_1/6341479532112",
+    "logo": "https://stream.maissbt.com/uploads/945744d5-c4dd-4479-8619-92c4f48a63fe.png",
+    "group": "Infantil",
+    "source_type": "json_catalog",
+    "provider_id": "json_catalog_1",
+    "logical_channel_id": "json_catalog_1.6341479532112",
+    "variant_id": "json-catalog-1.json-catalog-1-6341479532112.variant-1.1a081149",
+    "variant_label": null,
+    "tvg_id": "6341479532112",
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": null,
+    "status": "resolved",
+    "error": null,
+    "resolved_at": null,
+    "expires_at": null,
+    "ttl_seconds": null,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "ssai",
+    "drm": {
+      "type": "declared"
+    },
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "json_catalog_1.6353271246112.json-catalog-1-json-catalog-1-6353271246112-variant-1-60085d46",
+    "name": "SBT",
+    "source_url": "config://json_catalog_1/6353271246112",
+    "logo": "https://stream.maissbt.com/logos/sbt_channel.png",
+    "group": "TV Aberta",
+    "source_type": "json_catalog",
+    "provider_id": "json_catalog_1",
+    "logical_channel_id": "json_catalog_1.6353271246112",
+    "variant_id": "json-catalog-1.json-catalog-1-6353271246112.variant-1.60085d46",
+    "variant_label": null,
+    "tvg_id": "6353271246112",
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": null,
+    "status": "resolved",
+    "error": null,
+    "resolved_at": null,
+    "expires_at": null,
+    "ttl_seconds": null,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "ssai",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "json_catalog_1.6356332565112.json-catalog-1-json-catalog-1-6356332565112-variant-1-955aa398",
+    "name": "+SBT Novelas",
+    "source_url": "config://json_catalog_1/6356332565112",
+    "logo": "https://stream.maissbt.com/uploads/056b232e-32de-4517-ac64-991054350e31.png",
+    "group": "Séries",
+    "source_type": "json_catalog",
+    "provider_id": "json_catalog_1",
+    "logical_channel_id": "json_catalog_1.6356332565112",
+    "variant_id": "json-catalog-1.json-catalog-1-6356332565112.variant-1.955aa398",
+    "variant_label": null,
+    "tvg_id": "6356332565112",
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": null,
+    "status": "resolved",
+    "error": null,
+    "resolved_at": null,
+    "expires_at": null,
+    "ttl_seconds": null,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "ssai",
+    "drm": {
+      "type": "declared"
+    },
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "json_catalog_1.6356335878112.json-catalog-1-json-catalog-1-6356335878112-variant-1-dcbc84fd",
+    "name": "+SBT Show do Milhão",
+    "source_url": "config://json_catalog_1/6356335878112",
+    "logo": "https://stream.maissbt.com/uploads/8ca8a009-33e5-444c-80e4-18c7a1838243.png",
+    "group": "Entretenimento",
+    "source_type": "json_catalog",
+    "provider_id": "json_catalog_1",
+    "logical_channel_id": "json_catalog_1.6356335878112",
+    "variant_id": "json-catalog-1.json-catalog-1-6356335878112.variant-1.dcbc84fd",
+    "variant_label": null,
+    "tvg_id": "6356335878112",
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": null,
+    "status": "resolved",
+    "error": null,
+    "resolved_at": null,
+    "expires_at": null,
+    "ttl_seconds": null,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "ssai",
+    "drm": {
+      "type": "declared"
+    },
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "json_catalog_1.697347be-9993-4e73-9686-7bd1a1c3e0e2.json-catalog-1-json-catalog-1-697347be-9993-4e73-9686-7bd1a1c3e0e2-variant-1-3f7a20d1",
+    "name": "SBT News",
+    "source_url": "config://json_catalog_1/697347be-9993-4e73-9686-7bd1a1c3e0e2",
+    "logo": "https://stream.maissbt.com/uploads/849d6d1c-4546-4c20-b1e7-3cbd949c31ea.png",
+    "group": "Notícia",
+    "source_type": "json_catalog",
+    "provider_id": "json_catalog_1",
+    "logical_channel_id": "json_catalog_1.697347be-9993-4e73-9686-7bd1a1c3e0e2",
+    "variant_id": "json-catalog-1.json-catalog-1-697347be-9993-4e73-9686-7bd1a1c3e0e2.variant-1.3f7a20d1",
+    "variant_label": null,
+    "tvg_id": "697347be-9993-4e73-9686-7bd1a1c3e0e2",
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": null,
+    "status": "resolved",
+    "error": null,
+    "resolved_at": null,
+    "expires_at": null,
+    "ttl_seconds": null,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "ssai",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "mr-bean.tv.oPonPGALYaU",
     "name": "Mr Bean - Mr. Bean Cartoon S1 LIVE: Hilarious Trouble Starts Here!",
     "source_url": "https://www.youtube.com/watch?v=oPonPGALYaU",
-    "logo": "https://i.ytimg.com/vi/oPonPGALYaU/hq720.jpg?v=6a70b205&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDL6q8YCSbzwe0eK6YQXq-O_Zkdiw",
+    "logo": "https://i.ytimg.com/vi/oPonPGALYaU/hq720.jpg?v=6a70b205&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmCSDK0IQ8JAwHetfWMsjmAfOw6Q",
     "group": "series",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "mr-bean.tv",
     "variant_id": "mr-bean.tv.oPonPGALYaU",
     "variant_label": null,
@@ -433,28 +873,30 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737639/ei/x3MIa5HMOOaOobIP-Pyl6Qw/ip/200.151.110.161/id/oPonPGALYaU.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb9MaWjTkDeyofR_wyb_p3wIFWbcSe9j3X6hlXdfXiWLyODBukecgw_l7OLKql2Yu-qyURNdO-2q/spc/nfZ8Zkap1TstLeOcdbLsWIGXWhoQd14ZcRStMYBsgnHhNVN2mb1_0u2uAQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1603625/met/1795716040,/mh/Oj/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115,52338434/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgemW2VUpcTtpwBnWZbnR44tzg_Ry5ZBUg2JIJhPY_89kCIQCPWnFE6NkGkyVV74LywsS3enbFTS9NULO7yRTWy_rHww%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgMpcQIus3FoH-SShEiOnu-tthjW42I18aX6uLVoMrRrMCIAt0SBzN23-7kTff5ZxP_j5Mts3soqr9VMfZ96XYBHDR/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:44.825275+00:00",
-    "expires_at": "2026-11-22T04:30:44+00:00",
-    "ttl_seconds": 21599,
+    "resolved_at": "2026-11-26T18:00:40.540559+00:00",
+    "expires_at": "2026-11-27T00:00:39+00:00",
+    "ttl_seconds": 21598,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
     "delivery_mode": "direct",
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "mr-bean.tv.S_71wzZMf0M",
     "name": "Mr Bean - 🔴 Mr Bean LIVE! Classic Comedy | Full Episodes",
     "source_url": "https://www.youtube.com/watch?v=S_71wzZMf0M",
-    "logo": "https://i.ytimg.com/vi/S_71wzZMf0M/hq720.jpg?v=6a70ac13&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLAhyFeX2FN6C3PCBwUlcSm5nhwSiw",
+    "logo": "https://i.ytimg.com/vi/S_71wzZMf0M/hq720.jpg?v=6a70ac13&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7PfE0I4U1GrIJTa2gkbLsXzgjbw",
     "group": "series",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "mr-bean.tv",
     "variant_id": "mr-bean.tv.S_71wzZMf0M",
     "variant_label": null,
@@ -465,19 +907,21 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737641/ei/yXMIa-j9E8WOobIP4pSr2A4/ip/200.151.110.161/id/S_71wzZMf0M.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb-zx34acXRlNFV6dDh1KcGOOFpy2lJZi-8YL9_pU5dJ0Q424dv1QfzFMZukMgEfmS-6c7m6wpss/spc/nfZ8ZoDTTqktgxlODwrVamehAnoj9Qk1YWM9CYEdE10JrRb0kxVoumEVxA/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1603625/met/1795716041,/mh/P6/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAPX1nY0df9F8oWXi8BupYZCubBs70IZp6TQ18R8jDe-4AiEA8prAABkSxN-kCSptBZnBUUAyEKG29kyQnVqV8C6-dcA%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAMafRR8-Rv5qGy79HD3kDIfNFOvVVq5IgjYm0qStCySyAiEAu-4GLDQ2wa2fG6JtqQtHuIrlCBCfP0woPbKKSSTHqac%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:46.391848+00:00",
-    "expires_at": "2026-11-22T04:30:45+00:00",
-    "ttl_seconds": 21598,
+    "resolved_at": "2026-11-26T18:00:41.904944+00:00",
+    "expires_at": "2026-11-27T00:00:41+00:00",
+    "ttl_seconds": 21599,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
     "delivery_mode": "direct",
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "NBABrasil.tv",
@@ -485,8 +929,8 @@
     "source_url": "https://www.youtube.com/c/nbabrasil/live",
     "logo": "https://pbs.twimg.com/profile_images/724775288333279234/BXRH8jsF_400x400.jpg",
     "group": "sports",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "NBABrasil.tv",
     "variant_id": "NBABrasil.tv",
     "variant_label": null,
@@ -500,7 +944,7 @@
     "stream_url": null,
     "status": "offline",
     "error": "no_stream_found",
-    "resolved_at": "2026-11-21T22:30:21.595701+00:00",
+    "resolved_at": null,
     "expires_at": null,
     "ttl_seconds": null,
     "requires_dynamic_resolution": true,
@@ -509,7 +953,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "pica-pau.br.mUB69Xk0qwY",
@@ -517,8 +963,8 @@
     "source_url": "https://www.youtube.com/watch?v=mUB69Xk0qwY",
     "logo": "https://i.ytimg.com/vi/mUB69Xk0qwY/hq720.jpg?v=6af5fd46&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2w9PPMnrgb-_sN3vY6gTn_CIVaQ",
     "group": "kids",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "pica-pau.br",
     "variant_id": "pica-pau.br.mUB69Xk0qwY",
     "variant_label": null,
@@ -529,11 +975,11 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737629/ei/vXMIa5q9Hu-K-LAP7aDjoQc/ip/200.151.110.161/id/mUB69Xk0qwY.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb8QmT4Ccpcep4UDTcRK7Wia7izD7FfcQfRMZovRva4BOzXq5QWNdXiSqUwKNS2nXHHdaPEEGi7r/spc/nfZ8ZqcFU4AXfdLvmKfngdEvjA3SVohmLbzCNroUQObse6NAf-gIyE6Y6g/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1603625/met/1795716030,/mh/DP/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAMIrt-3cPxrAFEpx6OBaahp5-VhFx9VzMPx47rPOr535AiEA7ZeNxsNkN6LFOH-pLnfSTlW6xiXt43fKE0K_BFN6f4U%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgHqR4THJxuSDxkcRsOIZ2k3fWEKK5EWK61DO5TKwyGoUCIQDXfaLKBO_OgwJR5VDPEvgFfqNppH3AGMd5xomM7ljjCA%3D%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:33.098525+00:00",
-    "expires_at": "2026-11-22T04:30:32+00:00",
+    "resolved_at": "2026-11-26T18:00:30.066966+00:00",
+    "expires_at": "2026-11-27T00:00:29+00:00",
     "ttl_seconds": 21598,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
@@ -541,7 +987,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "pica-pau.br.U0T0obz7nxs",
@@ -549,8 +997,8 @@
     "source_url": "https://www.youtube.com/watch?v=U0T0obz7nxs",
     "logo": "https://i.ytimg.com/vi/U0T0obz7nxs/hq720.jpg?v=6af5fcfe&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAMrxB1Nb_u-MLP8s8sr9kXECcOgA",
     "group": "kids",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "pica-pau.br",
     "variant_id": "pica-pau.br.U0T0obz7nxs",
     "variant_label": null,
@@ -561,11 +1009,11 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737630/ei/vnMIa_-lLZWO4dUP8_-TwQI/ip/200.151.110.161/id/U0T0obz7nxs.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb-vDlwF-LrUCiaJPP6U6SM7t2_uuDMSBetGJTJwX0jymUoB6OBupZdUqQSvydrQv-e15RIVmB-C/spc/nfZ8Zrcch8vNQQCcpEPpLLg1xAMb9n-yU5wXa6kadHc4DvRvZf6Smew02A/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1603625/met/1795716031,/mh/54/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAIdGo-BdnUCjMASmLuVRAEsRqVr78Kzxv9Sp_AtJJ5ccAiBC8w9dvpPk0NiCuCD1TJ_juZRXWGrjQCrb1N4DcfhOIg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgWfbOd8po_lsmZWL757mcbNwz13yPbMuCTmIQ2hI1cAgCIBFPFVfr1tABNLupf-3_kQSDBE7ECsAGzFCUEcBcifPk/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:34.229425+00:00",
-    "expires_at": "2026-11-22T04:30:33+00:00",
+    "resolved_at": "2026-11-26T18:00:31.297870+00:00",
+    "expires_at": "2026-11-27T00:00:30+00:00",
     "ttl_seconds": 21598,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
@@ -573,7 +1021,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "PowerRangersTV.br.cQHlHWNg5zA",
@@ -581,8 +1031,8 @@
     "source_url": "https://www.youtube.com/watch?v=cQHlHWNg5zA",
     "logo": "https://i.ytimg.com/vi/cQHlHWNg5zA/hq720.jpg?v=6a0d8090&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmMWf6nxX5oy1Jp82eFkbTLMss3w",
     "group": "kids",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "PowerRangersTV.br",
     "variant_id": "PowerRangersTV.br.cQHlHWNg5zA",
     "variant_label": null,
@@ -593,11 +1043,11 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737626/ei/unMIa8vIOrTZ1sQP9ZC-2QY/ip/200.151.110.161/id/cQHlHWNg5zA.248/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb8Oy3XRJpeRsb7cl4EGkywYNU5UlXfhtITKQmvTvX7ddJiA9_5dStNs1ru0EUg-cXfW7RCu5hwA/spc/nfZ8Zh1eN2vHVy1TpsHeKtY-UgkYh0kDbvDm3bgwAnqpZtHudZFHRDUA1w/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1603625/met/1795716027,/mh/El/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgEZGgQx_JHruzkM6hJGg0SmkLn68HUbZuRO-uLz8GuC4CIA3dALzbOmrhCfKdGWpt8YKPrZ1lIyGoNV9GsKCoKggi/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgJH9CGQ2kJmqPl6AhMmKg44_hAoRZoj-9gWou1lpDAmICIE0u10IlE_okKB0wSZP2HO3eyk-ikVFzvBG598zFo9eX/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:28.190603+00:00",
-    "expires_at": "2026-11-22T04:30:27+00:00",
+    "resolved_at": "2026-11-26T18:00:27.521524+00:00",
+    "expires_at": "2026-11-27T00:00:26+00:00",
     "ttl_seconds": 21598,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
@@ -605,18 +1055,20 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
-    "id": "RecordNews.br.nq9FNGU-syc",
-    "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
-    "source_url": "https://www.youtube.com/watch?v=nq9FNGU-syc",
-    "logo": "https://i.ytimg.com/vi/nq9FNGU-syc/hq720.jpg?v=6b00c904&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVqW_eGDVjztBcJM860D23S8WpcA",
+    "id": "RecordNews.br.EG1k8_-PGDE",
+    "name": "Record News Live - Link News - 26/11/2026",
+    "source_url": "https://www.youtube.com/watch?v=EG1k8_-PGDE",
+    "logo": "https://i.ytimg.com/vi/EG1k8_-PGDE/hq720.jpg?v=6b08825f&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFsOBSH3FW-hsWza22Gpj5qLKu8Q",
     "group": "news",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "RecordNews.br",
-    "variant_id": "RecordNews.br.nq9FNGU-syc",
+    "variant_id": "RecordNews.br.EG1k8_-PGDE",
     "variant_label": null,
     "tvg_id": null,
     "resolution": "best",
@@ -625,19 +1077,55 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795743019/ei/y4gIa_ziGLSWobIP47zhkQw/ip/200.151.110.161/id/EG1k8_-PGDE.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb9rLzwOBq0Mb7Fz0tpDndZXQF9nKS5LpTklddCAskNOZhu4gspvaWoa_7EMIva35jiJNPuVLwG6/spc/nfZ8ZqbP7FUSOeCv-IVVXm8nzEWbpOo9P1lk9mLwxG6T4mmEsXaThWG6kw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2004750/met/1795721419,/mh/y-/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116,52338434/mt/1795720854/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAPrXo9xGO7wtO33RZCv0RfMZG1YR-Vc7_D6CjkSWfnAiAiEAjXbxhEI_OyUwzUZ1N8u_2QJVcdGlZo4ss3XCt_L3jl4%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAN2OZMnYzMihZlxNai78oul9r9zt5QDdaQv8gpxr1WtMAiEA7xAgblfnFGUXXWRoUSPIYk4z4pdB110GYATQiDevwWc%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:27.209646+00:00",
-    "expires_at": "2026-11-22T04:30:26+00:00",
-    "ttl_seconds": 21598,
+    "resolved_at": "2026-11-26T19:30:19.928382+00:00",
+    "expires_at": "2026-11-27T01:30:19+00:00",
+    "ttl_seconds": 21599,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
     "delivery_mode": "direct",
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
+  },
+  {
+    "id": "RecordNews.br.m1nEPhOY5To",
+    "name": "Record News Live - AO VIVO: Acompanhe as principais notícias do dia na Record News",
+    "source_url": "https://www.youtube.com/watch?v=m1nEPhOY5To",
+    "logo": "https://i.ytimg.com/vi/m1nEPhOY5To/hq720.jpg?v=6b06e3df&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTyZWKiBFIbQvWbpa_6s9i7d8bZQ",
+    "group": "news",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
+    "logical_channel_id": "RecordNews.br",
+    "variant_id": "RecordNews.br.m1nEPhOY5To",
+    "variant_label": null,
+    "tvg_id": null,
+    "resolution": "best",
+    "codec": null,
+    "bitrate": null,
+    "protocol": "hls",
+    "request_headers": {},
+    "secret_refs": {},
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795744830/ei/3o8Ia5LPBNCSg-UP2uWBsQ8/ip/200.151.110.161/id/m1nEPhOY5To.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb9c4FWi6HxuWodv60_roB7J9mA7BInnmIGiZSEoP6uwZ4zqSrl5yYZC9_glTfsx5iXImVpaMPpA/spc/nfZ8ZlT7dLX_YOrnXeGf3-99u7IAgsg_PEUiIWzKsa_8RwZyk0-E4eoh2A/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1692625/met/1795723230,/mh/ti/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795722763/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAPYC6zVhHcgFSFzcnAmCBW_xbXNhEboEBcKYv62uOJUNAiB_9cNJ81gHjBTozstQfNSQ5E8lAC260cXgE6LyeXq-HA%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgCJcaIRfSsOO-9nIEi7_dBLBvDbJi5zdiSqVllfV7vpkCICAO0M-IONEMBmaQ4AgO27m35-EJinNirolJK5waknLE/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T20:00:30.641993+00:00",
+    "expires_at": "2026-11-27T02:00:30+00:00",
+    "ttl_seconds": 21599,
+    "requires_dynamic_resolution": true,
+    "publishable_static": false,
+    "delivery_mode": "direct",
+    "drm": null,
+    "removed": false,
+    "removed_at": null,
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.101",
@@ -669,7 +1157,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.102",
@@ -701,7 +1191,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.103",
@@ -733,7 +1225,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.105",
@@ -765,7 +1259,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.106",
@@ -797,7 +1293,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.107",
@@ -829,7 +1327,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.108",
@@ -861,7 +1361,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.109",
@@ -893,7 +1395,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.11",
@@ -925,7 +1429,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.110",
@@ -957,7 +1463,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.116",
@@ -989,7 +1497,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.117",
@@ -1021,7 +1531,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.118",
@@ -1053,7 +1565,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.119",
@@ -1085,7 +1599,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.121",
@@ -1117,7 +1633,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.123",
@@ -1149,7 +1667,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.124",
@@ -1181,7 +1701,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.125",
@@ -1213,7 +1735,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.126",
@@ -1245,7 +1769,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.128",
@@ -1277,7 +1803,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.129",
@@ -1309,7 +1837,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.13",
@@ -1341,7 +1871,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.130",
@@ -1373,7 +1905,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.131",
@@ -1405,7 +1939,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.132",
@@ -1437,7 +1973,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.133",
@@ -1469,7 +2007,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.134",
@@ -1501,7 +2041,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.135",
@@ -1533,7 +2075,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.136",
@@ -1565,7 +2109,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.137",
@@ -1597,7 +2143,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.138",
@@ -1629,7 +2177,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.139",
@@ -1661,7 +2211,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.14",
@@ -1693,7 +2245,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.140",
@@ -1725,7 +2279,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.141",
@@ -1757,7 +2313,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.142",
@@ -1789,7 +2347,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.143",
@@ -1821,7 +2381,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.144",
@@ -1853,7 +2415,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.145",
@@ -1885,7 +2449,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.146",
@@ -1917,7 +2483,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.147",
@@ -1949,7 +2517,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.148",
@@ -1981,7 +2551,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.149",
@@ -2013,7 +2585,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.15",
@@ -2045,7 +2619,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.150",
@@ -2077,7 +2653,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.151",
@@ -2109,7 +2687,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.152",
@@ -2141,7 +2721,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.153",
@@ -2173,7 +2755,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.154",
@@ -2205,7 +2789,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.155",
@@ -2237,7 +2823,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.156",
@@ -2269,7 +2857,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.157",
@@ -2301,7 +2891,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.158",
@@ -2333,7 +2925,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.159",
@@ -2365,7 +2959,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.160",
@@ -2397,7 +2993,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.161",
@@ -2429,7 +3027,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.162",
@@ -2461,7 +3061,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.163",
@@ -2493,7 +3095,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.164",
@@ -2525,7 +3129,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.165",
@@ -2557,7 +3163,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.166",
@@ -2589,7 +3197,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.167",
@@ -2621,7 +3231,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.168",
@@ -2653,7 +3265,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.19",
@@ -2685,7 +3299,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.20",
@@ -2717,7 +3333,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.21",
@@ -2749,7 +3367,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.22",
@@ -2781,12 +3401,14 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.23",
     "name": "Classique TV",
-    "source_url": " https://stmv1.srvif.com/classique/classique/playlist.m3u8",
+    "source_url": null,
     "logo": "https://i.postimg.cc/vTFQRjWc/classique-tv.jpg",
     "group": "Filmes",
     "source_type": "script_discovered",
@@ -2801,7 +3423,7 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": " https://stmv1.srvif.com/classique/classique/playlist.m3u8",
+    "stream_url": null,
     "status": "resolved",
     "error": null,
     "resolved_at": null,
@@ -2813,7 +3435,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.24",
@@ -2845,7 +3469,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.25",
@@ -2877,7 +3503,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.26",
@@ -2909,7 +3537,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.28",
@@ -2941,7 +3571,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.29",
@@ -2973,7 +3605,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.30",
@@ -3005,7 +3639,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.31",
@@ -3037,7 +3673,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.32",
@@ -3069,7 +3707,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.33",
@@ -3101,7 +3741,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.35",
@@ -3133,12 +3775,14 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.36",
     "name": "TV Mais Brasil",
-    "source_url": " https://stmv8.samcast.com.br/tvmaisbrasil/tvmaisbrasil/playlist.m3u8",
+    "source_url": null,
     "logo": "https://i.postimg.cc/9XYT6hfP/tvmaisbrasil.jpg",
     "group": "Variedades",
     "source_type": "script_discovered",
@@ -3156,7 +3800,7 @@
     "stream_url": null,
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-03T20:30:16.291997+00:00",
+    "resolved_at": "2026-11-23T13:30:18.823332+00:00",
     "expires_at": null,
     "ttl_seconds": null,
     "requires_dynamic_resolution": true,
@@ -3165,7 +3809,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.37",
@@ -3197,7 +3843,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.38",
@@ -3229,7 +3877,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.39",
@@ -3261,7 +3911,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.4",
@@ -3293,7 +3945,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.40",
@@ -3325,7 +3979,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.41",
@@ -3357,7 +4013,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.42",
@@ -3389,7 +4047,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.44",
@@ -3421,7 +4081,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.45",
@@ -3453,7 +4115,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.46",
@@ -3485,7 +4149,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.48",
@@ -3517,7 +4183,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.49",
@@ -3549,7 +4217,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.50",
@@ -3581,7 +4251,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.51",
@@ -3613,7 +4285,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.52",
@@ -3645,7 +4319,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.53",
@@ -3677,7 +4353,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.54",
@@ -3709,7 +4387,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.55",
@@ -3741,7 +4421,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.56",
@@ -3773,7 +4455,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.57",
@@ -3805,7 +4489,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.58",
@@ -3837,7 +4523,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.59",
@@ -3869,7 +4557,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.60",
@@ -3901,7 +4591,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.61",
@@ -3933,7 +4625,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.62",
@@ -3965,7 +4659,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.63",
@@ -3997,7 +4693,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.64",
@@ -4029,7 +4727,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.65",
@@ -4061,7 +4761,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.66",
@@ -4093,7 +4795,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.67",
@@ -4125,7 +4829,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.68",
@@ -4157,7 +4863,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.69",
@@ -4189,7 +4897,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.7",
@@ -4221,7 +4931,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.70",
@@ -4253,7 +4965,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.71",
@@ -4285,7 +4999,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.72",
@@ -4317,7 +5033,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.73",
@@ -4349,7 +5067,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.74",
@@ -4381,7 +5101,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.75",
@@ -4413,7 +5135,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.76",
@@ -4445,7 +5169,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.77",
@@ -4477,7 +5203,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.78",
@@ -4509,7 +5237,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.79",
@@ -4541,7 +5271,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.80",
@@ -4573,7 +5305,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.81",
@@ -4605,7 +5339,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.82",
@@ -4637,7 +5373,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.83",
@@ -4669,7 +5407,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.84",
@@ -4701,7 +5441,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.86",
@@ -4733,7 +5475,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.87",
@@ -4765,7 +5509,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.88",
@@ -4797,7 +5543,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.92",
@@ -4829,7 +5577,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.93",
@@ -4861,7 +5611,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.94",
@@ -4893,7 +5645,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.95",
@@ -4925,7 +5679,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.97",
@@ -4957,12 +5713,14 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.98",
     "name": "TV Club",
-    "source_url": "https://isaocorp.cloudecast.com/recon/index.m3u8 ",
+    "source_url": null,
     "logo": "https://i.postimg.cc/CKZvsrRP/tv-club.png",
     "group": "Recomendados",
     "source_type": "script_discovered",
@@ -4977,7 +5735,7 @@
     "protocol": "https",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": "https://isaocorp.cloudecast.com/recon/index.m3u8 ",
+    "stream_url": null,
     "status": "resolved",
     "error": null,
     "resolved_at": null,
@@ -4989,7 +5747,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.bdc-tv",
@@ -5021,7 +5781,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.caravana-play",
@@ -5053,7 +5815,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.cbtv-play",
@@ -5085,7 +5849,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.fox-kids",
@@ -5117,7 +5883,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.javiu-tv",
@@ -5149,7 +5917,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.lamore-webrock",
@@ -5181,7 +5951,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.latina-sat",
@@ -5213,7 +5985,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.record-news",
@@ -5245,7 +6019,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.rede-brasil",
@@ -5277,7 +6053,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.rede-ipptv",
@@ -5309,7 +6087,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.rede-istv",
@@ -5341,7 +6121,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.retro-cartoon",
@@ -5373,7 +6155,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.series-classicas",
@@ -5405,7 +6189,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tv-aparecida",
@@ -5437,7 +6223,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tv-caipira",
@@ -5469,7 +6257,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tv-carioca",
@@ -5501,7 +6291,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tv-culturahd",
@@ -5533,7 +6325,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tv-evangelizar",
@@ -5565,7 +6359,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tv-gazin",
@@ -5597,7 +6393,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tv-historia",
@@ -5629,7 +6427,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tv-megaastral",
@@ -5661,7 +6461,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tv-moon",
@@ -5693,12 +6495,14 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tv-singular",
     "name": "TV Singular",
-    "source_url": " https://stmv3.srvsh.com.br/danielsantos1659/danielsantos1659/chunklist_w1674411964.m3u8",
+    "source_url": null,
     "logo": "https://i.postimg.cc/d1wFkDws/novalogo-logo-tv-singular.png",
     "group": "Recomendados",
     "source_type": "script_discovered",
@@ -5713,7 +6517,7 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": " https://stmv3.srvsh.com.br/danielsantos1659/danielsantos1659/chunklist_w1674411964.m3u8",
+    "stream_url": null,
     "status": "resolved",
     "error": null,
     "resolved_at": null,
@@ -5725,7 +6529,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tv-sonata",
@@ -5757,7 +6563,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tvbrasil-sinop",
@@ -5789,7 +6597,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.tvcidade-gazeta",
@@ -5821,7 +6631,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.utv-brasil",
@@ -5853,7 +6665,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.vivax-tv",
@@ -5885,7 +6699,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "rest_catalog_1.xtreme-tv",
@@ -5917,16 +6733,18 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
     "name": "Santuário Nacional de Aparecida - Santuário Nacional AO VIVO - Você em constante Oração na Casa da Mãe",
     "source_url": "https://www.youtube.com/watch?v=juUt-rN5CVo",
-    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6871817d&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD3cP5NpvEP_ZaUWWqC408qTopkg",
+    "logo": "https://i.ytimg.com/vi/juUt-rN5CVo/hq720.jpg?v=6b0409f7&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD3cP5NpvEP_ZaUWWqC408qTopkg",
     "group": "religious",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "SantuarioNacionaldeAparecida.tv",
     "variant_id": "SantuarioNacionaldeAparecida.tv.juUt-rN5CVo",
     "variant_label": null,
@@ -5937,11 +6755,11 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737637/ei/xXMIa7mPH5qJ1sQPtYrtwAo/ip/200.151.110.161/id/juUt-rN5CVo.27/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/bui/AZFAFb_cDFXd94ZQ72ZYgP-ne2n-ArHp-JUjYl6wlPrL05RqtBprnlTDH26f8Ea_pDDJJQm8fvpuLCw8/spc/nfZ8ZmUr91TukeRmvtxHW6tZPnFe7mNgahYjdlqc40OGpcyODci5pUSk7w/vprv/1/reg/0/playlist_type/LIVE/initcwndbps/1603625/met/1795716038,/mh/tn/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAL8OtuQwomMWelyhV4M3Q3johTzJjVG_JwdtJIGtF_4IAiB04PNbQKdsbYgVX6u2ybZbZpZ238aOpdijm2thY7dpTg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAJR0rCVhJV0A5eG8oYkl0Jp0zWuT3tct9Jsqn14jfslTAiEAgUaG_S8KaEKdHESaW5kFI0_zHgsMHWqrN6fh9ADqE7I%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:42.401911+00:00",
-    "expires_at": "2026-11-22T04:30:41+00:00",
+    "resolved_at": "2026-11-26T18:00:38.080255+00:00",
+    "expires_at": "2026-11-27T00:00:37+00:00",
     "ttl_seconds": 21598,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
@@ -5949,39 +6767,43 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
-    "id": "SBTNacional.br",
-    "name": "SBT - YouTube",
-    "source_url": "https://www.youtube.com/@sbt/live",
-    "logo": "https://cdn.mitvstatic.com/channels/br_sbt_m.png",
+    "id": "SBTNacional.br.rlAokGV5RtU",
+    "name": "SBT - YouTube - SBT Ao Vivo",
+    "source_url": "https://www.youtube.com/watch?v=rlAokGV5RtU",
+    "logo": "https://i.ytimg.com/vi/rlAokGV5RtU/hq720.jpg?v=6b05f30b&sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC9xg=&rs=AOn4CLDcejpYqiBHpBjqnmPZNm-rPnrvMQ",
     "group": "general",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "SBTNacional.br",
-    "variant_id": "SBTNacional.br",
+    "variant_id": "SBTNacional.br.rlAokGV5RtU",
     "variant_label": null,
     "tvg_id": null,
     "resolution": "best",
     "codec": null,
     "bitrate": null,
-    "protocol": null,
+    "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
-    "status": "offline",
-    "error": "no_stream_found",
-    "resolved_at": "2026-11-21T22:30:21.985950+00:00",
-    "expires_at": null,
-    "ttl_seconds": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795732220/ei/nF4Ia6_WHpik-LAPgK7T4Ak/ip/200.151.110.161/id/rlAokGV5RtU.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/br/ss/1/ssa/1/bui/AZFAFb-sq9kzITyFCm6gcBqi5OLFcVmkl7YfjX9nsmFFnXunDD9uxopeUDkwLPXfGV6YUMHGjAyR174x/spc/nfZ8ZtEzIizyT_NfvkE-QCHRPN_HY8at3g0g1m90lUrJC2RkJnoFVi8djQ/vprv/1/reg/0/playlist_type/DVR/hcs/sd/initcwndbps/1913000/met/1795710621,/mh/53/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rmhost/rr2---sn-uxaxh5g-bpblk.googlevideo.com/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795710305/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAIdXcy2aUw-zYVa_14OgqOEpuSN1FVenI-uWLVw6W4euAiEA-2dJq1DVK2GV3SE-I745_odYSx3zFKMY5CVnC7qdNsM%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rmhost,rms/lsig/APaTxxMwRgIhAN1PS6smUwUn00Ssh9Z_VGrAZOH7YrWAU6qPIUE8uMqpAiEAtJK1TEGqbiw_sqXMBWRfXLQbdxBPfu3VpdGN60jEtvQ%3D/playlist/index.m3u8",
+    "status": "resolved",
+    "error": null,
+    "resolved_at": "2026-11-26T16:30:21.062259+00:00",
+    "expires_at": "2026-11-26T22:30:20+00:00",
+    "ttl_seconds": 21598,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
     "delivery_mode": "direct",
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "televisao.canal-gov",
@@ -5989,8 +6811,8 @@
     "source_url": "https://televisao.tv/canal-gov",
     "logo": "https://televisao.tv/images/canal-gov.webp",
     "group": "news",
-    "source_type": "televisao",
-    "provider_id": "televisao",
+    "source_type": "directory_catalog",
+    "provider_id": "directory_catalog",
     "logical_channel_id": "televisao.canal-gov",
     "variant_id": "televisao.canal-gov",
     "variant_label": null,
@@ -6013,7 +6835,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "televisao.tv-brasil",
@@ -6021,8 +6845,8 @@
     "source_url": "https://televisao.tv/tv-brasil",
     "logo": "https://televisao.tv/images/tv-brasil.webp",
     "group": "culture",
-    "source_type": "televisao",
-    "provider_id": "televisao",
+    "source_type": "directory_catalog",
+    "provider_id": "directory_catalog",
     "logical_channel_id": "televisao.tv-brasil",
     "variant_id": "televisao.tv-brasil",
     "variant_label": null,
@@ -6045,7 +6869,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "televisao.tv-camara",
@@ -6053,8 +6879,8 @@
     "source_url": "https://televisao.tv/tv-camara",
     "logo": "https://televisao.tv/images/tv-camara.webp",
     "group": "news",
-    "source_type": "televisao",
-    "provider_id": "televisao",
+    "source_type": "directory_catalog",
+    "provider_id": "directory_catalog",
     "logical_channel_id": "televisao.tv-camara",
     "variant_id": "televisao.tv-camara",
     "variant_label": null,
@@ -6077,7 +6903,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "televisao.tv-cultura",
@@ -6085,8 +6913,8 @@
     "source_url": "https://televisao.tv/tv-cultura",
     "logo": "https://televisao.tv/images/tv-cultura.webp",
     "group": "culture",
-    "source_type": "televisao",
-    "provider_id": "televisao",
+    "source_type": "directory_catalog",
+    "provider_id": "directory_catalog",
     "logical_channel_id": "televisao.tv-cultura",
     "variant_id": "televisao.tv-cultura",
     "variant_label": null,
@@ -6109,7 +6937,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "tres-espias-demais.br.nfs5DPFMrcc",
@@ -6117,8 +6947,8 @@
     "source_url": "https://www.youtube.com/watch?v=nfs5DPFMrcc",
     "logo": "https://i.ytimg.com/vi/nfs5DPFMrcc/hq720.jpg?v=6aa81784&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBedbufyweplXqVwKK1RbRLXKUEDg",
     "group": "kids",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "tres-espias-demais.br",
     "variant_id": "tres-espias-demais.br.nfs5DPFMrcc",
     "variant_label": null,
@@ -6129,11 +6959,11 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737634/ei/wnMIa5LEJ_zx-LAPgvXa6QI/ip/200.151.110.161/id/nfs5DPFMrcc.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb-K29kU5T4hmW9GazLflV1i3Mp0AWWVbvVpAHLyblKCuiKLGAHx205U5RzAbOlAsELzI2OKOF6l/spc/nfZ8ZkQ6wRILKeCZ0waC9sq4tJTBFZMlpiyRKbLYkQfUTAj34yTtQSv5og/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1603625/met/1795716035,/mh/Lg/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115,52338435/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAIlt_NLrU2xq6qERQKPaCZNfi-7cjnv3DZOTu7PxqUMhAiB0LT4CSdKeitZhFKNHwj-yg6Wi1lZjDSATt94yg8H5nw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAL972aJSky2vxUCjdSn6DWdROawZHA4Xb5YWLVWlmFWRAiEAvA6JLxDnAh6yszEx9HGlOcg4fN2jN_OeTqnI4mNWJpk%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:38.000563+00:00",
-    "expires_at": "2026-11-22T04:30:37+00:00",
+    "resolved_at": "2026-11-26T18:00:35.206089+00:00",
+    "expires_at": "2026-11-27T00:00:34+00:00",
     "ttl_seconds": 21598,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
@@ -6141,7 +6971,9 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "tres-espias-demais.br.QdS8a_zUuk0",
@@ -6149,8 +6981,8 @@
     "source_url": "https://www.youtube.com/watch?v=QdS8a_zUuk0",
     "logo": "https://i.ytimg.com/vi/QdS8a_zUuk0/hq720.jpg?v=6ac52ba6&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB6y5YuYQfLhS3m5UfoAUylMarO3A",
     "group": "kids",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "tres-espias-demais.br",
     "variant_id": "tres-espias-demais.br.QdS8a_zUuk0",
     "variant_label": null,
@@ -6161,19 +6993,21 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737632/ei/wHMIa_X_BLnw1sQPn6_2sQg/ip/200.151.110.161/id/QdS8a_zUuk0.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb9SPfcViLiHpuOeMfujiG8MfYNA7GYpCOuXjtTxlR8e9jpVu_aX0FO1Bsj3wcWXq3QJ7fsjO3qA/spc/nfZ8ZhhGGSQt0iltuHvL5FFxtPiYVYVGbTKHGsIEW18IRcZx1xbJvEz60A/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1603625/met/1795716032,/mh/1Y/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgNwjaA8G3Fv4L_0yZtdxUdiQn3vKfNGioGamVdw-FCAoCIBcifPN_W-IGb3MGj5zvN6aCspTZaykWJEmGTATh8vHk/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAPUKKkoBeCow_UacihE1Nx8KC8gScf5fC5jIgCmURBheAiEAu4AjboZbKEp1Z-9UCbsovFmWVInjvXKrN1kn3WuaCsY%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:35.501353+00:00",
-    "expires_at": "2026-11-22T04:30:34+00:00",
-    "ttl_seconds": 21598,
+    "resolved_at": "2026-11-26T18:00:32.665078+00:00",
+    "expires_at": "2026-11-27T00:00:32+00:00",
+    "ttl_seconds": 21599,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
     "delivery_mode": "direct",
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
     "id": "tres-espias-demais.br.VikYJ5l3XsM",
@@ -6181,8 +7015,8 @@
     "source_url": "https://www.youtube.com/watch?v=VikYJ5l3XsM",
     "logo": "https://i.ytimg.com/vi/VikYJ5l3XsM/hq720.jpg?v=6aa2b7fd&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDfIm58Fed19wvuGMxFZJDoc0nw9Q",
     "group": "kids",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "tres-espias-demais.br",
     "variant_id": "tres-espias-demais.br.VikYJ5l3XsM",
     "variant_label": null,
@@ -6193,11 +7027,11 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795737633/ei/wXMIa5HuEr_51sQPsdqsuA4/ip/200.151.110.161/id/VikYJ5l3XsM.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb_2uUXD8q_Gry94MOefCohRs3463LnbNaXPkpoXrN6jOubzPNDI8e-qQ1L4-9bQvpbcoNZSAITo/spc/nfZ8ZpsPhe--beBR5C0ahFuKQVQAmsEv5FoP4r9URMdui_I27PN8ZTXNpw/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1603625/met/1795716033,/mh/ya/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/2/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795715585/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAMnJcfWXXhmiIo-x7ueq1HBP9e9xqHix-dWrga4N6Y5IAiAc9-yVfeYT6RAQkZOWs4sjASLZv6ep8qVLiyUKVxvssQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgXe71BBdMiQAcHWeWsYZu7GT_UQTcc2wxldljhDaSdTMCIQC1UMGCMUiqccT0Bc2m7mHRqFuLnFItYUqalj5Qyiucjw%3D%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:36.839395+00:00",
-    "expires_at": "2026-11-22T04:30:36+00:00",
+    "resolved_at": "2026-11-26T18:00:33.867356+00:00",
+    "expires_at": "2026-11-27T00:00:33+00:00",
     "ttl_seconds": 21599,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
@@ -6205,18 +7039,20 @@
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   },
   {
-    "id": "tvc-youtube.tv.8N9orlXLI1c",
+    "id": "tvc-youtube.tv.sD5IUquF-6c",
     "name": "TV Correio da Manhã - Transmissão TV Correio da Manhã",
-    "source_url": "https://www.youtube.com/watch?v=8N9orlXLI1c",
-    "logo": "https://i.ytimg.com/vi/8N9orlXLI1c/hq720.jpg?v=6aece356&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBET3AWrgicBKhe7RY331HK_2WwhQ",
+    "source_url": "https://www.youtube.com/watch?v=sD5IUquF-6c",
+    "logo": "https://i.ytimg.com/vi/sD5IUquF-6c/hq720.jpg?v=6b07fe14&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqAMypGS-LUFMp5W3hIKsDgkTZCQ",
     "group": "general",
-    "source_type": "youtube",
-    "provider_id": "youtube",
+    "source_type": "video_platform",
+    "provider_id": "video_platform",
     "logical_channel_id": "tvc-youtube.tv",
-    "variant_id": "tvc-youtube.tv.8N9orlXLI1c",
+    "variant_id": "tvc-youtube.tv.sD5IUquF-6c",
     "variant_label": null,
     "tvg_id": null,
     "resolution": "best",
@@ -6225,18 +7061,20 @@
     "protocol": "hls",
     "request_headers": {},
     "secret_refs": {},
-    "stream_url": null,
+    "stream_url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795730425/ei/mVcIa4GpJ4-O-LAP4YK9kA8/ip/200.151.110.161/id/sD5IUquF-6c.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-uxaxh5g-bpblk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AZFAFb8QUL6SMJald0-8C2QIIFuH_7_HuK6B7HjE8cVq7YlsV3GNXfWL_s30cLb1-T8XpUKdIUd5YA0t/spc/nfZ8Zgod_ol7l4InqJm0ebJiiIwiPoPcKcsNGY2VTl9-gcc2TFA6BQIwAg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2195500/met/1795708826,/mh/Dx/mm/44/mn/sn-uxaxh5g-bpblk/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1795708368/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAKOJw_nVMN6U02rFVGuWyOSZjm8apt35b-GMsIyzK_RQAiARmcSLoJI_JP0tzBZpTitRUvOiZlQKDY8fUl5bIA06Ng%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhALBxYRnX5aiFDXi-o_5-gMi0TaZn8p-p3wFQjdn5bVCKAiB7HDG6DugaxoK3assLv3bGmUQ27HOoewI6Zc6HYvWjKQ%3D%3D/playlist/index.m3u8",
     "status": "resolved",
     "error": null,
-    "resolved_at": "2026-11-21T22:30:47.400605+00:00",
-    "expires_at": "2026-11-22T04:30:47+00:00",
-    "ttl_seconds": 21599,
+    "resolved_at": "2026-11-26T16:00:26.196922+00:00",
+    "expires_at": "2026-11-26T22:00:25+00:00",
+    "ttl_seconds": 21598,
     "requires_dynamic_resolution": true,
     "publishable_static": false,
     "delivery_mode": "direct",
     "drm": null,
     "removed": false,
     "removed_at": null,
-    "removal_reason": null
+    "removal_reason": null,
+    "feed_id": null,
+    "tags": []
   }
 ]

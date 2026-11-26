@@ -1,10 +1,227 @@
 {
-  "generated_at": "2026-11-21T22:30:47.421026+00:00",
-  "total_channels": 195,
-  "resolved_channels": 188,
-  "offline_channels": 5,
+  "generated_at": "2026-11-26T20:30:40.415348+00:00",
+  "total_channels": 208,
+  "resolved_channels": 203,
+  "offline_channels": 3,
   "removed_channels": 0,
   "error_channels": 0,
   "min_ttl_seconds": 21598,
-  "max_ttl_seconds": 21599
+  "max_ttl_seconds": 21599,
+  "contract_version": 1,
+  "catalog_sha256": "f6a9f4bb484d8a77b742c8ae6def01c0abad1610d3f2a25a5958fb9750500d10",
+  "source_counts": {
+    "video_platform": {
+      "channels": 31,
+      "resolved": 30,
+      "public_transports": 30
+    },
+    "live_platform": {
+      "channels": 1,
+      "resolved": 0,
+      "public_transports": 0
+    },
+    "game_platform": {
+      "channels": 1,
+      "resolved": 0,
+      "public_transports": 0
+    },
+    "json_catalog": {
+      "channels": 6,
+      "resolved": 6,
+      "public_transports": 0
+    },
+    "script_discovered": {
+      "channels": 165,
+      "resolved": 165,
+      "public_transports": 161
+    },
+    "directory_catalog": {
+      "channels": 4,
+      "resolved": 2,
+      "public_transports": 2
+    }
+  },
+  "diagnostics": {
+    "sources": {
+      "json_catalog:json_catalog_1": {
+        "source_type": "json_catalog",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 6,
+        "observed_at": "2026-11-26T20:30:07.004199+00:00"
+      },
+      "video_platform:Caze.tv": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 10,
+        "observed_at": "2026-11-26T20:30:07.983769+00:00"
+      },
+      "video_platform:NBABrasil.tv": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 1,
+        "observed_at": "2026-11-26T20:30:28.760657+00:00"
+      },
+      "video_platform:SBTNacional.br": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 1,
+        "observed_at": "2026-11-26T20:30:29.500184+00:00"
+      },
+      "video_platform:JovemPanNews.br": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 2,
+        "observed_at": "2026-11-26T20:30:30.294222+00:00"
+      },
+      "video_platform:RecordNews.br": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 2,
+        "observed_at": "2026-11-26T20:30:31.094342+00:00"
+      },
+      "video_platform:PowerRangersTV.br": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 1,
+        "observed_at": "2026-11-26T20:30:32.250971+00:00"
+      },
+      "video_platform:DiarioTVTeresopolis.br": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 2,
+        "observed_at": "2026-11-26T20:30:33.124314+00:00"
+      },
+      "video_platform:BRCartoonNetworkvideos.br": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 1,
+        "observed_at": "2026-11-26T20:30:33.586229+00:00"
+      },
+      "video_platform:pica-pau.br": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 2,
+        "observed_at": "2026-11-26T20:30:33.991132+00:00"
+      },
+      "video_platform:tres-espias-demais.br": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 3,
+        "observed_at": "2026-11-26T20:30:34.385340+00:00"
+      },
+      "video_platform:CNNbrasil.tv": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 1,
+        "observed_at": "2026-11-26T20:30:35.180983+00:00"
+      },
+      "video_platform:SantuarioNacionaldeAparecida.tv": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 1,
+        "observed_at": "2026-11-26T20:30:36.140016+00:00"
+      },
+      "video_platform:classic-mr-bean.tv": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 1,
+        "observed_at": "2026-11-26T20:30:36.595701+00:00"
+      },
+      "video_platform:mr-bean.tv": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 2,
+        "observed_at": "2026-11-26T20:30:37.045439+00:00"
+      },
+      "video_platform:tvc-youtube.tv": {
+        "source_type": "video_platform",
+        "origin": "fresh",
+        "complete": true,
+        "reason": "discovered",
+        "channels": 1,
+        "observed_at": "2026-11-26T20:30:37.508676+00:00"
+      },
+      "script_discovered:rest_catalog_1": {
+        "source_type": "script_discovered",
+        "origin": "fresh",
+        "complete": false,
+        "reason": "discovery_error",
+        "channels": 0,
+        "observed_at": null
+      },
+      "script_discovered": {
+        "source_type": "script_discovered",
+        "origin": "retained",
+        "complete": false,
+        "reason": "discovery_failed",
+        "channels": 165,
+        "observed_at": null
+      },
+      "live_platform": {
+        "source_type": "live_platform",
+        "origin": "cache",
+        "complete": false,
+        "reason": "not_due_in_refresh",
+        "channels": 1,
+        "observed_at": null
+      },
+      "game_platform": {
+        "source_type": "game_platform",
+        "origin": "cache",
+        "complete": false,
+        "reason": "not_due_in_refresh",
+        "channels": 1,
+        "observed_at": null
+      },
+      "directory_catalog": {
+        "source_type": "directory_catalog",
+        "origin": "cache",
+        "complete": false,
+        "reason": "not_due_in_refresh",
+        "channels": 4,
+        "observed_at": null
+      }
+    },
+    "resolution": {
+      "kept": 203,
+      "attempted": 5
+    },
+    "publication": {
+      "withheld_by_reason": {
+        "dynamic_or_sensitive_transport": 4,
+        "not_resolved": 5,
+        "restricted_transport": 6
+      }
+    }
+  }
 }
